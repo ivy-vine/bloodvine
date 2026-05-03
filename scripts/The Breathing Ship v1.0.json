@@ -1,0 +1,35 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "The Breathing Ship v1.0",
+    "bootlegger": [
+      "[+1 Poppy Grower]",
+      "The Hermit has either the Lunatic or the Drunk ability, but not both."
+    ]
+  },
+  "investigator",
+  "librarian",
+  "chambermaid",
+  "villageidiot",
+  "snakecharmer",
+  "dreamer",
+  "fortuneteller",
+  "savant",
+  "slayer",
+  "fisherman",
+  "alchemist",
+  "mayor",
+  "poppygrower",
+  "hermit",
+  "lunatic",
+  "drunk",
+  "recluse",
+  "heretic",
+  "psychopath",
+  "xaan",
+  "marionette",
+  "goblin",
+  "leviathan",
+  "bootlegger"
+]

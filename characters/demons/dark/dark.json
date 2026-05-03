@@ -1,0 +1,22 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "dark v1.0"
+  },
+  {
+    "id": "dark",
+    "name": "{ color: #000000 }",
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAk8AAAJPAQMAAABfCaItAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAADUExURQAAAKd6PdoAAAAJcEhZcwAADsIAAA7CARUoSoAAAABBSURBVHja7cEBDQAAAMKg909tDwcUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcGWtJQAB3npooAAAAABJRU5ErkJggg==",
+    "team": "demon",
+    "edition": "bloodvine",
+    "ability": "Each night*, choose a player: they may no longer sit in their seat & a player dies. Substitutes don't learn their game state.",
+    "flavor": "I am no Atheist; I know God is real, I know he is a liar, and I even know where he is. Deeper.\nThe life after your life is another life. The ghosts of your loved ones are ghosts in name alone. Here, there is no start and there is no end. I am tired, I want an end, I want this time to be different. (v1.0)",
+    "firstNight": 0,
+    "otherNight": 40,
+    "otherNightReminder": "The { color: #000000 } chooses a player. Mark the target's seat with their name then vacate their seat. :reminder: :reminder:",
+    "reminders": [
+      "Dead"
+    ]
+  }
+]
