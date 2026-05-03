@@ -1,0 +1,25 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "hoary_zorro v1.0"
+  },
+  {
+    "id": "hoary_zorro",
+    "name": "Hoary Zorro",
+    "image": [
+      "https://i.imgur.com/dGQi5B5.png",
+      "https://i.imgur.com/YnJu9pO.png"
+    ],
+    "team": "minion",
+    "edition": "bloodvine",
+    "ability": "Once per game, at night, choose a player: they register as an evil Hoary Zorro, even if you are dead.",
+    "firstNight": 31,
+    "firstNightReminder": "The Hoary Zorro might point to a player. :reminder:",
+    "otherNight": 52,
+    "otherNightReminder": "The Hoary Zorro might point to a player. :reminder:",
+    "remindersGlobal": [
+      "Doppelganger"
+    ]
+  }
+]

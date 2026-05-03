@@ -1,0 +1,18 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "asse v1.0"
+  },
+  {
+    "id": "asse",
+    "name": "Asse",
+    "image": [
+      "https://i.imgur.com/EHsbLDg.png",
+      "https://i.imgur.com/wjklaRQ.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "If you are the last living good player, good wins."
+  }
+]

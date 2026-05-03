@@ -1,0 +1,31 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "azaras_zorro v1.0"
+  },
+  {
+    "id": "azaras_zorro",
+    "name": "Azara's Zorro",
+    "image": [
+      "https://i.imgur.com/mRIMKDw.png",
+      "https://i.imgur.com/h78pstN.png"
+    ],
+    "team": "minion",
+    "edition": "bloodvine",
+    "ability": "On your 1st night, look at the Grimoire & choose 2 players: whatever happens to one, happenes to the other.",
+    "firstNight": 27,
+    "firstNightReminder": "Show the Grimoire for as long as the Azara's Zorro needs.",
+    "remindersGlobal": [
+      "A", 
+      "B"
+    ],
+    "special": [
+      {
+        "type": "signal", 
+        "name": "grimoire", 
+        "time": "night"
+      }
+    ]
+  }
+]

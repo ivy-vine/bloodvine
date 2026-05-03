@@ -1,0 +1,21 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "kit_fox v1.0"
+  },
+  {
+    "id": "kit_fox",
+    "name": "Kit Fox",
+    "image": [
+      "https://i.imgur.com/Mfvz808.png",
+      "https://i.imgur.com/iIjyo2W.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "You start knowing who has the Maikong's crab. [+the Maikong]",
+    "firstNight": 42,
+    "firstNightReminder": "Point to the player with the Has Crab reminder.",
+    "setup": true
+  }
+]

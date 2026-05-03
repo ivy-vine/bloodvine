@@ -1,0 +1,20 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "royal_fox v1.0"
+  },
+  {
+    "id": "royal_fox",
+    "name": "Royal Fox",
+    "image": [
+      "https://i.imgur.com/yEEM3d1.png",
+      "https://i.imgur.com/6tqgQZI.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "If you died today or tonight, guess your alive neighbors' alignments: if correct, you live.",
+    "otherNight": 60,
+    "otherNightReminder": "The Royal Fox gives 2 thumbs up or down."
+  }
+]

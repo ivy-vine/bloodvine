@@ -1,0 +1,26 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "sechuran_zorro v1.0"
+  },
+  {
+    "id": "sechuran_zorro",
+    "name": "Sechuran Zorro",
+    "image": [
+      "https://i.imgur.com/eq6tlMj.png",
+      "https://i.imgur.com/jJvqulP.png"
+    ],
+    "team": "minion",
+    "edition": "bloodvine",
+    "ability": "When nominated, if the nominator is good, they are poisoned.",
+    "remindersGlobal": [
+      "Poisoned", 
+      "Poisoned", 
+      "Poisoned", 
+      "Poisoned", 
+      "Poisoned", 
+      "Poisoned"
+    ]
+  }
+]

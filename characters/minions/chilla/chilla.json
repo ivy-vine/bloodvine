@@ -1,0 +1,23 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "chilla v1.0"
+  },
+  {
+    "id": "chilla",
+    "name": "Chilla",
+    "image": [
+      "https://i.imgur.com/YRTnTI1.png",
+      "https://i.imgur.com/USb6I2V.png"
+    ],
+    "team": "minion",
+    "edition": "bloodvine",
+    "ability": "If evil kills you, choose a character: they die instead. If they are not in play, the Storyteller chooses who dies.",
+    "otherNight": 42,
+    "otherNightReminder": "The Chilla chooses a character. :reminder:",
+    "remindersGlobal": [
+      "Dead"
+    ]
+  }
+]

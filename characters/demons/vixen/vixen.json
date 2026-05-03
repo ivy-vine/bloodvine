@@ -1,0 +1,31 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "vixen v1.0"
+  },
+  {
+    "id": "vixen",
+    "name": "Vixen",
+    "image": [
+      "https://i.imgur.com/CvadIIp.png",
+      "https://i.imgur.com/p4lpdJL.png"
+    ],
+    "team": "demon",
+    "edition": "bloodvine",
+    "ability": "An evil player \"is the Demon\". Each night*, each evil player chooses a player: the player most chosen dies. If tied, the Storyteller chooses who dies. [+1 Minion]",
+    "otherNight": 41,
+    "otherNightReminder": "Wake each Minion. Show the *THIS CHARACTER SELECTED YOU* token then the Vixen token. They point to a player. :reminder:",
+    "remindersGlobal": [
+      "Is The Demon",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Dead"
+    ],
+    "setup": true
+  }
+]
