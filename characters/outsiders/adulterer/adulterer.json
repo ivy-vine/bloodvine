@@ -1,0 +1,29 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "adulterer v1.0"
+  },
+  {
+    "id": "adulterer",
+    "name": "Adulterer",
+    "team": "outsider",
+    "edition": "bloodvine",
+    "ability": "If 50% of players choose to accuse the same player, they can't nominate nor vote. If you are the accused when your team wins, you change alignment & lose. This must happen.",
+    "flavor": "(v1.0)",
+    "reminders": [
+      "Accused"
+    ],
+    "special": [
+      {
+        "type": "vote",
+        "name": "multiplier",
+        "value": 0
+      },
+      {
+        "type": "reminder",
+        "name": "public"
+      }
+    ]
+  }
+]

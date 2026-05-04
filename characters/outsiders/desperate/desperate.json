@@ -1,0 +1,15 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "desperate v1.0"
+  },
+  {
+    "id": "desperate",
+    "name": "Desperate",
+    "team": "outsider",
+    "edition": "bloodvine",
+    "ability": "You are evil if at least one reminder token is on you. If not, you are good.",
+    "flavor": "(v1.0)"
+  }
+]

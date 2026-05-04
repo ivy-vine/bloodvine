@@ -14,7 +14,6 @@
     "edition": "bloodvine",
     "ability": "Once per game, if more than 3 players live, at night*, choose to \"jump\" 1 day ahead.",
     "flavor": "test jumpy flavor (v1.0)",
-    "firstNight": 0,
     "otherNight": 50,
     "otherNightReminder": "The 23:59:59.001 might use their ability. :reminder:",
     "reminders": [

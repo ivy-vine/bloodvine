@@ -8,8 +8,8 @@
     "id": "arctic_fox",
     "name": "Arctic Fox",
     "image": [
-      "https://i.imgur.com/us5YS7j.png",
-      "https://i.imgur.com/tN7yLIo.png"
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/arctic_fox/arctic_fox_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/arctic_fox/arctic_fox_evil.png"
     ],
     "team": "townsfolk",
     "edition": "bloodvine",

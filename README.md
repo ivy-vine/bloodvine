@@ -1,4 +1,5 @@
 # bloodvine
 homebrew blood on the clocktower content
 
-icon textures by @nothingmuch_
+token textures by @nothingmuch_ on discord
+ERROR token by @beretman on discord
