@@ -1,0 +1,20 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "loose v1.1"
+  },
+  {
+    "id": "loose",
+    "name": "Loose",
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night*, choose to register as dead until dusk.",
+    "flavor": "icon is a cut, loose, string (v1.1)",
+    "otherNight": 55,
+    "otherNightReminder": "The Loose either nods or shakes their head. :reminder:",
+    "reminders": [
+      "Hiding"
+    ]
+  }
+]

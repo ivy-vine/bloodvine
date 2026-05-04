@@ -1,0 +1,19 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "poet v1.1"
+  },
+  {
+    "id": "poet",
+    "name": "Poet",
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Once per game, during the day, publicly claim to be the Poet: the Demon is drunk until dawn.",
+    "flavor": "a poet and you don't even know it! (v1.1)",
+    "reminders": [
+      "No Ability",
+      "Drunk"
+    ]
+  }
+]

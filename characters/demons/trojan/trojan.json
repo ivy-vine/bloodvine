@@ -9,11 +9,10 @@
     "name": "Shef",
     "team": "demon",
     "edition": "bloodvine",
-    "ability": "If you are executed & more than 3 players live, play for 1 more night & a player becomes an evil Shef tonight. [No Minions]",
+    "ability": "If you are executed & more than 3 players live, a player becomes an evil Shef. [No Minions]",
     "flavor": "shef flavor (v1.0)",
     "setup": true,
     "firstNight": 0,
-    "otherNight": 41,
-    "otherNightReminder": "If the Shef died today, IVY PUT HERE THE STUFF THE SNAKE CHARMER REMINDER SAYS IM TOO TIRED TO DO IT RN"
+    "otherNight": 0
   }
 ]

@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "arctic_fox v1.0"
+    "name": "arctic_fox v1.1"
   },
   {
     "id": "arctic_fox",
@@ -13,12 +13,13 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "Each night, until dusk, gain the ability of one of your alive neighbors. You do not know what the ability is.",
+    "ability": "Each night, you have the ability of an alive neighbor (you don't know which).",
+    "flavor": "(v1.1)",
     "firstNight": 2,
-    "firstNightReminder": "Swap their character token to one of their alive neighbors'. :reminder:",
+    "firstNightReminder": "Swap their character token to that of one of their alive neighbors'. :reminder:",
     "otherNight": 2,
-    "otherNightReminder": "Swap their character token to one of their alive neighbors'. :reminder:",
-    "remindersGlobal": [
+    "otherNightReminder": "Swap their character token to that of one of their alive neighbors'. :reminder:",
+    "reminders": [
       "Is The Arctic Fox"
     ]
   }

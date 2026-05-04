@@ -1,0 +1,27 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "bait v1.1"
+  },
+  {
+    "id": "bait",
+    "name": "Bait",
+    "team": "minion",
+    "edition": "bloodvine",
+    "ability": "When nominated, if the nominator is good, they are poisoned.",
+    "flavor": "icon is one of those plastic fishing bait thingies that are trying to look like shrimp (v1.1)",
+    "reminders": [
+      "Poisoned", 
+      "Poisoned", 
+      "Poisoned",
+      "Poisoned", 
+      "Poisoned",
+      "Poisoned", 
+      "Poisoned", 
+      "Poisoned",
+      "Poisoned", 
+      "Poisoned"
+    ]
+  }
+]

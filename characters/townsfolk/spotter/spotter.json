@@ -1,0 +1,18 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "spotter v1.1"
+  },
+  {
+    "id": "spotter",
+    "name": "Spotter",
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "You start knowing who has the Lethargic's crab. [+the Lethargic]",
+    "flavor": "(v1.1)",
+    "firstNight": 42,
+    "firstNightReminder": "Point to the player with the Has Crab reminder.",
+    "setup": true
+  }
+]

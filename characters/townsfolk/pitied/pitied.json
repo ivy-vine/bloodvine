@@ -1,0 +1,15 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "pitied v1.1"
+  },
+  {
+    "id": "pitied",
+    "name": "Pitied",
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "If you are the last living good player, good wins.",
+    "flavor": "(v1.1)"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "window v1.1"
+  },
+  {
+    "id": "window",
+    "name": "Window",
+    "team": "minion",
+    "edition": "bloodvine",
+    "ability": "If the Demon kills you, choose a character: they die instead. If they are not in play, the Storyteller chooses who dies.",
+    "flavor": "(v1.1)",
+    "otherNight": 42,
+    "otherNightReminder": "The Window chooses a character. :reminder:",
+    "reminders": [
+      "Dead"
+    ]
+  }
+]

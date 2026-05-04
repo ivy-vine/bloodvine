@@ -1,0 +1,28 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "worm v1.1"
+  },
+  {
+    "id": "worm",
+    "name": "Worm",
+    "team": "minion",
+    "edition": "bloodvine",
+    "ability": "On your 1st night, look at the Grimoire & choose 2 players: whatever happens to one, happenes to the other.",
+    "flavor": "The worm is gonna turn! (v1.1)",
+    "firstNight": 27,
+    "firstNightReminder": "Show the Grimoire for as long as the Worm needs.",
+    "reminders": [
+      "A",
+      "B"
+    ],
+    "special": [
+      {
+        "type": "signal",
+        "name": "grimoire",
+        "time": "night"
+      }
+    ]
+  }
+]
