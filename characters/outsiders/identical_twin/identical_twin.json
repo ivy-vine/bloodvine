@@ -9,10 +9,8 @@
     "name": "Identical Twin",
     "team": "outsider",
     "edition": "bloodvine",
-    "ability": "You start knowing 1 in-play Townsfolk & you register as them, even if dead. All players know you or them are this character.",
+    "ability": "You register as an in-play Townsfolk character, even if dead. All players know you or them are this character.",
     "flavor": "(v1.0)",
-    "firstNight": 48,
-    "firstNightReminder": "Show the Townsfolk character token marked *TWIN*.",
     "reminders": [
       "Twin"
     ]
