@@ -14,7 +14,7 @@
     "team": "demon",
     "edition": "bloodvine",
     "ability": "On your 1st night, all but 2 players die. The 1st time you die, you live but register as dead. Each night*, choose two players: they are regurgitated. If all good players live, evil wins.",
-    "flavor": "Deeper. Ravenswood's walls stand ten-thousand feet tall. Ravenswood's walls' walls stand ten-thousand feet more. Deeper. This time will be different. Deeper. Do you see it, above you? Reach for it; push your hand into the deep. Feel for it; it is wet and it cuts you and like silver it slivers. Grasp it, no matter how much it shimmers. Cut it like it cut you. Deeper, he said. Now, pull it. (v1.1) (Token by Diamondwar)",
+    "flavor": "Deeper. Ravenswood's walls stand ten-thousand feet tall. Ravenswood's walls' walls stand ten-thousand feet more. Deeper. This time will be different. Deeper. (v1.1) (Token by Diamondwar)",
     "firstNight": 2,
     "otherNight": 2,
     "firstNightReminder": "All but 2 players die. ?:reminder:s",

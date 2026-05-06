@@ -13,14 +13,14 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "Each night, you have the ability of an alive neighbor (you don't know which).",
+    "ability": "Each night, you gain the ability of an alive neighbor (you don't know which) until dusk.",
     "flavor": "Must your claws climb ten-thousand walls? You have come a very long way, sweet thing, but you do not belong here; you will not survive the week. I don't think they can climb ten-thousand more. (v1.1)",
     "firstNight": 2,
-    "firstNightReminder": "Swap their character token to that of one of their alive neighbors'. :reminder:",
+    "firstNightReminder": "The Arctic Fox might change ability. If so, mark an alive neighbor with the *MIMICKED* reminder. :reminder:",
     "otherNight": 2,
-    "otherNightReminder": "Swap their character token to that of one of their alive neighbors'. :reminder:",
+    "otherNightReminder": "The Arctic Fox might change ability. If so, mark an alive neighbor with the *MIMICKED* reminder. :reminder:",
     "reminders": [
-      "Is The Arctic Fox"
+      "Mimicked"
     ]
   }
 ]

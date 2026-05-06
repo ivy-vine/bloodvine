@@ -2,7 +2,7 @@ from wand.image import Image
 import argparse
 import os
 
-def generate_icon(image_path, textures_path, alignment, threshold, out_path):
+def generate_icon(image_path, textures_path, team, threshold, out_path):
     # initialize some variables
     final_img_size = 591
     shrink_percent = 60
@@ -46,9 +46,9 @@ def generate_icon(image_path, textures_path, alignment, threshold, out_path):
                     black.transparent_color(color="white", alpha=0.0)
                     black.morphology(method="open", kernel="octagon:1")
 
-                    with Image(filename=f"{textures_path}/{alignment}.png") as alignment_noise:
-                        alignment_noise.resize(width=final_img_size, height=final_img_size)
-                        black.composite(image=alignment_noise, operator="in")
+                    with Image(filename=f"{textures_path}/{team}.png") as team_noise:
+                        team_noise.resize(width=final_img_size, height=final_img_size)
+                        black.composite(image=team_noise, operator="in")
 
                     with outline.clone() as result:
                         result.composite(black)
@@ -67,7 +67,7 @@ def generate_icon(image_path, textures_path, alignment, threshold, out_path):
 
 parser = argparse.ArgumentParser(prog="generate icon", description="generate token icons for botc")
 parser.add_argument("filepath")
-parser.add_argument("alignment", choices=["good", "evil", "fabled", "loric", "traveller", "good_traveller", "evil_traveller", "minion", "outsider", "purple", "black"])
+parser.add_argument("team", choices=["good", "evil", "fabled", "loric", "traveller", "good_traveller", "evil_traveller", "minion", "outsider", "purple", "black"])
 parser.add_argument("-t", "--threshold", type=float, default=0.5, help="threshold for turning the image mono. default=0.5")
 parser.add_argument("-o", "--output", help="output location")
 args = parser.parse_args()
@@ -78,7 +78,7 @@ else:
     p1, p2 = os.path.split(args.filepath)
     out_path = os.path.join(
         os.path.split(args.filepath)[0],
-        f"{os.path.splitext(p2)[0]}_{args.alignment}.png"
+        f"{os.path.splitext(p2)[0]}_{args.team}.png"
     )
 
-generate_icon(args.filepath, "resources/textures", args.alignment, args.threshold, out_path)
+generate_icon(args.filepath, "resources/textures", args.team, args.threshold, out_path)

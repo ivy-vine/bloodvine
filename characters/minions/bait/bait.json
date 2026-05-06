@@ -7,10 +7,14 @@
   {
     "id": "bait",
     "name": "Bait",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/minions/bait/bait_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/minions/bait/bait_good.png"
+    ],
     "team": "minion",
     "edition": "bloodvine",
     "ability": "When nominated, if the nominator is good, they are poisoned.",
-    "flavor": "icon is one of those plastic fishing bait thingies that are trying to look like shrimp (v1.1)",
+    "flavor": "Beware of the riverside! I hear of a great fish that lurks among the bank; they say it comes from the back of the moon. Its scales shiver with fever and its air is moonlight. (v1.1)",
     "reminders": [
       "Poisoned", 
       "Poisoned", 

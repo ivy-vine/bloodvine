@@ -1,0 +1,22 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "thespian v1.0"
+  },
+  {
+    "id": "thespian",
+    "name": "Thespian",
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night, choose if evil abilities choose you instead until dusk.",
+    "flavor": "(v1.0)",
+    "firstNight": 2,
+    "firstNightReminder": "The Thespian might choose to perform. :reminder: If so, wake the evil characters that choose players and ask them to choose as normal but target the Thespian instead.",
+    "otherNight": 2,
+    "otherNightReminder": "The Thespian might choose to perform. :reminder: If so, wake the evil characters that choose players and ask them to choose as normal but target the Thespian instead.",
+    "reminders": [
+      "Performing"
+    ]
+  }
+]

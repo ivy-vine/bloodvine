@@ -1,0 +1,21 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "lovebug v1.0"
+  },
+  {
+    "id": "lovebug",
+    "name": "Lovebug",
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "You & a Minion are mad as the Minion's character, or you or them might be executed.",
+    "flavor": "(v1.0)",
+    "firstNight": 49,
+    "firstNightReminder": "Show the Minion character token marked *MAD*.",
+    "reminders": [
+      "Mad",
+      "Mad"
+    ]
+  }
+]
