@@ -1,9 +1,31 @@
 [
   {
     "id": "_meta",
-    "author": "ivy (token by Diamondwar)",
-    "name": "none_type v2.2"
+    "author": "ivy",
+    "name": "Segmentation Fault v2.1"
   },
+  "chef",
+  "grandmother",
+  "librarian",
+  "shugenja",
+  "empath",
+  "flowergirl",
+  "oracle",
+  "monk",
+  "nightwatchman",
+  "professor",
+  "cannibal",
+  "tealady",
+  "fool",
+  "drunk",
+  "recluse",
+  "saint",
+  "barber",
+  "mutant",
+  "poisoner",
+  "devilsadvocate",
+  "cerenovus",
+  "mastermind",
   {
     "id": "none_type",
     "name": "ERROR",
@@ -13,12 +35,12 @@
     ],
     "team": "demon",
     "edition": "bloodvine",
-    "ability": "You might register as dead. All but 2 live players start dead. Each night*, choose 2 players: they are regurgitated. Evil only wins if all players live.",
-    "flavor": "Deeper. Ravenswood's walls stand ten-thousand feet tall. Ravenswood's walls' walls stand ten-thousand feet more. Deeper. This time will be different. Deeper. (v2.2) (Token by Diamondwar)",
+    "ability": "On your 1st night, all but 3 players die. If you die to your ability, you live but register as dead. Each night*, choose two players: they are regurgitated. If all good players live, evil wins.",
+    "flavor": "Deeper. Ravenswood's walls stand ten-thousand feet tall. Ravenswood's walls' walls stand ten-thousand feet more. Deeper. This time will be different. Deeper. (v2.1) (Token by Diamondwar)",
     "firstNight": 2,
-    "firstNightReminder": "All but 2 live players die. ?:reminder:s",
-    "otherNight": 90,
-    "otherNightReminder": "The ERROR chooses 2 players. :reminder: :reminder:",
+    "otherNight": 41,
+    "firstNightReminder": "All but 3 players die. ?:reminder:s",
+    "otherNightReminder": "The ERROR chooses two players. :reminder: :reminder:",
     "reminders": [
       "Dead",
       "Dead",
@@ -37,7 +59,7 @@
       "Dead",
       "Dead",
       "Dead",
-      "Dead",
+      "Died Once",
       "Regurgitated",
       "Regurgitated"
     ],
@@ -139,5 +161,7 @@
         "reason": "If the ERROR is in play, the Lycanthrope instead chooses two dead players. If both are good, they are regurgitated and the ERROR doesn't wake tonight."
       }
     ]
-  }
+  },
+  "bootlegger",
+  "sentinel"
 ]

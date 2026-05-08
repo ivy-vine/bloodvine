@@ -9,7 +9,7 @@
     "name": "Adulterer",
     "team": "outsider",
     "edition": "bloodvine",
-    "ability": "If 50% of players choose to accuse the same player, they can't nominate nor vote. If you are the accused when your team wins, you change alignment & lose. This must happen.",
+    "ability": "If a 50% majority accuses a player, they can't nominate nor vote. If you are accused when your team wins, you change alignment & lose. This must happen.",
     "flavor": "(v1.0)",
     "reminders": [
       "Accused"

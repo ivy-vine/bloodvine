@@ -1,0 +1,25 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "linked_list v1.0"
+  },
+  {
+    "id": "linked_list",
+    "name": "Them",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/demons/linked_list/linked_list.png",
+      "https://ivy-vine.github.io/bloodvine/characters/demons/linked_list/linked_list.png"
+    ],
+    "team": "demon",
+    "edition": "bloodvine",
+    "ability": "Each night*, choose a player: they die. [Half of players are evil. Evil are in a line. No Minions]",
+    "flavor": "They are the calm. They are the storm. They are the wire that binds us all. Their sweat gives us life. We breathe so They can bleed. Your skin peels and under that skin you'll find Them. (v1.0)",
+    "setup": true,
+    "otherNight": 42,
+    "otherNightReminder": "They choose a player. :reminder:",
+    "reminders": [
+      "Dead"
+    ]
+  }
+]
