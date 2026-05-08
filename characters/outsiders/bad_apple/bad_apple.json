@@ -1,0 +1,20 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "bad_apple v1.0"
+  },
+  {
+    "id": "bad_apple",
+    "name": "Bad Apple",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/bad_apple/bad_apple_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/bad_apple/bad_apple_evil.png"
+    ],
+    "team": "outsider",
+    "edition": "bloodvine",
+    "ability": "[1 to ? Outsiders are evil]",
+    "flavor": " (v1.0)",
+    "setup": true
+  }
+]

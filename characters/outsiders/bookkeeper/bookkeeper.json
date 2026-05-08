@@ -1,0 +1,19 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "bookkeeper v1.0"
+  },
+  {
+    "id": "bookkeeper",
+    "name": "Bookkeeper",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/bookkeeper/bookkeeper_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/bookkeeper/bookkeeper_evil.png"
+    ],
+    "team": "outsider",
+    "edition": "bloodvine",
+    "ability": "You can't speak the group's primary language, or might be executed.",
+    "flavor": " (v1.0)"
+  }
+]

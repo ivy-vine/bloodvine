@@ -1,0 +1,25 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "bitflip v1.0"
+  },
+  {
+    "id": "bitflip",
+    "name": "Seed",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/demons/bitflip/bitflip_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/demons/bitflip/bitflip_good.png"
+    ],
+    "team": "demon",
+    "edition": "bloodvine",
+    "ability": "Each night*, choose a player: they die. If all Townsfolk are dead, evil wins. [+2 Outsiders]",
+    "flavor": "(v1.0)",
+    "setup": true,
+    "otherNight": 43,
+    "otherNightReminder": "The Seed chooses a player. :reminder:",
+    "reminders": [
+      "Dead"
+    ]
+  }
+]
