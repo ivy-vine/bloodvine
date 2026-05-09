@@ -2,14 +2,14 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "killer_fish v1.0"
+    "name": "san_diegos_nightmare v1.0"
   },
   {
-    "id": "killer_fish",
+    "id": "san_diegos_nightmare",
     "name": "Killer Fish",
     "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/demons/killer_fish/killer_fish_evil.png",
-      "https://ivy-vine.github.io/bloodvine/characters/demons/killer_fish/killer_fish_good.png"
+      "https://ivy-vine.github.io/bloodvine/characters/demons/san_diegos_nightmare/san_diegos_nightmare_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/demons/san_diegos_nightmare/san_diegos_nightmare_good.png"
     ],
     "team": "demon",
     "edition": "bloodvine",
