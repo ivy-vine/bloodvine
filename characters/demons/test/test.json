@@ -1,0 +1,24 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "test v1.0"
+  },
+  {
+    "id": "test",
+    "name": "Test",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/demons/bitflip/bitflip_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/demons/bitflip/bitflip_good.png"
+    ],
+    "team": "demon",
+    "edition": "bloodvine",
+    "ability": "Each night*, choose a player & a character they become. The previously chosen character dies.",
+    "flavor": "(v1.0)",
+    "otherNight": 45,
+    "otherNightReminder": "The Seed chooses a player. FIX :reminder:",
+    "reminders": [
+      "Dead"
+    ]
+  }
+]

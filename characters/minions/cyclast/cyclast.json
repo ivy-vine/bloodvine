@@ -7,6 +7,10 @@
   {
     "id": "cylcast",
     "name": "Cyclast",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/minions/cyclast/cyclast_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/minions/cyclast/cyclast_good.png"
+    ],
     "team": "minion",
     "edition": "bloodvine",
     "ability": "Once per game, at night*, choose X players: they die. If your team wins in the next X-1 days, your team loses, even if you are dead.",

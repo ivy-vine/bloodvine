@@ -7,6 +7,10 @@
   {
     "id": "window",
     "name": "Window",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/minions/window/window_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/minions/window/window_good.png"
+    ],
     "team": "minion",
     "edition": "bloodvine",
     "ability": "If the Demon kills you, choose a character: they die instead. If they are not in play, the Storyteller chooses who dies.",
