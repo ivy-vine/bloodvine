@@ -5,20 +5,21 @@ import os
 def generate_icon(image_path, textures_path, team, threshold, out_path):
     # initialize some variables
     final_img_size = 591
-    shrink_percent = 60
+    alg_size = 1182
+    shrink_percent = 68
 
     # load image
     with Image(filename=image_path, format="png", background="transparent") as img:
         # first, extent (instead of resize to avoid stretching) to make the image a 1:1 aspect ratio
         # then, resize the image to the size it needs to be on the token
-        # finally, extent to final_img_size
+        # finally, extent to alg_size
         size = max(img.width, img.height)
         img.extent(width=size, height=size, gravity="center")
 
-        s = round(final_img_size * (shrink_percent / 100))
+        s = round(alg_size * (shrink_percent / 100))
         img.resize(width=s, height=s)
 
-        img.extent(width=final_img_size, height=final_img_size, gravity="center")
+        img.extent(width=alg_size, height=alg_size, gravity="center")
 
         # threshold the image to make it black and white
         img.colorspace = "gray"
@@ -31,13 +32,13 @@ def generate_icon(image_path, textures_path, team, threshold, out_path):
             white.transparent_color(color="black", alpha=0.0)
 
             with white.clone() as outline:
-                outline.morphology(method="edge", kernel="octagon:3")
+                outline.morphology(method="edge", kernel="octagon:7")
 
                 with Image(filename=f"{textures_path}/parchment_back.png") as parchment_back:
                     outline.composite(image=parchment_back, operator="in")
 
                 with Image(filename=f"{textures_path}/parchment.png") as parchment_noise:
-                    parchment_noise.resize(width=final_img_size, height=final_img_size)
+                    parchment_noise.resize(width=alg_size, height=alg_size)
                     white.composite(image=parchment_noise, operator="in")
                 
                 outline.composite(white)
@@ -47,7 +48,7 @@ def generate_icon(image_path, textures_path, team, threshold, out_path):
                     black.morphology(method="open", kernel="octagon:1")
 
                     with Image(filename=f"{textures_path}/{team}.png") as team_noise:
-                        team_noise.resize(width=final_img_size, height=final_img_size)
+                        team_noise.resize(width=alg_size, height=alg_size)
                         black.composite(image=team_noise, operator="in")
 
                     with outline.clone() as result:
@@ -62,6 +63,8 @@ def generate_icon(image_path, textures_path, team, threshold, out_path):
                             with Image(width=img.width, height=img.height, background="transparent") as sized:
                                 sized.composite(shadow, left=-(sig * 2))
                                 sized.composite(result)
+
+                                sized.resize(width=final_img_size, height=final_img_size)
 
                                 sized.save(filename=out_path)
 
