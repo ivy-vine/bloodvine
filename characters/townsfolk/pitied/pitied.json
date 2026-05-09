@@ -7,6 +7,10 @@
   {
     "id": "pitied",
     "name": "Pitied",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/pitied/pitied_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/pitied/pitied_evil.png"
+    ],
     "team": "townsfolk",
     "edition": "bloodvine",
     "ability": "If you are the last living good player, good wins.",

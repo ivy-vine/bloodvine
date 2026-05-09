@@ -7,6 +7,10 @@
   {
     "id": "lovebug",
     "name": "Lovebug",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/lovebug/lovebug_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/lovebug/lovebug_evil.png"
+    ],
     "team": "townsfolk",
     "edition": "bloodvine",
     "ability": "You & a Minion are mad as the Minion's character, or you or them might be executed.",

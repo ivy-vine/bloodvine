@@ -7,6 +7,10 @@
   {
     "id": "naturalist",
     "name": "Naturalist",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/naturalist/naturalist_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/naturalist/naturalist_evil.png"
+    ],
     "team": "townsfolk",
     "edition": "bloodvine",
     "ability": "Each night*, if no-one died today, learn a player's character & how many steps they are from you.",

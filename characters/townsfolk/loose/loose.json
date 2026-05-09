@@ -7,6 +7,10 @@
   {
     "id": "loose",
     "name": "Loose",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/loose/loose_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/loose/loose_evil.png"
+    ],
     "team": "townsfolk",
     "edition": "bloodvine",
     "ability": "Each night*, choose to register as dead until dusk.",

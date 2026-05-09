@@ -7,6 +7,10 @@
   {
     "id": "skulker",
     "name": "Skulker",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/skulker/skulker_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/skulker/skulker_evil.png"
+    ],
     "team": "townsfolk",
     "edition": "bloodvine",
     "ability": "Each night, choose a player: until dusk, if you die, swap characters with them & they die instead.",

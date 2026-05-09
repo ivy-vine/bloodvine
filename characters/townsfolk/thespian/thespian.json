@@ -7,6 +7,10 @@
   {
     "id": "thespian",
     "name": "Thespian",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/thespian/thespian_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/thespian/thespian_evil.png"
+    ],
     "team": "townsfolk",
     "edition": "bloodvine",
     "ability": "Each night, choose if evil abilities choose you instead until dusk.",

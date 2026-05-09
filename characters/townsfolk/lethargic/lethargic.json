@@ -7,6 +7,10 @@
   {
     "id": "lethargic",
     "name": "Lethargic",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/lethargic/lethargic_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/lethargic/lethargic_evil.png"
+    ],
     "team": "townsfolk",
     "edition": "bloodvine",
     "ability": "1 good player has your crab. If you guess (once) who it is, you can no longer die. If just 3 players live, you lose this ability.",

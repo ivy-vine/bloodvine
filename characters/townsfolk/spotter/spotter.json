@@ -7,6 +7,10 @@
   {
     "id": "spotter",
     "name": "Spotter",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/spotter/spotter_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/spotter/spotter_evil.png"
+    ],
     "team": "townsfolk",
     "edition": "bloodvine",
     "ability": "You start knowing who has the Lethargic's crab. [+the Lethargic]",
