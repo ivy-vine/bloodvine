@@ -2,11 +2,11 @@ from wand.image import Image
 import argparse
 import os
 
-def generate_icon(image_path, textures_path, team, threshold, out_path):
+def generate_icon(image_path, textures_path, team, threshold, out_path, size):
     # initialize some variables
     final_img_size = 591
     alg_size = 1182
-    shrink_percent = 68
+    shrink_percent = size # 68
 
     # load image
     with Image(filename=image_path, format="png", background="transparent") as img:
@@ -73,6 +73,7 @@ parser.add_argument("filepath")
 parser.add_argument("team", choices=["good", "evil", "fabled", "loric", "traveller", "good_traveller", "evil_traveller", "minion", "outsider", "purple", "black"])
 parser.add_argument("-t", "--threshold", type=float, default=0.5, help="threshold for turning the image mono. default=0.5")
 parser.add_argument("-o", "--output", help="output location")
+parser.add_argument("-s", "--size", type=int, default=68, help="size. default=68")
 args = parser.parse_args()
 
 if args.output:
@@ -84,4 +85,4 @@ else:
         f"{os.path.splitext(p2)[0]}_{args.team}.png"
     )
 
-generate_icon(args.filepath, "resources/textures", args.team, args.threshold, out_path)
+generate_icon(args.filepath, "resources/textures", args.team, args.threshold, out_path, args.size)

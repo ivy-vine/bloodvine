@@ -2,12 +2,12 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "adulterer v1.1"
+    "name": "adultery v1.1"
   },
   {
-    "id": "adulterer",
-    "name": "Adulterer",
-    "image": "https://ivy-vine.github.io/bloodvine/characters/loric/adulterer/adulterer_loric.png",
+    "id": "adultery",
+    "name": "Adultery",
+    "image": "https://ivy-vine.github.io/bloodvine/characters/loric/adultery/adultery_loric.png",
     "team": "loric",
     "edition": "bloodvine",
     "ability": "If a 50% majority accuses a player of adultery, they can't nominate nor vote.",

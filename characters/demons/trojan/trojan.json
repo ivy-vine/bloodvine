@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "trojan v1.0"
+    "name": "trojan v1.1"
   },
   {
     "id": "trojan",
@@ -13,8 +13,8 @@
     ],
     "team": "demon",
     "edition": "bloodvine",
-    "ability": "If you were executed today & more than 3 players live, you are woken to choose a player: they become an evil Shef. [No Minions]",
-    "flavor": "DOWNLOAD NOW!!! AWESOME BLOOD ON THE CLOCKTOWER (FREE!) FREE --- CLICK HERE --- FREE DOWNLOAD NO VIRUS PLAY NOW!!! (v1.0)",
+    "ability": "If you were executed today & more than 3 players live, you are woken to choose a player: they become an evil Shef. Each day, if no-one is executed, evil wins. [No Minions]",
+    "flavor": "DOWNLOAD NOW!!! AWESOME BLOOD ON THE CLOCKTOWER (FREE!) FREE --- CLICK HERE --- FREE DOWNLOAD NO VIRUS PLAY NOW!!! (v1.1)",
     "setup": true
   }
 ]
