@@ -1,0 +1,289 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "Farther Than This v1.0",
+    "firstNight": [
+      "dusk",
+      "arctic_fox",
+      "apprentice",
+      "philosopher",
+      "minioninfo",
+      "demoninfo",
+      "worm",
+      "lovebug",
+      "skulker",
+      "washerwoman",
+      "grandmother",
+      "dreamer",
+      "dawn"
+    ],
+    "otherNight": [
+      "dusk",
+      "arctic_fox",
+      "skulker",
+      "cacklejack",
+      "harlot",
+      "bonecollector",
+      "philosopher",
+      "gambler",
+      "pithag",
+      "hypnotist",
+      "uranium_235",
+      "barber",
+      "professor",
+      "farmer",
+      "tinker",
+      "grandmother",
+      "undertaker",
+      "dreamer",
+      "naturalist",
+      "dawn"
+    ]
+  },
+  "washerwoman",
+  "grandmother",
+  {
+    "id": "arctic_fox",
+    "name": "Arctic Fox",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/arctic_fox/arctic_fox_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/arctic_fox/arctic_fox_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night, you gain the ability of an alive neighbor (you don't know which) until dusk.",
+    "flavor": "Must your claws climb ten-thousand walls? You have come a very long way, sweet thing, but you do not belong here; you will not survive the week. I don't think they can climb ten-thousand more. (v1.1)",
+    "firstNight": 2,
+    "otherNight": 2,
+    "firstNightReminder": "The Arctic Fox might change ability. If so, mark an alive neighbor with the *MIMICKED* reminder. :reminder:",
+    "otherNightReminder": "The Arctic Fox might change ability. If so, mark an alive neighbor with the *MIMICKED* reminder. :reminder:",
+    "reminders": [
+      "Mimicked"
+    ]
+  },
+  {
+    "id": "skulker",
+    "name": "Skulker",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/skulker/skulker_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/skulker/skulker_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night, choose a player: until dusk, if you die, swap characters with them & they die instead.",
+    "flavor": "(v1.1)",
+    "firstNight": 51,
+    "otherNight": 5,
+    "firstNightReminder": "The Skulker points to a player. :reminder:",
+    "otherNightReminder": "The Skulker points to a player. :reminder:",
+    "remindersGlobal": [
+      "Chosen"
+    ]
+  },
+  "dreamer",
+  "undertaker",
+  "gambler",
+  {
+    "id": "naturalist",
+    "name": "Naturalist",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/naturalist/naturalist_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/naturalist/naturalist_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night*, if no-one died today, learn a player's character & how many steps they are from you.",
+    "flavor": "icon is maybe a leaf? (v1.1)",
+    "firstNight": 0,
+    "otherNight": 89,
+    "otherNightReminder": "If no one died today, show a player's character token &amp; give a finger signal.",
+    "reminders": [
+      "Died Today"
+    ]
+  },
+  "philosopher",
+  "professor",
+  {
+    "id": "imaginary_friend",
+    "name": "Imaginary Friend",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/imaginary_friend/imaginary_friend_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/imaginary_friend/imaginary_friend_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "You don't register as a player.",
+    "flavor": "Do you see it, above you? Reach for it; push your hand into the deep. Feel for it; it is wet and it cuts you and like silver it slivers. Grasp it, no matter how much it shimmers. Cut it like it cut you. (v1.0)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "Not A Player"
+    ],
+    "special": [
+      {
+        "type": "vote",
+        "name": "multiplier",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "lovebug",
+    "name": "Lovebug",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/lovebug/lovebug_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/lovebug/lovebug_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "You & a Minion are mad as the Minion's character, or you or them might be executed.",
+    "flavor": "(v1.0)",
+    "firstNight": 49,
+    "otherNight": 0,
+    "firstNightReminder": "Show the Minion character token marked *MAD*.",
+    "reminders": [
+      "Mad",
+      "Mad"
+    ]
+  },
+  "farmer",
+  "drunk",
+  "tinker",
+  "barber",
+  {
+    "id": "adulterer",
+    "name": "Adulterer",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/adulterer/adulterer_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/adulterer/adulterer_evil.png"
+    ],
+    "team": "outsider",
+    "edition": "bloodvine",
+    "ability": "If a 50% majority accuses a player, they can't nominate nor vote. If you are accused when your team wins, you change alignment & lose. This must happen.",
+    "flavor": "(v1.0)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "Accused"
+    ],
+    "special": [
+      {
+        "type": "vote",
+        "name": "multiplier",
+        "value": 0
+      },
+      {
+        "type": "reminder",
+        "name": "public"
+      }
+    ]
+  },
+  {
+    "id": "hypnotist",
+    "name": "Hypnotist",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/minions/hypnotist/hypnotist_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/minions/hypnotist/hypnotist_good.png"
+    ],
+    "team": "minion",
+    "edition": "bloodvine",
+    "ability": "Each night*, choose a player & a character they think they become.",
+    "flavor": "Five, three, four, two, zero, one. Three, five, two, four, one, zero. It is 11:59 PM. Now, it is 12:00 AM. (v1.0)",
+    "firstNight": 0,
+    "otherNight": 30,
+    "otherNightReminder": "The Hypnotist chooses a player &amp; a character. Put the Hypnotist to sleep. Wake the target. Show the *YOU ARE* token &amp; the chosen character token."
+  },
+  "pithag",
+  {
+    "id": "worm",
+    "name": "Worm",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/minions/worm/worm_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/minions/worm/worm_good.png"
+    ],
+    "team": "minion",
+    "edition": "bloodvine",
+    "ability": "On your 1st night, look at the Grimoire & choose 2 players: whatever happens to one also happenes to the other & vice versa.",
+    "flavor": "Ever since then, I've been able to see things I couldn't before; feel things I could've never imagined. It doesn't feel... good, nor is it painful either; it's something different. I'm not sure why, but I haven't been able to stop crying. (v1.1)",
+    "firstNight": 27,
+    "otherNight": 0,
+    "firstNightReminder": "Show the Grimoire for as long as the Worm needs.",
+    "reminders": [
+      "A",
+      "B"
+    ],
+    "special": [
+      {
+        "type": "signal",
+        "name": "grimoire",
+        "time": "night"
+      }
+    ]
+  },
+  {
+    "id": "bait",
+    "name": "Bait",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/minions/bait/bait_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/minions/bait/bait_good.png"
+    ],
+    "team": "minion",
+    "edition": "bloodvine",
+    "ability": "When nominated, if the nominator is good, they are poisoned.",
+    "flavor": "Beware of the riverside! I hear of a great fish that lurks among the bank; they say it comes from the back of the moon. Its scales shiver with fever and its air is moonlight. (v1.1)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned"
+    ]
+  },
+  {
+    "id": "uranium_235",
+    "name": "Waste",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/demons/uranium_235/uranium_235_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/demons/uranium_235/uranium_235_good.png"
+    ],
+    "team": "demon",
+    "edition": "bloodvine",
+    "ability": "Each night*, choose a player & a character they become. The previously chosen character dies.",
+    "flavor": "It was soon after the skyscrapers melted that the Waste arose. It was soon after the sky fell that the Waste awoke. It was soon after the pets became monsters and the people became horrors that the Waste shined its brightest. (v1.0)",
+    "firstNight": 0,
+    "otherNight": 45,
+    "otherNightReminder": "The Waste chooses a player &amp; a character. Put the Waste to sleep. Wake the target. Show the *YOU ARE* token &amp; their new character token. :reminder: The previously chosen character dies. :reminder:",
+    "reminders": [
+      "Dead",
+      "Mutated"
+    ]
+  },
+  {
+    "id": "trojan",
+    "name": "Shef",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/demons/trojan/trojan_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/demons/trojan/trojan_good.png"
+    ],
+    "team": "demon",
+    "edition": "bloodvine",
+    "ability": "If you were executed today & more than 3 players live, you are woken to choose a player: they become an evil Shef. [No Minions]",
+    "flavor": "DOWNLOAD NOW!!! AWESOME BLOOD ON THE CLOCKTOWER (FREE!) FREE --- CLICK HERE --- FREE DOWNLOAD NO VIRUS PLAY NOW!!! (v1.0)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "setup": true
+  },
+  "harlot",
+  "cacklejack",
+  "bonecollector",
+  "apprentice",
+  "voudon"
+]

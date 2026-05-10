@@ -7,6 +7,10 @@
   {
     "id": "desperate",
     "name": "Desperate",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/desperate/desperate_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/desperate/desperate_evil.png"
+    ],
     "team": "outsider",
     "edition": "bloodvine",
     "ability": "You are evil if at least one reminder token is on you. If not, you are good.",
