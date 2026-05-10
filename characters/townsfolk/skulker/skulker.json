@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "skulker v1.1"
+    "name": "skulker v1.2"
   },
   {
     "id": "skulker",
@@ -13,8 +13,8 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "Each night, choose a player: until dusk, if you die, swap characters with them & they die instead.",
-    "flavor": "(v1.1)",
+    "ability": "Each night, choose a player: until dusk, if you die, swap characters with them & they die instead. The Storyteller may prompt you to choose differently.",
+    "flavor": "(v1.2)",
     "firstNight": 51,
     "firstNightReminder": "The Skulker points to a player. :reminder:",
     "otherNight": 5,
