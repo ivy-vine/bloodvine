@@ -14,7 +14,7 @@
     "team": "townsfolk",
     "edition": "bloodvine",
     "ability": "Each night*, if no-one died today, learn a player's character & how many steps they are from you.",
-    "flavor": "icon is maybe a leaf? (v1.1)",
+    "flavor": "(v1.1)",
     "otherNight": 89,
     "otherNightReminder": "If no one died today, show a player's character token & give a finger signal.",
     "reminders": [

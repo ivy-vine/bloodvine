@@ -31,6 +31,16 @@
         "type": "reveal",
         "name": "replace-character"
       }
+    ],
+    "jinxes": [
+      {
+        "id": "spy",
+        "reason": "An Arctic Fox with the Spy ability doesn't see the grimoire."
+      },
+      {
+        "id": "widow",
+        "reason": "An Arctic Fox with the Widow ability doesn't see the grimoire."
+      }
     ]
   }
 ]
