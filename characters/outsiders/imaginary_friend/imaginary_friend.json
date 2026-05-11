@@ -8,10 +8,10 @@
     "id": "imaginary_friend",
     "name": "Imaginary Friend",
     "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/imaginary_friend/imaginary_friend_good.png",
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/imaginary_friend/imaginary_friend_evil.png"
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/imaginary_friend/imaginary_friend_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/imaginary_friend/imaginary_friend_evil.png"
     ],
-    "team": "townsfolk",
+    "team": "outsider",
     "edition": "bloodvine",
     "ability": "You don't register as a player.",
     "flavor": "Do you see it, above you? Reach for it; push your hand into the deep. Feel for it; it is wet and it cuts you and like silver it slivers. Grasp it, no matter how much it shimmers. Cut it like it cut you. (v1.1)",

@@ -14,7 +14,7 @@
     "team": "townsfolk",
     "edition": "bloodvine",
     "ability": "Each night, choose a player: until dusk, if you die, swap characters with them & they die instead. The Storyteller may prompt you to choose differently.",
-    "flavor": "(v1.2)",
+    "flavor": "You say you don't want me, but then you look for me. You push me under the belly, but then you wonder why I am quiet. You build walls around me, but then you ask \"Can't you climb?\" Then you call for me, and I am here. (v1.2)",
     "firstNight": 51,
     "firstNightReminder": "The Skulker points to a player. :reminder:",
     "otherNight": 5,
