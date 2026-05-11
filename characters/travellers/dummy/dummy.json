@@ -1,0 +1,20 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "dummy v1.0"
+  },
+  {
+    "id": "dummy",
+    "name": "Dummy",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/travellers/dummy/dummy_traveller.png",
+      "https://ivy-vine.github.io/bloodvine/characters/travellers/dummy/dummy_traveller_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/travellers/dummy/dummy_traveller_evil.png"
+    ],
+    "team": "traveller",
+    "edition": "bloodvine",
+    "ability": "When you learn a player died, you may choose to die instead.",
+    "flavor": "(v1.0)"
+  }
+]

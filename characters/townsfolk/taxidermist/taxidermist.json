@@ -1,0 +1,25 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "taxidermist v1.0"
+  },
+  {
+    "id": "taxidermist",
+    "name": "Taxidermist",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/taxidermist/taxidermist_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/taxidermist/taxidermist_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Once per game, at night*, choose a dead player: they are reincarnated as a Dummy.",
+    "flavor": "(v1.0)",
+    "otherNight": 63,
+    "otherNightReminder": "The Taxidermist might choose a dead player. :reminder: :reminder:",
+    "reminders": [
+      "Reincarnated",
+      "No Ability"
+    ]
+  }
+]

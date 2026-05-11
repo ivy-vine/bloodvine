@@ -70,7 +70,7 @@ def generate_icon(image_path, textures_path, team, threshold, out_path, size):
 
 parser = argparse.ArgumentParser(prog="generate icon", description="generate token icons for botc")
 parser.add_argument("filepath")
-parser.add_argument("team", choices=["good", "evil", "fabled", "loric", "traveller", "good_traveller", "evil_traveller", "minion", "outsider", "purple", "black"])
+parser.add_argument("team", choices=["good", "evil", "fabled", "loric", "traveller", "traveller_good", "traveller_evil", "minion", "outsider", "purple", "black"])
 parser.add_argument("-t", "--threshold", type=float, default=0.5, help="threshold for turning the image mono. default=0.5")
 parser.add_argument("-o", "--output", help="output location")
 parser.add_argument("-s", "--size", type=int, default=65, help="size. default=65")
