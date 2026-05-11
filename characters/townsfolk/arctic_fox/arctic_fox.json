@@ -24,10 +24,6 @@
     ],
     "special": [
       {
-        "type": "selection",
-        "name": "bag-disabled"
-      },
-      {
         "type": "reveal",
         "name": "replace-character"
       }

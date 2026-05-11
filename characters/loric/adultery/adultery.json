@@ -10,7 +10,7 @@
     "image": "https://ivy-vine.github.io/bloodvine/characters/loric/adultery/adultery_loric.png",
     "team": "loric",
     "edition": "bloodvine",
-    "ability": "If a 50% majority accuses a player of adultery, they can't nominate nor vote.",
+    "ability": "If a 50% majority publicly accuses a player of adultery, they can't nominate nor vote.",
     "flavor": "(v1.1)",
     "reminders": [
       "Accused"
