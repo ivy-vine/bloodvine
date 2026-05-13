@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "desperate v1.0"
+    "name": "desperate v1.1"
   },
   {
     "id": "desperate",
@@ -14,6 +14,6 @@
     "team": "outsider",
     "edition": "bloodvine",
     "ability": "You are evil if at least one reminder token is on you. If not, you are good.",
-    "flavor": "(v1.0)"
+    "flavor": "Please sir! Please! I ask for naught but a moment of your time! A moment for you to NOTICE ME. (v1.1) (Token & flavor by Diamondwar)"
   }
 ]
