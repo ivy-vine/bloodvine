@@ -5,34 +5,35 @@
     "name": "Farther Than This v1.4",
     "firstNight": [
       "dusk",
-      "thespian",
       "arctic_fox",
+      "thespian",
+      "apprentice",
       "minioninfo",
       "demoninfo",
-      "tardigrade",
+      "devilsadvocate",
       "lethargic",
       "spotter",
-      "lovebug",
       "skulker",
       "dawn"
     ],
     "otherNight": [
       "dusk",
-      "thespian",
       "arctic_fox",
+      "thespian",
       "skulker",
-      "cacklejack",
       "harlot",
       "bonecollector",
-      "window",
+      "devilsadvocate",
       "linked_list",
+      "shabaloth",
       "bitflip",
-      "uranium_235",
+      "window",
       "cylcast",
-      "tardigrade",
       "loose",
       "secretary",
       "taxidermist",
+      "professor",
+      "moonchild",
       "speaker",
       "naturalist",
       "dawn"
@@ -197,6 +198,7 @@
       "No Ability"
     ]
   },
+  "professor",
   {
     "id": "poet",
     "name": "Poet",
@@ -216,25 +218,6 @@
     ]
   },
   {
-    "id": "lovebug",
-    "name": "Lovebug",
-    "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/lovebug/lovebug_good.png",
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/lovebug/lovebug_evil.png"
-    ],
-    "team": "townsfolk",
-    "edition": "bloodvine",
-    "ability": "You & a Minion, if they live, are mad as the Minion's character, or you or them might be executed.",
-    "flavor": "(v1.0)",
-    "firstNight": 49,
-    "otherNight": 0,
-    "firstNightReminder": "Show the Minion character token marked *MAD*. Show the *THIS CHARACTER SELECTED YOU* &amp; the Lovebug character token to the Minion.",
-    "reminders": [
-      "Mad",
-      "Mad"
-    ]
-  },
-  {
     "id": "secretary",
     "name": "Secretary",
     "image": [
@@ -249,20 +232,7 @@
     "otherNight": 60,
     "otherNightReminder": "The Secretary points to 2 players &amp; gives 2 thumbs up or down."
   },
-  {
-    "id": "pitied",
-    "name": "Pitied",
-    "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/pitied/pitied_good.png",
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/pitied/pitied_evil.png"
-    ],
-    "team": "townsfolk",
-    "edition": "bloodvine",
-    "ability": "If you are the last living good player, good wins.",
-    "flavor": "(v1.1)",
-    "firstNight": 0,
-    "otherNight": 0
-  },
+  "tealady",
   {
     "id": "lethargic",
     "name": "Lethargic",
@@ -282,20 +252,6 @@
       "Safe",
       "Has Crab"
     ]
-  },
-  {
-    "id": "desperate",
-    "name": "Desperate",
-    "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/outsiders/desperate/desperate_good.png",
-      "https://ivy-vine.github.io/bloodvine/characters/outsiders/desperate/desperate_evil.png"
-    ],
-    "team": "outsider",
-    "edition": "bloodvine",
-    "ability": "You are evil if at least one reminder token is on you. If not, you are good.",
-    "flavor": "(v1.0)",
-    "firstNight": 0,
-    "otherNight": 0
   },
   {
     "id": "imaginary_friend",
@@ -322,67 +278,23 @@
       }
     ]
   },
+  "moonchild",
+  "saint",
   {
-    "id": "bookkeeper",
-    "name": "Bookkeeper",
+    "id": "playwright",
+    "name": "Playwright",
     "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/outsiders/bookkeeper/bookkeeper_good.png",
-      "https://ivy-vine.github.io/bloodvine/characters/outsiders/bookkeeper/bookkeeper_evil.png"
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/playwright/playwright_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/playwright/playwright_evil.png"
     ],
     "team": "outsider",
     "edition": "bloodvine",
-    "ability": "You can't speak the group's primary language, or might be executed.",
-    "flavor": " (v1.0)",
+    "ability": "Abilities act in seat order.",
+    "flavor": "(v1.0)",
     "firstNight": 0,
     "otherNight": 0
   },
-  {
-    "id": "identical_twin",
-    "name": "Identical Twin",
-    "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/outsiders/identical_twin/identical_twin_good.png",
-      "https://ivy-vine.github.io/bloodvine/characters/outsiders/identical_twin/identical_twin_evil.png"
-    ],
-    "team": "outsider",
-    "edition": "bloodvine",
-    "ability": "You register as an in-play Townsfolk character, even if dead. All players know you or them are this character.",
-    "flavor": "(v1.1)",
-    "firstNight": 0,
-    "otherNight": 0,
-    "remindersGlobal": [
-      "Is The Identical Twin"
-    ],
-    "special": [
-      {
-        "type": "selection",
-        "name": "bag-duplicate"
-      },
-      {
-        "type": "reveal",
-        "name": "replace-character",
-        "value": "identical_twin"
-      }
-    ]
-  },
-  {
-    "id": "tardigrade",
-    "name": "Tardigrade",
-    "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/minions/tardigrade/tardigrade_evil.png",
-      "https://ivy-vine.github.io/bloodvine/characters/minions/tardigrade/tardigrade_good.png"
-    ],
-    "team": "minion",
-    "edition": "bloodvine",
-    "ability": "Once per game, at night, choose a player: they register as the evil Tardigrade, even if you are dead.",
-    "flavor": "(v1.1)",
-    "firstNight": 31,
-    "otherNight": 52,
-    "firstNightReminder": "The Tardigrade might point to a player. :reminder:",
-    "otherNightReminder": "The Tardigrade might point to a player. :reminder:",
-    "reminders": [
-      "Marked"
-    ]
-  },
+  "devilsadvocate",
   {
     "id": "cylcast",
     "name": "Cyclast",
@@ -451,7 +363,7 @@
     "ability": "If the Demon kills you, choose a character: they die instead. If they are not in play, the Storyteller chooses who dies.",
     "flavor": "(v1.1)",
     "firstNight": 0,
-    "otherNight": 42,
+    "otherNight": 50,
     "otherNightReminder": "The Window chooses a character. :reminder:",
     "reminders": [
       "Dead"
@@ -495,25 +407,7 @@
     ],
     "setup": true
   },
-  {
-    "id": "uranium_235",
-    "name": "Waste",
-    "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/demons/uranium_235/uranium_235_evil.png",
-      "https://ivy-vine.github.io/bloodvine/characters/demons/uranium_235/uranium_235_good.png"
-    ],
-    "team": "demon",
-    "edition": "bloodvine",
-    "ability": "Each night*, choose a player & a good character (different to last night) they become. The previously chosen character dies.",
-    "flavor": "It was soon after the skyscrapers melted that the Waste arose. It was soon after the sky fell that the Waste awoke. It was soon after the pets became monsters and the people became horrors that the Waste shined its brightest. (v1.1)",
-    "firstNight": 0,
-    "otherNight": 45,
-    "otherNightReminder": "The Waste chooses a player &amp; a character. Put the Waste to sleep. Wake the target. Show the *YOU ARE* token &amp; their new character token. :reminder: The previously chosen character dies. :reminder:",
-    "reminders": [
-      "Dead",
-      "Mutated"
-    ]
-  },
+  "shabaloth",
   {
     "id": "trojan",
     "name": "Shef",
@@ -536,8 +430,8 @@
     ]
   },
   "harlot",
-  "cacklejack",
   "bonecollector",
+  "apprentice",
   "voudon",
   {
     "id": "dummy",

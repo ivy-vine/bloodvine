@@ -1,0 +1,139 @@
+[
+  {
+    "id": "_meta",
+    "author": "Killer Fish &amp; co",
+    "name": "One Way Trip To San Diego v1.5",
+    "firstNight": [
+      "dusk",
+      "apprentice",
+      "bureaucrat",
+      "minioninfo",
+      "demoninfo",
+      "engineer",
+      "poisoner",
+      "godfather",
+      "witch",
+      "pixie",
+      "empath",
+      "grandmother",
+      "knight",
+      "shugenja",
+      "nightwatchman",
+      "chambermaid",
+      "dawn"
+    ],
+    "otherNight": [
+      "dusk",
+      "bureaucrat",
+      "bonecollector",
+      "engineer",
+      "poisoner",
+      "witch",
+      "scarletwoman",
+      "godfather",
+      "san_diegos_nightmare",
+      "grandmother",
+      "empath",
+      "undertaker",
+      "nightwatchman",
+      "chambermaid",
+      "dawn"
+    ]
+  },
+  "knight",
+  "grandmother",
+  "shugenja",
+  "pixie",
+  "empath",
+  "chambermaid",
+  "undertaker",
+  "engineer",
+  "nightwatchman",
+  "fisherman",
+  "minstrel",
+  "mayor",
+  "virgin",
+  "drunk",
+  {
+    "id": "imaginary_friend",
+    "name": "Imaginary Friend",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/imaginary_friend/imaginary_friend_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/imaginary_friend/imaginary_friend_evil.png"
+    ],
+    "team": "outsider",
+    "edition": "bloodvine",
+    "ability": "You don't register as a player.",
+    "flavor": "Do you see it, above you? Reach for it; push your hand into the deep. Feel for it; it is wet and it cuts you and like silver it slivers. Grasp it, no matter how much it shimmers. Cut it like it cut you. (v1.1)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "Doesn't Exist",
+      "Doesn't Exist"
+    ],
+    "special": [
+      {
+        "type": "vote",
+        "name": "multiplier",
+        "value": 0
+      }
+    ]
+  },
+  "golem",
+  "mutant",
+  "politician",
+  "godfather",
+  "poisoner",
+  "witch",
+  "scarletwoman",
+  {
+    "id": "san_diegos_nightmare",
+    "name": "Killer Fish",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/demons/san_diegos_nightmare/san_diegos_nightmare_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/demons/san_diegos_nightmare/san_diegos_nightmare_good.png"
+    ],
+    "team": "demon",
+    "edition": "bloodvine",
+    "ability": "Each night*, choose a player: they die. You have the ability of your recently killed player.",
+    "flavor": "\"Killer fish. Killer fish from San Diego. I don't know what I am, but I taste really good. I make killer fish. Hello. I'll be your killer fish for the evening. Thank you.\" (v1.1)",
+    "firstNight": 0,
+    "otherNight": 57,
+    "otherNightReminder": "The Killer Fish chooses a player. :reminder: :reminder:",
+    "reminders": [
+      "Dead",
+      "Tastes Really Good"
+    ]
+  },
+  "bureaucrat",
+  "bonecollector",
+  "judge",
+  "apprentice",
+  "deviant",
+  {
+    "id": "adultery",
+    "name": "Adultery",
+    "image": "https://ivy-vine.github.io/bloodvine/characters/loric/adultery/adultery_loric.png",
+    "team": "loric",
+    "edition": "bloodvine",
+    "ability": "If a 50% majority publicly accuses a player of adultery, they can't nominate nor vote.",
+    "flavor": "(v1.1)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "Adulterer"
+    ],
+    "special": [
+      {
+        "type": "vote",
+        "name": "multiplier",
+        "value": 0
+      },
+      {
+        "type": "reminder",
+        "name": "public"
+      }
+    ]
+  },
+  "bootlegger"
+]

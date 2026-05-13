@@ -1,0 +1,187 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "Farther Than This v2.0",
+    "firstNight": [
+      "dusk",
+      "boffin",
+      "minioninfo",
+      "lunatic",
+      "demoninfo",
+      "sailor",
+      "grandmother",
+      "shugenja",
+      "dawn"
+    ],
+    "otherNight": [
+      "dusk",
+      "sailor",
+      "gambler",
+      "acrobat",
+      "lunatic",
+      "zombuul",
+      "cylcast",
+      "gossip",
+      "secretary",
+      "grandmother",
+      "flowergirl",
+      "naturalist",
+      "dawn"
+    ]
+  },
+  "grandmother",
+  "shugenja",
+  "sailor",
+  "flowergirl",
+  "gambler",
+  "acrobat",
+  {
+    "id": "naturalist",
+    "name": "Naturalist",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/naturalist/naturalist_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/naturalist/naturalist_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night*, if no-one died today, learn a player's character & how many steps they are from you.",
+    "flavor": "(v1.1)",
+    "firstNight": 0,
+    "otherNight": 89,
+    "otherNightReminder": "If no one died today, show a player's character token &amp; give a finger signal.",
+    "reminders": [
+      "Died Today"
+    ]
+  },
+  "gossip",
+  "cannibal",
+  {
+    "id": "secretary",
+    "name": "Secretary",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/secretary/secretary_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/secretary/secretary_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "If you died today or tonight, guess your alive neighbors' alignments: if correct, you live.",
+    "flavor": "(v1.1)",
+    "firstNight": 0,
+    "otherNight": 60,
+    "otherNightReminder": "The Secretary points to 2 players &amp; gives 2 thumbs up or down."
+  },
+  "tealady",
+  "fool",
+  "virgin",
+  "lunatic",
+  "drunk",
+  "golem",
+  "zealot",
+  {
+    "id": "cylcast",
+    "name": "Cyclast",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/minions/cyclast/cyclast_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/minions/cyclast/cyclast_good.png"
+    ],
+    "team": "minion",
+    "edition": "bloodvine",
+    "ability": "Once per game, at night*, choose X players: they die. If your team wins in the next X-1 days, your team loses, even if you are dead.",
+    "flavor": "icon should be a shattered prism (v1.1)",
+    "firstNight": 0,
+    "otherNight": 51,
+    "otherNightReminder": "The Cyclast might choose X players. :reminder: X-1:reminder:s",
+    "reminders": [
+      "No Ability",
+      "Dead",
+      "Dead",
+      "Dead",
+      "Dead",
+      "Dead",
+      "Dead",
+      "1 Day Left",
+      "2 Days Left",
+      "3 Days Left",
+      "4 Days Left",
+      "5 Days Left",
+      "6 Days Left"
+    ]
+  },
+  {
+    "id": "bait",
+    "name": "Bait",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/minions/bait/bait_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/minions/bait/bait_good.png"
+    ],
+    "team": "minion",
+    "edition": "bloodvine",
+    "ability": "When nominated, if the nominator is good, they are poisoned.",
+    "flavor": "Beware of the riverside! I hear of a great fish that lurks among the bank; they say it comes from the back of the moon. Its scales shiver with fever and its air is moonlight. (v1.1)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned"
+    ]
+  },
+  "boffin",
+  "baron",
+  "zombuul",
+  {
+    "id": "trojan",
+    "name": "Shef",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/demons/trojan/trojan_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/demons/trojan/trojan_good.png"
+    ],
+    "team": "demon",
+    "edition": "bloodvine",
+    "ability": "When you are executed & more than 3 players live, privately choose a player: they become an evil Shef. If no-one was executed today, evil wins. [No Minions]",
+    "flavor": "DOWNLOAD NOW!!! AWESOME BLOOD ON THE CLOCKTOWER (FREE!) FREE --- CLICK HERE --- FREE DOWNLOAD NO VIRUS PLAY NOW!!! (v1.2)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "setup": true,
+    "jinxes": [
+      {
+        "id": "pithag",
+        "reason": "The Pit-Hag can't create a Shef."
+      }
+    ]
+  },
+  {
+    "id": "adultery",
+    "name": "Adultery",
+    "image": "https://ivy-vine.github.io/bloodvine/characters/loric/adultery/adultery_loric.png",
+    "team": "loric",
+    "edition": "bloodvine",
+    "ability": "If a 50% majority publicly accuses a player of adultery, they can't nominate nor vote.",
+    "flavor": "(v1.1)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "Accused"
+    ],
+    "special": [
+      {
+        "type": "vote",
+        "name": "multiplier",
+        "value": 0
+      },
+      {
+        "type": "reminder",
+        "name": "public"
+      }
+    ]
+  },
+  "bootlegger"
+]

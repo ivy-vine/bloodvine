@@ -1,9 +1,30 @@
 [
   {
     "id": "_meta",
-    "author": "ivy",
-    "name": "san_diegos_nightmare v1.1"
+    "author": "Killer Fish &amp; co",
+    "name": "One Way Trip To San Diego v1.4"
   },
+  "knight",
+  "grandmother",
+  "shugenja",
+  "pixie",
+  "empath",
+  "chambermaid",
+  "undertaker",
+  "engineer",
+  "courtier",
+  "fisherman",
+  "minstrel",
+  "mayor",
+  "virgin",
+  "drunk",
+  "golem",
+  "mutant",
+  "politician",
+  "godfather",
+  "poisoner",
+  "witch",
+  "scarletwoman",
   {
     "id": "san_diegos_nightmare",
     "name": "Killer Fish",
@@ -15,11 +36,18 @@
     "edition": "bloodvine",
     "ability": "Each night*, choose a player: they die. You have the ability of your recently killed player.",
     "flavor": "\"Killer fish. Killer fish from San Diego. I don't know what I am, but I taste really good. I make killer fish. Hello. I'll be your killer fish for the evening. Thank you.\" (v1.1)",
+    "firstNight": 0,
     "otherNight": 57,
     "otherNightReminder": "The Killer Fish chooses a player. :reminder: :reminder:",
     "reminders": [
       "Dead",
       "Tastes Really Good"
     ]
-  }
+  },
+  "bureaucrat",
+  "bonecollector",
+  "judge",
+  "apprentice",
+  "deviant",
+  "bootlegger"
 ]
