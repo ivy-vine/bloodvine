@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "identical_twin v1.1"
+    "name": "identical_twin v1.2"
   },
   {
     "id": "identical_twin",
@@ -14,7 +14,7 @@
     "team": "outsider",
     "edition": "bloodvine",
     "ability": "You register as an in-play Townsfolk character, even if dead. All players know you or them are this character.",
-    "flavor": "(v1.1)",
+    "flavor": "(v1.2)",
     "remindersGlobal": [
       "Is The Identical Twin"
     ],
