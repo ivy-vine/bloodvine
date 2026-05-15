@@ -25,8 +25,7 @@
       },
       {
         "type": "reveal",
-        "name": "replace-character",
-        "value": "identical_twin"
+        "name": "replace-character"
       }
     ]
   }

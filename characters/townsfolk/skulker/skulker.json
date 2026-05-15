@@ -21,12 +21,6 @@
     "otherNightReminder": "The Skulker points to a player. :reminder:",
     "remindersGlobal": [
       "Chosen"
-    ],
-    "jinxes": [
-      {
-        "id": "worm",
-        "reason": "A good Worm doesn't see the grimoire."
-      }
     ]
   }
 ]

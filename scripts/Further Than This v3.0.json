@@ -1,0 +1,340 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "Further Than This v3.0"
+  },
+  "steward",
+  "chef",
+  "washerwoman",
+  {
+    "id": "arctic_fox",
+    "name": "Arctic Fox",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/arctic_fox/arctic_fox_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/arctic_fox/arctic_fox_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night, you gain the ability of an alive neighbor (you don't know which) until dusk.",
+    "flavor": "Must your claws climb ten-thousand walls? You have come a very long way, sweet thing, but you do not belong here; you will not survive the week. I don't think they can climb ten-thousand more. (v1.2)",
+    "firstNight": 2,
+    "otherNight": 2,
+    "firstNightReminder": "The Arctic Fox might change ability. If so, swap the Arctic Fox's character token to an alive neighbor's. :reminder:",
+    "otherNightReminder": "The Arctic Fox might change ability. If so, swap the Arctic Fox's character token to an alive neighbor's. :reminder:",
+    "remindersGlobal": [
+      "Is The Arctic Fox"
+    ],
+    "jinxes": [
+      {
+        "id": "spy",
+        "reason": "An Arctic Fox with the Spy ability doesn't see the grimoire."
+      },
+      {
+        "id": "widow",
+        "reason": "An Arctic Fox with the Widow ability doesn't see the grimoire."
+      }
+    ],
+    "special": [
+      {
+        "type": "reveal",
+        "name": "replace-character"
+      }
+    ]
+  },
+  "chambermaid",
+  {
+    "id": "skulker",
+    "name": "Skulker",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/skulker/skulker_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/skulker/skulker_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night, choose a player: until dusk, if you die & they are good, swap characters with them & they die instead.",
+    "flavor": "You say you don't want me, but then you look for me. You push me under the belly, but then you wonder why I am quiet. You build walls around me, but then you ask \"Can't you climb?\" Then you call for me, and I am here. (v1.3)",
+    "firstNight": 51,
+    "otherNight": 5,
+    "firstNightReminder": "The Skulker points to a player. :reminder:",
+    "otherNightReminder": "The Skulker points to a player. :reminder:",
+    "remindersGlobal": [
+      "Chosen"
+    ]
+  },
+  "oracle",
+  "undertaker",
+  "philosopher",
+  {
+    "id": "poet",
+    "name": "Poet",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/poet/poet_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/poet/poet_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Once per game, during the day, publicly claim to be the Poet: the Demon is drunk until dawn.",
+    "flavor": "A poet and you don't even know it! (v1.1)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "No Ability",
+      "Drunk"
+    ]
+  },
+  "ravenkeeper",
+  {
+    "id": "secretary",
+    "name": "Secretary",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/secretary/secretary_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/secretary/secretary_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "If you died today or tonight, guess your alive neighbors' alignments: if correct, you live & are drunk.",
+    "flavor": "(v1.4)",
+    "firstNight": 0,
+    "otherNight": 60,
+    "otherNightReminder": "The Secretary points to 2 players &amp; gives 2 thumbs up or down."
+  },
+  {
+    "id": "pitied",
+    "name": "Pitied",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/pitied/pitied_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/pitied/pitied_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "If you are the last living good player, good wins.",
+    "flavor": "(v1.1)",
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "desperate",
+    "name": "Desperate",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/desperate/desperate_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/desperate/desperate_evil.png"
+    ],
+    "team": "outsider",
+    "edition": "bloodvine",
+    "ability": "You are evil if at least one reminder token is on you. If not, you are good.",
+    "flavor": "Please sir! Please! I ask for naught but a moment of your time! A moment for you to NOTICE ME. (v1.1) (Token &amp; flavor by Diamondwar)",
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  "recluse",
+  {
+    "id": "imaginary_friend",
+    "name": "Imaginary Friend",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/imaginary_friend/imaginary_friend_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/imaginary_friend/imaginary_friend_evil.png"
+    ],
+    "team": "outsider",
+    "edition": "bloodvine",
+    "ability": "You don't register as a player.",
+    "flavor": "Do you see it, above you? Reach for it; push your hand into the deep. Feel for it; it is wet and it cuts you and like silver it slivers. Grasp it, no matter how much it shimmers. Cut it like it cut you. (v1.1)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "Doesn't Exist",
+      "Doesn't Exist"
+    ],
+    "special": [
+      {
+        "type": "vote",
+        "name": "multiplier",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "identical_twin",
+    "name": "Identical Twin",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/identical_twin/identical_twin_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/identical_twin/identical_twin_evil.png"
+    ],
+    "team": "outsider",
+    "edition": "bloodvine",
+    "ability": "You register as an in-play Townsfolk character, even if dead. All players know you or them are this character.",
+    "flavor": "(v1.2)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "remindersGlobal": [
+      "Is The Identical Twin"
+    ],
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      },
+      {
+        "type": "reveal",
+        "name": "replace-character"
+      }
+    ]
+  },
+  {
+    "id": "tardigrade",
+    "name": "Tardigrade",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/minions/tardigrade/tardigrade_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/minions/tardigrade/tardigrade_good.png"
+    ],
+    "team": "minion",
+    "edition": "bloodvine",
+    "ability": "Once per game, at night, choose a player: they register as the evil Tardigrade, even if you are dead.",
+    "flavor": "(v1.1)",
+    "firstNight": 31,
+    "otherNight": 52,
+    "firstNightReminder": "The Tardigrade might point to a player. :reminder:",
+    "otherNightReminder": "The Tardigrade might point to a player. :reminder:",
+    "reminders": [
+      "Marked"
+    ]
+  },
+  {
+    "id": "bait",
+    "name": "Bait",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/minions/bait/bait_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/minions/bait/bait_good.png"
+    ],
+    "team": "minion",
+    "edition": "bloodvine",
+    "ability": "When nominated, if the nominator is good, they are poisoned.",
+    "flavor": "Beware of the riverside! I hear of a great fish that lurks among the bank; they say it comes from the back of the moon. Its scales shiver with fever and its air is moonlight. (v1.1)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned"
+    ]
+  },
+  {
+    "id": "window",
+    "name": "Window",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/minions/window/window_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/minions/window/window_good.png"
+    ],
+    "team": "minion",
+    "edition": "bloodvine",
+    "ability": "If the Demon kills you, choose a character: they die instead. If they are not in play, the Storyteller chooses who dies.",
+    "flavor": "(v1.1)",
+    "firstNight": 0,
+    "otherNight": 50,
+    "otherNightReminder": "The Window chooses a character. :reminder:",
+    "reminders": [
+      "Dead"
+    ]
+  },
+  "scarletwoman",
+  {
+    "id": "trojan",
+    "name": "Shef",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/demons/trojan/trojan_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/demons/trojan/trojan_good.png"
+    ],
+    "team": "demon",
+    "edition": "bloodvine",
+    "ability": "Each night, choose a player: the previously chosen player dies. If you are executed & more than 3 players live, the previously chosen player becomes an evil Shef. [No Minions]",
+    "flavor": "DOWNLOAD NOW!!! AWESOME BLOOD ON THE CLOCKTOWER (FREE!) FREE --- CLICK HERE --- FREE DOWNLOAD NO VIRUS PLAY NOW!!! (v2.0)",
+    "firstNight": 47,
+    "otherNight": 57,
+    "firstNightReminder": "The Shef chooses a player. :reminder:",
+    "otherNightReminder": "The Shef chooses a player. :reminder: The previously chosen player dies. :reminder:",
+    "reminders": [
+      "Dead",
+      "Infected"
+    ],
+    "setup": true,
+    "jinxes": [
+      {
+        "id": "pithag",
+        "reason": "The Pit-Hag can't create a Shef."
+      }
+    ]
+  },
+  {
+    "id": "bitflip",
+    "name": "Seed",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/demons/bitflip/bitflip_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/demons/bitflip/bitflip_good.png"
+    ],
+    "team": "demon",
+    "edition": "bloodvine",
+    "ability": "Each night*, choose a player: they die. If all Townsfolk are dead, evil wins. [+2 Outsiders]",
+    "flavor": "(v1.0)",
+    "firstNight": 0,
+    "otherNight": 43,
+    "otherNightReminder": "The Seed chooses a player. :reminder:",
+    "reminders": [
+      "Dead"
+    ],
+    "setup": true
+  },
+  "imp",
+  "vortox",
+  "thief",
+  "gunslinger",
+  "apprentice",
+  {
+    "id": "dummy",
+    "name": "Dummy",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/travellers/dummy/dummy_traveller.png",
+      "https://ivy-vine.github.io/bloodvine/characters/travellers/dummy/dummy_traveller_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/travellers/dummy/dummy_traveller_evil.png"
+    ],
+    "team": "traveller",
+    "edition": "bloodvine",
+    "ability": "When you learn a player died, you may choose to die instead.",
+    "flavor": "(v1.0)",
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  "gnome",
+  {
+    "id": "adultery",
+    "name": "Adultery",
+    "image": "https://ivy-vine.github.io/bloodvine/characters/loric/adultery/adultery_loric.png",
+    "team": "loric",
+    "edition": "bloodvine",
+    "ability": "If a 50% majority publicly accuses a player of adultery, they can't nominate nor vote.",
+    "flavor": "(v1.1)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "Adulterer"
+    ],
+    "special": [
+      {
+        "type": "vote",
+        "name": "multiplier",
+        "value": 0
+      },
+      {
+        "type": "reminder",
+        "name": "public"
+      }
+    ]
+  },
+  "bootlegger"
+]
