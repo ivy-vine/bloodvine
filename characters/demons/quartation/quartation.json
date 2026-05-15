@@ -24,7 +24,7 @@
     "special": [
       {
         "type": "selection",
-        "name": "bag-duplicate"
+        "name": "bag-disabled"
       },
       {
         "type": "reveal",
