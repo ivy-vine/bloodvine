@@ -1,9 +1,30 @@
 [
   {
     "id": "_meta",
-    "author": "ivy (token by Diamondwar)",
-    "name": "none_type v2.3"
+    "author": "ivy",
+    "name": "Segmentation Fault v2.3"
   },
+  "chef",
+  "grandmother",
+  "librarian",
+  "shugenja",
+  "empath",
+  "balloonist",
+  "flowergirl",
+  "oracle",
+  "professor",
+  "slayer",
+  "cannibal",
+  "tealady",
+  "fool",
+  "drunk",
+  "recluse",
+  "saint",
+  "barber",
+  "poisoner",
+  "devilsadvocate",
+  "cerenovus",
+  "baron",
   {
     "id": "none_type",
     "name": "ERROR",
@@ -38,8 +59,8 @@
       "Dead",
       "Dead",
       "Dead",
-      "Alive",
-      "Alive"
+      "Regurgitated",
+      "Regurgitated"
     ],
     "jinxes": [
       {
@@ -139,5 +160,6 @@
         "reason": "If the ERROR is in play, the Lycanthrope instead chooses two dead players. If both are good, they are regurgitated and the ERROR doesn't wake tonight."
       }
     ]
-  }
+  },
+  "bootlegger"
 ]

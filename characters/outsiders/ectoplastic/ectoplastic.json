@@ -1,0 +1,52 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "ectoplastic v1.0"
+  },
+  {
+    "id": "ectoplastic",
+    "name": "Ectoplastic",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/ectoplastic/ectoplastic_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/ectoplastic/ectoplastic_evil.png"
+    ],
+    "team": "outsider",
+    "edition": "bloodvine",
+    "ability": "All players register as alive, keep their eyes closed when voting, & the vote tally is secret. If executed, you don't die.",
+    "flavor": "(v1.0)",
+    "reminders": [
+      "Ghosting",
+      "Ghosting",
+      "Ghosting",
+      "Ghosting",
+      "Ghosting",
+      "Ghosting",
+      "Ghosting",
+      "Ghosting",
+      "Ghosting",
+      "Ghosting",
+      "Ghosting",
+      "Ghosting",
+      "Ghosting",
+      "Ghosting",
+      "Ghosting",
+      "Ghosting",
+      "Ghosting",
+      "Ghosting",
+      "Ghosting",
+      "Ghosting"
+    ],
+    "special": [
+      {
+        "type": "vote",
+        "name": "hidden"
+      },
+      {
+        "type": "vote",
+        "name": "multiplier",
+        "value": 0
+      }
+    ]
+  }
+]

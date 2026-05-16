@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "Segmentation Fault v2.2"
+    "name": "Segmentation Fault v2.3"
   },
   "chef",
   "grandmother",
@@ -10,13 +10,13 @@
   "shugenja",
   "empath",
   "balloonist",
+  "fortuneteller",
   "flowergirl",
   "oracle",
   "professor",
   "slayer",
   "cannibal",
   "tealady",
-  "fool",
   "drunk",
   "recluse",
   "saint",
@@ -34,11 +34,11 @@
     ],
     "team": "demon",
     "edition": "bloodvine",
-    "ability": "You might register as dead. All but 2 live players start dead. Each night*, choose 2 players: they are regurgitated. Evil only wins if all players live.",
-    "flavor": "Deeper. Ravenswood's walls stand ten-thousand feet tall. Ravenswood's walls' walls stand ten-thousand feet more. Deeper. This time will be different. Deeper. (v2.2) (Token by Diamondwar)",
+    "ability": "You might register as dead. All but 2 live players start dead. Each night*, choose 2 players: they are regurgitated. Evil only wins if all players (except Travellers) live.",
+    "flavor": "Deeper. Ravenswood's walls stand ten-thousand feet tall. Ravenswood's walls' walls stand ten-thousand feet more. Deeper. This time will be different. Deeper. (v2.3) (Token by Diamondwar)",
     "firstNight": 2,
-    "firstNightReminder": "All but 2 live players die. ?:reminder:s",
     "otherNight": 90,
+    "firstNightReminder": "All but 2 live players die. ?:reminder:s",
     "otherNightReminder": "The ERROR chooses 2 players. :reminder: :reminder:",
     "reminders": [
       "Dead",
@@ -59,8 +59,8 @@
       "Dead",
       "Dead",
       "Dead",
-      "Regurgitated",
-      "Regurgitated"
+      "Alive",
+      "Alive"
     ],
     "jinxes": [
       {

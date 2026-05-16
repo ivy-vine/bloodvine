@@ -13,7 +13,7 @@
     ],
     "team": "outsider",
     "edition": "bloodvine",
-    "ability": "You can't speak the group's primary language, or might be executed.",
-    "flavor": " (v1.0)"
+    "ability": "If you speak the group's primary language, you might be executed.",
+    "flavor": "(v1.0)"
   }
 ]

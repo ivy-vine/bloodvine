@@ -1,0 +1,22 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "dealer v1.0"
+  },
+  {
+    "id": "dealer",
+    "name": "Dealer",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/minion/dealer/dealer_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/minion/dealer/dealer_good.png"
+    ],
+    "team": "minion",
+    "edition": "bloodvine",
+    "ability": "The 1st time you are nominated, if the nominator is good, they become evil.",
+    "flavor": "(v1.0)",
+    "reminders": [
+      "No Ability"
+    ]
+  }
+]

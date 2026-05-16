@@ -1,0 +1,30 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "centrist v1.0"
+  },
+  {
+    "id": "centrist",
+    "name": "Centrist",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/centrist/centrist_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/centrist/centrist_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "2 opposing players have 2 votes.",
+    "flavor": "<insert interesting, humorous, and informative commentary on centrist political views> (v1.0)",
+    "reminders": [
+      "Views Supported",
+      "Views Supported"
+    ],
+    "special": [
+      {
+        "type": "vote",
+        "name": "multiplier",
+        "value": 2
+      }
+    ]
+  }
+]
