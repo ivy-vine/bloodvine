@@ -1,0 +1,38 @@
+[
+  {
+    "id": "_meta",
+    "author": "The Cult of Rory Vivian",
+    "name": "praise_be v1.0"
+  },
+  {
+    "id": "praise_be",
+    "name": "Praise Be",
+    "image": "https://ivy-vine.github.io/bloodvine/characters/loric/praise_be/praise_be_loric.png",
+    "team": "loric",
+    "edition": "rv_cult",
+    "ability": "Something bad might happen to whoever mispronounces the names of the characters.",
+    "flavor": "Praise be to Rory Vivian, (v1.0)",
+    "reminders": [
+      "Something Bad",
+      "Something Bad",
+      "Something Bad",
+      "Something Bad",
+      "Something Bad",
+      "Something Bad",
+      "Something Bad",
+      "Something Bad",
+      "Something Bad",
+      "Something Bad",
+      "Something Bad",
+      "Something Bad",
+      "Something Bad",
+      "Something Bad",
+      "Something Bad",
+      "Something Bad",
+      "Something Bad",
+      "Something Bad",
+      "Something Bad",
+      "Something Bad"
+    ]
+  }
+]

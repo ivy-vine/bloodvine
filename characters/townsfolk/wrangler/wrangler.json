@@ -1,0 +1,32 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "wrangler v1.0"
+  },
+  {
+    "id": "wrangler",
+    "name": "Wrangler",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/wrangler/wrangler_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/wrangler/wrangler_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Once per game, at night, choose any amount of Outsider characters: if all are in play, they are drunk.",
+    "flavor": "(v1.0)",
+    "firstNight": 3,
+    "firstNightReminder": "The Wrangler might choose any amount of Outsider characters. :reminder: ?:reminder:s",
+    "otherNight": 3,
+    "otherNightReminder": "The Wrangler might choose any amount of Outsider characters. :reminder: ?:reminder:s",
+    "reminders": [
+      "No Ability",
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk"
+    ]
+  }
+]

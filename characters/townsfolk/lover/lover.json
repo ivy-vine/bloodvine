@@ -1,0 +1,31 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "lover v1.0"
+  },
+  {
+    "id": "lover",
+    "name": "Lover",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/lover/lover_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/lover/lover_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "If a player agrees, they are bound to you. You wake when they wake. If you die, they die, & vice versa.",
+    "flavor": "(v1.0)",
+    "reminders": [
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound"
+    ]
+  }
+]

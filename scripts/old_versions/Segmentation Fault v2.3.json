@@ -1,9 +1,30 @@
 [
   {
     "id": "_meta",
-    "author": "ivy (token by Diamondwar)",
-    "name": "none_type v2.4"
+    "author": "ivy",
+    "name": "Segmentation Fault v2.3"
   },
+  "chef",
+  "grandmother",
+  "librarian",
+  "shugenja",
+  "empath",
+  "balloonist",
+  "fortuneteller",
+  "flowergirl",
+  "oracle",
+  "professor",
+  "slayer",
+  "cannibal",
+  "tealady",
+  "drunk",
+  "recluse",
+  "saint",
+  "barber",
+  "poisoner",
+  "devilsadvocate",
+  "cerenovus",
+  "baron",
   {
     "id": "none_type",
     "name": "ERROR",
@@ -13,11 +34,11 @@
     ],
     "team": "demon",
     "edition": "bloodvine",
-    "ability": "You might register as dead. All but 2 live players die. Each night*, choose 2 players: they are regurgitated. Evil only wins if all players (except Travellers) live.",
-    "flavor": "Deeper. Ravenswood's walls stand ten-thousand feet tall. Ravenswood's walls' walls stand ten-thousand feet more. Deeper. This time will be different. Deeper. (v2.4) (Token by Diamondwar)",
+    "ability": "You might register as dead. All but 2 live players start dead. Each night*, choose 2 players: they are regurgitated. Evil only wins if all players (except Travellers) live.",
+    "flavor": "Deeper. Ravenswood's walls stand ten-thousand feet tall. Ravenswood's walls' walls stand ten-thousand feet more. Deeper. This time will be different. Deeper. (v2.3) (Token by Diamondwar)",
     "firstNight": 2,
+    "otherNight": 90,
     "firstNightReminder": "All but 2 live players die. ?:reminder:s",
-    "otherNight": 72,
     "otherNightReminder": "The ERROR chooses 2 players. :reminder: :reminder:",
     "reminders": [
       "Dead",
@@ -137,11 +158,13 @@
       {
         "id": "lycanthrope",
         "reason": "If the ERROR is in play, the Lycanthrope instead chooses two dead players. If both are good, they are regurgitated and the ERROR doesn't wake tonight."
-      },
-      {
-        "id": "saint",
-        "reason": "If the ERROR is in play and the Saint dies to execution, the ERROR's team wins."
       }
     ]
-  }
+  },
+  "thief",
+  "bureaucrat",
+  "barista",
+  "bonecollector",
+  "voudon",
+  "bootlegger"
 ]

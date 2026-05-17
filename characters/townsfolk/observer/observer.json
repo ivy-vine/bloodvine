@@ -1,0 +1,23 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "observer v1.0"
+  },
+  {
+    "id": "observer",
+    "name": "Observer",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/observer/observer_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/observer/observer_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night, choose a player: you learn how many reminder tokens are on them.",
+    "flavor": "(v1.0)",
+    "firstNight": 74,
+    "firstNightReminder": "The Observer chooses a player. Give a finger signal.",
+    "otherNight": 94,
+    "otherNightReminder": "The Observer chooses a player. Give a finger signal."
+  }
+]

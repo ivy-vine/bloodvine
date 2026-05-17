@@ -1,0 +1,23 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "baker v1.0"
+  },
+  {
+    "id": "baker",
+    "name": "Baker",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/baker/baker_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/baker/baker_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night, learn how many steps (+ or - 1 step) an evil player is from you.",
+    "flavor": "(v1.0)",
+    "firstNight": 54,
+    "firstNightReminder": "Give a finger signal.",
+    "otherNight": 75,
+    "otherNightReminder": "Give a finger signal."
+  }
+]

@@ -1,44 +1,8 @@
 [
   {
     "id": "_meta",
-    "author": "Killer Fish &amp; co",
-    "name": "One Way Trip To San Diego v1.5",
-    "firstNight": [
-      "dusk",
-      "apprentice",
-      "bureaucrat",
-      "minioninfo",
-      "demoninfo",
-      "engineer",
-      "poisoner",
-      "godfather",
-      "witch",
-      "pixie",
-      "empath",
-      "grandmother",
-      "knight",
-      "shugenja",
-      "nightwatchman",
-      "chambermaid",
-      "dawn"
-    ],
-    "otherNight": [
-      "dusk",
-      "bureaucrat",
-      "bonecollector",
-      "engineer",
-      "poisoner",
-      "witch",
-      "scarletwoman",
-      "godfather",
-      "san_diegos_nightmare",
-      "grandmother",
-      "empath",
-      "undertaker",
-      "nightwatchman",
-      "chambermaid",
-      "dawn"
-    ]
+    "author": "Killer Fish & co",
+    "name": "One Way Trip To San Diego v1.5"
   },
   "knight",
   "grandmother",

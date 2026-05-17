@@ -1,0 +1,24 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "pickler v1.0"
+  },
+  {
+    "id": "pickler",
+    "name": "Pickler",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/pickler/pickler_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/pickler/pickler_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night*, choose a player: if they are evil, you die.",
+    "flavor": "(v1.0)",
+    "otherNight": 21,
+    "otherNightReminder": "The Pickler chooses a player. :reminder:",
+    "reminders": [
+      "Dead"
+    ]
+  }
+]
