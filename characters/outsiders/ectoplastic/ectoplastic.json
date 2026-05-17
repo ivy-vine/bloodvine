@@ -40,12 +40,12 @@
     "special": [
       {
         "type": "vote",
-        "name": "hidden"
+        "name": "multiplier",
+        "value": 0
       },
       {
         "type": "vote",
-        "name": "multiplier",
-        "value": 0
+        "name": "hidden"
       }
     ]
   }
