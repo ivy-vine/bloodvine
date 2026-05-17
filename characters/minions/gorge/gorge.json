@@ -8,8 +8,8 @@
     "id": "gorge",
     "name": "Gorge",
     "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/minion/gorge/gorge_evil.png",
-      "https://ivy-vine.github.io/bloodvine/characters/minion/gorge/gorge_good.png"
+      "https://ivy-vine.github.io/bloodvine/characters/minions/gorge/gorge_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/minions/gorge/gorge_good.png"
     ],
     "team": "minion",
     "edition": "bloodvine",
