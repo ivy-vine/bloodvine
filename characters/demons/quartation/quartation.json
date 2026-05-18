@@ -1,8 +1,8 @@
 [
   {
     "id": "_meta",
-    "author": "ivy",
-    "name": "quartation v1.0 (token by EBK)"
+    "author": "ivy (token by EBK)",
+    "name": "quartation v1.0"
   },
   {
     "id": "quartation",
@@ -14,7 +14,7 @@
     "team": "demon",
     "edition": "bloodvine",
     "ability": "You think you are a good character, but you are not. Each night*, one of your alive neighbors might die. [Evil characters are Quartations]",
-    "flavor": "(v1.0) (Token by EBK)",
+    "flavor": "(v1.0) (token by EBK)",
     "reminders": [
       "Dead"
     ],
