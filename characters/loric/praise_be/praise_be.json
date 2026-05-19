@@ -2,16 +2,16 @@
   {
     "id": "_meta",
     "author": "The Cult of Rory Vivian",
-    "name": "praise_be v1.0"
+    "name": "praise_be v1.1"
   },
   {
     "id": "praise_be",
     "name": "Praise Be",
     "image": "https://ivy-vine.github.io/bloodvine/characters/loric/praise_be/praise_be_loric.png",
     "team": "loric",
-    "edition": "rv_cult",
+    "edition": "bloodvine",
     "ability": "Something bad might happen to whoever mispronounces the name of a character.",
-    "flavor": "He said, \"Gather your flock, we will scheme 'till the break of the day.\" Praise be, to Rory Vivian! Praise be, to the chaos demon! Praise be, to Rory Vivian and all together, fuck the French! He preached from a tower of stone, \"Trust nobody, not even your own. Every neighbor's a liar. Fan the blaze, feed the fire. Let suspicions sink deep in your bones.\" Praise be, to Rory Vivian! Praise be, to the chaos demon! Praise be, to Rory Vivian and all together, fuck the French! (v1.0)",
+    "flavor": "He said, \"Gather your flock, we will scheme 'till the break of the day.\" Praise be, to Rory Vivian! Praise be, to the chaos demon! Praise be, to Rory Vivian and all together, fuck the French! He preached from a tower of stone, \"Trust nobody, not even your own. Every neighbor's a liar. Fan the blaze, feed the fire. Let suspicions sink deep in your bones.\" Praise be, to Rory Vivian! Praise be, to the chaos demon! Praise be, to Rory Vivian and all together, fuck the French! (v1.1)",
     "reminders": [
       "Something Bad",
       "Something Bad",

@@ -1,0 +1,35 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "soul v1.0"
+  },
+  {
+    "id": "soul",
+    "name": "Soul",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/demons/soul/soul_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/demons/soul/soul_good.png"
+    ],
+    "team": "demon",
+    "edition": "bloodvine",
+    "ability": "Each night*, the possessed chooses what alive player is possessed by the Soul & \"is the Demon\". They are evil until they pass the Soul. [No Minions]",
+    "flavor": "YUCK!! Why is it so slimy?! (v1.0)",
+    "setup": true,
+    "otherNight": 52,
+    "otherNightReminder": "The possessed chooses a player. :reminder: Give a thumbs-up. Put them to sleep. Wake the target. Show the *YOU ARE* & Soul tokens & give a thumbs-down.",
+    "remindersGlobal": [
+      "Is The Demon"
+    ],
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      },
+      {
+        "type": "reveal",
+        "name": "replace-character"
+      }
+    ]
+  }
+]

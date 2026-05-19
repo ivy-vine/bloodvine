@@ -13,7 +13,7 @@
     ],
     "team": "outsider",
     "edition": "bloodvine",
-    "ability": "Abilities act in seat order.",
+    "ability": "Abilities act in seat order, even if dead.",
     "flavor": "(v1.0)"
   }
 ]

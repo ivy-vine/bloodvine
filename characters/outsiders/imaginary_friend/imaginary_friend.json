@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "imaginary_friend v1.1"
+    "name": "imaginary_friend v1.2"
   },
   {
     "id": "imaginary_friend",
@@ -13,8 +13,8 @@
     ],
     "team": "outsider",
     "edition": "bloodvine",
-    "ability": "You don't register as a player.",
-    "flavor": "Do you see it, above you? Reach for it; push your hand into the deep. Feel for it; it is wet and it cuts you and like silver it slivers. Grasp it, no matter how much it shimmers. Cut it like it cut you. (v1.1)",
+    "ability": "You don't register as a player. []",
+    "flavor": "Do you see it, above you? Reach for it; push your hand into the deep. Feel for it; it is wet and it cuts you and like silver it slivers. Grasp it, no matter how much it shimmers. Cut it like it cut you. (v1.2)",
     "reminders": [
       "Doesn't Exist",
       "Doesn't Exist"

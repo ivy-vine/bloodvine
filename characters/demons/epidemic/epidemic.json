@@ -1,0 +1,33 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "epidemic v1.0"
+  },
+  {
+    "id": "epidemic",
+    "name": "Epidemic",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/demons/epidemic/epidemic_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/demons/epidemic/epidemic_good.png"
+    ],
+    "team": "demon",
+    "edition": "bloodvine",
+    "ability": "Evil players \"are the Demon\". Each night, a fresh player chooses a player: they become their alignment. [No Minions. 1 player is evil]",
+    "flavor": "YUCK!! Why am I so slimy?! (v1.0)",
+    "setup": true,
+    "firstNight": 45,
+    "firstNightReminder": "Wake a player that has yet to change alignments due to the Epidemic's ability. They choose a player. :reminder: Put them to sleep. Wake the target. Show the *YOU ARE* & a thumbs up or thumbs down.",
+    "otherNight": 54,
+    "otherNightReminder": "Wake a player that has yet to change alignments due to the Epidemic's ability. They choose a player. :reminder: Put them to sleep. Wake the target. Show the *YOU ARE* & a thumbs up or thumbs down.",
+    "remindersGlobal": [
+      "Dead"
+    ],
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      }
+    ]
+  }
+]

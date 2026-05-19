@@ -35,7 +35,7 @@
     "team": "demon",
     "edition": "bloodvine",
     "ability": "You might register as dead. All but 2 live players die. Each night*, choose 2 players: they are regurgitated. Evil only wins if all players (except Travellers) live.",
-    "flavor": "Deeper. Ravenswood's walls stand ten-thousand feet tall. Ravenswood's walls' walls stand ten-thousand feet more. Deeper. This time will be different. Deeper. (v2.4) (Token by Diamondwar)",
+    "flavor": "Deeper. Ravenswood's walls stand ten-thousand feet tall. Ravenswood's walls' walls stand ten-thousand feet more. Deeper. This time will be different. Deeper. (v2.4) (token by Diamondwar)",
     "firstNight": 2,
     "otherNight": 72,
     "firstNightReminder": "All but 2 live players die. ?:reminder:s",
@@ -74,10 +74,6 @@
       {
         "id": "banshee",
         "reason": "If the ERROR is in play, the Banshee may only nominate once per day and vote once per nomination."
-      },
-      {
-        "id": "pithag",
-        "reason": "If the ERROR is the only Demon on the script, the Pit-Hag may make another ERROR. If so, the original ERROR loses their ability."
       },
       {
         "id": "ravenkeeper",
@@ -161,7 +157,7 @@
       },
       {
         "id": "saint",
-        "reason": "If the ERROR is in play and the Saint dies to execution, the ERROR's team wins."
+        "reason": "If the ERROR is in play and the Saint dies to execution, evil wins."
       }
     ]
   },

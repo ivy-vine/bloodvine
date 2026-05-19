@@ -15,7 +15,7 @@
     "edition": "bloodvine",
     "ability": "Once per game, at night*, choose a dead player: they are regurgitated.",
     "flavor": "(v1.0)",
-    "otherNight": 65,
+    "otherNight": 66,
     "otherNightReminder": "The Gorge might choose a dead player. :reminder: :reminder:",
     "reminders": [
       "Alive",

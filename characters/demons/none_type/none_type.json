@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy (token by Diamondwar)",
-    "name": "none_type v2.4"
+    "name": "none_type v2.5"
   },
   {
     "id": "none_type",
@@ -13,14 +13,14 @@
     ],
     "team": "demon",
     "edition": "bloodvine",
-    "ability": "You might register as dead. All but 2 live players die. Each night*, choose 2 players: they are regurgitated. Evil only wins if all players (except Travellers) live.",
-    "flavor": "Deeper. Ravenswood's walls stand ten-thousand feet tall. Ravenswood's walls' walls stand ten-thousand feet more. Deeper. This time will be different. Deeper. (v2.4) (token by Diamondwar)",
-    "firstNight": 2,
-    "firstNightReminder": "All but 2 live players die. ?:reminder:s",
+    "ability": "You register as dead. All live players die. Each night, choose 2 players: they are regurgitated & 1 is poisoned until dusk. Evil only wins if all players (except Travellers) live.",
+    "flavor": "Deeper. Ravenswood's walls stand ten-thousand feet tall. Ravenswood's walls' walls stand ten-thousand feet more. Deeper. This time will be different. Deeper. (v2.5) (token by Diamondwar)",
+    "firstNight": 25,
+    "firstNightReminder": "All live players die. ?:reminder:s The ERROR chooses 2 players. :reminder: :reminder:",
     "otherNight": 72,
     "otherNightReminder": "The ERROR chooses 2 players. :reminder: :reminder:",
     "reminders": [
-      "Dead",
+      "Poisoned",
       "Dead",
       "Dead",
       "Dead",
@@ -42,6 +42,10 @@
       "Alive"
     ],
     "jinxes": [
+      {
+        "id": "vizier",
+        "reason": "If the ERROR is in play and two or less players are dead, the Vizier loses their ability."
+      },
       {
         "id": "grandmother",
         "reason": "If the ERROR regurgitates the Grandchild, the Grandmother is regurgitated too."
@@ -67,24 +71,12 @@
         "reason": "A Farmer killed by the ERROR doesn't use their ability. A Farmer chosen by the ERROR uses their ability but does not die."
       },
       {
-        "id": "king",
-        "reason": "The ERROR knows who the King is."
-      },
-      {
         "id": "choirboy",
         "reason": "If the ERROR regurgitates the King, the Choirboy learns the ERROR is one of two players."
       },
       {
         "id": "goon",
         "reason": "If the ERROR is in play, the Goon has their ability even if dead."
-      },
-      {
-        "id": "godfather",
-        "reason": "If the ERROR is in play, the player chosen by the Godfather is regurgitated instead."
-      },
-      {
-        "id": "assassin",
-        "reason": "If the ERROR is in play, the player chosen by the Assassin is regurgitated instead, even if for some reason they could not be."
       },
       {
         "id": "exorcist",
@@ -100,7 +92,7 @@
       },
       {
         "id": "lunatic",
-        "reason": "If the ERROR is in play, the first time the Lunatic dies, they live but register as dead."
+        "reason": "If the ERROR is in play, the Lunatic has their ability even if dead."
       },
       {
         "id": "snakecharmer",
@@ -109,14 +101,6 @@
       {
         "id": "summoner",
         "reason": "If an ERROR is summoned, the ERROR kills all but five players instead. If the Summoner summons a dead player into the ERROR, the ERROR has already \"died once\"."
-      },
-      {
-        "id": "psychopath",
-        "reason": "If the ERROR is in play, the player chosen by the Psychopath is regurgitated instead."
-      },
-      {
-        "id": "snitch",
-        "reason": "If the ERROR is in play, the Snitch has their ability even if dead."
       },
       {
         "id": "princess",
@@ -136,7 +120,7 @@
       },
       {
         "id": "saint",
-        "reason": "If the ERROR is in play and the Saint dies to execution, the ERROR's team wins."
+        "reason": "If the ERROR is in play and the Saint dies to execution, evil wins."
       }
     ]
   }
