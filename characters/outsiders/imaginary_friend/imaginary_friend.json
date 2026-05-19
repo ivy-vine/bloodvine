@@ -13,8 +13,9 @@
     ],
     "team": "outsider",
     "edition": "bloodvine",
-    "ability": "You don't register as a player. []",
+    "ability": "You don't register as a player. [You want to be the Imaginary Friend the most]",
     "flavor": "Do you see it, above you? Reach for it; push your hand into the deep. Feel for it; it is wet and it cuts you and like silver it slivers. Grasp it, no matter how much it shimmers. Cut it like it cut you. (v1.2)",
+    "setup": true,
     "reminders": [
       "Doesn't Exist",
       "Doesn't Exist"
@@ -24,6 +25,10 @@
         "type": "vote",
         "name": "multiplier",
         "value": 0
+      },
+      {
+        "type": "selection",
+        "name": "bag-disabled"
       }
     ]
   }

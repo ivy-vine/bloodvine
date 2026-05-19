@@ -11,8 +11,8 @@
     "id": "continue",
     "name": "23:59:59.001",
     "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/minions/continue/continue_evil.png",
-      "https://ivy-vine.github.io/bloodvine/characters/minions/continue/continue_good.png"
+      "https://ivy-vine.github.io/bloodvine/character_graveyard/continue/continue_evil.png",
+      "https://ivy-vine.github.io/bloodvine/character_graveyard/continue/continue_good.png"
     ],
     "team": "minion",
     "edition": "bloodvine",
