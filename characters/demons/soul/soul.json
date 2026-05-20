@@ -13,13 +13,14 @@
     ],
     "team": "demon",
     "edition": "bloodvine",
-    "ability": "Each night*, the possessed chooses what alive player is possessed by the Soul & \"is the Demon\". They are evil until they pass the Soul. [No Minions]",
+    "ability": "Each night*, the Soul may choose what alive player holds the Soul & \"is the Demon\". The Soul is evil until the player they chose chooses a player. [No Minions]",
     "flavor": "YUCK!! Why is it so slimy?! (v1.0)",
     "setup": true,
     "otherNight": 52,
-    "otherNightReminder": "The possessed chooses a player. :reminder: Give a thumbs-up. Put them to sleep. Wake the target. Show the *YOU ARE* & Soul tokens & give a thumbs-down.",
+    "otherNightReminder": "Give the player marked *HEALING* a thumbs-up. The Soul chooses a player. :reminder: :reminder: Put them to sleep. Wake the target. Show the *YOU ARE* & Soul tokens & give a thumbs-down.",
     "remindersGlobal": [
-      "Is The Demon"
+      "Is The Demon",
+      "Healing"
     ],
     "special": [
       {

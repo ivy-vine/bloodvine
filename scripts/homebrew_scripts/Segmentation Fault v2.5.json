@@ -1,9 +1,96 @@
 [
   {
     "id": "_meta",
-    "author": "ivy (token by Diamondwar)",
-    "name": "none_type v2.5"
+    "author": "ivy",
+    "name": "Segmentation Fault v2.5",
+    "firstNight": [
+      "dusk",
+      "barista",
+      "bureaucrat",
+      "thief",
+      "minioninfo",
+      "lunatic",
+      "demoninfo",
+      "none_type",
+      "sailor",
+      "poisoner",
+      "godfather",
+      "devilsadvocate",
+      "damsel",
+      "librarian",
+      "chef",
+      "empath",
+      "fortuneteller",
+      "grandmother",
+      "balloonist",
+      "shugenja",
+      "ogre",
+      "dawn",
+      "vizier"
+    ],
+    "otherNight": [
+      "dusk",
+      "bureaucrat",
+      "thief",
+      "bonecollector",
+      "sailor",
+      "poisoner",
+      "devilsadvocate",
+      "lunatic",
+      "godfather",
+      "barista",
+      "professor",
+      "gorge",
+      "damsel",
+      "none_type",
+      "grandmother",
+      "empath",
+      "fortuneteller",
+      "oracle",
+      "balloonist",
+      "dawn"
+    ]
   },
+  "chef",
+  "grandmother",
+  "librarian",
+  "shugenja",
+  "empath",
+  "sailor",
+  "balloonist",
+  "fortuneteller",
+  "oracle",
+  "professor",
+  "slayer",
+  "cannibal",
+  "tealady",
+  "ogre",
+  "lunatic",
+  "drunk",
+  "damsel",
+  "godfather",
+  "poisoner",
+  "devilsadvocate",
+  {
+    "id": "gorge",
+    "name": "Gorge",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/minions/gorge/gorge_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/minions/gorge/gorge_good.png"
+    ],
+    "team": "minion",
+    "edition": "bloodvine",
+    "ability": "Once per game, at night*, choose a dead player: they are regurgitated.",
+    "flavor": "(v1.0)",
+    "firstNight": 0,
+    "otherNight": 66,
+    "otherNightReminder": "The Gorge might choose a dead player. :reminder: :reminder:",
+    "reminders": [
+      "Alive",
+      "No Ability"
+    ]
+  },
+  "vizier",
   {
     "id": "none_type",
     "name": "ERROR",
@@ -16,8 +103,8 @@
     "ability": "You register as dead. All live players die. Each night, choose 2 players: they are regurgitated & 1 is poisoned until dusk. Evil only wins if all players (except Travellers) live.",
     "flavor": "Deeper. Ravenswood's walls stand ten-thousand feet tall. Ravenswood's walls' walls stand ten-thousand feet more. Deeper. This time will be different. Deeper. (v2.5) (token by Diamondwar)",
     "firstNight": 25,
-    "firstNightReminder": "All live players die. ?:reminder:s The ERROR chooses 2 players. :reminder: :reminder: :reminder:",
     "otherNight": 72,
+    "firstNightReminder": "All live players die. ?:reminder:s The ERROR chooses 2 players. :reminder: :reminder: :reminder:",
     "otherNightReminder": "The ERROR chooses 2 players. :reminder: :reminder: :reminder:",
     "reminders": [
       "Dead",
@@ -123,5 +210,11 @@
         "reason": "If the ERROR is in play and the Saint dies to execution, evil wins."
       }
     ]
-  }
+  },
+  "thief",
+  "bureaucrat",
+  "barista",
+  "bonecollector",
+  "voudon",
+  "bootlegger"
 ]
