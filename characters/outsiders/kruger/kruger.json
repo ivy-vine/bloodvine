@@ -1,0 +1,19 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "kruger v1.0"
+  },
+  {
+    "id": "kruger",
+    "name": "Kruger",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/kruger/kruger_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/kruger/kruger_evil.png"
+    ],
+    "team": "outsider",
+    "edition": "bloodvine",
+    "ability": "All Townsfolk abilities yield false info.",
+    "flavor": "make the flavor text a reference to reverse transmission (v1.0)"
+  }
+]

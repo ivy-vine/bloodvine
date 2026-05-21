@@ -34,8 +34,8 @@
       "keeper",
       "cylcast",
       "trojan",
-      "san_diegos_nightmare",
       "taxidermist",
+      "gorge",
       "dawn"
     ]
   },
@@ -392,6 +392,25 @@
     "otherNight": 0
   },
   {
+    "id": "gorge",
+    "name": "Gorge",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/minions/gorge/gorge_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/minions/gorge/gorge_good.png"
+    ],
+    "team": "minion",
+    "edition": "bloodvine",
+    "ability": "Once per game, at night*, choose a dead player: they are regurgitated.",
+    "flavor": "(v1.0)",
+    "firstNight": 0,
+    "otherNight": 66,
+    "otherNightReminder": "The Gorge might choose a dead player. :reminder: :reminder:",
+    "reminders": [
+      "Alive",
+      "No Ability"
+    ]
+  },
+  {
     "id": "cylcast",
     "name": "Cyclast",
     "image": [
@@ -458,29 +477,50 @@
     ]
   },
   {
-    "id": "bait",
-    "name": "Bait",
+    "id": "ectoplastic",
+    "name": "Ectoplastic",
     "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/minions/bait/bait_evil.png",
-      "https://ivy-vine.github.io/bloodvine/characters/minions/bait/bait_good.png"
+      "https://ivy-vine.github.io/bloodvine/character_graveyard/ectoplastic/ectoplastic_evil.png",
+      "https://ivy-vine.github.io/bloodvine/character_graveyard/ectoplastic/ectoplastic_good.png"
     ],
     "team": "minion",
     "edition": "bloodvine",
-    "ability": "When nominated, if the nominator is good, they are poisoned.",
-    "flavor": "Beware of the riverside! I hear of a great fish that lurks among the bank; they say it comes from the back of the moon. Its scales shiver with fever and its air is moonlight. (v1.1)",
+    "ability": "All players register as alive, keep their eyes closed when voting, & the vote tally is secret.",
+    "flavor": "flavor text something like the ectoplastic shimmered last night or whatever (v2.0)",
     "firstNight": 0,
     "otherNight": 0,
     "reminders": [
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned"
+      "About To Die",
+      "Ghosting",
+      "Ghosting",
+      "Ghosting",
+      "Ghosting",
+      "Ghosting",
+      "Ghosting",
+      "Ghosting",
+      "Ghosting",
+      "Ghosting",
+      "Ghosting",
+      "Ghosting",
+      "Ghosting",
+      "Ghosting",
+      "Ghosting",
+      "Ghosting",
+      "Ghosting",
+      "Ghosting",
+      "Ghosting",
+      "Ghosting"
+    ],
+    "special": [
+      {
+        "type": "vote",
+        "name": "multiplier",
+        "value": 0
+      },
+      {
+        "type": "vote",
+        "name": "hidden"
+      }
     ]
   },
   {
@@ -525,25 +565,6 @@
         "id": "pithag",
         "reason": "The Pit-Hag can't create a Shef."
       }
-    ]
-  },
-  {
-    "id": "san_diegos_nightmare",
-    "name": "Killer Fish",
-    "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/demons/san_diegos_nightmare/san_diegos_nightmare_evil.png",
-      "https://ivy-vine.github.io/bloodvine/characters/demons/san_diegos_nightmare/san_diegos_nightmare_good.png"
-    ],
-    "team": "demon",
-    "edition": "bloodvine",
-    "ability": "Each night*, choose a player: they die. You have the ability of your recently killed player.",
-    "flavor": "\"Killer fish. Killer fish from San Diego. I don't know what I am, but I taste really good. I make killer fish. Hello. I'll be your killer fish for the evening. Thank you.\" (v1.1)",
-    "firstNight": 0,
-    "otherNight": 57,
-    "otherNightReminder": "The Killer Fish chooses a player. :reminder: :reminder:",
-    "reminders": [
-      "Dead",
-      "Tastes Really Good"
     ]
   },
   {

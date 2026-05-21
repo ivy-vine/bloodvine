@@ -1,0 +1,23 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "glassblower v1.0"
+  },
+  {
+    "id": "glassblower",
+    "name": "Glassblower",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/glassblower/glassblower_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/glassblower/glassblower_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night, learn the length of a line of players of the same alignment.",
+    "flavor": "(v1.0)",
+    "firstNight": 56,
+    "firstNightReminder": "Give a finger signal.",
+    "otherNight": 78,
+    "otherNightReminder": "Give a finger signal."
+  }
+]

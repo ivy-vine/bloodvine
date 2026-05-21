@@ -13,8 +13,9 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "Each night*, choose to register as dead until dusk.",
+    "ability": "Each night*, choose to register as dead until dusk. [Might be a Minion]",
     "flavor": "icon is a cut, loose, string (v1.1)",
+    "setup": true,
     "otherNight": 55,
     "otherNightReminder": "The Loose either nods or shakes their head. :reminder:",
     "reminders": [

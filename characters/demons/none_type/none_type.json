@@ -43,6 +43,10 @@
     ],
     "jinxes": [
       {
+        "id": "loose",
+        "reason": "If the ERROR is in play, the Loose starts \"hidden\"."
+      },
+      {
         "id": "vizier",
         "reason": "If the ERROR is in play and two or less players are dead, the Vizier loses their ability."
       },
@@ -100,7 +104,7 @@
       },
       {
         "id": "summoner",
-        "reason": "If an ERROR is summoned, the ERROR kills all but five players instead. If the Summoner summons a dead player into the ERROR, the ERROR has already \"died once\"."
+        "reason": "If an ERROR is summoned, the ERROR kills all but five players instead. The Summoner can summon a dead player into the ERROR."
       },
       {
         "id": "princess",

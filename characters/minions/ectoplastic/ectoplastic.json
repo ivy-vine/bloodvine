@@ -8,8 +8,8 @@
     "id": "ectoplastic",
     "name": "Ectoplastic",
     "image": [
-      "https://ivy-vine.github.io/bloodvine/character_graveyard/ectoplastic/ectoplastic_evil.png",
-      "https://ivy-vine.github.io/bloodvine/character_graveyard/ectoplastic/ectoplastic_good.png"
+      "https://ivy-vine.github.io/bloodvine/characters/minions/ectoplastic/ectoplastic_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/minions/ectoplastic/ectoplastic_good.png"
     ],
     "team": "minion",
     "edition": "bloodvine",

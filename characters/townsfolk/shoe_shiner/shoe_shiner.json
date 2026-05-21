@@ -1,0 +1,26 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "shoe_shiner v1.0"
+  },
+  {
+    "id": "shoe_shiner",
+    "name": "Shoe Shiner",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/shoe_shiner/shoe_shiner_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/shoe_shiner/shoe_shiner_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Once per game, at night, choose a player: if good, swap characters with them.",
+    "flavor": "(v1.0)",
+    "firstNight": 13,
+    "firstNightReminder": "The Shoe Shiner might choose a player. If necessary, show the *YOU ARE* token & their new character token & wake the chosen player & do the same. :reminder:",
+    "otherNight": 11,
+    "otherNightReminder": "The Shoe Shiner might choose a player. If necessary, show the *YOU ARE* token & their new character token & wake the chosen player & do the same. :reminder:",
+    "reminders": [
+      "No Ability"
+    ]
+  }
+]
