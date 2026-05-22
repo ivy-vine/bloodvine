@@ -7,9 +7,7 @@
   {
     "id": "grim_reaper",
     "name": "Grim Reaper",
-    "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/loric/grim_reaper/grim_reaper_loric.png"
-    ],
+    "image": "https://ivy-vine.github.io/bloodvine/characters/loric/grim_reaper/grim_reaper_loric.png",
     "team": "loric",
     "edition": "rv_cult",
     "ability": "The 1st time you die at night (not to the Grim Reaper), you may choose an alive player to die instead. The Demon, if chosen, doesn't die.",
