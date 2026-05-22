@@ -1,0 +1,34 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy (token by EBK)",
+    "name": "moonlit v1.0"
+  },
+  {
+    "id": "moonlit",
+    "name": "Moonlit",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/demons/moonlit/moonlit_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/demons/moonlit/moonlit_good.png"
+    ],
+    "team": "demon",
+    "edition": "bloodvine",
+    "ability": "You think you are a good character, but you are not. Each night*, one of your alive neighbors might die. [Evil characters are Moonlit]",
+    "flavor": "(v1.0) (token by EBK)",
+    "setup": true,
+    "remindersGlobal": [
+      "Is A Moonlit",
+      "Dead"
+    ],
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      },
+      {
+        "type": "reveal",
+        "name": "replace-character"
+      }
+    ]
+  }
+]

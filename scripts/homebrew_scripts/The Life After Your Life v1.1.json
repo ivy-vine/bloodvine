@@ -17,10 +17,11 @@
     ],
     "otherNight": [
       "dusk",
+      "bonecollector",
       "sailor",
       "poisoner",
+      "innkeeper",
       "pickler",
-      "acrobat",
       "devilsadvocate",
       "zombuul",
       "pukka",
@@ -106,7 +107,7 @@
     ],
     "setup": true
   },
-  "acrobat",
+  "innkeeper",
   {
     "id": "naturalist",
     "name": "Naturalist",
@@ -195,15 +196,15 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "1 good player has your crab. If you guess (once) who it is, you can no longer die. If just 3 players live, you lose this ability.",
-    "flavor": "(v1.1)",
+    "ability": "1 player has your crab. If you guess (once) who it is, you can't die.",
+    "flavor": "(v1.2)",
     "firstNight": 41,
     "otherNight": 0,
     "firstNightReminder": "Wake the player with the Has Crab reminder. Show the *THIS CHARACTER SELECTED YOU* token then the Lethargic token.",
     "reminders": [
+      "Has Crab",
       "Guess Used",
-      "Safe",
-      "Has Crab"
+      "Safe"
     ]
   },
   "goon",
@@ -217,8 +218,8 @@
     ],
     "team": "outsider",
     "edition": "bloodvine",
-    "ability": "If you are drunk or poisoned, your good neighbors die.",
-    "flavor": "(v1.0)",
+    "ability": "If it isn't the 1st night & you are drunk or poisoned, your good neighbors die.",
+    "flavor": "(v1.1)",
     "firstNight": 0,
     "otherNight": 0
   },
@@ -231,13 +232,11 @@
     ],
     "team": "outsider",
     "edition": "bloodvine",
-    "ability": "If you are dead when a Minion dies, they live but register as dead.",
+    "ability": "The 1st time a Minion dies, they live but register as dead. If executed, you don't die.",
     "flavor": "(v1.1)",
     "firstNight": 0,
     "otherNight": 0,
     "reminders": [
-      "Has Ability",
-      "Has Ability",
       "Has Ability"
     ]
   },
@@ -302,8 +301,8 @@
     ],
     "team": "demon",
     "edition": "bloodvine",
-    "ability": "Each night*, choose a player: they die. If all Townsfolk are dead, evil wins. [+2 Outsiders]",
-    "flavor": "(v1.0) (token by Diamondwar)",
+    "ability": "Each night*, choose a player: they die. If no Outsiders & Minions live, evil wins. [+2 Outsiders]",
+    "flavor": "F7a99ed: [t]he mac41na[t]10n. M3china[t]i0n. Si9h[t]s abound. |&gt;rif[t] [t]h20ugh [t]he soun|&gt;. R#212t [t]emp[t]a[t]10n. D##per. (v1.1) (token by Diamondwar)",
     "firstNight": 0,
     "otherNight": 43,
     "otherNightReminder": "The Seed chooses a player. :reminder:",
@@ -314,6 +313,8 @@
   },
   "shabaloth",
   "zombuul",
+  "bonecollector",
+  "judge",
   {
     "id": "dummy",
     "name": "Dummy",
@@ -329,5 +330,7 @@
     "firstNight": 0,
     "otherNight": 0
   },
+  "gnome",
+  "voudon",
   "bootlegger"
 ]
