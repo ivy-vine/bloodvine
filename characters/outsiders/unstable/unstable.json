@@ -1,0 +1,29 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "unstable v1.0"
+  },
+  {
+    "id": "unstable",
+    "name": "Unstable",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/unstable/unstable_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/unstable/unstable_evil.png"
+    ],
+    "team": "outsider",
+    "edition": "bloodvine",
+    "ability": "You think you are the Kazali, but you are not. The Kazali knows who you are & who you choose at night. [+the Kazali. You choose which players think they are which Minions, but are not]",
+    "flavor": "F7a99ed: [t]he mac41na[t]10n. M3china[t]i0n. Si9h[t]s abound. |>rif[t] [t]h20ugh [t]he soun|>. R#212t [t]emp[t]a[t]10n. D##per. (v1.0)",
+    "firstNight": 21,
+    "firstNightReminder": "Show the Unstable the *THESE CHARACTERS ARE NOT IN PLAY* token. Show 3 good character tokens. The Unstable chooses which players think they are which Minions. Put the Unstable to sleep. Wake each target. Show the *YOU ARE* and Minion tokens & give a thumbs-down. Wake the Kazali. Show the *YOU ARE* info token and the Kazali token. Show the *THIS PLAYER IS* info token and the Unstable token, then point to the Unstable. Point to the players the Unstable chose.",
+    "otherNight": 34,
+    "otherNightReminder": "The Unstable chooses a player. Put the Unstable to sleep. Wake the Kazali. Show the Unstable token & point to them, then their target.",
+    "reminders": [
+      "Convinced",
+      "Convinced",
+      "Convinced",
+      "Chosen"
+    ]
+  }
+]

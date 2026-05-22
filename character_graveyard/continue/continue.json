@@ -17,7 +17,7 @@
     "team": "minion",
     "edition": "bloodvine",
     "ability": "Once per game, if more than 3 players live, at night*, choose to \"jump\" 1 day ahead.",
-    "flavor": "The life after your life is another life. The ghosts of your loved ones are ghosts in name alone. Here, there is no start and there is no end. I am tired, I want an end, I want this time to be different. (v1.0)",
+    "flavor": "(v1.0)",
     "otherNight": 50,
     "otherNightReminder": "The 23:59:59.001 might use their ability. :reminder:",
     "reminders": [

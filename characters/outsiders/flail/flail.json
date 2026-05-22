@@ -1,0 +1,19 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "flail v1.0"
+  },
+  {
+    "id": "flail",
+    "name": "Flail",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/flail/flail_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/flail/flail_evil.png"
+    ],
+    "team": "outsider",
+    "edition": "bloodvine",
+    "ability": "If you are drunk or poisoned, your good neighbors die.",
+    "flavor": "(v1.0)"
+  }
+]

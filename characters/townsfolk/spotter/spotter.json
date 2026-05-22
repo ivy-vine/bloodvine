@@ -15,7 +15,7 @@
     "edition": "bloodvine",
     "ability": "You start knowing who has the Lethargic's crab. [+the Lethargic]",
     "flavor": "(v1.1)",
-    "firstNight": 42,
+    "firstNight": 58,
     "firstNightReminder": "Point to the player with the Has Crab reminder.",
     "setup": true
   }

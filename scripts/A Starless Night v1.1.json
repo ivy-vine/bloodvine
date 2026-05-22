@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "A Restless Night v1.1",
+    "name": "A Starless Night v1.1",
     "bootlegger": [
       "More than 1 player might get a Yaggababble phrase."
     ]
@@ -11,9 +11,9 @@
   "alsaahir",
   "artist",
   "slayer",
+  "soldier",
   "alchemist",
   "cannibal",
-  "minstrel",
   "tealady",
   "mayor",
   "fool",
@@ -31,11 +31,11 @@
   "yaggababble",
   "legion",
   "leviathan",
+  "matron",
   "judge",
   "deviant",
   "scapegoat",
   "gnome",
-  "voudon",
   "tor",
   "bootlegger"
 ]

@@ -14,7 +14,7 @@
     "team": "townsfolk",
     "edition": "bloodvine",
     "ability": "Each night*, choose a dead player: learn how they died.",
-    "flavor": "make the icon something that brings to mind the book speaker for the dead (v1.1)",
+    "flavor": "(v1.1)",
     "otherNight": 72,
     "otherNightReminder": "The Speaker points to a dead player. Show the player's death reminder."
   }
