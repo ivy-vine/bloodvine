@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "crimson_sister v1.0"
+    "name": "crimson_sister v1.1"
   },
   {
     "id": "crimson_sister",
@@ -13,10 +13,9 @@
     ],
     "team": "outsider",
     "edition": "bloodvine",
-    "ability": "The 1st time a Minion dies, they live but register as dead.",
-    "flavor": "(v1.0)",
+    "ability": "The 1st time a Minion dies, they live but register as dead. If executed, you don't die.",
+    "flavor": "(v1.1)",
     "reminders": [
-      "No Ability",
       "Has Ability"
     ]
   }

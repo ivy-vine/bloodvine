@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "flail v1.0"
+    "name": "flail v1.1"
   },
   {
     "id": "flail",
@@ -13,7 +13,7 @@
     ],
     "team": "outsider",
     "edition": "bloodvine",
-    "ability": "If you are drunk or poisoned, your good neighbors die.",
-    "flavor": "(v1.0)"
+    "ability": "If it isn't the 1st night & you are drunk or poisoned, your good neighbors die.",
+    "flavor": "(v1.1)"
   }
 ]

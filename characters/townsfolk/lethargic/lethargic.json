@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "lethargic v1.1"
+    "name": "lethargic v1.2"
   },
   {
     "id": "lethargic",
@@ -13,14 +13,14 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "1 good player has your crab. If you guess (once) who it is, you can no longer die. If just 3 players live, you lose this ability.",
-    "flavor": "(v1.1)",
+    "ability": "1 player has your crab. If you guess (once) who it is, you can't die.",
+    "flavor": "(v1.2)",
     "firstNight": 41,
     "firstNightReminder": "Wake the player with the Has Crab reminder. Show the *THIS CHARACTER SELECTED YOU* token then the Lethargic token.",
     "reminders": [
+      "Has Crab",
       "Guess Used",
-      "Safe",
-      "Has Crab"
+      "Safe"
     ]
   }
 ]

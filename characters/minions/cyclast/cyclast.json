@@ -14,7 +14,7 @@
     "team": "minion",
     "edition": "bloodvine",
     "ability": "Once per game, at night*, choose X players: they might die. If your team wins in the next X-1 days, your team loses, even if you are dead.",
-    "flavor": "icon should be a shattered prism (v1.2)",
+    "flavor": "(v1.2)",
     "otherNight": 51,
     "otherNightReminder": "The Cyclast might choose X players. :reminder: X-1:reminder:s",
     "reminders": [
