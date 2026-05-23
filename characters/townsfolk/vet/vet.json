@@ -1,0 +1,24 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "vet v1.0"
+  },
+  {
+    "id": "vet",
+    "name": "Vet",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/vet/vet_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/vet/vet_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Once per game, at night*, choose a player: if they are of opposing alignment, they become a Vet.",
+    "flavor": "This is mechanically impossible! It-it's a scientific breakthrough! How could something so small and feeble scale such a great height? (v1.0)",
+    "otherNight": 14,
+    "otherNightReminder": "The Vet might choose a player. If they chose an opposing player, replace the target's token with a Vet token. Put the Vet to sleep. Wake the target. Show the *YOU ARE* and Vet tokens. :reminder:",
+    "reminders": [
+      "No Ability"
+    ]
+  }
+]

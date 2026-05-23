@@ -1,9 +1,49 @@
 [
   {
     "id": "_meta",
-    "author": "ivy (token by Diamondwar)",
-    "name": "none_type v2.6"
+    "author": "ivy",
+    "name": "Segmentation Fault v2.5"
   },
+  "chef",
+  "grandmother",
+  "librarian",
+  "shugenja",
+  "empath",
+  "sailor",
+  "balloonist",
+  "fortuneteller",
+  "oracle",
+  "professor",
+  "slayer",
+  "cannibal",
+  "tealady",
+  "ogre",
+  "lunatic",
+  "drunk",
+  "damsel",
+  "poisoner",
+  "devilsadvocate",
+  "psychopath",
+  {
+    "id": "gorge",
+    "name": "Gorge",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/minions/gorge/gorge_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/minions/gorge/gorge_good.png"
+    ],
+    "team": "minion",
+    "edition": "bloodvine",
+    "ability": "Once per game, at night*, choose a dead player: they are regurgitated.",
+    "flavor": "(v1.0)",
+    "firstNight": 0,
+    "otherNight": 66,
+    "otherNightReminder": "The Gorge might choose a dead player. :reminder: :reminder:",
+    "reminders": [
+      "Alive",
+      "No Ability"
+    ]
+  },
+  "vizier",
   {
     "id": "none_type",
     "name": "ERROR",
@@ -13,11 +53,11 @@
     ],
     "team": "demon",
     "edition": "bloodvine",
-    "ability": "You register as dead. All alive players die. Each night, choose 3 players: they are regurgitated & 1 is poisoned until dusk. Evil only wins if all players (except Travellers) live.",
-    "flavor": "Deeper. Ravenswood's walls stand ten-thousand feet tall. Ravenswood's walls' walls stand ten-thousand feet more. Deeper. This time will be different. Deeper. (v2.6) (token by Diamondwar)",
+    "ability": "You register as dead. All live players die. Each night, choose 2 players: they are regurgitated & 1 is poisoned until dusk. Evil only wins if all players (except Travellers) live.",
+    "flavor": "Deeper. Ravenswood's walls stand ten-thousand feet tall. Ravenswood's walls' walls stand ten-thousand feet more. Deeper. This time will be different. Deeper. (v2.5) (token by Diamondwar)",
     "firstNight": 26,
-    "firstNightReminder": "All live players die. ?:reminder:s The ERROR chooses 2 players. :reminder: :reminder: :reminder:",
     "otherNight": 72,
+    "firstNightReminder": "All live players die. ?:reminder:s The ERROR chooses 2 players. :reminder: :reminder: :reminder:",
     "otherNightReminder": "The ERROR chooses 2 players. :reminder: :reminder: :reminder:",
     "reminders": [
       "Dead",
@@ -36,7 +76,7 @@
       "Dead",
       "Dead",
       "Dead",
-      "Alive",
+      "Dead",
       "Alive",
       "Alive",
       "Poisoned"
@@ -57,6 +97,22 @@
       {
         "id": "monk",
         "reason": "If the Monk is chosen by the ERROR, the Monk is poisoned until dawn."
+      },
+      {
+        "id": "banshee",
+        "reason": "If the ERROR is in play, the Banshee may only nominate once per day and vote once per nomination."
+      },
+      {
+        "id": "ravenkeeper",
+        "reason": "A Ravenkeeper killed by the ERROR doesn't use their ability. A Ravenkeeper chosen by the ERROR uses their ability but does not die."
+      },
+      {
+        "id": "sage",
+        "reason": "A Sage killed by the ERROR doesn't use their ability. A Sage chosen by the ERROR uses their ability but does not die."
+      },
+      {
+        "id": "farmer",
+        "reason": "A Farmer killed by the ERROR doesn't use their ability. A Farmer chosen by the ERROR uses their ability but does not die."
       },
       {
         "id": "choirboy",
@@ -111,5 +167,11 @@
         "reason": "If the ERROR is in play and the Saint dies to execution, evil wins."
       }
     ]
-  }
+  },
+  "thief",
+  "bureaucrat",
+  "barista",
+  "bonecollector",
+  "voudon",
+  "bootlegger"
 ]

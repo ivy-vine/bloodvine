@@ -14,7 +14,7 @@
     "team": "townsfolk",
     "edition": "bloodvine",
     "ability": "Each night*, choose a player: if they are evil, you die.",
-    "flavor": "(v1.0)",
+    "flavor": "Leave anything in vinegar for long enough and its true potential will always be brung out. Things never had to be this way. (v1.0)",
     "otherNight": 21,
     "otherNightReminder": "The Pickler chooses a player. :reminder:",
     "reminders": [

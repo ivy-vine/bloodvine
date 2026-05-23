@@ -237,7 +237,7 @@
     "team": "minion",
     "edition": "bloodvine",
     "ability": "Once per game, at night*, choose X players: they might die. If your team wins in the next X-1 days, your team loses, even if you are dead.",
-    "flavor": "Over and over you show her how to fall to the floor to crawl, showing what is yours to all, doing what no one has the gall to call no version of love and no version of life, that which we lead and that which we fight, which is always quite a sight on this starless night of ours, looking up from the surface of Mars, going as far as the eye can see, far beyond this big, huge, sea of tar on the surface of Mars. (v1.2)",
+    "flavor": "(v1.2)",
     "firstNight": 0,
     "otherNight": 51,
     "otherNightReminder": "The Cyclast might choose X players. :reminder: X-1:reminder:s",
@@ -292,7 +292,7 @@
     "team": "traveller",
     "edition": "bloodvine",
     "ability": "When you learn a player died, you may choose to die instead.",
-    "flavor": "A dummy?! This is what peak male performance looks like! (v1.0)",
+    "flavor": "(v1.0)",
     "firstNight": 0,
     "otherNight": 0
   },

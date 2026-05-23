@@ -14,7 +14,7 @@
     "team": "townsfolk",
     "edition": "bloodvine",
     "ability": "Each night*, choose a dead player: learn how they died.",
-    "flavor": "(v1.1)",
+    "flavor": "I am that who speaks for the burried, preaching of their woes and failures to the breathing. I am that who speaks for the breathing, preaching of their desperation and laughter to the burried. (v1.1)",
     "otherNight": 72,
     "otherNightReminder": "The Speaker points to a dead player. Show the player's death reminder."
   }

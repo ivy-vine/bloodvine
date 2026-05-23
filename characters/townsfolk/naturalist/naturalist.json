@@ -14,7 +14,7 @@
     "team": "townsfolk",
     "edition": "bloodvine",
     "ability": "Each night*, if no-one died today, learn a player's character & how many steps they are from you.",
-    "flavor": "(v1.1)",
+    "flavor": "The leaves cry over their lanterns' golden glow. The lanterns sit on their stools, watching over the brickwork. Life is as it should be. (v1.1)",
     "otherNight": 89,
     "otherNightReminder": "If no one died today, show a player's character token & give a finger signal.",
     "reminders": [

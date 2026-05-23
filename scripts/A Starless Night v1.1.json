@@ -4,7 +4,8 @@
     "author": "ivy",
     "name": "A Starless Night v1.1",
     "bootlegger": [
-      "More than 1 player might get a Yaggababble phrase."
+      "More than 1 player might get a Yaggababble phrase.",
+      "The Amnesiac can't wake at night."
     ]
   },
   "gossip",
@@ -14,12 +15,12 @@
   "soldier",
   "alchemist",
   "cannibal",
+  "amnesiac",
   "tealady",
   "mayor",
   "fool",
   "virgin",
   "pacifist",
-  "atheist",
   "drunk",
   "tinker",
   "mutant",

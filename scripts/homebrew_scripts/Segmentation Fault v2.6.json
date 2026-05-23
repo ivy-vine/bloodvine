@@ -2,21 +2,19 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "Segmentation Fault v2.5",
+    "name": "Segmentation Fault v2.6",
     "firstNight": [
       "dusk",
       "barista",
       "bureaucrat",
       "thief",
       "minioninfo",
-      "lunatic",
       "demoninfo",
       "none_type",
       "sailor",
       "poisoner",
       "devilsadvocate",
       "damsel",
-      "librarian",
       "chef",
       "empath",
       "fortuneteller",
@@ -29,21 +27,22 @@
     ],
     "otherNight": [
       "dusk",
+      "barista",
       "bureaucrat",
       "thief",
       "bonecollector",
       "sailor",
       "poisoner",
       "devilsadvocate",
-      "lunatic",
-      "barista",
       "professor",
       "gorge",
       "damsel",
       "none_type",
       "grandmother",
+      "ravenkeeper",
       "empath",
       "fortuneteller",
+      "towncrier",
       "oracle",
       "balloonist",
       "dawn"
@@ -51,24 +50,23 @@
   },
   "chef",
   "grandmother",
-  "librarian",
   "shugenja",
   "empath",
   "sailor",
   "balloonist",
   "fortuneteller",
+  "towncrier",
   "oracle",
   "professor",
   "slayer",
   "cannibal",
-  "tealady",
+  "ravenkeeper",
   "ogre",
-  "lunatic",
   "drunk",
+  "mutant",
   "damsel",
   "poisoner",
   "devilsadvocate",
-  "psychopath",
   {
     "id": "gorge",
     "name": "Gorge",
@@ -79,7 +77,7 @@
     "team": "minion",
     "edition": "bloodvine",
     "ability": "Once per game, at night*, choose a dead player: they are regurgitated.",
-    "flavor": "(v1.0)",
+    "flavor": "The blood of our ancestors fuel the blood of our children and the blood of our children fuel the blood of our fathers and the blood of our fathers fuel the blood of our friends and the blood of our friends fuel the blood of our enemies. (v1.0)",
     "firstNight": 0,
     "otherNight": 66,
     "otherNightReminder": "The Gorge might choose a dead player. :reminder: :reminder:",
@@ -98,9 +96,9 @@
     ],
     "team": "demon",
     "edition": "bloodvine",
-    "ability": "You register as dead. All live players die. Each night, choose 2 players: they are regurgitated & 1 is poisoned until dusk. Evil only wins if all players (except Travellers) live.",
-    "flavor": "Deeper. Ravenswood's walls stand ten-thousand feet tall. Ravenswood's walls' walls stand ten-thousand feet more. Deeper. This time will be different. Deeper. (v2.5) (token by Diamondwar)",
-    "firstNight": 25,
+    "ability": "You register as dead. All alive players die. Each night, choose 3 players: they are regurgitated & 1 is poisoned until dusk. Evil only wins if all players (except Travellers) live.",
+    "flavor": "Deeper. Ravenswood's walls stand ten-thousand feet tall. Ravenswood's walls' walls stand ten-thousand feet more. Deeper. This time will be different. Deeper. (v2.6) (token by Diamondwar)",
+    "firstNight": 26,
     "otherNight": 72,
     "firstNightReminder": "All live players die. ?:reminder:s The ERROR chooses 2 players. :reminder: :reminder: :reminder:",
     "otherNightReminder": "The ERROR chooses 2 players. :reminder: :reminder: :reminder:",
@@ -121,12 +119,16 @@
       "Dead",
       "Dead",
       "Dead",
-      "Dead",
+      "Alive",
       "Alive",
       "Alive",
       "Poisoned"
     ],
     "jinxes": [
+      {
+        "id": "loose",
+        "reason": "If the ERROR is in play, the Loose starts \"hidden\"."
+      },
       {
         "id": "vizier",
         "reason": "If the ERROR is in play and two or less players are dead, the Vizier loses their ability."
@@ -138,22 +140,6 @@
       {
         "id": "monk",
         "reason": "If the Monk is chosen by the ERROR, the Monk is poisoned until dawn."
-      },
-      {
-        "id": "banshee",
-        "reason": "If the ERROR is in play, the Banshee may only nominate once per day and vote once per nomination."
-      },
-      {
-        "id": "ravenkeeper",
-        "reason": "A Ravenkeeper killed by the ERROR doesn't use their ability. A Ravenkeeper chosen by the ERROR uses their ability but does not die."
-      },
-      {
-        "id": "sage",
-        "reason": "A Sage killed by the ERROR doesn't use their ability. A Sage chosen by the ERROR uses their ability but does not die."
-      },
-      {
-        "id": "farmer",
-        "reason": "A Farmer killed by the ERROR doesn't use their ability. A Farmer chosen by the ERROR uses their ability but does not die."
       },
       {
         "id": "choirboy",
@@ -185,7 +171,7 @@
       },
       {
         "id": "summoner",
-        "reason": "If an ERROR is summoned, the ERROR kills all but five players instead. If the Summoner summons a dead player into the ERROR, the ERROR has already \"died once\"."
+        "reason": "If an ERROR is summoned, the ERROR kills all but five players instead. The Summoner can summon a dead player into the ERROR."
       },
       {
         "id": "princess",
