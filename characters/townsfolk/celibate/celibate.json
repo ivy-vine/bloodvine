@@ -1,0 +1,23 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "celibate v1.0"
+  },
+  {
+    "id": "celibate",
+    "name": "Celibate",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/celibate/celibate_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/celibate/celibate_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Once per game, the Storyteller will break a game rule to help your team win. [Might be a Minion]",
+    "flavor": "(v1.0)",
+    "setup": true,
+    "reminders": [
+      "Miracle Given"
+    ]
+  }
+]

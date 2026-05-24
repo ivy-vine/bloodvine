@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "bitflip v1.1 (token by Diamondwar)"
+    "name": "bitflip v1.2 (token by Diamondwar)"
   },
   {
     "id": "bitflip",
@@ -13,8 +13,8 @@
     ],
     "team": "demon",
     "edition": "bloodvine",
-    "ability": "Each night*, choose a player: they die. If no Outsiders & Minions live, evil wins. [+2 Outsiders]",
-    "flavor": "F7a99ed: [t]he mac41na[t]10n. M3china[t]i0n. Si9h[t]s abound. |>rif[t] [t]h20ugh [t]he soun|>. R#212t [t]emp[t]a[t]10n. D##per. (v1.1) (token by Diamondwar)",
+    "ability": "Each night*, choose a player: they die. If no Outsiders & Minions live, evil wins. Minions & Demons do not know each other. [+2 Outsiders]",
+    "flavor": "F7a99ed: [t]he mac41na[t]10n. M3china[t]i0n. Si9h[t]s abound. |>rif[t] [t]h20ugh [t]he soun|>. R#212t [t]emp[t]a[t]10n. D##per. (v1.2) (token by Diamondwar)",
     "setup": true,
     "otherNight": 43,
     "otherNightReminder": "The Seed chooses a player. :reminder:",

@@ -2,63 +2,19 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "Segmentation Fault v2.6",
-    "firstNight": [
-      "dusk",
-      "barista",
-      "bureaucrat",
-      "thief",
-      "minioninfo",
-      "demoninfo",
-      "none_type",
-      "sailor",
-      "poisoner",
-      "devilsadvocate",
-      "damsel",
-      "chef",
-      "empath",
-      "fortuneteller",
-      "grandmother",
-      "balloonist",
-      "shugenja",
-      "ogre",
-      "dawn",
-      "vizier"
-    ],
-    "otherNight": [
-      "dusk",
-      "barista",
-      "bureaucrat",
-      "thief",
-      "bonecollector",
-      "sailor",
-      "poisoner",
-      "devilsadvocate",
-      "professor",
-      "gorge",
-      "damsel",
-      "none_type",
-      "grandmother",
-      "ravenkeeper",
-      "empath",
-      "fortuneteller",
-      "towncrier",
-      "oracle",
-      "balloonist",
-      "dawn"
-    ]
+    "name": "Segmentation Fault v2.6"
   },
-  "chef",
+  "clockmaker",
   "grandmother",
-  "shugenja",
   "empath",
-  "sailor",
   "balloonist",
-  "fortuneteller",
+  "chambermaid",
+  "flowergirl",
   "towncrier",
   "oracle",
   "professor",
   "slayer",
+  "alchemist",
   "cannibal",
   "ravenkeeper",
   "ogre",
@@ -97,7 +53,7 @@
     "team": "demon",
     "edition": "bloodvine",
     "ability": "You register as dead. All alive players die. Each night, choose 3 players: they are regurgitated & 1 is poisoned until dusk. Evil only wins if all players (except Travellers) live.",
-    "flavor": "Deeper. Ravenswood's walls stand ten-thousand feet tall. Ravenswood's walls' walls stand ten-thousand feet more. Deeper. This time will be different. Deeper. (v2.6) (token by Diamondwar)",
+    "flavor": "Deeper. Ravenswood's walls stand ten-thousand feet tall. Ravenswood's walls' walls stand ten-thousand feet more. Deeper. This time will be different. Deeper. (v2.7) (token by Diamondwar)",
     "firstNight": 26,
     "otherNight": 72,
     "firstNightReminder": "All live players die. ?:reminder:s The ERROR chooses 2 players. :reminder: :reminder: :reminder:",
@@ -187,11 +143,15 @@
       },
       {
         "id": "lycanthrope",
-        "reason": "If the ERROR is in play, the Lycanthrope instead chooses two dead players. If both are good, they are regurgitated and the ERROR doesn't wake tonight."
+        "reason": "If the ERROR is in play, the Lycanthrope instead chooses three dead players. If both are good, they are regurgitated, one is poisoned, and the ERROR doesn't wake tonight."
       },
       {
         "id": "saint",
         "reason": "If the ERROR is in play and the Saint dies to execution, evil wins."
+      },
+      {
+        "id": "damsel",
+        "reason": "If the ERROR is in play and a Minion publicly guesses the Damsel (once), evil wins."
       }
     ]
   },
