@@ -20,6 +20,12 @@
     "otherNightReminder": "The Loose either nods or shakes their head. :reminder:",
     "reminders": [
       "Hiding"
+    ],
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
     ]
   }
 ]

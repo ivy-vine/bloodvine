@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "epidemic v1.0"
+    "name": "epidemic v1.1"
   },
   {
     "id": "epidemic",
@@ -14,14 +14,33 @@
     "team": "demon",
     "edition": "bloodvine",
     "ability": "Evil players \"are the Demon\". Each night, a fresh player chooses a player: they become their alignment. [No Minions. 1 player is evil]",
-    "flavor": "YUCK!! Why am I so slimy?! (v1.0)",
+    "flavor": "YUCK!! Why am I so slimy?! (v1.1)",
     "setup": true,
     "firstNight": 45,
-    "firstNightReminder": "Wake a player that has yet to change alignments due to the Epidemic's ability. They choose a player. :reminder: Put them to sleep. Wake the target. Show the *YOU ARE* & a thumbs up or thumbs down.",
+    "firstNightReminder": "Wake an evil player & show them the *THIS CHARACTER SELECTED YOU* & Epidemic tokens. They choose a player. :reminder: Put them to sleep. Wake the target. Show the *YOU ARE* token & a thumbs up or thumbs down.",
     "otherNight": 54,
-    "otherNightReminder": "Wake a player that has yet to change alignments due to the Epidemic's ability. They choose a player. :reminder: Put them to sleep. Wake the target. Show the *YOU ARE* & a thumbs up or thumbs down.",
+    "otherNightReminder": "Wake a player that has yet to be woken to choose a player by the Epidemic's ability & show them the *THIS CHARACTER SELECTED YOU* & Epidemic tokens. They choose a player. :reminder: Put them to sleep. Wake the target. Show the *YOU ARE* token & a thumbs up or thumbs down.",
     "remindersGlobal": [
-      "Dead"
+      "Has Been Infected",
+      "Has Been Infected",
+      "Has Been Infected",
+      "Has Been Infected",
+      "Has Been Infected",
+      "Has Been Infected",
+      "Has Been Infected",
+      "Has Been Infected",
+      "Has Been Infected",
+      "Has Been Infected",
+      "Has Been Infected",
+      "Has Been Infected",
+      "Has Been Infected",
+      "Has Been Infected",
+      "Has Been Infected",
+      "Has Been Infected",
+      "Has Been Infected",
+      "Has Been Infected",
+      "Has Been Infected",
+      "Has Been Infected"
     ],
     "special": [
       {

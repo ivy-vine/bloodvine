@@ -18,6 +18,12 @@
     "setup": true,
     "reminders": [
       "Died To Evil"
+    ],
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
     ]
   }
 ]

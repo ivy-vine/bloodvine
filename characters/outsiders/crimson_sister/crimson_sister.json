@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "crimson_sister v1.1"
+    "name": "crimson_sister v1.3"
   },
   {
     "id": "crimson_sister",
@@ -13,10 +13,11 @@
     ],
     "team": "outsider",
     "edition": "bloodvine",
-    "ability": "The 1st time a Minion dies, they live but register as dead. If executed, you don't die.",
-    "flavor": "Nurture always wins over nature. No one chooses where they come from, they only choose who they become. I will do anything to sever myself from my heritage. (v1.1)",
+    "ability": "The 1st time a Minion dies, they live but register as dead. The 1st time you die, you don't.",
+    "flavor": "Nurture always wins over nature. No one chooses where they come from, they only choose who they become. I will do anything to sever myself from my heritage. (v1.3)",
     "reminders": [
-      "Has Ability"
+      "No Ability",
+      "Hiding"
     ]
   }
 ]
