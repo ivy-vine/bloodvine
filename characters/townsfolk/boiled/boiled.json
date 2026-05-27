@@ -1,0 +1,19 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "boiled v1.0"
+  },
+  {
+    "id": "boiled",
+    "name": "Boiled",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/boiled/boiled_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/boiled/boiled_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "You may call for the exile of non-Travellers. [Might be a Minion]",
+    "flavor": "(v1.0)"
+  }
+]
