@@ -28,6 +28,12 @@
       "Drunk",
       "Drunk",
       "Drunk"
+    ],
+    "jinxes": [
+      {
+        "id": "flail",
+        "reason": "If the Flail is drunk from the Wrangler's ability, the Flail loses their ability."
+      }
     ]
   }
 ]
