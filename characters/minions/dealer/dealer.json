@@ -13,7 +13,7 @@
     ],
     "team": "minion",
     "edition": "bloodvine",
-    "ability": "The 1st time you are nominated, if the nominator is good, they become evil.",
+    "ability": "The 1st time you are nominated by good, the nominator becomes evil.",
     "flavor": "(v1.0)",
     "reminders": [
       "No Ability"
