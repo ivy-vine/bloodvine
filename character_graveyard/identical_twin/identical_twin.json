@@ -8,10 +8,10 @@
     "id": "identical_twin",
     "name": "Identical Twin",
     "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/outsiders/identical_twin/identical_twin_good.png",
-      "https://ivy-vine.github.io/bloodvine/characters/outsiders/identical_twin/identical_twin_evil.png"
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/identical_twin/identical_twin_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/identical_twin/identical_twin_evil.png"
     ],
-    "team": "outsider",
+    "team": "townsfolk",
     "edition": "bloodvine",
     "ability": "You register as an in-play Townsfolk character, even if dead. All players know you or them are this character.",
     "flavor": "(v1.2)",

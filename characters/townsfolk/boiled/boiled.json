@@ -14,6 +14,12 @@
     "team": "townsfolk",
     "edition": "bloodvine",
     "ability": "You may call for the exile of non-Travellers. [Might be a Minion]",
-    "flavor": "(v1.0)"
+    "flavor": "Was it something I said? (v1.0)",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ]
   }
 ]

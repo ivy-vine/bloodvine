@@ -118,25 +118,6 @@
     ]
   },
   {
-    "id": "shoe_shiner",
-    "name": "Shoe Shiner",
-    "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/shoe_shiner/shoe_shiner_good.png",
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/shoe_shiner/shoe_shiner_evil.png"
-    ],
-    "team": "townsfolk",
-    "edition": "bloodvine",
-    "ability": "Once per game, at night, choose a player: if good, swap characters with them.",
-    "flavor": "(v1.0)",
-    "firstNight": 13,
-    "otherNight": 11,
-    "firstNightReminder": "The Shoe Shiner might choose a player. If necessary, show the *YOU ARE* token &amp; their new character token &amp; wake the chosen player &amp; do the same. :reminder:",
-    "otherNightReminder": "The Shoe Shiner might choose a player. If necessary, show the *YOU ARE* token &amp; their new character token &amp; wake the chosen player &amp; do the same. :reminder:",
-    "reminders": [
-      "No Ability"
-    ]
-  },
-  {
     "id": "cheerleader",
     "name": "Cheerleader",
     "image": [
@@ -154,6 +135,26 @@
     "reminders": [
       "No Ability",
       "Acts Twice"
+    ]
+  },
+  {
+    "id": "shoe_shiner",
+    "name": "Shoe Shiner",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/shoe_shiner/shoe_shiner_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/shoe_shiner/shoe_shiner_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Once per game, at night, choose a player: a chosen good player swaps characters with you & is then drunk.",
+    "flavor": "(v1.1)",
+    "firstNight": 13,
+    "otherNight": 11,
+    "firstNightReminder": "The Shoe Shiner might choose a player. If necessary, show the *YOU ARE* token &amp; their new character token &amp; wake the chosen player &amp; do the same. :reminder: :reminder:",
+    "otherNightReminder": "The Shoe Shiner might choose a player. If necessary, show the *YOU ARE* token &amp; their new character token &amp; wake the chosen player &amp; do the same. :reminder: :reminder:",
+    "reminders": [
+      "No Ability",
+      "Drunk"
     ]
   },
   "philosopher",
@@ -242,33 +243,7 @@
     "otherNight": 0
   },
   "drunk",
-  {
-    "id": "identical_twin",
-    "name": "Identical Twin",
-    "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/outsiders/identical_twin/identical_twin_good.png",
-      "https://ivy-vine.github.io/bloodvine/characters/outsiders/identical_twin/identical_twin_evil.png"
-    ],
-    "team": "outsider",
-    "edition": "bloodvine",
-    "ability": "You register as an in-play Townsfolk character, even if dead. All players know you or them are this character.",
-    "flavor": "(v1.2)",
-    "firstNight": 0,
-    "otherNight": 0,
-    "remindersGlobal": [
-      "Is The Identical Twin"
-    ],
-    "special": [
-      {
-        "type": "selection",
-        "name": "bag-duplicate"
-      },
-      {
-        "type": "reveal",
-        "name": "replace-character"
-      }
-    ]
-  },
+  "recluse",
   "barber",
   {
     "id": "hypnotist",
@@ -298,7 +273,7 @@
     "ability": "If the Demon kills you, choose a character: they die instead. If they are not in play, the Storyteller chooses who dies.",
     "flavor": "(v1.1)",
     "firstNight": 0,
-    "otherNight": 10,
+    "otherNight": 53,
     "otherNightReminder": "The Window chooses a character. :reminder:",
     "reminders": [
       "Dead"

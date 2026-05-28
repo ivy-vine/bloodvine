@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "shoe_shiner v1.0"
+    "name": "shoe_shiner v1.1"
   },
   {
     "id": "shoe_shiner",
@@ -13,14 +13,15 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "Once per game, at night, choose a player: if good, swap characters with them.",
-    "flavor": "(v1.0)",
+    "ability": "Once per game, at night, choose a player: a chosen good player swaps characters with you & is then drunk.",
+    "flavor": "(v1.1)",
     "firstNight": 13,
-    "firstNightReminder": "The Shoe Shiner might choose a player. If necessary, show the *YOU ARE* token & their new character token & wake the chosen player & do the same. :reminder:",
+    "firstNightReminder": "The Shoe Shiner might choose a player. If necessary, show the *YOU ARE* token & their new character token & wake the chosen player & do the same. :reminder: :reminder:",
     "otherNight": 11,
-    "otherNightReminder": "The Shoe Shiner might choose a player. If necessary, show the *YOU ARE* token & their new character token & wake the chosen player & do the same. :reminder:",
+    "otherNightReminder": "The Shoe Shiner might choose a player. If necessary, show the *YOU ARE* token & their new character token & wake the chosen player & do the same. :reminder: :reminder:",
     "reminders": [
-      "No Ability"
+      "No Ability",
+      "Drunk"
     ]
   }
 ]
