@@ -14,7 +14,7 @@
     "team": "townsfolk",
     "edition": "bloodvine",
     "ability": "Once per game, at night*, choose a dead player: they are reincarnated as a Dummy.",
-    "flavor": "(v1.0)",
+    "flavor": "The life after this fella's life will be another life, full of watching and staring. Isn't that wonderful? Just, please, remember not to do anything weird in front of it. (v1.0)",
     "otherNight": 63,
     "otherNightReminder": "The Taxidermist might choose a dead player. :reminder: :reminder:",
     "reminders": [

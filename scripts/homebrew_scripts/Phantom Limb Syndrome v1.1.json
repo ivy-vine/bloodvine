@@ -2,8 +2,9 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "Phantom Limb Syndrome v1.0",
+    "name": "Phantom Limb Syndrome v1.1",
     "firstNight": [
+      "arctic_fox",
       "trojan",
       "dusk",
       "thespian",
@@ -23,6 +24,8 @@
       "dawn"
     ],
     "otherNight": [
+      "arctic_fox",
+      "moonlit",
       "trojan",
       "dusk",
       "thespian",
@@ -36,6 +39,7 @@
       "baker",
       "empath",
       "glassblower",
+      "juggler",
       "chambermaid",
       "dawn"
     ]
@@ -94,6 +98,41 @@
     "otherNight": 75,
     "firstNightReminder": "Give a finger signal.",
     "otherNightReminder": "Give a finger signal."
+  },
+  {
+    "id": "arctic_fox",
+    "name": "Arctic Fox",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/arctic_fox/arctic_fox_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/arctic_fox/arctic_fox_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night, you gain the ability of an alive neighbor (you don't know which) until dusk.",
+    "flavor": "Must your claws climb ten-thousand walls? You have come a very long way, sweet thing, but you do not belong here; you will not survive the week. I don't think they can climb ten-thousand more. (v1.2)",
+    "firstNight": 2,
+    "otherNight": 2,
+    "firstNightReminder": "The Arctic Fox might change ability. If so, swap the Arctic Fox's character token to an alive neighbor's. :reminder:",
+    "otherNightReminder": "The Arctic Fox might change ability. If so, swap the Arctic Fox's character token to an alive neighbor's. :reminder:",
+    "remindersGlobal": [
+      "Is The Arctic Fox"
+    ],
+    "jinxes": [
+      {
+        "id": "spy",
+        "reason": "An Arctic Fox with the Spy ability doesn't see the grimoire."
+      },
+      {
+        "id": "widow",
+        "reason": "An Arctic Fox with the Widow ability doesn't see the grimoire."
+      }
+    ],
+    "special": [
+      {
+        "type": "reveal",
+        "name": "replace-character"
+      }
+    ]
   },
   "chambermaid",
   {
@@ -166,6 +205,7 @@
       "No Ability"
     ]
   },
+  "artist",
   {
     "id": "poet",
     "name": "Poet",
@@ -184,6 +224,7 @@
       "Drunk"
     ]
   },
+  "juggler",
   {
     "id": "pitied",
     "name": "Pitied",
@@ -198,8 +239,34 @@
     "firstNight": 0,
     "otherNight": 0
   },
+  {
+    "id": "centrist",
+    "name": "Centrist",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/centrist/centrist_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/centrist/centrist_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "2 opposing players have 2 votes.",
+    "flavor": " (v1.0)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "Views Supported",
+      "Views Supported"
+    ],
+    "special": [
+      {
+        "type": "vote",
+        "name": "multiplier",
+        "value": 2
+      }
+    ]
+  },
   "goon",
   "lunatic",
+  "drunk",
   {
     "id": "kruger",
     "name": "Kruger",
@@ -213,21 +280,6 @@
     "flavor": "make the flavor text a reference to reverse transmission (v1.0)",
     "firstNight": 0,
     "otherNight": 0
-  },
-  {
-    "id": "bad_apple",
-    "name": "Bad Apple",
-    "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/outsiders/bad_apple/bad_apple_good.png",
-      "https://ivy-vine.github.io/bloodvine/characters/outsiders/bad_apple/bad_apple_evil.png"
-    ],
-    "team": "outsider",
-    "edition": "bloodvine",
-    "ability": "[1 to ? Outsiders are evil]",
-    "flavor": "(v1.0)",
-    "firstNight": 0,
-    "otherNight": 0,
-    "setup": true
   },
   {
     "id": "trojan",
@@ -315,9 +367,10 @@
     "team": "demon",
     "edition": "bloodvine",
     "ability": "You think you are a good character, but you are not. Each night*, one of your alive neighbors might die. [Evil characters are Moonlit]",
-    "flavor": "(v1.0) (token by EBK)",
+    "flavor": "(v1.1) (token by EBK)",
     "firstNight": 0,
-    "otherNight": 0,
+    "otherNight": 43,
+    "otherNightReminder": "A player might die. :reminder:",
     "remindersGlobal": [
       "Is A Moonlit",
       "Is A Moonlit",
@@ -329,6 +382,12 @@
       "Dead"
     ],
     "setup": true,
+    "jinxes": [
+      {
+        "id": "vet",
+        "reason": "A Moonlit may become a Vet due to the Vet's ability."
+      }
+    ],
     "special": [
       {
         "type": "selection",

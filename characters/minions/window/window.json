@@ -14,8 +14,8 @@
     "team": "minion",
     "edition": "bloodvine",
     "ability": "If the Demon kills you, choose a character: they die instead. If they are not in play, the Storyteller chooses who dies.",
-    "flavor": "(v1.1)",
-    "otherNight": 53,
+    "flavor": "Look into me and you will see your mother's bedroom. Look out of me and you will see your closet. Look through me and you will see nothing but yourself. (v1.1)",
+    "otherNight": 58,
     "otherNightReminder": "The Window chooses a character. :reminder:",
     "reminders": [
       "Dead"

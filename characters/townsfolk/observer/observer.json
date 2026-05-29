@@ -14,7 +14,7 @@
     "team": "townsfolk",
     "edition": "bloodvine",
     "ability": "Each night, choose a player: you learn how many reminder tokens are on them.",
-    "flavor": "(v1.0)",
+    "flavor": "Alright, you, a little to the left, and you, shoulders back. Okay, now everyone, say cheese! (v1.0)",
     "firstNight": 74,
     "firstNightReminder": "The Observer chooses a player. Give a finger signal.",
     "otherNight": 94,

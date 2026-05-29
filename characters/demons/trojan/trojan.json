@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "trojan v2.0"
+    "name": "trojan v2.1"
   },
   {
     "id": "trojan",
@@ -13,8 +13,8 @@
     ],
     "team": "demon",
     "edition": "bloodvine",
-    "ability": "Each night, choose a player: the previously chosen player dies. If you are executed & more than 3 players live, the previously chosen player becomes an evil Shef. [No Minions]",
-    "flavor": "DOWNLOAD NOW!!! AWESOME BLOOD ON THE CLOCKTOWER (FREE!) FREE --- CLICK HERE --- FREE DOWNLOAD NO VIRUS PLAY NOW!!! (v2.0)",
+    "ability": "Each night, choose a player: the previously chosen player dies. If you are executed & die & more than 3 players live, the previously chosen player becomes an evil Shef. [No Minions]",
+    "flavor": "DOWNLOAD NOW!!! AWESOME BLOOD ON THE CLOCKTOWER (FREE!) FREE --- CLICK HERE --- FREE DOWNLOAD NO VIRUS PLAY NOW!!! (v2.1)",
     "setup": true,
     "firstNight": 47,
     "firstNightReminder": "The Shef chooses a player. :reminder:",

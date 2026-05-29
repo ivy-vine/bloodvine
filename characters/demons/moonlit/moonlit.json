@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy (token by EBK)",
-    "name": "moonlit v1.0"
+    "name": "moonlit v1.1"
   },
   {
     "id": "moonlit",
@@ -14,10 +14,18 @@
     "team": "demon",
     "edition": "bloodvine",
     "ability": "You think you are a good character, but you are not. Each night*, one of your alive neighbors might die. [Evil characters are Moonlit]",
-    "flavor": "(v1.0) (token by EBK)",
+    "flavor": "(v1.1) (token by EBK)",
     "setup": true,
+    "otherNight": 43,
+    "otherNightReminder": "A player might die. :reminder:",
     "remindersGlobal": [
       "Is A Moonlit",
+      "Is A Moonlit",
+      "Is A Moonlit",
+      "Is A Moonlit",
+      "Dead",
+      "Dead",
+      "Dead",
       "Dead"
     ],
     "special": [
@@ -28,6 +36,12 @@
       {
         "type": "reveal",
         "name": "replace-character"
+      }
+    ],
+    "jinxes": [
+      {
+        "id": "vet",
+        "reason": "A Moonlit may become a Vet due to the Vet's ability."
       }
     ]
   }
