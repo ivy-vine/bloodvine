@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "dummy v1.0"
+    "name": "dummy v1.1"
   },
   {
     "id": "dummy",
@@ -15,6 +15,8 @@
     "team": "traveller",
     "edition": "bloodvine",
     "ability": "When you learn a player died, you may choose to die instead.",
-    "flavor": "A dummy?! This is what peak male performance looks like! (v1.0)"
+    "flavor": "A dummy?! This is what peak male performance looks like! (v1.1)",
+    "otherNight": 62,
+    "otherNightReminder": "If a player died, the Dummy was woken and the dead player was pointed to. The Dummy might have nodded to die instead. If you haven't done this yet, do so now."
   }
 ]

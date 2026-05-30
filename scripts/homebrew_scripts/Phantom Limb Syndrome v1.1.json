@@ -2,47 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "Phantom Limb Syndrome v1.1",
-    "firstNight": [
-      "arctic_fox",
-      "trojan",
-      "dusk",
-      "thespian",
-      "cheerleader",
-      "wrangler",
-      "minioninfo",
-      "lunatic",
-      "demoninfo",
-      "epidemic",
-      "washerwoman",
-      "librarian",
-      "baker",
-      "empath",
-      "glassblower",
-      "steward",
-      "chambermaid",
-      "dawn"
-    ],
-    "otherNight": [
-      "arctic_fox",
-      "moonlit",
-      "trojan",
-      "dusk",
-      "thespian",
-      "cheerleader",
-      "wrangler",
-      "vet",
-      "lunatic",
-      "linked_list",
-      "soul",
-      "epidemic",
-      "baker",
-      "empath",
-      "glassblower",
-      "juggler",
-      "chambermaid",
-      "dawn"
-    ]
+    "name": "Phantom Limb Syndrome v1.1"
   },
   "steward",
   "washerwoman",
@@ -197,12 +157,22 @@
     "team": "townsfolk",
     "edition": "bloodvine",
     "ability": "Once per game, at night*, choose a player: if they are of opposing alignment (& not the Demon), they become a Vet.",
-    "flavor": "This is mechanically impossible! It-it's a scientific breakthrough! How could something so small and feeble scale such a great height? (v1.1)",
+    "flavor": "This is mechanically impossible! It-it's a scientific breakthrough! How could something so small and feeble scale such a great height? (v1.2)",
     "firstNight": 0,
     "otherNight": 14,
     "otherNightReminder": "The Vet might choose a player. If they chose an opposing player, replace the target's token with a Vet token. Put the Vet to sleep. Wake the target. Show the *YOU ARE* and Vet tokens. :reminder:",
     "reminders": [
       "No Ability"
+    ],
+    "jinxes": [
+      {
+        "id": "epidemic",
+        "reason": "If the Epidemic is in play, an evil player may become a Vet due to the Vet's ability."
+      },
+      {
+        "id": "moonlit",
+        "reason": "A Moonlit may become a Vet due to the Vet's ability."
+      }
     ]
   },
   "artist",
@@ -290,8 +260,8 @@
     ],
     "team": "demon",
     "edition": "bloodvine",
-    "ability": "Each night, choose a player: the previously chosen player dies. If you are executed & die & more than 3 players live, the previously chosen player becomes an evil Shef. [No Minions]",
-    "flavor": "DOWNLOAD NOW!!! AWESOME BLOOD ON THE CLOCKTOWER (FREE!) FREE --- CLICK HERE --- FREE DOWNLOAD NO VIRUS PLAY NOW!!! (v2.1)",
+    "ability": "Each night, choose a player: the previously chosen player dies. If you die & more than 3 players live, the previously chosen player becomes an evil Shef. [No Minions]",
+    "flavor": "DOWNLOAD NOW!!! AWESOME BLOOD ON THE CLOCKTOWER (FREE!) FREE --- CLICK HERE --- FREE DOWNLOAD NO VIRUS PLAY NOW!!! (v2.2)",
     "firstNight": 47,
     "otherNight": 57,
     "firstNightReminder": "The Shef chooses a player. :reminder:",
@@ -366,8 +336,8 @@
     ],
     "team": "demon",
     "edition": "bloodvine",
-    "ability": "You think you are a good character, but you are not. Each night*, one of your alive neighbors might die. [Evil characters are Moonlit]",
-    "flavor": "(v1.1) (token by EBK)",
+    "ability": "You think you are a Townsfolk character, but you are not. Each night*, one of your alive neighbors might die. [Evil characters are Moonlit. +1 Outsider]",
+    "flavor": "(v1.2) (token by EBK)",
     "firstNight": 0,
     "otherNight": 43,
     "otherNightReminder": "A player might die. :reminder:",
@@ -382,12 +352,6 @@
       "Dead"
     ],
     "setup": true,
-    "jinxes": [
-      {
-        "id": "vet",
-        "reason": "A Moonlit may become a Vet due to the Vet's ability."
-      }
-    ],
     "special": [
       {
         "type": "selection",

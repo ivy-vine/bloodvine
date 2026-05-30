@@ -1,0 +1,22 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "maid v1.0"
+  },
+  {
+    "id": "maid",
+    "name": "Maid",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/maid/maid_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/maid/maid_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Once per game, publicly choose a dead player: if they are of opposing alignment, all players know this.",
+    "flavor": "(v1.0)",
+    "reminders": [
+      "No Ability"
+    ]
+  }
+]

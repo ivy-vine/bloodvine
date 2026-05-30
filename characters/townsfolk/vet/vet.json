@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "vet v1.1"
+    "name": "vet v1.2"
   },
   {
     "id": "vet",
@@ -14,11 +14,21 @@
     "team": "townsfolk",
     "edition": "bloodvine",
     "ability": "Once per game, at night*, choose a player: if they are of opposing alignment (& not the Demon), they become a Vet.",
-    "flavor": "This is mechanically impossible! It-it's a scientific breakthrough! How could something so small and feeble scale such a great height? (v1.1)",
+    "flavor": "This is mechanically impossible! It-it's a scientific breakthrough! How could something so small and feeble scale such a great height? (v1.2)",
     "otherNight": 14,
     "otherNightReminder": "The Vet might choose a player. If they chose an opposing player, replace the target's token with a Vet token. Put the Vet to sleep. Wake the target. Show the *YOU ARE* and Vet tokens. :reminder:",
     "reminders": [
       "No Ability"
+    ],
+    "jinxes": [
+      {
+        "id": "epidemic",
+        "reason": "If the Epidemic is in play, an evil player may become a Vet due to the Vet's ability."
+      },
+      {
+        "id": "moonlit",
+        "reason": "A Moonlit may become a Vet due to the Vet's ability."
+      }
     ]
   }
 ]

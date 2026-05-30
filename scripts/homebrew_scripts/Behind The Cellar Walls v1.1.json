@@ -187,12 +187,22 @@
     "team": "townsfolk",
     "edition": "bloodvine",
     "ability": "Once per game, at night*, choose a player: if they are of opposing alignment (& not the Demon), they become a Vet.",
-    "flavor": "This is mechanically impossible! It-it's a scientific breakthrough! How could something so small and feeble scale such a great height? (v1.1)",
+    "flavor": "This is mechanically impossible! It-it's a scientific breakthrough! How could something so small and feeble scale such a great height? (v1.2)",
     "firstNight": 0,
     "otherNight": 14,
     "otherNightReminder": "The Vet might choose a player. If they chose an opposing player, replace the target's token with a Vet token. Put the Vet to sleep. Wake the target. Show the *YOU ARE* and Vet tokens. :reminder:",
     "reminders": [
       "No Ability"
+    ],
+    "jinxes": [
+      {
+        "id": "epidemic",
+        "reason": "If the Epidemic is in play, an evil player may become a Vet due to the Vet's ability."
+      },
+      {
+        "id": "moonlit",
+        "reason": "A Moonlit may become a Vet due to the Vet's ability."
+      }
     ]
   },
   {
@@ -254,17 +264,11 @@
     ],
     "team": "minion",
     "edition": "bloodvine",
-    "ability": "Each night*, choose a player & a character they think they become.",
-    "flavor": "Five, three, four, two, zero, one. Three, five, two, four, one, zero. It is 11:59 PM. Now, it is 12:00 AM. (v1.1)",
+    "ability": "Each night*, choose a player & a character & alignment they think they become.",
+    "flavor": "Five, three, four, two, zero, one. Three, five, two, four, one, zero. It is 11:59 PM. Now, it is 12:00 AM. (v1.2)",
     "firstNight": 0,
     "otherNight": 30,
-    "otherNightReminder": "The Hypnotist chooses a player &amp; a character. Put the Hypnotist to sleep. Wake the target. Show the *YOU ARE* token &amp; the chosen character token.",
-    "jinxes": [
-      {
-        "id": "trojan",
-        "reason": "If the Hypnotist hypnotises a player as the Shef, they think they become an evil Shef."
-      }
-    ]
+    "otherNightReminder": "The Hypnotist chooses a player &amp; a character &amp; alignment. Put the Hypnotist to sleep. Wake the target. Show the *YOU ARE* token &amp; the chosen character token &amp; the chosen alignment."
   },
   "pithag",
   {
@@ -341,8 +345,8 @@
     ],
     "team": "demon",
     "edition": "bloodvine",
-    "ability": "Each night, choose a player: the previously chosen player dies. If you are executed & die & more than 3 players live, the previously chosen player becomes an evil Shef. [No Minions]",
-    "flavor": "DOWNLOAD NOW!!! AWESOME BLOOD ON THE CLOCKTOWER (FREE!) FREE --- CLICK HERE --- FREE DOWNLOAD NO VIRUS PLAY NOW!!! (v2.1)",
+    "ability": "Each night, choose a player: the previously chosen player dies. If you die & more than 3 players live, the previously chosen player becomes an evil Shef. [No Minions]",
+    "flavor": "DOWNLOAD NOW!!! AWESOME BLOOD ON THE CLOCKTOWER (FREE!) FREE --- CLICK HERE --- FREE DOWNLOAD NO VIRUS PLAY NOW!!! (v2.2)",
     "firstNight": 47,
     "otherNight": 57,
     "firstNightReminder": "The Shef chooses a player. :reminder:",
