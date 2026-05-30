@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "centrist v1.0"
+    "name": "centrist v1.1"
   },
   {
     "id": "centrist",
@@ -13,8 +13,8 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "2 opposing players have 2 votes.",
-    "flavor": "<insert interesting, humorous, and informative commentary on why centrist political views are right wing views with a coat of pastel pink paint> (v1.0)",
+    "ability": "2 opposing players' votes count as 2 votes.",
+    "flavor": "[insert interesting, humorous, and informative commentary on why centrist political views are right wing views with a coat of pastel pink paint] (v1.1)",
     "reminders": [
       "Views Supported",
       "Views Supported"

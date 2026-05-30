@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "maid v1.0"
+    "name": "maid v1.1"
   },
   {
     "id": "maid",
@@ -13,8 +13,8 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "Once per game, publicly choose a dead player: if they are of opposing alignment, all players know this.",
-    "flavor": "(v1.0)",
+    "ability": "Once per game, during the day, publicly choose a dead player: if they are of opposing alignment, all players know this.",
+    "flavor": "(v1.1)",
     "reminders": [
       "No Ability"
     ]
