@@ -1,0 +1,122 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "A Week of Dumb Fun v1.3",
+    "bootlegger": [
+      "There may be duplicate Minions in play.",
+      "The Cerenovus may choose to make a player mad that they are a Minion.",
+      "It's announced when a drunk Alchemist or Lunatic Fearmonger chooses a new player.",
+      "A drunk Alchemist or Lunatic Evil Twin & their opposing player know each other.",
+      "A drunk Alchemist or Lunatic Vizier is announced."
+    ]
+  },
+  {
+    "id": "alchemist_modified",
+    "name": "Alchemist",
+    "image": [
+      "https://release.botc.app/resources/characters/carousel/alchemist_g.webp",
+      "https://release.botc.app/resources/characters/carousel/alchemist_e.webp"
+    ],
+    "team": "townsfolk",
+    "ability": "You have a Minion ability. When using this, the Storyteller may prompt you to choose differently.",
+    "flavor": "Visit the interior of the Earth. By rectification thou shalt find the hidden stone. Above the gold, lieth the red. Kether in Malkuth.",
+    "firstNight": 15,
+    "firstNightReminder": "Show the *YOU ARE* info token and a Minion token.",
+    "remindersGlobal": [
+      "Is The Alchemist",
+      "Is The Alchemist",
+      "Is The Alchemist",
+      "Is The Alchemist",
+      "Is The Alchemist",
+      "Is The Alchemist",
+      "Is The Alchemist",
+      "Is The Alchemist",
+      "Is The Alchemist",
+      "Is The Alchemist",
+      "Is The Alchemist",
+      "Is The Alchemist",
+      "Is The Alchemist",
+      "Is The Alchemist",
+      "Is The Alchemist",
+      "Is The Alchemist",
+      "Is The Alchemist",
+      "Is The Alchemist",
+      "Is The Alchemist",
+      "Is The Alchemist"
+    ],
+    "special": [
+      {
+        "type": "reveal",
+        "name": "replace-character"
+      }
+    ],
+    "jinxes": [
+      {
+        "id": "boffin",
+        "reason": "If the Alchemist has the Boffin ability, the Alchemist does not learn what ability the Demon has."
+      },
+      {
+        "id": "marionette",
+        "reason": "An Alchemist-Marionette has no Marionette ability & the Marionette is in play."
+      },
+      {
+        "id": "mastermind",
+        "reason": "An Alchemist-Mastermind has no Mastermind ability & the Mastermind is not-in-play."
+      },
+      {
+        "id": "organgrinder",
+        "reason": "If the Alchemist has the Organ Grinder ability, the Organ Grinder is in play. If both are sober, both are drunk."
+      },
+      {
+        "id": "spy",
+        "reason": "An Alchemist-Spy has no Spy ability & a Spy is in play. After each execution, a living Alchemist-Spy may publicly guess a living player as the Spy. If correct, the Demon must choose the Spy tonight."
+      },
+      {
+        "id": "summoner",
+        "reason": "The Alchemist-Summoner does not get bluffs, and chooses which Demon but not which player. If they die before this happens, evil wins. [No Demon]"
+      },
+      {
+        "id": "widow",
+        "reason": "An Alchemist-Widow has no Widow ability & a Widow is in play. After each execution, a living Alchemist-Widow may publicly guess a living player as the Widow. If correct, the Demon must choose the Widow tonight."
+      },
+      {
+        "id": "wraith",
+        "reason": "An Alchemist-Wraith has no Wraith ability & a Wraith is in play. After each execution, a living Alchemist-Wraith may publicly guess a living player as the Wraith. If correct, the Demon must choose the Wraith tonight."
+      }
+    ]
+  },
+  "lunatic",
+  "drunk",
+  "mezepheles",
+  "godfather",
+  "poisoner",
+  "devilsadvocate",
+  "spy",
+  "harpy",
+  "witch",
+  "cerenovus",
+  "fearmonger",
+  "pithag",
+  "psychopath",
+  "assassin",
+  "wizard",
+  "widow",
+  "xaan",
+  "marionette",
+  "wraith",
+  "summoner",
+  "eviltwin",
+  "goblin",
+  "boomdandy",
+  "mastermind",
+  "scarletwoman",
+  "vizier",
+  "organgrinder",
+  "boffin",
+  "baron",
+  "lilmonsta",
+  "apprentice",
+  "pope",
+  "bootlegger"
+]
