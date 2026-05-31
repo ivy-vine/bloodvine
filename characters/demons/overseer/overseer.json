@@ -1,0 +1,24 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "overseer v1.0"
+  },
+  {
+    "id": "overseer",
+    "name": "Overseer",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/demons/overseer/overseer_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/demons/overseer/overseer_good.png"
+    ],
+    "team": "demon",
+    "edition": "bloodvine",
+    "ability": "Each night*, choose a player: they die. You cannot die. If you are the only evil player alive, good wins.",
+    "flavor": "(v1.0)",
+    "otherNight": 50,
+    "otherNightReminder": "The Overseer chooses a player. :reminder:",
+    "reminders": [
+      "Dead"
+    ]
+  }
+]

@@ -13,7 +13,7 @@
     ],
     "team": "demon",
     "edition": "bloodvine",
-    "ability": "Evil players \"are the Demon\". Each night, an alive fresh player chooses a player: they might become their alignment. If all alive players are the same alignment, their team wins. [No Minions. 1 player is evil]",
+    "ability": "Evil players \"are the Demon\". Each night, an alive fresh player chooses a player: they become their alignment. [No Minions. 1 player is evil]",
     "flavor": "YUCK!! Why am I so slimy?! (v1.2)",
     "setup": true,
     "firstNight": 45,
