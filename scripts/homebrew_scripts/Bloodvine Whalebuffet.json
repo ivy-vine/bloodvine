@@ -4,8 +4,8 @@
     "author": "ivy",
     "name": "Bloodvine Whalebuffet",
     "bootlegger": [
-      "On the 1st night, all players choose a character (of their assigned character type) to become.",
-      "The Demon is woken up first.",
+      "On the 1st night, all players choose a character (of their assigned character type) to become. [No Minions]",
+      "The Demon is woken first. If the Demon chooses a non-\"[No Minions]\" Demon character, some players become Choose a Minions.",
       "Minions may choose characters with the setup ability \"[Might be a Minion]\".",
       "If there is more than 1 of the same character, 1 or more of the extras might be drunk.",
       "The Storyteller may offer you the chance to reconsider if they think your choice will be unfun for you or others. Evil learns which character(s) this happened for."
@@ -17,9 +17,10 @@
     "team": "townsfolk",
     "ability": "On the 1st night, choose a Townsfolk character to become.",
     "firstNight": 4,
-    "otherNight": 0,
     "firstNightReminder": "The Townsfolk player chooses a character.",
     "remindersGlobal": [
+      "Drunk",
+      "Drunk",
       "Drunk",
       "Drunk",
       "Drunk"
@@ -244,7 +245,7 @@
     "flavor": "The leaves cry over their lanterns' golden glow. The lanterns sit on their stools, watching over the brickwork. Life is as it should be. (v1.1)",
     "firstNight": 0,
     "otherNight": 89,
-    "otherNightReminder": "If no one died today, show a player's character token & give a finger signal.",
+    "otherNightReminder": "If no one died today, show a player's character token &amp; give a finger signal.",
     "reminders": [
       "Died Today"
     ]
@@ -262,8 +263,8 @@
     "flavor": "BE OPPRESSIVE, B, E, OPPRESSIVE!! (v1.0)",
     "firstNight": 2,
     "otherNight": 2,
-    "firstNightReminder": "The Cheerleader might choose a player. If necessary, wake the chosen player, show the *THIS CHARACTER SELECTED YOU* & the Cheerleader token. :reminder:",
-    "otherNightReminder": "The Cheerleader might choose a player. If necessary, wake the chosen player, show the *THIS CHARACTER SELECTED YOU* & the Cheerleader token. :reminder:",
+    "firstNightReminder": "The Cheerleader might choose a player. If necessary, wake the chosen player, show the *THIS CHARACTER SELECTED YOU* &amp; the Cheerleader token. :reminder:",
+    "otherNightReminder": "The Cheerleader might choose a player. If necessary, wake the chosen player, show the *THIS CHARACTER SELECTED YOU* &amp; the Cheerleader token. :reminder:",
     "reminders": [
       "No Ability",
       "Acts Twice"
@@ -282,8 +283,8 @@
     "flavor": "What you wear on the outside reflects who you are on the inside, so if your outside is covered in dirt and grime, I'll assume you have a grimy soul! Why have a grimy soul when you can have a shining soul? (v1.1)",
     "firstNight": 13,
     "otherNight": 11,
-    "firstNightReminder": "The Shoe Shiner might choose a player. If necessary, show the *YOU ARE* token & their new character token & wake the chosen player & do the same. :reminder: :reminder:",
-    "otherNightReminder": "The Shoe Shiner might choose a player. If necessary, show the *YOU ARE* token & their new character token & wake the chosen player & do the same. :reminder: :reminder:",
+    "firstNightReminder": "The Shoe Shiner might choose a player. If necessary, show the *YOU ARE* token &amp; their new character token &amp; wake the chosen player &amp; do the same. :reminder: :reminder:",
+    "otherNightReminder": "The Shoe Shiner might choose a player. If necessary, show the *YOU ARE* token &amp; their new character token &amp; wake the chosen player &amp; do the same. :reminder: :reminder:",
     "reminders": [
       "No Ability",
       "Drunk"
@@ -460,7 +461,7 @@
     "flavor": "(v1.1)",
     "firstNight": 49,
     "otherNight": 0,
-    "firstNightReminder": "Show the Minion character token marked *MAD*. Show the *THIS CHARACTER SELECTED YOU* & the Lovebug character token to the Minion.",
+    "firstNightReminder": "Show the Minion character token marked *MAD*. Show the *THIS CHARACTER SELECTED YOU* &amp; the Lovebug character token to the Minion.",
     "reminders": [
       "Mad",
       "Mad"
@@ -479,7 +480,7 @@
     "flavor": "Sir, your 23:59:59.001 appointment is here. (v1.5)",
     "firstNight": 0,
     "otherNight": 60,
-    "otherNightReminder": "If the Secretary died today or tonight, they point to 2 players & gives 2 thumbs up or down."
+    "otherNightReminder": "If the Secretary died today or tonight, they point to 2 players &amp; gives 2 thumbs up or down."
   },
   {
     "id": "pitied",
@@ -596,9 +597,10 @@
     "team": "outsider",
     "ability": "On the 1st night, choose an Outsider character to become.",
     "firstNight": 3,
-    "otherNight": 0,
     "firstNightReminder": "The Outsider player chooses a character.",
     "remindersGlobal": [
+      "Drunk",
+      "Drunk",
       "Drunk",
       "Drunk",
       "Drunk"
@@ -758,9 +760,10 @@
     "team": "minion",
     "ability": "On the 1st night, choose a Minion character to become.",
     "firstNight": 2,
-    "otherNight": 0,
     "firstNightReminder": "The Minion player chooses a character.",
     "remindersGlobal": [
+      "Drunk",
+      "Drunk",
       "Drunk",
       "Drunk",
       "Drunk"
@@ -807,7 +810,7 @@
     "flavor": "Five, three, four, two, zero, one. Three, five, two, four, one, zero. It is 11:59 PM. Now, it is 12:00 AM. (v1.2)",
     "firstNight": 0,
     "otherNight": 30,
-    "otherNightReminder": "The Hypnotist chooses a player & a character & alignment. Put the Hypnotist to sleep. Wake the target. Show the *YOU ARE* token & the chosen character token & the chosen alignment."
+    "otherNightReminder": "The Hypnotist chooses a player &amp; a character &amp; alignment. Put the Hypnotist to sleep. Wake the target. Show the *YOU ARE* token &amp; the chosen character token &amp; the chosen alignment."
   },
   {
     "id": "hoary_zorro",
@@ -1043,9 +1046,10 @@
     "team": "demon",
     "ability": "On the 1st night, choose a Demon character to become.",
     "firstNight": 1,
-    "otherNight": 0,
     "firstNightReminder": "The Demon player chooses a character.",
     "remindersGlobal": [
+      "Drunk",
+      "Drunk",
       "Drunk",
       "Drunk",
       "Drunk"
@@ -1165,7 +1169,7 @@
     "flavor": "It was soon after the skyscrapers melted that the Waste arose. It was soon after the sky fell that the Waste awoke. It was soon after the pets became monsters and the people became horrors that the Waste shined its brightest. (v1.1)",
     "firstNight": 0,
     "otherNight": 45,
-    "otherNightReminder": "The Waste chooses a player & a character. Put the Waste to sleep. Wake the target. Show the *YOU ARE* token & their new character token. :reminder: The previously chosen character dies. :reminder:",
+    "otherNightReminder": "The Waste chooses a player &amp; a character. Put the Waste to sleep. Wake the target. Show the *YOU ARE* token &amp; their new character token. :reminder: The previously chosen character dies. :reminder:",
     "reminders": [
       "Dead",
       "Mutated"
@@ -1219,7 +1223,7 @@
     "flavor": "YUCK!! Why is it so slimy?! (v1.0)",
     "firstNight": 0,
     "otherNight": 52,
-    "otherNightReminder": "Give the player marked *HEALING* a thumbs-up. The Soul chooses a player. :reminder: :reminder: Put them to sleep. Wake the target. Show the *YOU ARE* & Soul tokens & give a thumbs-down.",
+    "otherNightReminder": "Give the player marked *HEALING* a thumbs-up. The Soul chooses a player. :reminder: :reminder: Put them to sleep. Wake the target. Show the *YOU ARE* &amp; Soul tokens &amp; give a thumbs-down.",
     "remindersGlobal": [
       "Is The Demon",
       "Healing"
@@ -1393,12 +1397,12 @@
     ],
     "team": "demon",
     "edition": "bloodvine",
-    "ability": "Evil players \"are the Demon\". Each night, an alive fresh player chooses a player: they might become their alignment. If all alive players are the same alignment, their team wins. [No Minions. 1 player is evil]",
+    "ability": "Evil players \"are the Demon\". Each night, an alive fresh player chooses a player: they become their alignment. [No Minions. 1 player is evil]",
     "flavor": "YUCK!! Why am I so slimy?! (v1.2)",
     "firstNight": 45,
     "otherNight": 54,
-    "firstNightReminder": "Wake an evil player & show them the *THIS CHARACTER SELECTED YOU* & Epidemic tokens. They choose a player. :reminder: Put them to sleep. Wake the target. Show the *YOU ARE* token & a thumbs up or thumbs down.",
-    "otherNightReminder": "Wake an alive player that has yet to be woken to choose a player by the Epidemic's ability & show them the *THIS CHARACTER SELECTED YOU* & Epidemic tokens. They choose a player. :reminder: Put them to sleep. Maybe wake the target. Show the *YOU ARE* token & a thumbs up or thumbs down.",
+    "firstNightReminder": "Wake an evil player &amp; show them the *THIS CHARACTER SELECTED YOU* &amp; Epidemic tokens. They choose a player. :reminder: Put them to sleep. Wake the target. Show the *YOU ARE* token &amp; a thumbs up or thumbs down.",
+    "otherNightReminder": "Wake an alive player that has yet to be woken to choose a player by the Epidemic's ability &amp; show them the *THIS CHARACTER SELECTED YOU* &amp; Epidemic tokens. They choose a player. :reminder: Put them to sleep. Maybe wake the target. Show the *YOU ARE* token &amp; a thumbs up or thumbs down.",
     "remindersGlobal": [
       "Has Infected",
       "Has Infected",
@@ -1430,14 +1434,33 @@
     ]
   },
   {
+    "id": "overseer",
+    "name": "Overseer",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/demons/overseer/overseer_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/demons/overseer/overseer_good.png"
+    ],
+    "team": "demon",
+    "edition": "bloodvine",
+    "ability": "Each night*, choose a player: they die. You cannot die. If you are the only evil player alive, good wins.",
+    "flavor": "(v1.0)",
+    "firstNight": 0,
+    "otherNight": 50,
+    "otherNightReminder": "The Overseer chooses a player. :reminder:",
+    "reminders": [
+      "Dead"
+    ]
+  },
+  {
     "id": "choose_your_own_trv",
     "name": "Choose a Traveller",
     "team": "traveller",
     "ability": "On the 1st night, choose a Traveller character to become.",
     "firstNight": 5,
-    "otherNight": 0,
     "firstNightReminder": "The Traveller player chooses a character.",
     "remindersGlobal": [
+      "Drunk",
+      "Drunk",
       "Drunk",
       "Drunk",
       "Drunk"
