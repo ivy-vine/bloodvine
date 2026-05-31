@@ -1,0 +1,26 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "misinformant v1.0"
+  },
+  {
+    "id": "misinformant",
+    "name": "Misinformant",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/minions/misinformant/misinformant_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/minions/misinformant/misinformant_good.png"
+    ],
+    "team": "minion",
+    "edition": "bloodvine",
+    "ability": "Each night, choose a player: they can't nominate tomorrow. If just 3 players live, you lose this ability",
+    "flavor": "(v1.0)",
+    "firstNight": 41,
+    "firstNightReminder": "The Misinformant chooses a player. :reminder:",
+    "otherNight": 27,
+    "otherNightReminder": "The Misinformant chooses a player. :reminder:",
+    "reminders": [
+      "Doubted"
+    ]
+  }
+]

@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "playwright v1.0"
+    "name": "playwright v1.1"
   },
   {
     "id": "playwright",
@@ -13,7 +13,7 @@
     ],
     "team": "outsider",
     "edition": "bloodvine",
-    "ability": "Abilities act in seat order, even if dead.",
-    "flavor": "(v1.0)"
+    "ability": "Abilities act in seat order.",
+    "flavor": "(v1.1)"
   }
 ]
