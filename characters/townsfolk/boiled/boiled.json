@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "boiled v1.0"
+    "name": "boiled v1.1"
   },
   {
     "id": "boiled",
@@ -13,8 +13,8 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "You may call for the exile of non-Travellers. [Might be a Minion]",
-    "flavor": "Was it something I said? (v1.0)",
+    "ability": "You may call for the exile of non-Travellers, until a player is exiled. [Might be a Minion]",
+    "flavor": "Was it something I said? (v1.1)",
     "special": [
       {
         "type": "selection",

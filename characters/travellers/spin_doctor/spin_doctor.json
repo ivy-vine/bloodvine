@@ -17,8 +17,11 @@
     "ability": "Each night, choose a player & 9 words: they must speak using only these words tomorrow, or might be executed.",
     "flavor": "(v1.0)",
     "firstNight": 9,
-    "firstNightReminder": "The Spin Doctor says 9 words.",
+    "firstNightReminder": "The Spin Doctor says 9 words. :reminder:",
     "otherNight": 4,
-    "otherNightReminder": "The Spin Doctor says 9 words."
+    "otherNightReminder": "The Spin Doctor says 9 words. :reminder:",
+    "reminders": [
+      "Spun"
+    ]
   }
 ]

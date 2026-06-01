@@ -15,6 +15,9 @@
     "team": "traveller",
     "edition": "bloodvine",
     "ability": "Once per game, privately choose a Fabled or Loric to add. When doing this, the Storyteller may prompt you to choose differently. When you die, the Fabled or Loric is removed.",
-    "flavor": "(v1.0)"
+    "flavor": "(v1.0)",
+    "reminders": [
+      "At The Station"
+    ]
   }
 ]

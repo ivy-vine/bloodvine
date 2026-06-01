@@ -510,8 +510,8 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "You may call for the exile of non-Travellers. [Might be a Minion]",
-    "flavor": "Was it something I said? (v1.0)",
+    "ability": "You may call for the exile of non-Travellers, until a player is exiled. [Might be a Minion]",
+    "flavor": "Was it something I said? (v1.1)",
     "firstNight": 0,
     "otherNight": 0,
     "special": [
@@ -1590,8 +1590,26 @@
     "flavor": "(v1.0)",
     "firstNight": 9,
     "otherNight": 4,
-    "firstNightReminder": "The Spin Doctor says 9 words.",
-    "otherNightReminder": "The Spin Doctor says 9 words."
+    "firstNightReminder": "The Spin Doctor says 9 words. :reminder:",
+    "otherNightReminder": "The Spin Doctor says 9 words. :reminder:",
+    "reminders": [
+      "Spun"
+    ]
+  },
+  {
+    "id": "clergy",
+    "name": "Clergy",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/travellers/clergy/clergy_traveller.png",
+      "https://ivy-vine.github.io/bloodvine/characters/travellers/clergy/clergy_traveller_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/travellers/clergy/clergy_traveller_evil.png"
+    ],
+    "team": "traveller",
+    "edition": "bloodvine",
+    "ability": "Once per day, you may declare a player is the Adulterer.",
+    "flavor": "(v1.0)",
+    "firstNight": 0,
+    "otherNight": 0
   },
   {
     "id": "conductor",
