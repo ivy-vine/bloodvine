@@ -1,0 +1,20 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "spin_doctor v1.0"
+  },
+  {
+    "id": "spin_doctor",
+    "name": "Spin Doctor",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/travellers/spin_doctor/spin_doctor_traveller.png",
+      "https://ivy-vine.github.io/bloodvine/characters/travellers/spin_doctor/spin_doctor_traveller_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/travellers/spin_doctor/spin_doctor_traveller_evil.png"
+    ],
+    "team": "traveller",
+    "edition": "bloodvine",
+    "ability": "Each night, choose a player & 9 words: they must speak using only these words tomorrow, or might be executed.",
+    "flavor": "(v1.0)"
+  }
+]

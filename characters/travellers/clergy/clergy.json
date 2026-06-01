@@ -1,0 +1,20 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "clergy v1.0"
+  },
+  {
+    "id": "clergy",
+    "name": "Clergy",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/travellers/clergy/clergy_traveller.png",
+      "https://ivy-vine.github.io/bloodvine/characters/travellers/clergy/clergy_traveller_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/travellers/clergy/clergy_traveller_evil.png"
+    ],
+    "team": "traveller",
+    "edition": "bloodvine",
+    "ability": "Once per day, you may declare a player is the Adulterer.",
+    "flavor": "(v1.0)"
+  }
+]

@@ -52,7 +52,7 @@
     ],
     "team": "demon",
     "edition": "bloodvine",
-    "ability": "You register as dead. All alive players die. Each night, choose 3 players: they are regurgitated & 1 is poisoned until dusk. Evil only wins if all players (except Travellers) live.",
+    "ability": "You register as dead. All alive players die. Each night, choose 3 players: they are regurgitated & 1 is poisoned until dusk. Evil wins if & only if all players (except Travellers) live.",
     "flavor": "Deeper. Ravenswood's walls stand ten-thousand feet tall. Ravenswood's walls' walls stand ten-thousand feet more. Deeper. This time will be different. Deeper. (v2.7) (token by Diamondwar)",
     "firstNight": 26,
     "otherNight": 72,

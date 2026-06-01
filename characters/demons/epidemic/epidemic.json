@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "epidemic v1.2"
+    "name": "epidemic v1.3"
   },
   {
     "id": "epidemic",
@@ -14,7 +14,7 @@
     "team": "demon",
     "edition": "bloodvine",
     "ability": "Evil players \"are the Demon\". Each night, an alive fresh player chooses a player: they become their alignment. [No Minions. 1 player is evil]",
-    "flavor": "YUCK!! Why am I so slimy?! (v1.2)",
+    "flavor": "YUCK!! Why am I so slimy?! (v1.3)",
     "setup": true,
     "firstNight": 45,
     "firstNightReminder": "Wake an evil player & show them the *THIS CHARACTER SELECTED YOU* & Epidemic tokens. They choose a player. :reminder: Put them to sleep. Wake the target. Show the *YOU ARE* token & a thumbs up or thumbs down.",
@@ -46,6 +46,12 @@
       {
         "type": "selection",
         "name": "bag-disabled"
+      }
+    ],
+    "jinxes": [
+      {
+        "id": "lethargic",
+        "reason": "If the Epidemic is in play and the Lethargic is evil, the Lethargic may die."
       }
     ]
   }

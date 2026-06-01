@@ -1,0 +1,24 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "deputy v1.0"
+  },
+  {
+    "id": "deputy",
+    "name": "Deputy",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/travellers/deputy/deputy_traveller.png",
+      "https://ivy-vine.github.io/bloodvine/characters/travellers/deputy/deputy_traveller_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/travellers/deputy/deputy_traveller_evil.png"
+    ],
+    "team": "traveller",
+    "edition": "bloodvine",
+    "ability": "Each night, choose an alignment to become. You don't know the Demon. You cannot be exiled.",
+    "flavor": "(v1.0)",
+    "firstNight": 9,
+    "firstNightReminder": "The Deputy gives a thumbs up or a thumbs down.",
+    "otherNight": 4,
+    "otherNightReminder": "The Deputy gives a thumbs up or a thumbs down."
+  }
+]

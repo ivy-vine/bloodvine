@@ -14,7 +14,7 @@
     "team": "demon",
     "edition": "bloodvine",
     "ability": "Each night*, choose a player: they die. You cannot die. If you are the only evil player alive, good wins.",
-    "flavor": "(v1.0)",
+    "flavor": "make the flavor text a reference to young & dumb by cigarettes after sex (v1.0)",
     "otherNight": 50,
     "otherNightReminder": "The Overseer chooses a player. :reminder:",
     "reminders": [

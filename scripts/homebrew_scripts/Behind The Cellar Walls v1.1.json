@@ -73,11 +73,11 @@
     "team": "townsfolk",
     "edition": "bloodvine",
     "ability": "Each night, you gain the ability of an alive neighbor (you don't know which) until dusk.",
-    "flavor": "Must your claws climb ten-thousand walls? You have come a very long way, sweet thing, but you do not belong here; you will not survive the week. I don't think they can climb ten-thousand more. (v1.2)",
+    "flavor": "Must your claws climb ten-thousand walls? You have come a very long way, sweet thing, but you do not belong here; you will not survive the week. I don't think they can climb ten-thousand more. (v1.3)",
     "firstNight": 2,
     "otherNight": 2,
-    "firstNightReminder": "The Arctic Fox might change ability. If so, swap the Arctic Fox's character token to an alive neighbor's. :reminder:",
-    "otherNightReminder": "The Arctic Fox might change ability. If so, swap the Arctic Fox's character token to an alive neighbor's. :reminder:",
+    "firstNightReminder": "The Arctic Fox might change ability. If so, swap their character token to an alive neighbor's. :reminder:",
+    "otherNightReminder": "The Arctic Fox might change ability. If so, swap their character token to an alive neighbor's. :reminder:",
     "remindersGlobal": [
       "Is The Arctic Fox"
     ],
@@ -299,8 +299,8 @@
     ],
     "team": "minion",
     "edition": "bloodvine",
-    "ability": "All players register as alive, keep their eyes closed when voting, & the vote tally is secret.",
-    "flavor": "The Ectoplastic pulses. The Ectoplastic shines. The Ectoplastic throbs. The Ectoplastic grovels. The Ectoplastic is here. (v2.0)",
+    "ability": "All players register as alive & keep their eyes closed when voting & the vote tally is secret.",
+    "flavor": "The Ectoplastic pulses. The Ectoplastic shines. The Ectoplastic throbs. The Ectoplastic grovels. The Ectoplastic is here. (v2.1)",
     "firstNight": 0,
     "otherNight": 0,
     "reminders": [
@@ -360,7 +360,7 @@
     "jinxes": [
       {
         "id": "pithag",
-        "reason": "The Pit-Hag can't create a Shef."
+        "reason": "The Pit-Hag cannot create a Shef."
       }
     ]
   },
@@ -399,8 +399,8 @@
     ],
     "team": "traveller",
     "edition": "bloodvine",
-    "ability": "When you learn a player died, you may choose to die instead.",
-    "flavor": "A dummy?! This is what peak male performance looks like! (v1.1)",
+    "ability": "When a player dies, you may choose to die instead.",
+    "flavor": "A dummy?! This is what peak male performance looks like! (v1.2)",
     "firstNight": 0,
     "otherNight": 62,
     "otherNightReminder": "If a player died, the Dummy was woken and the dead player was pointed to. The Dummy might have nodded to die instead. If you haven't done this yet, do so now."

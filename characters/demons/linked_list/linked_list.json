@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "linked_list v1.0"
+    "name": "linked_list v1.1"
   },
   {
     "id": "linked_list",
@@ -13,8 +13,8 @@
     ],
     "team": "demon",
     "edition": "bloodvine",
-    "ability": "Each night*, choose a player: they die. [Half of players are evil. Evil are in a line. No Minions]",
-    "flavor": "They are the calm. They are the storm. They are the wire that binds us all. Their sweat gives us life. We breathe so They can bleed. Your skin peels and under that skin you'll find Them. (v1.0)",
+    "ability": "Each night*, choose a player: they die. Executions fail if only evil voted. [Half of players are evil. Evil are in a line. No Minions]",
+    "flavor": "They are the calm. They are the storm. They are the wire that binds us all. Their sweat gives us life. We breathe so They can bleed. Your skin peels and under that skin you'll find Them. (v1.1)",
     "setup": true,
     "otherNight": 42,
     "otherNightReminder": "They choose a player. :reminder:",

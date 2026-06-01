@@ -2,7 +2,49 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "The Life After Your Life v1.5"
+    "name": "The Life After Your Life v1.5",
+    "firstNight": [
+      "dusk",
+      "thespian",
+      "wrangler",
+      "apprentice",
+      "bitflip",
+      "minioninfo",
+      "demoninfo",
+      "sailor",
+      "lleech",
+      "poisoner",
+      "devilsadvocate",
+      "pukka",
+      "lethargic",
+      "spotter",
+      "dawn"
+    ],
+    "otherNight": [
+      "dusk",
+      "thespian",
+      "wrangler",
+      "bonecollector",
+      "sailor",
+      "poisoner",
+      "innkeeper",
+      "pickler",
+      "devilsadvocate",
+      "pukka",
+      "shabaloth",
+      "bitflip",
+      "cylcast",
+      "lleech",
+      "loose",
+      "secretary",
+      "dummy",
+      "professor",
+      "gorge",
+      "speaker",
+      "moonchild",
+      "naturalist",
+      "dawn"
+    ]
   },
   {
     "id": "spotter",
@@ -112,7 +154,7 @@
     "flavor": "The leaves cry over their lanterns' golden glow. The lanterns sit on their stools, watching over the brickwork. Life is as it should be. (v1.1)",
     "firstNight": 0,
     "otherNight": 89,
-    "otherNightReminder": "If no one died today, show a player's character token & give a finger signal.",
+    "otherNightReminder": "If no one died today, show a player's character token &amp; give a finger signal.",
     "reminders": [
       "Died Today"
     ]
@@ -163,7 +205,7 @@
     "flavor": "Sir, your 23:59:59.001 appointment is here. (v1.5)",
     "firstNight": 0,
     "otherNight": 60,
-    "otherNightReminder": "If the Secretary died today or tonight, they point to 2 players & gives 2 thumbs up or down."
+    "otherNightReminder": "If the Secretary died today or tonight, they point to 2 players &amp; gives 2 thumbs up or down."
   },
   {
     "id": "lover",
@@ -200,7 +242,7 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "1 player has your crab. If you guess (once) who it is, you can't die.",
+    "ability": "1 player has your crab. If you guess (once) who it is, you cannot die.",
     "flavor": "I can never sleep without Mr. Claws!! Can you please, sir, help me find him? (v1.2)",
     "firstNight": 47,
     "otherNight": 0,
@@ -334,10 +376,11 @@
     ],
     "team": "traveller",
     "edition": "bloodvine",
-    "ability": "When you learn a player died, you may choose to die instead.",
-    "flavor": "A dummy?! This is what peak male performance looks like! (v1.0)",
+    "ability": "When a player dies, you may choose to die instead.",
+    "flavor": "A dummy?! This is what peak male performance looks like! (v1.2)",
     "firstNight": 0,
-    "otherNight": 0
+    "otherNight": 62,
+    "otherNightReminder": "If a player died, the Dummy was woken and the dead player was pointed to. The Dummy might have nodded to die instead. If you haven't done this yet, do so now."
   },
   "bootlegger"
 ]

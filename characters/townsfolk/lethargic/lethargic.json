@@ -13,7 +13,7 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "1 player has your crab. If you guess (once) who it is, you can't die.",
+    "ability": "1 player has your crab. If you guess (once) who it is, you cannot die.",
     "flavor": "I can never sleep without Mr. Claws!! Can you please, sir, help me find him? (v1.2)",
     "firstNight": 47,
     "firstNightReminder": "Wake the player with the Has Crab reminder. Show the *THIS CHARACTER SELECTED YOU* token then the Lethargic token.",
