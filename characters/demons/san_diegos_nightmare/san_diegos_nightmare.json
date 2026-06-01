@@ -15,7 +15,7 @@
     "edition": "bloodvine",
     "ability": "Each night*, choose a player: they die. You have the ability of your recently killed player.",
     "flavor": "\"Killer fish. Killer fish from San Diego. I don't know what I am, but I taste really good. I make killer fish. Hello. I'll be your killer fish for the evening. Thank you.\" (v1.2)",
-    "otherNight": 11,
+    "otherNight": 12,
     "otherNightReminder": "The Killer Fish chooses a player. :reminder: :reminder:",
     "reminders": [
       "Dead",

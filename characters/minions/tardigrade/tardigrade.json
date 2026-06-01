@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "tardigrade v2.1"
+    "name": "tardigrade v2.2"
   },
   {
     "id": "tardigrade",
@@ -14,14 +14,12 @@
     "team": "minion",
     "edition": "bloodvine",
     "ability": "On your 1st night, choose a player: if of opposing alignment, you register as their character & alignment & gain their character's ability.",
-    "flavor": "(v2.1)",
+    "flavor": "(v2.2)",
     "firstNight": 32,
     "firstNightReminder": "The Tardigrade points to a player. If necessary, swap their character token. :reminder: :reminder:",
-    "reminders": [
-      "Marked"
-    ],
     "remindersGlobal": [
-      "Is The Tardigrade"
+      "Is The Tardigrade",
+      "Engrained"
     ],
     "special": [
       {
