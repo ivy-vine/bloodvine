@@ -1,0 +1,22 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "anesthetist v1.0"
+  },
+  {
+    "id": "anesthetist",
+    "name": "Anesthetist",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/anesthetist/anesthetist_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/anesthetist/anesthetist_evil.png"
+    ],
+    "team": "outsider",
+    "edition": "bloodvine",
+    "ability": "Each night, 1 of your alive neighbors might not wake tonight.",
+    "flavor": "(v1.0)",
+    "reminders": [
+      "Sleeping Well"
+    ]
+  }
+]

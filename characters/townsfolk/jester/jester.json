@@ -1,0 +1,27 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "jester v1.0"
+  },
+  {
+    "id": "jester",
+    "name": "Jester",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/jester/jester_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/jester/jester_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each day, you may visit the Storyteller to tell a joke in private: if they laughed, something good might happen to you.",
+    "flavor": "(v1.0)",
+    "reminders": [
+      "Sober & Healthy",
+      "Acts Twice",
+      "Hiding",
+      "Drunk",
+      "Mad",
+      "Dead"
+    ]
+  }
+]

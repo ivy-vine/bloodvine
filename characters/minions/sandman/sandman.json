@@ -1,0 +1,26 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "sandman v1.0"
+  },
+  {
+    "id": "sandman",
+    "name": "Sandman",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/minions/sandman/sandman_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/minions/sandman/sandman_good.png"
+    ],
+    "team": "minion",
+    "edition": "bloodvine",
+    "ability": "Each night, choose a player: they don't wake tonight.",
+    "flavor": "(v1.0)",
+    "firstNight": 32,
+    "firstNightReminder": "The Sandman chooses a player. :reminder:",
+    "otherNight": 17,
+    "otherNightReminder": "The Sandman chooses a player. :reminder:",
+    "reminders": [
+      "Sleeping Well"
+    ]
+  }
+]

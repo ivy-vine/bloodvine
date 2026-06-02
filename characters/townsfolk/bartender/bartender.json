@@ -1,0 +1,23 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "bartender v1.0"
+  },
+  {
+    "id": "bartender",
+    "name": "Bartender",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/bartender/bartender_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/bartender/bartender_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "If you guess (once) an evil player, they are drunk.",
+    "flavor": "(v1.0)",
+    "reminders": [
+      "Guess Used",
+      "Drunk"
+    ]
+  }
+]

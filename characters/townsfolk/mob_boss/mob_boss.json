@@ -1,0 +1,22 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "mob_boss v1.0"
+  },
+  {
+    "id": "mob_boss",
+    "name": "Mob Boss",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/mob_boss/mob_boss_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/mob_boss/mob_boss_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "The 1st time you publicly say \"Get 'em boys!\" while nominating, the nominee is executed immediately.",
+    "flavor": "(v1.0)",
+    "reminders": [
+      "No Ability"
+    ]
+  }
+]

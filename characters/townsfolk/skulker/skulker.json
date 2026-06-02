@@ -19,7 +19,7 @@
     "firstNightReminder": "The Skulker points to a player. :reminder:",
     "otherNight": 5,
     "otherNightReminder": "The Skulker points to a player. :reminder:",
-    "remindersGlobal": [
+    "reminders": [
       "Chosen"
     ]
   }

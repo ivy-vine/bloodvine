@@ -1,0 +1,40 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "stook v1.0"
+  },
+  {
+    "id": "stook",
+    "name": "Stook",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/minions/stook/stook_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/minions/stook/stook_good.png"
+    ],
+    "team": "minion",
+    "edition": "bloodvine",
+    "ability": "Once per game, at night, choose a player & an Outsider: they gain that ability. All players know if you used your ability.",
+    "flavor": "(v1.0)",
+    "firstNight": 32,
+    "firstNightReminder": "The Stook might choose a player & Outsider character. :reminder: Announce that the Stook has used their ability.",
+    "otherNight": 53,
+    "otherNightReminder": "The Stook might choose a player & Outsider character. :reminder: Announce that the Stook has used their ability.",
+    "reminders": [
+      "Struck"
+    ],
+    "jinxes": [
+      {
+        "id": "damsel",
+        "reason": "If the Stook gives a player the Damsel ability, the Storyteller chooses which player gains it."
+      },
+      {
+        "id": "saint",
+        "reason": "If the Stook gives a player the Saint ability, that player learns this."
+      },
+      {
+        "id": "heretic",
+        "reason": "Only 1 jinxed character can be in play."
+      }
+    ]
+  }
+]

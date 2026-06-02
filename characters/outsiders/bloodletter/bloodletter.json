@@ -1,0 +1,29 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "bloodletter v2.0"
+  },
+  {
+    "id": "bloodletter",
+    "name": "Bloodletter",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/bloodletter/bloodletter_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/bloodletter/bloodletter_evil.png"
+    ],
+    "team": "outsider",
+    "edition": "bloodvine",
+    "ability": "Each night, players that choose you with their ability die. [Might be a Minion]",
+    "flavor": "Trust me, you don't need it as much as I do. (v2.0)",
+    "setup": true,
+    "reminders": [
+      "Dead"
+    ],
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ]
+  }
+]

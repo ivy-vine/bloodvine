@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "arctic_fox v1.3"
+    "name": "arctic_fox v1.4"
   },
   {
     "id": "arctic_fox",
@@ -13,8 +13,8 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "Each night, you gain the ability of an alive neighbor (you don't know which) until dusk.",
-    "flavor": "Must your claws climb ten-thousand walls? You have come a very long way, sweet thing, but you do not belong here; you will not survive the week. I don't think they can climb ten-thousand more. (v1.3)",
+    "ability": "Each night, you gain the ability of an alive neighbor's (you don't know which) character until dusk.",
+    "flavor": "Must your claws climb ten-thousand walls? You have come a very long way, sweet thing, but you do not belong here; you will not survive the week. I don't think they can climb ten-thousand more. (v1.4)",
     "firstNight": 2,
     "firstNightReminder": "The Arctic Fox might change ability. If so, swap their character token to an alive neighbor's. :reminder:",
     "otherNight": 2,

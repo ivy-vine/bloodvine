@@ -1,0 +1,22 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "journalist v1.0"
+  },
+  {
+    "id": "journalist",
+    "name": "Journalist",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/journalist/journalist_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/journalist/journalist_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Once per game, during the day, publicly choose a player: if they are evil, they die, but if they are good, you die.",
+    "flavor": "(v1.0)",
+    "reminders": [
+      "No Ability"
+    ]
+  }
+]

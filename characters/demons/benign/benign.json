@@ -1,0 +1,23 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "benign v1.0"
+  },
+  {
+    "id": "benign",
+    "name": "Benign",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/demons/benign/benign_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/demons/benign/benign_good.png"
+    ],
+    "team": "demon",
+    "edition": "bloodvine",
+    "ability": "Each day, you may visit the Storyteller to choose 2 players in private: they die tonight.",
+    "flavor": "(v1.0)",
+    "reminders": [
+      "Dead",
+      "Dead"
+    ]
+  }
+]

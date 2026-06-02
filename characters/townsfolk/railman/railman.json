@@ -1,0 +1,25 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "railman v1.0"
+  },
+  {
+    "id": "railman",
+    "name": "Railman",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/railman/railman_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/railman/railman_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Once per game, at night*, choose a player: they register as dead.",
+    "flavor": "(v1.0)",
+    "otherNight": 55,
+    "otherNightReminder": "The Railman might choose a player. :reminder: :reminder:",
+    "reminders": [
+      "No Ability",
+      "Hiding"
+    ]
+  }
+]

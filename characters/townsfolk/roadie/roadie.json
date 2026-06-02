@@ -1,0 +1,19 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "roadie v1.0"
+  },
+  {
+    "id": "roadie",
+    "name": "Roadie",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/roadie/roadie_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/roadie/roadie_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each day, you may visit the Storyteller to guess a song in private: if correct, you learn true info, but if wrong, you learn false info.",
+    "flavor": "(v1.0)"
+  }
+]

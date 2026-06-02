@@ -1,0 +1,24 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "venture_capitalist v1.0"
+  },
+  {
+    "id": "venture_capitalist",
+    "name": "Venture Capitalist",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/demons/venture_capitalist/venture_capitalist_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/demons/venture_capitalist/venture_capitalist_good.png"
+    ],
+    "team": "demon",
+    "edition": "bloodvine",
+    "ability": "Each night*, choose a player: they die. If your team wins, choose (within reason) a sliver to add to the Wheel. If you are mad as the Venture Capitalist, you lose this ability.",
+    "flavor": "(v1.0)",
+    "otherNight": 51,
+    "otherNightReminder": "The Venture Capitalist chooses a player. :reminder:",
+    "reminders": [
+      "Dead"
+    ]
+  }
+]

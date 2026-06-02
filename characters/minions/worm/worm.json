@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "worm v1.2"
+    "name": "worm v1.3"
   },
   {
     "id": "worm",
@@ -14,7 +14,7 @@
     "team": "minion",
     "edition": "bloodvine",
     "ability": "On your 1st night, look at the Grimoire & choose 2 players: whatever happens to one also happenes to the other.",
-    "flavor": "Ever since then, I've been able to see things I couldn't before; feel things I could've never imagined. It doesn't feel... good, nor is it painful either; it's something different. I'm not sure why, but I haven't been able to stop crying. (v1.2)",
+    "flavor": "Ever since then, I've been able to see things I couldn't before; feel things I could've never imagined. It doesn't feel... good, nor is it painful either; it's something different. I'm not sure why, but I haven't been able to stop crying. (v1.3)",
     "firstNight": 27,
     "firstNightReminder": "Show the Grimoire for as long as the Worm needs. :reminder: :reminder:",
     "reminders": [
@@ -31,11 +31,15 @@
     "jinxes": [
       {
         "id": "alchemist",
-        "reason": "An Alchemist-Worm doesn't see the grimoire."
+        "reason": "An Alchemist-Worm does not see the Grimoire."
       },
       {
         "id": "arctic_fox",
-        "reason": "An Arctic Fox with the Worm ability doesn't see the grimoire."
+        "reason": "An Arctic Fox with the Worm ability does not see the Grimoire."
+      },
+      {
+        "id": "bitflip",
+        "reason": "If the Seed is in play, the Worm does not see the Grimoire."
       }
     ]
   }

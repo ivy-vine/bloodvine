@@ -1,0 +1,26 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "lobotomist v1.0"
+  },
+  {
+    "id": "lobotomist",
+    "name": "Lobotomist",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/minions/lobotomist/lobotomist_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/minions/lobotomist/lobotomist_good.png"
+    ],
+    "team": "minion",
+    "edition": "bloodvine",
+    "ability": "Once per game, at night, choose a player & an ability they have instead. When doing this, the Storyteller may prompt you to choose differently.",
+    "flavor": "(v1.0)",
+    "firstNight": 33,
+    "firstNightReminder": "The Lobotomist might choose a player & an ability. :reminder:",
+    "otherNight": 54,
+    "otherNightReminder": "The Lobotomist might choose a player & an ability. :reminder:",
+    "reminders": [
+      "Lobotomized"
+    ]
+  }
+]
