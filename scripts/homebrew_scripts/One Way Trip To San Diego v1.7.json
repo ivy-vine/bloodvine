@@ -25,31 +25,7 @@
   "poisoner",
   "pithag",
   "eviltwin",
-  {
-    "id": "san_diegos_nightmare",
-    "name": "Killer Fish",
-    "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/demons/san_diegos_nightmare/san_diegos_nightmare_evil.png",
-      "https://ivy-vine.github.io/bloodvine/characters/demons/san_diegos_nightmare/san_diegos_nightmare_good.png"
-    ],
-    "team": "demon",
-    "edition": "bloodvine",
-    "ability": "Each night*, choose a player: they die. You have the ability of your recently killed player.",
-    "flavor": "\"Killer fish. Killer fish from San Diego. I don't know what I am, but I taste really good. I make killer fish. Hello. I'll be your killer fish for the evening. Thank you.\" (v1.2)",
-    "firstNight": 0,
-    "otherNight": 11,
-    "otherNightReminder": "The Killer Fish chooses a player. :reminder: :reminder:",
-    "reminders": [
-      "Dead",
-      "Tastes Really Good"
-    ],
-    "jinxes": [
-      {
-        "id": "poppygrower",
-        "reason": "If the Killer Fish kills the Poppy Grower, Minions and Demons don't learn each other, but they do when the Killer Fish loses the Poppy Grower's ability."
-      }
-    ]
-  },
+  "san_diegos_nightmare",
   "bureaucrat",
   "barista",
   "bonecollector",

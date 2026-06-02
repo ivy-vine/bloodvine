@@ -1,0 +1,24 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "opportunist v1.1"
+  },
+  {
+    "id": "opportunist",
+    "name": "Opportunist",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/opportunist/opportunist_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/opportunist/opportunist_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night*, choose to have the Storyteller flip a coin: heads) you learn an in-play character, or tails) you might die.",
+    "flavor": "(v1.1)",
+    "otherNight": 21,
+    "otherNightReminder": "If necessary, flip a coin. If heads, show an in-play character token. :reminder:",
+    "reminders": [
+      "Dead"
+    ]
+  }
+]

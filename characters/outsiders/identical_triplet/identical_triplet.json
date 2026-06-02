@@ -17,17 +17,25 @@
     "flavor": "(v1.0)",
     "setup": true,
     "remindersGlobal": [
+      "Is The Identical Triplet",
       "Is The Identical Triplet"
     ],
     "special": [
       {
         "type": "selection",
-        "name": "bag-duplicate"
+        "name": "bag-disabled"
       },
       {
         "type": "reveal",
         "name": "replace-character"
+      },
+      {
+        "type": "ability",
+        "name": "distribute-roles",
+        "time": "pregame",
+        "global": "townsfolk"
       }
     ]
-  }
+  },
+  "gardener"
 ]
