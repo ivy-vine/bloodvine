@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "dark v1.0"
+    "name": "dark v1.1"
   },
   {
     "id": "dark",
@@ -10,8 +10,8 @@
     "image": "https://ivy-vine.github.io/bloodvine/characters/demons/dark/dark.png",
     "team": "demon",
     "edition": "bloodvine",
-    "ability": "Each night*, choose a player: they may no longer sit in their seat & a player dies. Substitutes don't learn their game state.",
-    "flavor": "I am no Atheist; I know God is real, I know he is a liar, and I even know where he is. Deeper. (v1.0)",
+    "ability": "Each night*, choose 2 players: the 1st may no longer sit in their seat & the 2nd dies. Substitutes don't learn their game state.",
+    "flavor": "I am no Atheist; I know God is real, I know he is a liar, and I even know where he is. Deeper. (v1.1)",
     "otherNight": 40,
     "otherNightReminder": "The { color: #000000 } chooses a player. Mark the target's seat with their name then vacate their seat. :reminder: :reminder:",
     "reminders": [

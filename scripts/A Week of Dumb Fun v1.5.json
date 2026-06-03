@@ -2,13 +2,15 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "A Week of Dumb Fun v1.3",
+    "name": "A Week of Dumb Fun v1.5",
     "bootlegger": [
+      "In the case of a tie, the winning team is decided by a coin flip.",
       "There may be duplicate Minions in play.",
+      "Minions wake one by one, until one of them chooses to take the Lil' Monsta token.",
       "The Cerenovus may choose to make a player mad that they are a Minion.",
-      "It's announced when a drunk Alchemist or Lunatic Fearmonger chooses a new player.",
-      "A drunk Alchemist or Lunatic Evil Twin & their opposing player know each other.",
-      "A drunk Alchemist or Lunatic Vizier is announced."
+      "All players know a drunk Alchemist or Lunatic Vizier is the Vizier.",
+      "All players know if a drunk Alchemist or Lunatic Fearmonger chooses a new player.",
+      "A drunk Alchemist or Lunatic Evil Twin & an opposing player know each other."
     ]
   },
   {
@@ -22,6 +24,7 @@
     "ability": "You have a Minion ability. When using this, the Storyteller may prompt you to choose differently.",
     "flavor": "Visit the interior of the Earth. By rectification thou shalt find the hidden stone. Above the gold, lieth the red. Kether in Malkuth.",
     "firstNight": 15,
+    "otherNight": 0,
     "firstNightReminder": "Show the *YOU ARE* info token and a Minion token.",
     "remindersGlobal": [
       "Is The Alchemist",
@@ -44,12 +47,6 @@
       "Is The Alchemist",
       "Is The Alchemist",
       "Is The Alchemist"
-    ],
-    "special": [
-      {
-        "type": "reveal",
-        "name": "replace-character"
-      }
     ],
     "jinxes": [
       {
@@ -84,6 +81,12 @@
         "id": "wraith",
         "reason": "An Alchemist-Wraith has no Wraith ability & a Wraith is in play. After each execution, a living Alchemist-Wraith may publicly guess a living player as the Wraith. If correct, the Demon must choose the Wraith tonight."
       }
+    ],
+    "special": [
+      {
+        "type": "reveal",
+        "name": "replace-character"
+      }
     ]
   },
   "lunatic",
@@ -100,7 +103,6 @@
   "pithag",
   "psychopath",
   "assassin",
-  "wizard",
   "widow",
   "xaan",
   "marionette",

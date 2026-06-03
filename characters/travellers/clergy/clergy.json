@@ -15,7 +15,10 @@
     "team": "traveller",
     "edition": "bloodvine",
     "ability": "Once per day, you may declare a player is the Adulterer.",
-    "flavor": "(v1.0)"
+    "flavor": "(v1.0)",
+    "reminders": [
+      "Clerged"
+    ]
   },
   "adultery"
 ]

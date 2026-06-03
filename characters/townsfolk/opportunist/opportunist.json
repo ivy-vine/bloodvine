@@ -13,7 +13,7 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "Each night*, choose to have the Storyteller flip a coin: heads) you learn an in-play character, or tails) you might die.",
+    "ability": "Each night*, choose if the Storyteller flips a coin: heads) you learn an in-play character, or tails) you die.",
     "flavor": "(v1.1)",
     "otherNight": 21,
     "otherNightReminder": "If necessary, flip a coin. If heads, show an in-play character token. :reminder:",

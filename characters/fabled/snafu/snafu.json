@@ -1,0 +1,19 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "snafu v1.0"
+  },
+  {
+    "id": "snafu",
+    "name": "Snafu",
+    "image": "https://ivy-vine.github.io/bloodvine/characters/fabled/snafu/snafu_fabled.png",
+    "team": "loric",
+    "edition": "bloodvine",
+    "ability": "If the Storyteller makes a mistake, all players know this & the black sliver gets bigger.",
+    "flavor": "Don't worry about it. Don't worry about it! You really don't need to worry about it. (v1.0)",
+    "reminders": [
+      ":)"
+    ]
+  }
+]

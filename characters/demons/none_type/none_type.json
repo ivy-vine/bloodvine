@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy (token by Diamondwar)",
-    "name": "none_type v2.8"
+    "name": "none_type v2.9"
   },
   {
     "id": "none_type",
@@ -14,7 +14,7 @@
     "team": "demon",
     "edition": "bloodvine",
     "ability": "You register as dead. All alive players die. Each night, choose 3 players: they are regurgitated & 1 is poisoned until dusk. Evil wins if & only if all players (except Travellers) live.",
-    "flavor": "Deeper. Ravenswood's walls stand ten-thousand feet tall. Ravenswood's walls' walls stand ten-thousand feet more. Deeper. This time will be different. Deeper. (v2.8) (token by Diamondwar)",
+    "flavor": "Deeper. Ravenswood's walls stand ten-thousand feet tall. Ravenswood's walls' walls stand ten-thousand feet more. Deeper. This time will be different. Deeper. (v2.9) (token by Diamondwar)",
     "firstNight": 26,
     "firstNightReminder": "All alive players die. ?:reminder:s The ERROR chooses 3 players. :reminder: :reminder: :reminder: :reminder:",
     "otherNight": 72,
@@ -112,7 +112,7 @@
       },
       {
         "id": "damsel",
-        "reason": "If the ERROR is in play and a Minion publicly guesses the Damsel (once), evil wins."
+        "reason": "If the ERROR is in play, the Damsel has their ability, even if dead. If the ERROR is in play and a Minion publicly guesses the Damsel (once), evil wins."
       }
     ]
   }

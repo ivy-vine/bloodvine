@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "jester v1.0"
+    "name": "jester v1.1"
   },
   {
     "id": "jester",
@@ -13,15 +13,12 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "Each day, you may visit the Storyteller to tell a joke in private: if they laughed, something good might happen to you.",
-    "flavor": "(v1.0)",
+    "ability": "Each day, you may visit the Storyteller to tell a joke in private: if they laughed, a player becomes sober, healthy & gets true info.",
+    "flavor": "(v1.1)",
+    "otherNight": 10,
+    "otherNightReminder": "If the Jester made you laugh, a player immediately became sober & healthy. If you haven't done this yet, do so now. :reminder: Wake them, show the *THIS CHARACTER SELECTED YOU* & Jester tokens.",
     "reminders": [
-      "Sober & Healthy",
-      "Acts Twice",
-      "Hiding",
-      "Drunk",
-      "Mad",
-      "Dead"
+      "Sober & Healthy"
     ]
   }
 ]

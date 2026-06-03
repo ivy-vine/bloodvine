@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "baton_twirler v1.1"
+    "name": "baton_twirler v1.2"
   },
   {
     "id": "baton_twirler",
@@ -13,8 +13,8 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "The 1st time you died to an evil player, you live but register as dead. If you are then executed & more than 3 players live, your team wins. [Might be a Minion]",
-    "flavor": "I spin then you spin then I spin then you- aw come on, you dropped it! You ruined it! You ruined everything! (v1.1)",
+    "ability": "The 1st time you die to an evil player, you live but register as dead. If you are then executed, your team wins. [Might be a Minion]",
+    "flavor": "I spin then you spin then I spin then you- aw come on, you dropped it! You ruined it! You ruined everything! (v1.2)",
     "setup": true,
     "reminders": [
       "Died To Evil"
