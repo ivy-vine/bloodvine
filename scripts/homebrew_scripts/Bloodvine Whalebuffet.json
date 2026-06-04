@@ -56,6 +56,32 @@
     "setup": true
   },
   {
+    "id": "sunseeker",
+    "name": "Sunseeker",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/sunseeker/sunseeker_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/sunseeker/sunseeker_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night, choose a player: they cannot vote tomorrow.",
+    "flavor": "(v1.0)",
+    "firstNight": 61,
+    "otherNight": 83,
+    "firstNightReminder": "The Sunseeker chooses a player. :reminder:",
+    "otherNightReminder": "The Sunseeker chooses a player. :reminder:",
+    "reminders": [
+      "Sunburnt"
+    ],
+    "special": [
+      {
+        "type": "vote",
+        "name": "multiplier",
+        "value": 0
+      }
+    ]
+  },
+  {
     "id": "thespian",
     "name": "Thespian",
     "image": [
@@ -216,6 +242,62 @@
     ]
   },
   {
+    "id": "midshipman",
+    "name": "Midshipman",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/midshipman/midshipman_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/midshipman/midshipman_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night*, you learn if an Outsider voted today. [+0 or +1 Outsider]",
+    "flavor": "(v1.0)",
+    "firstNight": 0,
+    "otherNight": 83,
+    "otherNightReminder": "Either nod or shake your head.",
+    "reminders": [
+      "Outsider Voted",
+      "Outsider Not Voted"
+    ],
+    "setup": true
+  },
+  {
+    "id": "worrywart",
+    "name": "Worrywart",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/worrywart/worrywart_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/worrywart/worrywart_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night*, you learn the character of the player you nominated today.",
+    "flavor": "(v1.0)",
+    "firstNight": 0,
+    "otherNight": 79,
+    "otherNightReminder": "If the Worrywart nominated a player today, show the nominee's character token.",
+    "reminders": [
+      "Worried About"
+    ]
+  },
+  {
+    "id": "horticulturist",
+    "name": "Horticulturist",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/horticulturist/horticulturist_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/horticulturist/horticulturist_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night*, learn how many evil players you voted on for execution today.",
+    "flavor": "(v1.0)",
+    "firstNight": 0,
+    "otherNight": 84,
+    "otherNightReminder": "Give a finger signal.",
+    "reminders": [
+      "Voted On"
+    ]
+  },
+  {
     "id": "naturalist",
     "name": "Naturalist",
     "image": [
@@ -304,24 +386,6 @@
     ]
   },
   {
-    "id": "shoe_shiner",
-    "name": "Shoe Shiner",
-    "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/shoe_shiner/shoe_shiner_good.png",
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/shoe_shiner/shoe_shiner_evil.png"
-    ],
-    "team": "townsfolk",
-    "edition": "bloodvine",
-    "ability": "Once per game, at night*, choose a player: a chosen good player swaps characters with you & is then drunk.",
-    "flavor": "What you wear on the outside reflects who you are on the inside, so if your outside is covered in dirt and grime, I'll assume you have a grimy soul! Why have a grimy soul when you can have a shining soul? (v1.2)",
-    "otherNight": 11,
-    "otherNightReminder": "The Shoe Shiner might choose a player. If necessary, show the *YOU ARE* token & their new character token & wake the chosen player & do the same. :reminder: :reminder:",
-    "reminders": [
-      "No Ability",
-      "Drunk"
-    ]
-  },
-  {
     "id": "wrangler",
     "name": "Wrangler",
     "image": [
@@ -389,6 +453,25 @@
     "reminders": [
       "Reincarnated",
       "No Ability"
+    ]
+  },
+  {
+    "id": "shoe_shiner",
+    "name": "Shoe Shiner",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/shoe_shiner/shoe_shiner_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/shoe_shiner/shoe_shiner_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Once per game, at night*, choose a player: a chosen good player swaps characters with you & is then drunk.",
+    "flavor": "What you wear on the outside reflects who you are on the inside, so if your outside is covered in dirt and grime, I'll assume you have a grimy soul! Why have a grimy soul when you can have a shining soul? (v1.2)",
+    "firstNight": 0,
+    "otherNight": 11,
+    "otherNightReminder": "The Shoe Shiner might choose a player. If necessary, show the *YOU ARE* token & their new character token & wake the chosen player & do the same. :reminder: :reminder:",
+    "reminders": [
+      "No Ability",
+      "Drunk"
     ]
   },
   {
@@ -540,6 +623,62 @@
       {
         "id": "leviathan",
         "reason": "If the Bartender guesses (once) the opposing Leviathan, the Leviathan is drunk until dusk."
+      }
+    ]
+  },
+  {
+    "id": "spoilsport",
+    "name": "Spoilsport",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/spoilsport/spoilsport_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/spoilsport/spoilsport_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "If you guess (once) an opposing player, they can no longer nominate.",
+    "flavor": "(v1.0)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "Guess Used",
+      "Spoiled"
+    ]
+  },
+  {
+    "id": "stagehand",
+    "name": "Stagehand",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/stagehand/stagehand_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/stagehand/stagehand_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "If the Demon nominates & executes you, your team wins.",
+    "flavor": "(v1.0)",
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "breeder",
+    "name": "Breeder",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/breeder/breeder_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/breeder/breeder_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "If exactly 1 of your alive neighbors is evil, your vote counts twice.",
+    "flavor": "(v1.0)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "Fertilized"
+    ],
+    "special": [
+      {
+        "type": "vote",
+        "name": "multiplier",
+        "value": 2
       }
     ]
   },
@@ -824,8 +963,8 @@
     ],
     "team": "outsider",
     "edition": "bloodvine",
-    "ability": "You are evil if at least one reminder token is on you. If not, you are good.",
-    "flavor": "All I have ever wanted was to be noticed; for someone to give even a single damn about me. It should never have had to come to this. It never would have come to this if you, or anyone for that matter!, truly loved me. (v1.1) (token by Diamondwar)",
+    "ability": "You are evil if at least one reminder token is on you & if not, you are good, even if dead.",
+    "flavor": "All I have ever wanted was to be noticed; for someone to give even a single damn about me. It should never have had to come to this. It never would have come to this if you, or anyone for that matter!, truly loved me. (v1.2) (token by Diamondwar)",
     "firstNight": 0,
     "otherNight": 0
   },
@@ -1015,6 +1154,32 @@
     ]
   },
   {
+    "id": "moonseeker",
+    "name": "Moonseeker",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/moonseeker/moonseeker_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/moonseeker/moonseeker_good.png"
+    ],
+    "team": "minion",
+    "edition": "bloodvine",
+    "ability": "Each night, choose a player: their vote counts negatively tomorrow & they know this.",
+    "flavor": "(v1.0)",
+    "firstNight": 43,
+    "otherNight": 43,
+    "firstNightReminder": "The Moonseeker chooses a player. Wake the target. Show the *THIS CHARACTER SELECTED YOU* & Moonseeker tokens. :reminder:",
+    "otherNightReminder": "The Moonseeker chooses a player. Wake the target. Show the *THIS CHARACTER SELECTED YOU* & Moonseeker tokens. :reminder:",
+    "reminders": [
+      "Gazing At The Moon"
+    ],
+    "special": [
+      {
+        "type": "vote",
+        "name": "multiplier",
+        "value": -1
+      }
+    ]
+  },
+  {
     "id": "misinformant",
     "name": "Misinformant",
     "image": [
@@ -1078,7 +1243,7 @@
     "team": "minion",
     "edition": "bloodvine",
     "ability": "Once per game, at night, choose a player & an Outsider: they gain that ability. All players know if you used your ability.",
-    "flavor": "(v1.0)",
+    "flavor": "(v1.1)",
     "firstNight": 32,
     "otherNight": 53,
     "firstNightReminder": "The Stook might choose a player & Outsider character. :reminder: Announce that the Stook has used their ability.",
@@ -1089,11 +1254,19 @@
     "jinxes": [
       {
         "id": "damsel",
-        "reason": "If the Stook gives a player the Damsel ability, the Storyteller chooses which player gains it."
+        "reason": "If the Stook gives a player the Damsel ability, the Storyteller chooses which player gains it and that player learns this."
       },
       {
         "id": "saint",
         "reason": "If the Stook gives a player the Saint ability, that player learns this."
+      },
+      {
+        "id": "butler",
+        "reason": "If the Stook gives a player the Butler ability, that player learns this."
+      },
+      {
+        "id": "zealot",
+        "reason": "If the Stook gives a player the Zealot ability, that player learns this."
       },
       {
         "id": "heretic",
@@ -1405,7 +1578,7 @@
     "ability": "Each night*, choose a player: they die. You have the ability of your recently killed player.",
     "flavor": "\"Killer fish. Killer fish from San Diego. I don't know what I am, but I taste really good. I make killer fish. Hello. I'll be your killer fish for the evening. Thank you.\" (v1.2)",
     "firstNight": 0,
-    "otherNight": 11,
+    "otherNight": 12,
     "otherNightReminder": "The Killer Fish chooses a player. :reminder: :reminder:",
     "reminders": [
       "Dead",
