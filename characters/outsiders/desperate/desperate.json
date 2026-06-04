@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy (token by Diamondwar)",
-    "name": "desperate v1.1"
+    "name": "desperate v1.2"
   },
   {
     "id": "desperate",
@@ -13,7 +13,7 @@
     ],
     "team": "outsider",
     "edition": "bloodvine",
-    "ability": "You are evil if at least one reminder token is on you. If not, you are good.",
-    "flavor": "All I have ever wanted was to be noticed; for someone to give even a single damn about me. It should never have had to come to this. It never would have come to this if you, or anyone for that matter!, truly loved me. (v1.1) (token by Diamondwar)"
+    "ability": "You are evil if at least one reminder token is on you & if not, you are good, even if dead.",
+    "flavor": "All I have ever wanted was to be noticed; for someone to give even a single damn about me. It should never have had to come to this. It never would have come to this if you, or anyone for that matter!, truly loved me. (v1.2) (token by Diamondwar)"
   }
 ]

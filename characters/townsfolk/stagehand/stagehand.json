@@ -1,0 +1,19 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "stagehand v1.0"
+  },
+  {
+    "id": "stagehand",
+    "name": "Stagehand",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/stagehand/stagehand_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/stagehand/stagehand_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "If the Demon nominates & executes you, your team wins.",
+    "flavor": "(v1.0)"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "midshipman v1.0"
+  },
+  {
+    "id": "midshipman",
+    "name": "Midshipman",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/midshipman/midshipman_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/midshipman/midshipman_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night*, you learn if an Outsider voted today. [+0 or +1 Outsider]",
+    "flavor": "(v1.0)",
+    "setup": true,
+    "otherNight": 83,
+    "otherNightReminder": "Either nod or shake your head.",
+    "reminders": [
+      "Outsider Voted",
+      "Outsider Not Voted"
+    ]
+  }
+]

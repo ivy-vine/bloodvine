@@ -1,0 +1,24 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "horticulturist v1.0"
+  },
+  {
+    "id": "horticulturist",
+    "name": "Horticulturist",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/horticulturist/horticulturist_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/horticulturist/horticulturist_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night*, learn how many evil players you voted on for execution today.",
+    "flavor": "(v1.0)",
+    "otherNight": 84,
+    "otherNightReminder": "Give a finger signal.",
+    "reminders": [
+      "Voted On"
+    ]
+  }
+]

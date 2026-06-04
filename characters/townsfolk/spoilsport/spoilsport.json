@@ -1,0 +1,23 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "spoilsport v1.0"
+  },
+  {
+    "id": "spoilsport",
+    "name": "Spoilsport",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/spoilsport/spoilsport_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/spoilsport/spoilsport_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "If you guess (once) an opposing player, they can no longer nominate.",
+    "flavor": "(v1.0)",
+    "reminders": [
+      "Guess Used",
+      "Spoiled"
+    ]
+  }
+]

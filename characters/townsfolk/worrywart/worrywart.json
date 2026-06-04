@@ -1,0 +1,24 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "worrywart v1.0"
+  },
+  {
+    "id": "worrywart",
+    "name": "Worrywart",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/worrywart/worrywart_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/worrywart/worrywart_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night*, you learn the character of the player you nominated today.",
+    "flavor": "(v1.0)",
+    "otherNight": 79,
+    "otherNightReminder": "If the Worrywart nominated a player today, show the nominee's character token.",
+    "reminders": [
+      "Worried About"
+    ]
+  }
+]

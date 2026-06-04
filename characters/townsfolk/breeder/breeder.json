@@ -1,0 +1,29 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "breeder v1.0"
+  },
+  {
+    "id": "breeder",
+    "name": "Breeder",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/breeder/breeder_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/breeder/breeder_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "If exactly 1 of your alive neighbors is evil, your vote counts twice.",
+    "flavor": "(v1.0)",
+    "reminders": [
+      "Fertilized"
+    ],
+    "special": [
+      {
+        "type": "vote",
+        "name": "multiplier",
+        "value": 2
+      }
+    ]
+  }
+]

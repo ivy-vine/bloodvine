@@ -1,0 +1,33 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "sunseeker v1.0"
+  },
+  {
+    "id": "sunseeker",
+    "name": "Sunseeker",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/sunseeker/sunseeker_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/sunseeker/sunseeker_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night, choose a player: they cannot vote tomorrow.",
+    "flavor": "(v1.0)",
+    "firstNight": 61,
+    "firstNightReminder": "The Sunseeker chooses a player. :reminder:",
+    "otherNight": 83,
+    "otherNightReminder": "The Sunseeker chooses a player. :reminder:",
+    "reminders": [
+      "Sunburnt"
+    ],
+    "special": [
+      {
+        "type": "vote",
+        "name": "multiplier",
+        "value": 0
+      }
+    ]
+  }
+]
