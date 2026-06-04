@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "shoe_shiner v1.1"
+    "name": "shoe_shiner v1.2"
   },
   {
     "id": "shoe_shiner",
@@ -13,10 +13,8 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "Once per game, at night, choose a player: a chosen good player swaps characters with you & is then drunk.",
-    "flavor": "What you wear on the outside reflects who you are on the inside, so if your outside is covered in dirt and grime, I'll assume you have a grimy soul! Why have a grimy soul when you can have a shining soul? (v1.1)",
-    "firstNight": 13,
-    "firstNightReminder": "The Shoe Shiner might choose a player. If necessary, show the *YOU ARE* token & their new character token & wake the chosen player & do the same. :reminder: :reminder:",
+    "ability": "Once per game, at night*, choose a player: a chosen good player swaps characters with you & is then drunk.",
+    "flavor": "What you wear on the outside reflects who you are on the inside, so if your outside is covered in dirt and grime, I'll assume you have a grimy soul! Why have a grimy soul when you can have a shining soul? (v1.2)",
     "otherNight": 11,
     "otherNightReminder": "The Shoe Shiner might choose a player. If necessary, show the *YOU ARE* token & their new character token & wake the chosen player & do the same. :reminder: :reminder:",
     "reminders": [

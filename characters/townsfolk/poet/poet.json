@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "poet v1.1"
+    "name": "poet v1.2"
   },
   {
     "id": "poet",
@@ -14,7 +14,7 @@
     "team": "townsfolk",
     "edition": "bloodvine",
     "ability": "Once per game, during the day, publicly claim to be the Poet: the Demon is drunk until dawn.",
-    "flavor": "A poet who never knows it certainly doesn't owe it to show it how far they can throw it. They may dip their toes in the riverbed, before throwing their greens into a piano's strings. \"I was never the brightest tool in the shed\", she pled as she bled, closer than ever to dead, no light further ahead. (v1.1)",
+    "flavor": "A poet who never knows it certainly doesn't owe it to show it how far they can throw it. They may dip their toes in the riverbed, before throwing their greens into a piano's strings. \"For you, a tear I shed\", she pled as she bled, closer than ever to dead, no light further ahead. (v1.2)",
     "reminders": [
       "No Ability",
       "Drunk"

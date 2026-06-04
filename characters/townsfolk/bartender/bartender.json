@@ -15,10 +15,6 @@
     "edition": "bloodvine",
     "ability": "If you guess (once) an opposing player, they are drunk.",
     "flavor": "(v1.1)",
-    "firstNight": 9,
-    "firstNightReminder": "The Bartender might choose a player. :reminder:",
-    "otherNight": 2,
-    "otherNightReminder": "The Bartender might choose a player. :reminder:",
     "reminders": [
       "Guess Used",
       "Drunk"
@@ -26,7 +22,7 @@
     "jinxes": [
       {
         "id": "leviathan",
-        "reason": "If the Bartender guesses the opposing Leviathan, the Leviathan is drunk, until dusk."
+        "reason": "If the Bartender guesses (once) the opposing Leviathan, the Leviathan is drunk until dusk."
       }
     ]
   }
