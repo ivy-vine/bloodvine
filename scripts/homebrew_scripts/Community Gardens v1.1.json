@@ -2,9 +2,41 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "Saturn's Biggest Fan v1.0"
+    "name": "Community Gardens v1.1",
+    "firstNight": [
+      "dusk",
+      "wrangler",
+      "bureaucrat",
+      "thief",
+      "bitflip",
+      "minioninfo",
+      "demoninfo",
+      "stook",
+      "misinformant",
+      "trojan",
+      "investigator",
+      "knight",
+      "dawn"
+    ],
+    "otherNight": [
+      "dusk",
+      "wrangler",
+      "bureaucrat",
+      "thief",
+      "misinformant",
+      "bitflip",
+      "keeper",
+      "vortox",
+      "stook",
+      "trojan",
+      "undertaker",
+      "flowergirl",
+      "towncrier",
+      "dawn"
+    ]
   },
-  "noble",
+  "knight",
+  "investigator",
   "flowergirl",
   "towncrier",
   "undertaker",
@@ -41,43 +73,6 @@
     ]
   },
   {
-    "id": "maid",
-    "name": "Maid",
-    "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/maid/maid_good.png",
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/maid/maid_evil.png"
-    ],
-    "team": "townsfolk",
-    "edition": "bloodvine",
-    "ability": "Once per game, during the day, publicly choose a dead player: if they are of opposing alignment, all players know this.",
-    "flavor": "(v1.1)",
-    "firstNight": 0,
-    "otherNight": 0,
-    "reminders": [
-      "No Ability"
-    ]
-  },
-  "alchemist",
-  {
-    "id": "lovebug",
-    "name": "Lovebug",
-    "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/lovebug/lovebug_good.png",
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/lovebug/lovebug_evil.png"
-    ],
-    "team": "townsfolk",
-    "edition": "bloodvine",
-    "ability": "You & a Minion, if they live, are mad as the Minion's character, or you or they might be executed.",
-    "flavor": "(v1.1)",
-    "firstNight": 49,
-    "otherNight": 0,
-    "firstNightReminder": "Show the Minion character token marked *MAD*. Show the *THIS CHARACTER SELECTED YOU* & the Lovebug character token to the Minion.",
-    "reminders": [
-      "Mad",
-      "Mad"
-    ]
-  },
-  {
     "id": "bartender",
     "name": "Bartender",
     "image": [
@@ -86,13 +81,21 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "If you guess (once) an evil player, they are drunk.",
-    "flavor": "(v1.0)",
-    "firstNight": 0,
-    "otherNight": 0,
+    "ability": "If you guess (once) an opposing player, they are drunk.",
+    "flavor": "(v1.1)",
+    "firstNight": 9,
+    "otherNight": 2,
+    "firstNightReminder": "The Bartender might choose a player. :reminder:",
+    "otherNightReminder": "The Bartender might choose a player. :reminder:",
     "reminders": [
       "Guess Used",
       "Drunk"
+    ],
+    "jinxes": [
+      {
+        "id": "leviathan",
+        "reason": "If the Bartender guesses the opposing Leviathan, the Leviathan is drunk, until dusk."
+      }
     ]
   },
   "mayor",
@@ -111,6 +114,30 @@
     "otherNight": 0,
     "reminders": [
       "No Ability"
+    ]
+  },
+  {
+    "id": "baton_twirler",
+    "name": "Baton Twirler",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/baton_twirler/baton_twirler_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/baton_twirler/baton_twirler_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "The 1st time you die to an evil player, you live but register as dead. If you are then executed, your team wins. [Might be a Minion]",
+    "flavor": "I spin then you spin then I spin then you- aw come on, you dropped it! You ruined it! You ruined everything! (v1.2)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "Died To Evil"
+    ],
+    "setup": true,
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
     ]
   },
   {
@@ -138,31 +165,7 @@
       }
     ]
   },
-  {
-    "id": "baton_twirler",
-    "name": "Baton Twirler",
-    "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/baton_twirler/baton_twirler_good.png",
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/baton_twirler/baton_twirler_evil.png"
-    ],
-    "team": "townsfolk",
-    "edition": "bloodvine",
-    "ability": "The 1st time you die to an evil player, you live but register as dead. If you are then executed, your team wins. [Might be a Minion]",
-    "flavor": "I spin then you spin then I spin then you- aw come on, you dropped it! You ruined it! You ruined everything! (v1.2)",
-    "firstNight": 0,
-    "otherNight": 0,
-    "reminders": [
-      "Died To Evil"
-    ],
-    "setup": true,
-    "special": [
-      {
-        "type": "selection",
-        "name": "bag-duplicate"
-      }
-    ]
-  },
-  "butler",
+  "recluse",
   {
     "id": "imaginary_friend",
     "name": "Imaginary Friend",
@@ -231,27 +234,35 @@
     ]
   },
   {
-    "id": "tardigrade",
-    "name": "Tardigrade",
+    "id": "stook",
+    "name": "Stook",
     "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/minions/tardigrade/tardigrade_evil.png",
-      "https://ivy-vine.github.io/bloodvine/characters/minions/tardigrade/tardigrade_good.png"
+      "https://ivy-vine.github.io/bloodvine/characters/minions/stook/stook_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/minions/stook/stook_good.png"
     ],
     "team": "minion",
     "edition": "bloodvine",
-    "ability": "On your 1st night, choose a player: (if not the Demon) you register as their character, alignment & gain their character's ability.",
-    "flavor": "(v2.3)",
+    "ability": "Once per game, at night, choose a player & an Outsider: they gain that ability. All players know if you used your ability.",
+    "flavor": "(v1.0)",
     "firstNight": 32,
-    "otherNight": 0,
-    "firstNightReminder": "The Tardigrade points to a player. If necessary, swap their character token. :reminder: :reminder:",
-    "remindersGlobal": [
-      "Is The Tardigrade",
-      "Engrained"
+    "otherNight": 53,
+    "firstNightReminder": "The Stook might choose a player &amp; Outsider character. :reminder: Announce that the Stook has used their ability.",
+    "otherNightReminder": "The Stook might choose a player &amp; Outsider character. :reminder: Announce that the Stook has used their ability.",
+    "reminders": [
+      "Struck"
     ],
-    "special": [
+    "jinxes": [
       {
-        "type": "reveal",
-        "name": "replace-character"
+        "id": "damsel",
+        "reason": "If the Stook gives a player the Damsel ability, the Storyteller chooses which player gains it."
+      },
+      {
+        "id": "saint",
+        "reason": "If the Stook gives a player the Saint ability, that player learns this."
+      },
+      {
+        "id": "heretic",
+        "reason": "Only 1 jinxed character can be in play."
       }
     ]
   },
@@ -308,7 +319,7 @@
     "team": "demon",
     "edition": "bloodvine",
     "ability": "Each night, choose a player: the previously chosen player dies. If you die & more than 3 players live, the previously chosen player becomes an evil Shef. [No Minions]",
-    "flavor": "DOWNLOAD NOW!!! AWESOME BLOOD ON THE CLOCKTOWER (FREE!) FREE --- CLICK HERE --- FREE DOWNLOAD NO VIRUS PLAY NOW!!! (v2.2)",
+    "flavor": "DOWNLOAD NOW!!! AWESOME BLOOD ON THE CLOCKTOWER (FREE!) FREE --- CLICK HERE --- FREE DOWNLOAD NO VIRUS PLAY NOW!!! (v2.3)",
     "firstNight": 47,
     "otherNight": 57,
     "firstNightReminder": "The Shef chooses a player. :reminder:",
@@ -321,7 +332,7 @@
     "jinxes": [
       {
         "id": "pithag",
-        "reason": "The Pit-Hag cannot create a Shef."
+        "reason": "If the Pit-Hag creates a Shef, the Storyteller chooses which player it is & the Minions become good."
       }
     ]
   },
@@ -341,7 +352,7 @@
     "otherNightReminder": "The efwrvgpomij vgewo;jim chooses a player. :reminder:",
     "reminders": [
       "Dead",
-      "Was Nominated"
+      "2 Attacks"
     ]
   },
   "vortox",
@@ -412,6 +423,7 @@
       }
     ]
   },
+  "bootlegger",
   {
     "id": "snafu",
     "name": "Snafu",
@@ -425,6 +437,5 @@
     "reminders": [
       ":)"
     ]
-  },
-  "bootlegger"
+  }
 ]
