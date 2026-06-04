@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "noms and exec script v1.0"
+    "name": "Saturn's Biggest Fan v1.0"
   },
   "noble",
   "flowergirl",
@@ -57,6 +57,7 @@
       "No Ability"
     ]
   },
+  "alchemist",
   {
     "id": "lovebug",
     "name": "Lovebug",
@@ -70,7 +71,7 @@
     "flavor": "(v1.1)",
     "firstNight": 49,
     "otherNight": 0,
-    "firstNightReminder": "Show the Minion character token marked *MAD*. Show the *THIS CHARACTER SELECTED YOU* &amp; the Lovebug character token to the Minion.",
+    "firstNightReminder": "Show the Minion character token marked *MAD*. Show the *THIS CHARACTER SELECTED YOU* & the Lovebug character token to the Minion.",
     "reminders": [
       "Mad",
       "Mad"
@@ -113,30 +114,6 @@
     ]
   },
   {
-    "id": "baton_twirler",
-    "name": "Baton Twirler",
-    "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/baton_twirler/baton_twirler_good.png",
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/baton_twirler/baton_twirler_evil.png"
-    ],
-    "team": "townsfolk",
-    "edition": "bloodvine",
-    "ability": "The 1st time you die to an evil player, you live but register as dead. If you are then executed, your team wins. [Might be a Minion]",
-    "flavor": "I spin then you spin then I spin then you- aw come on, you dropped it! You ruined it! You ruined everything! (v1.2)",
-    "firstNight": 0,
-    "otherNight": 0,
-    "reminders": [
-      "Died To Evil"
-    ],
-    "setup": true,
-    "special": [
-      {
-        "type": "selection",
-        "name": "bag-duplicate"
-      }
-    ]
-  },
-  {
     "id": "centrist",
     "name": "Centrist",
     "image": [
@@ -158,6 +135,30 @@
         "type": "vote",
         "name": "multiplier",
         "value": 2
+      }
+    ]
+  },
+  {
+    "id": "baton_twirler",
+    "name": "Baton Twirler",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/baton_twirler/baton_twirler_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/baton_twirler/baton_twirler_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "The 1st time you die to an evil player, you live but register as dead. If you are then executed, your team wins. [Might be a Minion]",
+    "flavor": "I spin then you spin then I spin then you- aw come on, you dropped it! You ruined it! You ruined everything! (v1.2)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "Died To Evil"
+    ],
+    "setup": true,
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
       }
     ]
   },
@@ -230,23 +231,28 @@
     ]
   },
   {
-    "id": "hoary_zorro",
-    "name": "Hoary Zorro",
+    "id": "tardigrade",
+    "name": "Tardigrade",
     "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/minions/hoary_zorro/hoary_zorro_evil.png",
-      "https://ivy-vine.github.io/bloodvine/characters/minions/hoary_zorro/hoary_zorro_good.png"
+      "https://ivy-vine.github.io/bloodvine/characters/minions/tardigrade/tardigrade_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/minions/tardigrade/tardigrade_good.png"
     ],
     "team": "minion",
     "edition": "bloodvine",
-    "ability": "Once per game, at night, choose a player: they register as the evil Hoary Zorro, even if you are dead.",
-    "flavor": "(v1.0)",
-    "firstNight": 31,
-    "otherNight": 52,
-    "firstNightReminder": "The Hoary Zorro might point to a player. :reminder:",
-    "otherNightReminder": "The Hoary Zorro might point to a player. :reminder:",
-    "reminders": [
-      "Marked",
-      "No Ability"
+    "ability": "On your 1st night, choose a player: (if not the Demon) you register as their character, alignment & gain their character's ability.",
+    "flavor": "(v2.3)",
+    "firstNight": 32,
+    "otherNight": 0,
+    "firstNightReminder": "The Tardigrade points to a player. If necessary, swap their character token. :reminder: :reminder:",
+    "remindersGlobal": [
+      "Is The Tardigrade",
+      "Engrained"
+    ],
+    "special": [
+      {
+        "type": "reveal",
+        "name": "replace-character"
+      }
     ]
   },
   {
@@ -410,7 +416,7 @@
     "id": "snafu",
     "name": "Snafu",
     "image": "https://ivy-vine.github.io/bloodvine/characters/fabled/snafu/snafu_fabled.png",
-    "team": "loric",
+    "team": "fabled",
     "edition": "bloodvine",
     "ability": "If the Storyteller makes a mistake, all players know this & the black sliver gets bigger.",
     "flavor": "Don't worry about it. Don't worry about it! You really don't need to worry about it. (v1.0)",

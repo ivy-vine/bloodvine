@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "bloodletter v2.0"
+    "name": "bloodletter v2.1"
   },
   {
     "id": "bloodletter",
@@ -13,10 +13,14 @@
     ],
     "team": "outsider",
     "edition": "bloodvine",
-    "ability": "Each night, good players that choose you with their ability die. [Might be a Minion]",
-    "flavor": "Trust me, you don't need it as much as I do. (v2.0)",
+    "ability": "Each night*, good players that choose you with their ability die. [Might be a Minion]",
+    "flavor": "Trust me, you don't need it as much as I do. (v2.1)",
     "setup": true,
     "reminders": [
+      "Dead",
+      "Dead",
+      "Dead",
+      "Dead",
       "Dead"
     ],
     "special": [

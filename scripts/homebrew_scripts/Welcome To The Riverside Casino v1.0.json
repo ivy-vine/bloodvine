@@ -1,0 +1,234 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "Welcome To The Riverside Casino v1.0"
+  },
+  "snakecharmer",
+  "cultleader",
+  "gambler",
+  {
+    "id": "opportunist",
+    "name": "Opportunist",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/opportunist/opportunist_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/opportunist/opportunist_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night*, choose if the Storyteller flips a coin: heads) you learn an in-play character, or tails) you die.",
+    "flavor": "(v1.1)",
+    "firstNight": 0,
+    "otherNight": 21,
+    "otherNightReminder": "If necessary, flip a coin. If heads, show an in-play character token. :reminder:",
+    "reminders": [
+      "Dead"
+    ]
+  },
+  {
+    "id": "cheerleader",
+    "name": "Cheerleader",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/cheerleader/cheerleader_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/cheerleader/cheerleader_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Once per game, at night, choose a player: until dusk, their ability works twice.",
+    "flavor": "BE OPPRESSIVE, B, E, OPPRESSIVE!! (v1.0)",
+    "firstNight": 9,
+    "otherNight": 2,
+    "firstNightReminder": "The Cheerleader might choose a player. If necessary, wake the chosen player, show the *THIS CHARACTER SELECTED YOU* & the Cheerleader token. :reminder:",
+    "otherNightReminder": "The Cheerleader might choose a player. If necessary, wake the chosen player, show the *THIS CHARACTER SELECTED YOU* & the Cheerleader token. :reminder:",
+    "reminders": [
+      "No Ability",
+      "Acts Twice"
+    ]
+  },
+  "courtier",
+  "huntsman",
+  {
+    "id": "wrangler",
+    "name": "Wrangler",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/wrangler/wrangler_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/wrangler/wrangler_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Once per game, at night, guess which Outsider characters are in play: if correct, they are drunk, even if you are dead. [+0 or +1 Outsider]",
+    "flavor": "You need to be one with them; breathe the air they breathe, feel the wind they feel, feel next season's harvest under your hooves. Tread carefully and make sure to never ride with cowards. (v1.1)",
+    "firstNight": 3,
+    "otherNight": 3,
+    "firstNightReminder": "The Wrangler might guess any amount of Outsider characters. :reminder: ?:reminder:s",
+    "otherNightReminder": "The Wrangler might guess any amount of Outsider characters. :reminder: ?:reminder:s",
+    "reminders": [
+      "No Ability",
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk"
+    ],
+    "setup": true,
+    "jinxes": [
+      {
+        "id": "flail",
+        "reason": "If the Flail is drunk from the Wrangler's ability, the Flail loses their ability."
+      }
+    ]
+  },
+  "juggler",
+  {
+    "id": "bartender",
+    "name": "Bartender",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/bartender/bartender_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/bartender/bartender_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "If you guess (once) an evil player, they are drunk.",
+    "flavor": "(v1.1)",
+    "firstNight": 2,
+    "otherNight": 2,
+    "firstNightReminder": "The Bartender might choose a player. :reminder:",
+    "otherNightReminder": "The Bartender might choose a player. :reminder:",
+    "reminders": [
+      "Guess Used",
+      "Drunk"
+    ],
+    "jinxes": [
+      {
+        "id": "leviathan",
+        "reason": "If the Bartender guesses the evil Leviathan, the Leviathan is drunk, until dusk."
+      }
+    ]
+  },
+  {
+    "id": "lover",
+    "name": "Lover",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/lover/lover_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/lover/lover_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "If a player agrees, they are bound to you. You wake when they wake. If you die, they die, & vice versa.",
+    "flavor": "Lover, lover, for whom do you call? For a man neither wide nor tall? If he asks for your hand, give him a cloth. If he asks for your light, give him a moth. If he asks for your heart, tell him off. (v1.0)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound"
+    ]
+  },
+  "mayor",
+  {
+    "id": "lethargic",
+    "name": "Lethargic",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/lethargic/lethargic_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/lethargic/lethargic_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "1 player has your crab. If you guess (once) who it is, you cannot die.",
+    "flavor": "I can never sleep without Mr. Claws!! Can you please, sir, help me find him? (v1.2)",
+    "firstNight": 47,
+    "otherNight": 0,
+    "firstNightReminder": "Wake the player with the Has Crab reminder. Show the *THIS CHARACTER SELECTED YOU* token then the Lethargic token.",
+    "reminders": [
+      "Has Crab",
+      "Guess Used",
+      "Safe"
+    ]
+  },
+  {
+    "id": "bloodletter",
+    "name": "Bloodletter",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/bloodletter/bloodletter_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/bloodletter/bloodletter_evil.png"
+    ],
+    "team": "outsider",
+    "edition": "bloodvine",
+    "ability": "Each night*, good players that choose you with their ability die. [Might be a Minion]",
+    "flavor": "Trust me, you don't need it as much as I do. (v2.1)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "Dead",
+      "Dead",
+      "Dead",
+      "Dead",
+      "Dead"
+    ],
+    "setup": true,
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ]
+  },
+  "klutz",
+  "damsel",
+  "puzzlemaster",
+  "mezepheles",
+  {
+    "id": "cylcast",
+    "name": "Cyclast",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/minions/cyclast/cyclast_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/minions/cyclast/cyclast_good.png"
+    ],
+    "team": "minion",
+    "edition": "bloodvine",
+    "ability": "Once per game, at night*, choose X players: they might die. If your team wins in the next X-1 days, your team loses, even if you are dead.",
+    "flavor": "Over and over you show her how to fall to the floor to crawl, showing what is yours to all, doing what no one has the gall to call no version of love and no version of life, that which we lead and that which we fight, which is always quite a sight on this starless night of ours, looking up from the surface of Mars, going as far as the eye can see, far beyond this big, huge, sea of tar on the surface of Mars. (v1.3)",
+    "firstNight": 0,
+    "otherNight": 51,
+    "otherNightReminder": "The Cyclast might choose X players. :reminder: X-1:reminder:s",
+    "reminders": [
+      "No Ability",
+      "Dead",
+      "Dead",
+      "Dead",
+      "Dead",
+      "Dead",
+      "Dead",
+      "1 Day Left",
+      "2 Days Left",
+      "3 Days Left"
+    ]
+  },
+  "eviltwin",
+  "goblin",
+  "alhadikhia",
+  "leviathan",
+  {
+    "id": "snafu",
+    "name": "Snafu",
+    "image": "https://ivy-vine.github.io/bloodvine/characters/fabled/snafu/snafu_fabled.png",
+    "team": "fabled",
+    "edition": "bloodvine",
+    "ability": "If the Storyteller makes a mistake, all players know this & the black sliver gets bigger.",
+    "flavor": "Don't worry about it. Don't worry about it! You really don't need to worry about it. (v1.0)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      ":)"
+    ]
+  },
+  "bootlegger"
+]

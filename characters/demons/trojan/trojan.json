@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "trojan v2.2"
+    "name": "trojan v2.3"
   },
   {
     "id": "trojan",
@@ -14,7 +14,7 @@
     "team": "demon",
     "edition": "bloodvine",
     "ability": "Each night, choose a player: the previously chosen player dies. If you die & more than 3 players live, the previously chosen player becomes an evil Shef. [No Minions]",
-    "flavor": "DOWNLOAD NOW!!! AWESOME BLOOD ON THE CLOCKTOWER (FREE!) FREE --- CLICK HERE --- FREE DOWNLOAD NO VIRUS PLAY NOW!!! (v2.2)",
+    "flavor": "DOWNLOAD NOW!!! AWESOME BLOOD ON THE CLOCKTOWER (FREE!) FREE --- CLICK HERE --- FREE DOWNLOAD NO VIRUS PLAY NOW!!! (v2.3)",
     "setup": true,
     "firstNight": 47,
     "firstNightReminder": "The Shef chooses a player. :reminder:",
@@ -27,7 +27,7 @@
     "jinxes": [
       {
         "id": "pithag",
-        "reason": "The Pit-Hag cannot create a Shef."
+        "reason": "If the Pit-Hag creates a Shef, the Storyteller chooses which player it is & the Minions become good."
       }
     ]
   }
