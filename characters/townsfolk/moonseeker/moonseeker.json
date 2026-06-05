@@ -1,0 +1,38 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "moonseeker v1.1"
+  },
+  {
+    "id": "moonseeker",
+    "name": "Moonseeker",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/moonseeker/moonseeker_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/moonseeker/moonseeker_good.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night, choose a player: their vote counts negatively tomorrow & they know this. [Might be a Minion]",
+    "flavor": "(v1.1)",
+    "setup": true,
+    "firstNight": 43,
+    "firstNightReminder": "The Moonseeker chooses a player. Wake the target. Show the *THIS CHARACTER SELECTED YOU* & Moonseeker tokens. :reminder:",
+    "otherNight": 43,
+    "otherNightReminder": "The Moonseeker chooses a player. Wake the target. Show the *THIS CHARACTER SELECTED YOU* & Moonseeker tokens. :reminder:",
+    "reminders": [
+      "Distracted"
+    ],
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      },
+      {
+        "type": "vote",
+        "name": "multiplier",
+        "value": -1
+      }
+    ]
+  }
+]

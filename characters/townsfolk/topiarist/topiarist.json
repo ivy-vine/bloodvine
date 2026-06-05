@@ -1,0 +1,24 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "topiarist v1.0"
+  },
+  {
+    "id": "topiarist",
+    "name": "Topiarist",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/topiarist/topiarist_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/topiarist/topiarist_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "If you die by execution, you learn that the Demon is 1 of 3 players tonight.",
+    "flavor": "(v1.0)",
+    "otherNight": 12,
+    "otherNightReminder": "If Topiarist died to execution today, wake the Topiarist and point to 3 players, 1 of which is the Demon.",
+    "reminders": [
+      "Snipped"
+    ]
+  }
+]
