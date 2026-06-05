@@ -1,0 +1,24 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "clerk v1.0"
+  },
+  {
+    "id": "clerk",
+    "name": "Clerk",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/clerk/clerk_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/clerk/clerk_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "If you were marked for execution today, the Demon doesn't kill tonight.",
+    "flavor": "(v1.0)",
+    "otherNight": 39,
+    "otherNightReminder": "If the Clerk was marked for execution today, wake the Demon as normal, but no one dies to the Demon's ability. :reminder:",
+    "reminders": [
+      "Doesn't Kill"
+    ]
+  }
+]

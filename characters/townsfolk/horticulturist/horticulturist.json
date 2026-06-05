@@ -13,11 +13,20 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "Each night*, you learn how many evil players you voted on for execution today.",
+    "ability": "Each night*, you learn how many of the players you voted on today are evil.",
     "flavor": "(v1.0)",
     "otherNight": 84,
     "otherNightReminder": "Give a finger signal.",
     "reminders": [
+      "Voted On",
+      "Voted On",
+      "Voted On",
+      "Voted On",
+      "Voted On",
+      "Voted On",
+      "Voted On",
+      "Voted On",
+      "Voted On",
       "Voted On"
     ]
   }

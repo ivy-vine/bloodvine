@@ -8,12 +8,12 @@
     "id": "misheard",
     "name": "Misheard",
     "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/outsider/misheard/misheard_good.png",
-      "https://ivy-vine.github.io/bloodvine/characters/outsider/misheard/misheard_evil.png"
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/misheard/misheard_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/misheard/misheard_evil.png"
     ],
     "team": "outsider",
     "edition": "bloodvine",
-    "ability": "Each day, you must nominate an alive player. Players you nominate might register as evil & as a Minion or Demon, until your next nomination.",
+    "ability": "Each day, you must try to nominate an alive player, or your team loses, & they might register as evil & as a Minion or Demon, until your next nomination.",
     "flavor": "No, no, you must've misheard me; I said she was ready to \"celebrate\", not \"be celibate\". No, yet again, you've misheard me; I said I \"billed\" him, not \"killed\" him! (v1.0)",
     "reminders": [
       "Wrongly Accused"

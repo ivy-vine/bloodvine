@@ -1,0 +1,25 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "highroller v1.0"
+  },
+  {
+    "id": "highroller",
+    "name": "Highroller",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/minions/highroller/highroller_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/minions/highroller/highroller_good.png"
+    ],
+    "team": "minion",
+    "edition": "bloodvine",
+    "ability": "Each night*, if you were marked for execution today, choose a player: they die.",
+    "flavor": "(v1.0)",
+    "otherNight": 57,
+    "otherNightReminder": "If the Highroller was marked for execution today, they choose a player. :reminder:",
+    "reminders": [
+      "Red Always Wins",
+      "Dead"
+    ]
+  }
+]

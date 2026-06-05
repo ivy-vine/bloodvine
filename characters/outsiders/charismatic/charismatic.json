@@ -1,0 +1,31 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "charismatic v1.0"
+  },
+  {
+    "id": "charismatic",
+    "name": "Charismatic",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/charismatic/charismatic_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/charismatic/charismatic_evil.png"
+    ],
+    "team": "outsider",
+    "edition": "bloodvine",
+    "ability": "If a good player votes on you, they are drunk until dusk.",
+    "flavor": "(v1.0)",
+    "reminders": [
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk"
+    ]
+  }
+]

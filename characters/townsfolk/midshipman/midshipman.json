@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "midshipman v1.0"
+    "name": "midshipman v1.1"
   },
   {
     "id": "midshipman",
@@ -13,14 +13,14 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "Each night*, you learn if an Outsider voted today. [+0 or +1 Outsider]",
-    "flavor": "(v1.0)",
+    "ability": "If you nominate & execute an Outsider, all Outsiders are drunk, even if you are dead. [+1 Outsider]",
+    "flavor": "(v1.1)",
     "setup": true,
-    "otherNight": 83,
-    "otherNightReminder": "Either nod or shake your head.",
     "reminders": [
-      "Outsider Voted",
-      "Outsider Not Voted"
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk"
     ]
   }
 ]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "bargainer v1.0"
+  },
+  {
+    "id": "bargainer",
+    "name": "Bargainer",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/bargainer/bargainer_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/bargainer/bargainer_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Thrice per game, at night*, choose a dead player: they regain their vote token.",
+    "flavor": "(v1.0)",
+    "otherNight": 66,
+    "otherNightReminder": "The Bargainer might choose a dead player. :reminder:",
+    "reminders": [
+      "1st Deal",
+      "2nd Deal",
+      "3rd Deal"
+    ]
+  }
+]

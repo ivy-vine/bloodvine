@@ -8,8 +8,8 @@
     "id": "moonseeker",
     "name": "Moonseeker",
     "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/moonseeker/moonseeker_evil.png",
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/moonseeker/moonseeker_good.png"
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/moonseeker/moonseeker_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/moonseeker/moonseeker_evil.png"
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
