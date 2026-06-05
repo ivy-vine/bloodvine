@@ -13,7 +13,7 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "Each night*, learn how many evil players you voted on for execution today.",
+    "ability": "Each night*, you learn how many evil players you voted on for execution today.",
     "flavor": "(v1.0)",
     "otherNight": 84,
     "otherNightReminder": "Give a finger signal.",
