@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "midshipman v1.1"
+    "name": "midshipman v1.2"
   },
   {
     "id": "midshipman",
@@ -13,8 +13,8 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "If you nominate & execute an Outsider, all Outsiders are drunk, even if you are dead. [+1 Outsider]",
-    "flavor": "(v1.1)",
+    "ability": "If you nominate & execute an Outsider, an Outsider is drunk from now on. [+0 to +2 Outsiders]",
+    "flavor": "(v1.2)",
     "setup": true,
     "reminders": [
       "Drunk",

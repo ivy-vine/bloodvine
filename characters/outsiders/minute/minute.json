@@ -1,0 +1,29 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "minute v1.0"
+  },
+  {
+    "id": "minute",
+    "name": "Minute",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/minute/minute_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/minute/minute_evil.png"
+    ],
+    "team": "outsider",
+    "edition": "bloodvine",
+    "ability": "When you die, 1 player cannot vote from now on.",
+    "flavor": "(v1.0)",
+    "reminders": [
+      "Unaffecting"
+    ],
+    "special": [
+      {
+        "type": "vote",
+        "name": "multiplier",
+        "value": 0
+      }
+    ]
+  }
+]

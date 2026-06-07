@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "charismatic v1.0"
+    "name": "charismatic v2.0"
   },
   {
     "id": "charismatic",
@@ -13,19 +13,7 @@
     ],
     "team": "outsider",
     "edition": "bloodvine",
-    "ability": "If a good player votes on you, they are drunk until dusk.",
-    "flavor": "(v1.0)",
-    "reminders": [
-      "Drunk",
-      "Drunk",
-      "Drunk",
-      "Drunk",
-      "Drunk",
-      "Drunk",
-      "Drunk",
-      "Drunk",
-      "Drunk",
-      "Drunk"
-    ]
+    "ability": "When nominated by a good player, they die & the day ends.",
+    "flavor": "(v2.0)"
   }
 ]

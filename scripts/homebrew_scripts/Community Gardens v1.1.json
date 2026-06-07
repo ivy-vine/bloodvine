@@ -5,100 +5,222 @@
     "name": "Community Gardens v1.1",
     "firstNight": [
       "dusk",
-      "wrangler",
       "bureaucrat",
       "thief",
       "bitflip",
       "minioninfo",
       "demoninfo",
-      "stook",
       "misinformant",
+      "moonseeker",
       "trojan",
-      "investigator",
-      "knight",
+      "sunseeker",
       "dawn"
     ],
     "otherNight": [
       "dusk",
-      "wrangler",
       "bureaucrat",
       "thief",
+      "topiarist",
       "misinformant",
+      "clerk",
+      "moonseeker",
       "bitflip",
       "keeper",
       "vortox",
-      "stook",
+      "highroller",
       "trojan",
-      "undertaker",
-      "flowergirl",
-      "towncrier",
+      "bargainer",
+      "worrywart",
+      "midshipman",
+      "sunseeker",
+      "horticulturist",
       "dawn"
     ]
   },
-  "knight",
-  "investigator",
-  "flowergirl",
-  "towncrier",
-  "undertaker",
   {
-    "id": "wrangler",
-    "name": "Wrangler",
+    "id": "sunseeker",
+    "name": "Sunseeker",
     "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/wrangler/wrangler_good.png",
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/wrangler/wrangler_evil.png"
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/sunseeker/sunseeker_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/sunseeker/sunseeker_evil.png"
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "Once per game, at night, guess which Outsider characters are in play: if correct, they are drunk, even if you are dead. [+0 or +1 Outsider]",
-    "flavor": "You need to be one with them; breathe the air they breathe, feel the wind they feel, feel next season's harvest under your hooves. Tread carefully and make sure to never ride with cowards. (v1.1)",
-    "firstNight": 3,
-    "otherNight": 3,
-    "firstNightReminder": "The Wrangler might guess any amount of Outsider characters. :reminder: ?:reminder:s",
-    "otherNightReminder": "The Wrangler might guess any amount of Outsider characters. :reminder: ?:reminder:s",
+    "ability": "Each night, choose a player: they cannot vote tomorrow.",
+    "flavor": "(v1.0)",
+    "firstNight": 61,
+    "otherNight": 83,
+    "firstNightReminder": "The Sunseeker chooses a player. :reminder:",
+    "otherNightReminder": "The Sunseeker chooses a player. :reminder:",
     "reminders": [
-      "No Ability",
-      "Drunk",
-      "Drunk",
-      "Drunk",
-      "Drunk",
-      "Drunk",
-      "Drunk"
+      "Sunburnt"
     ],
-    "setup": true,
-    "jinxes": [
+    "special": [
       {
-        "id": "flail",
-        "reason": "If the Flail is drunk from the Wrangler's ability, the Flail loses their ability."
+        "type": "vote",
+        "name": "multiplier",
+        "value": 0
       }
     ]
   },
   {
-    "id": "bartender",
-    "name": "Bartender",
+    "id": "worrywart",
+    "name": "Worrywart",
     "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/bartender/bartender_good.png",
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/bartender/bartender_evil.png"
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/worrywart/worrywart_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/worrywart/worrywart_evil.png"
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "If you guess (once) an opposing player, they are drunk.",
+    "ability": "Each night*, you learn the character of the player you nominated today. Evil players register as good characters to your ability.",
     "flavor": "(v1.1)",
-    "firstNight": 9,
-    "otherNight": 2,
-    "firstNightReminder": "The Bartender might choose a player. :reminder:",
-    "otherNightReminder": "The Bartender might choose a player. :reminder:",
+    "firstNight": 0,
+    "otherNight": 79,
+    "otherNightReminder": "If the Worrywart nominated a player today, show the nominee's character token.",
+    "reminders": [
+      "Worried About"
+    ]
+  },
+  {
+    "id": "horticulturist",
+    "name": "Horticulturist",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/horticulturist/horticulturist_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/horticulturist/horticulturist_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night*, you learn how many of the players you voted on today are evil.",
+    "flavor": "(v1.0)",
+    "firstNight": 0,
+    "otherNight": 84,
+    "otherNightReminder": "Give a finger signal.",
+    "reminders": [
+      "Voted On",
+      "Voted On",
+      "Voted On",
+      "Voted On",
+      "Voted On",
+      "Voted On",
+      "Voted On",
+      "Voted On",
+      "Voted On",
+      "Voted On"
+    ]
+  },
+  {
+    "id": "topiarist",
+    "name": "Topiarist",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/topiarist/topiarist_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/topiarist/topiarist_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "If you die by execution, you learn that the Demon is 1 of 3 players tonight.",
+    "flavor": "(v1.0)",
+    "firstNight": 0,
+    "otherNight": 12,
+    "otherNightReminder": "If Topiarist died to execution today, wake the Topiarist and point to 3 players, 1 of which is the Demon.",
+    "reminders": [
+      "Snipped"
+    ]
+  },
+  {
+    "id": "spoilsport",
+    "name": "Spoilsport",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/spoilsport/spoilsport_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/spoilsport/spoilsport_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "If you guess (once) an opposing player, they can no longer nominate.",
+    "flavor": "(v1.0)",
+    "firstNight": 0,
+    "otherNight": 0,
     "reminders": [
       "Guess Used",
+      "Spoiled"
+    ]
+  },
+  {
+    "id": "clerk",
+    "name": "Clerk",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/clerk/clerk_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/clerk/clerk_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "When nominated by a good player, the nominator is drunk, until dawn. If you were marked for execution today, the Demon doesn't kill tonight.",
+    "flavor": "(v1.1)",
+    "firstNight": 0,
+    "otherNight": 39,
+    "otherNightReminder": "If the Clerk was marked for execution today, wake the Demon as normal, but no one dies to the Demon's ability. :reminder:",
+    "reminders": [
+      "Doesn't Kill"
+    ]
+  },
+  {
+    "id": "midshipman",
+    "name": "Midshipman",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/midshipman/midshipman_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/midshipman/midshipman_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "If you nominate & execute an Outsider, all Outsiders are drunk, even if you are dead. [+1 Outsider]",
+    "flavor": "(v1.1)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "Drunk",
+      "Drunk",
+      "Drunk",
       "Drunk"
     ],
-    "jinxes": [
+    "setup": true
+  },
+  {
+    "id": "stagehand",
+    "name": "Stagehand",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/stagehand/stagehand_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/stagehand/stagehand_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "If the Demon nominates & executes you, your team wins.",
+    "flavor": "(v1.0)",
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "breeder",
+    "name": "Breeder",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/breeder/breeder_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/breeder/breeder_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "If exactly 1 of your alive neighbors is evil, your vote counts twice.",
+    "flavor": "(v1.0)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "Fertilized"
+    ],
+    "special": [
       {
-        "id": "leviathan",
-        "reason": "If the Bartender guesses the opposing Leviathan, the Leviathan is drunk, until dusk."
+        "type": "vote",
+        "name": "multiplier",
+        "value": 2
       }
     ]
   },
-  "mayor",
   {
     "id": "mob_boss",
     "name": "Mob Boss",
@@ -114,30 +236,6 @@
     "otherNight": 0,
     "reminders": [
       "No Ability"
-    ]
-  },
-  {
-    "id": "baton_twirler",
-    "name": "Baton Twirler",
-    "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/baton_twirler/baton_twirler_good.png",
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/baton_twirler/baton_twirler_evil.png"
-    ],
-    "team": "townsfolk",
-    "edition": "bloodvine",
-    "ability": "The 1st time you die to an evil player, you live but register as dead. If you are then executed, your team wins. [Might be a Minion]",
-    "flavor": "I spin then you spin then I spin then you- aw come on, you dropped it! You ruined it! You ruined everything! (v1.2)",
-    "firstNight": 0,
-    "otherNight": 0,
-    "reminders": [
-      "Died To Evil"
-    ],
-    "setup": true,
-    "special": [
-      {
-        "type": "selection",
-        "name": "bag-duplicate"
-      }
     ]
   },
   {
@@ -165,7 +263,74 @@
       }
     ]
   },
-  "recluse",
+  {
+    "id": "bargainer",
+    "name": "Bargainer",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/bargainer/bargainer_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/bargainer/bargainer_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Thrice per game, at night*, choose a dead player: they regain their vote token.",
+    "flavor": "(v1.0)",
+    "firstNight": 0,
+    "otherNight": 66,
+    "otherNightReminder": "The Bargainer might choose a dead player. :reminder:",
+    "reminders": [
+      "1st Deal",
+      "2nd Deal",
+      "3rd Deal"
+    ]
+  },
+  {
+    "id": "moonseeker",
+    "name": "Moonseeker",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/moonseeker/moonseeker_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/moonseeker/moonseeker_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night, choose a player: their vote counts negatively tomorrow & they know this. [Might be a Minion]",
+    "flavor": "(v1.1)",
+    "firstNight": 43,
+    "otherNight": 43,
+    "firstNightReminder": "The Moonseeker chooses a player. Wake the target. Show the *THIS CHARACTER SELECTED YOU* & Moonseeker tokens. :reminder:",
+    "otherNightReminder": "The Moonseeker chooses a player. Wake the target. Show the *THIS CHARACTER SELECTED YOU* & Moonseeker tokens. :reminder:",
+    "reminders": [
+      "Distracted"
+    ],
+    "setup": true,
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      },
+      {
+        "type": "vote",
+        "name": "multiplier",
+        "value": -1
+      }
+    ]
+  },
+  {
+    "id": "misheard",
+    "name": "Misheard",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/misheard/misheard_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/misheard/misheard_evil.png"
+    ],
+    "team": "outsider",
+    "edition": "bloodvine",
+    "ability": "Each day, you must try to nominate an alive player, or your team loses, & they might register as evil & as a Minion or Demon, until your next nomination.",
+    "flavor": "No, no, you must've misheard me; I said she was ready to \"celebrate\", not \"be celibate\". No, yet again, you've misheard me; I said I \"billed\" him, not \"killed\" him! (v1.0)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "Wrongly Accused"
+    ]
+  },
   {
     "id": "imaginary_friend",
     "name": "Imaginary Friend",
@@ -196,7 +361,32 @@
       }
     ]
   },
-  "saint",
+  {
+    "id": "charismatic",
+    "name": "Charismatic",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/charismatic/charismatic_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/charismatic/charismatic_evil.png"
+    ],
+    "team": "outsider",
+    "edition": "bloodvine",
+    "ability": "If a good player (not yourself) votes on you, they are drunk until dusk. If you nominate yourself, a good player is drunk until dusk.",
+    "flavor": "(v1.1)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk"
+    ]
+  },
   {
     "id": "dazed",
     "name": "Dazed",
@@ -223,7 +413,7 @@
     ],
     "team": "minion",
     "edition": "bloodvine",
-    "ability": "Each night, choose a player: they cannot nominate tomorrow. If just 3 players live, you lose this ability",
+    "ability": "Each night, choose a player: they cannot nominate tomorrow. If just 3 players live, you lose this ability.",
     "flavor": "(v1.0)",
     "firstNight": 41,
     "otherNight": 27,
@@ -234,36 +424,22 @@
     ]
   },
   {
-    "id": "stook",
-    "name": "Stook",
+    "id": "highroller",
+    "name": "Highroller",
     "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/minions/stook/stook_evil.png",
-      "https://ivy-vine.github.io/bloodvine/characters/minions/stook/stook_good.png"
+      "https://ivy-vine.github.io/bloodvine/characters/minions/highroller/highroller_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/minions/highroller/highroller_good.png"
     ],
     "team": "minion",
     "edition": "bloodvine",
-    "ability": "Once per game, at night, choose a player & an Outsider: they gain that ability. All players know if you used your ability.",
+    "ability": "Each night*, if you were marked for execution today, choose a player: they die.",
     "flavor": "(v1.0)",
-    "firstNight": 32,
-    "otherNight": 53,
-    "firstNightReminder": "The Stook might choose a player &amp; Outsider character. :reminder: Announce that the Stook has used their ability.",
-    "otherNightReminder": "The Stook might choose a player &amp; Outsider character. :reminder: Announce that the Stook has used their ability.",
+    "firstNight": 0,
+    "otherNight": 57,
+    "otherNightReminder": "If the Highroller was marked for execution today, they choose a player. :reminder:",
     "reminders": [
-      "Struck"
-    ],
-    "jinxes": [
-      {
-        "id": "damsel",
-        "reason": "If the Stook gives a player the Damsel ability, the Storyteller chooses which player gains it."
-      },
-      {
-        "id": "saint",
-        "reason": "If the Stook gives a player the Saint ability, that player learns this."
-      },
-      {
-        "id": "heretic",
-        "reason": "Only 1 jinxed character can be in play."
-      }
+      "Red Always Wins",
+      "Dead"
     ]
   },
   {
@@ -397,15 +573,15 @@
     ]
   },
   "judge",
-  "gnome",
+  "beggar",
   {
     "id": "adultery",
     "name": "Adultery",
     "image": "https://ivy-vine.github.io/bloodvine/characters/loric/adultery/adultery_loric.png",
     "team": "loric",
     "edition": "bloodvine",
-    "ability": "If a 50% majority publicly accuses a player of adultery, they can't nominate nor vote.",
-    "flavor": "(v1.1)",
+    "ability": "If a 50% majority publicly accuses a player of adultery, they cannot nominate nor vote.",
+    "flavor": "(v1.2)",
     "firstNight": 0,
     "otherNight": 0,
     "reminders": [
@@ -413,13 +589,13 @@
     ],
     "special": [
       {
-        "name": "multiplier",
         "type": "vote",
+        "name": "multiplier",
         "value": 0
       },
       {
-        "name": "public",
-        "type": "reminder"
+        "type": "reminder",
+        "name": "public"
       }
     ]
   },

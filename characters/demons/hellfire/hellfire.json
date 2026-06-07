@@ -1,0 +1,34 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "hellfire v1.0"
+  },
+  {
+    "id": "hellfire",
+    "name": "Hearth",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/demons/hellfire/hellfire_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/demons/hellfire/hellfire_good.png"
+    ],
+    "team": "demon",
+    "edition": "bloodvine",
+    "ability": "Each night*, choose a player: they die. Good players that vote on you are poisoned, until dusk.",
+    "flavor": "(v1.0)",
+    "otherNight": 45,
+    "otherNightReminder": "The Hearth chooses a player. :reminder:",
+    "reminders": [
+      "Dead",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned"
+    ]
+  }
+]

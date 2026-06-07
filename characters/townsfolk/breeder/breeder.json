@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "breeder v1.0"
+    "name": "breeder v1.1"
   },
   {
     "id": "breeder",
@@ -13,8 +13,8 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "If exactly 1 of your alive neighbors is evil, your vote counts twice.",
-    "flavor": "(v1.0)",
+    "ability": "If exactly 1 of your alive neighbors is good, their vote counts twice.",
+    "flavor": "(v1.1)",
     "reminders": [
       "Fertilized"
     ],

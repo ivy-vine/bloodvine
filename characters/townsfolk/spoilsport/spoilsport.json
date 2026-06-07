@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "spoilsport v1.0"
+    "name": "spoilsport v1.1"
   },
   {
     "id": "spoilsport",
@@ -14,7 +14,7 @@
     "team": "townsfolk",
     "edition": "bloodvine",
     "ability": "If you guess (once) an opposing player, they can no longer nominate.",
-    "flavor": "(v1.0)",
+    "flavor": "(v1.1)",
     "reminders": [
       "Guess Used",
       "Spoiled"

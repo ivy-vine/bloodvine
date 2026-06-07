@@ -1,0 +1,29 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "999 v1.0"
+  },
+  {
+    "id": "999",
+    "name": "999",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/minions/999/999_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/minions/999/999_good.png"
+    ],
+    "team": "minion",
+    "edition": "bloodvine",
+    "ability": "Your vote counts 999 times. You cannot nominate.",
+    "flavor": "(v1.0)",
+    "reminders": [
+      "Drop Drop Drop"
+    ],
+    "special": [
+      {
+        "type": "vote",
+        "name": "multiplier",
+        "value": 999
+      }
+    ]
+  }
+]

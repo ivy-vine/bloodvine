@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "worrywart v1.0"
+    "name": "worrywart v1.1"
   },
   {
     "id": "worrywart",
@@ -13,8 +13,8 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "Each night*, you learn the character of the player you nominated today.",
-    "flavor": "(v1.0)",
+    "ability": "Each night*, you learn the character of the player you nominated today. Evil characters register as good characters to you.",
+    "flavor": "(v1.1)",
     "otherNight": 79,
     "otherNightReminder": "If the Worrywart nominated a player today, show the nominee's character token.",
     "reminders": [

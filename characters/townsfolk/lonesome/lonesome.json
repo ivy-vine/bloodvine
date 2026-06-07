@@ -1,0 +1,29 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "lonesome v1.0"
+  },
+  {
+    "id": "lonesome",
+    "name": "Lonesome",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/lonesome/lonesome_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/lonesome/lonesome_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "If 1 or more evil players are dead, your vote counts twice.",
+    "flavor": "(v1.0)",
+    "reminders": [
+      "Lonely"
+    ],
+    "special": [
+      {
+        "type": "vote",
+        "name": "multiplier",
+        "value": 2
+      }
+    ]
+  }
+]

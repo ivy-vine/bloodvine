@@ -15,9 +15,9 @@
     "edition": "bloodvine",
     "ability": "Each night, choose if evil abilities choose you instead until dusk.",
     "flavor": "Show yourself to the masses, for you are the world's entertainment and the world is your audience. Give it your all, do not slow down, and take a deep breath. You were always meant to be here. (v1.1)",
-    "firstNight": 2,
+    "firstNight": 26,
     "firstNightReminder": "The Thespian might choose to perform. :reminder: If so, wake the evil characters that choose players and ask them to choose as normal but target the Thespian instead.",
-    "otherNight": 2,
+    "otherNight": 12,
     "otherNightReminder": "The Thespian might choose to perform. :reminder: If so, wake the evil characters that choose players and ask them to choose as normal but target the Thespian instead.",
     "reminders": [
       "Performing"

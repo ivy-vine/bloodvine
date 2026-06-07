@@ -1,0 +1,377 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "Don't Stop Dancing v1.0",
+    "firstNight": [
+      "dusk",
+      "thespian",
+      "spin_doctor",
+      "cheerleader",
+      "barista",
+      "philosopher",
+      "yaggababble",
+      "minioninfo",
+      "demoninfo",
+      "marionette",
+      "lleech",
+      "pukka",
+      "spy",
+      "observer",
+      "dawn"
+    ],
+    "otherNight": [
+      "dusk",
+      "thespian",
+      "cheerleader",
+      "spin_doctor",
+      "barista",
+      "harlot",
+      "jester",
+      "philosopher",
+      "scarletwoman",
+      "pukka",
+      "overseer",
+      "lleech",
+      "yaggababble",
+      "gossip",
+      "banshee",
+      "moonchild",
+      "spy",
+      "observer",
+      "dawn"
+    ]
+  },
+  {
+    "id": "thespian",
+    "name": "Thespian",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/thespian/thespian_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/thespian/thespian_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night, choose if evil abilities choose you instead until dusk.",
+    "flavor": "Show yourself to the masses, for you are the world's entertainment and the world is your audience. Give it your all, do not slow down, and take a deep breath. You were always meant to be here. (v1.1)",
+    "firstNight": 2,
+    "otherNight": 2,
+    "firstNightReminder": "The Thespian might choose to perform. :reminder: If so, wake the evil characters that choose players and ask them to choose as normal but target the Thespian instead.",
+    "otherNightReminder": "The Thespian might choose to perform. :reminder: If so, wake the evil characters that choose players and ask them to choose as normal but target the Thespian instead.",
+    "reminders": [
+      "Performing"
+    ],
+    "jinxes": [
+      {
+        "id": "lleech",
+        "reason": "If the Thespian is performing while the Llech chooses their host, the Thespian is not chosen instead."
+      }
+    ]
+  },
+  {
+    "id": "observer",
+    "name": "Observer",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/observer/observer_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/observer/observer_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night, choose a player: you learn how many reminder tokens are on them.",
+    "flavor": "Alright, you, a little to the left, and you, shoulders back. Okay, now everyone, say cheese! (v1.0)",
+    "firstNight": 74,
+    "otherNight": 94,
+    "firstNightReminder": "The Observer chooses a player. Give a finger signal.",
+    "otherNightReminder": "The Observer chooses a player. Give a finger signal."
+  },
+  "gossip",
+  {
+    "id": "jester",
+    "name": "Jester",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/jester/jester_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/jester/jester_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each day, you may visit the Storyteller to tell a joke in private: if they laughed, a player becomes sober, healthy & gets true info.",
+    "flavor": "(v1.1)",
+    "firstNight": 0,
+    "otherNight": 10,
+    "otherNightReminder": "If the Jester made you laugh, a player immediately became sober &amp; healthy. If you haven't done this yet, do so now. :reminder: Wake them, show the *THIS CHARACTER SELECTED YOU* &amp; Jester tokens.",
+    "reminders": [
+      "Sober & Healthy"
+    ]
+  },
+  {
+    "id": "roadie",
+    "name": "Roadie",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/roadie/roadie_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/roadie/roadie_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each day, you may visit the Storyteller to guess a song in private: if correct, you learn true info, but if wrong, you learn false info.",
+    "flavor": "(v1.0)",
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "cheerleader",
+    "name": "Cheerleader",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/cheerleader/cheerleader_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/cheerleader/cheerleader_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Once per game, at night, choose a player: until dusk, their ability works twice.",
+    "flavor": "BE OPPRESSIVE, B, E, OPPRESSIVE!! (v1.0)",
+    "firstNight": 9,
+    "otherNight": 2,
+    "firstNightReminder": "The Cheerleader might choose a player. If necessary, wake the chosen player, show the *THIS CHARACTER SELECTED YOU* &amp; the Cheerleader token. :reminder:",
+    "otherNightReminder": "The Cheerleader might choose a player. If necessary, wake the chosen player, show the *THIS CHARACTER SELECTED YOU* &amp; the Cheerleader token. :reminder:",
+    "reminders": [
+      "No Ability",
+      "Acts Twice"
+    ]
+  },
+  "philosopher",
+  "minstrel",
+  {
+    "id": "pitied",
+    "name": "Pitied",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/pitied/pitied_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/pitied/pitied_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "If you are the last living good player, good wins.",
+    "flavor": "If things are going to continue to suck THIS badly, God eventually will look down on me and spare me some grace eventually, right...? (v1.1)",
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  "banshee",
+  {
+    "id": "lover",
+    "name": "Lover",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/lover/lover_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/lover/lover_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "If a player agrees, they are bound to you. You wake when they wake. If you die, they die, & vice versa.",
+    "flavor": "Lover, lover, for whom do you call? For a man neither wide nor tall? If he asks for your hand, give him a cloth. If he asks for your light, give him a moth. If he asks for your heart, tell him off. (v1.0)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound"
+    ]
+  },
+  {
+    "id": "playwright",
+    "name": "Playwright",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/playwright/playwright_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/playwright/playwright_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Abilities act in seat order.",
+    "flavor": "(v1.1)",
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "baton_twirler",
+    "name": "Baton Twirler",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/baton_twirler/baton_twirler_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/baton_twirler/baton_twirler_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "The 1st time are killed or executed by an evil player, you live but register as dead. If you are then executed, your team wins. [Might be a Minion]",
+    "flavor": "I spin then you spin then I spin then you- aw come on, you dropped it! You ruined it! You ruined everything! (v1.3)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "Died To Evil"
+    ],
+    "setup": true,
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ]
+  },
+  {
+    "id": "identical_triplet",
+    "name": "Identical Triplet",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/identical_triplet/identical_triplet_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/identical_triplet/identical_triplet_evil.png"
+    ],
+    "team": "outsider",
+    "edition": "bloodvine",
+    "ability": "You think you are an in-play Townsfolk character, but you are not. [+1 Identical Triplet. You & your Identical Triplet think you are the same character. -1 Outsider]",
+    "flavor": "(v1.0)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "remindersGlobal": [
+      "Is The Identical Triplet",
+      "Is The Identical Triplet"
+    ],
+    "setup": true,
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      },
+      {
+        "type": "reveal",
+        "name": "replace-character"
+      },
+      {
+        "type": "selection",
+        "name": "good-duplicate"
+      }
+    ]
+  },
+  {
+    "id": "bookkeeper",
+    "name": "Bookkeeper",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/bookkeeper/bookkeeper_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/bookkeeper/bookkeeper_evil.png"
+    ],
+    "team": "outsider",
+    "edition": "bloodvine",
+    "ability": "You can't speak the group's primary language, or might be executed.",
+    "flavor": " (v1.0)",
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  "moonchild",
+  {
+    "id": "crimson_sister",
+    "name": "Crimson Sister",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/crimson_sister/crimson_sister_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/crimson_sister/crimson_sister_evil.png"
+    ],
+    "team": "outsider",
+    "edition": "bloodvine",
+    "ability": "The 1st time a Minion dies, they live but register as dead. The 1st time you die, you don't.",
+    "flavor": "Nurture always wins over nature. No one chooses where they come from, they only choose who they become. I will do anything to sever myself from my heritage. (v1.3)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "No Ability",
+      "Hiding"
+    ]
+  },
+  "spy",
+  "marionette",
+  "scarletwoman",
+  "baron",
+  "yaggababble",
+  "pukka",
+  {
+    "id": "overseer",
+    "name": "Overseer",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/demons/overseer/overseer_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/demons/overseer/overseer_good.png"
+    ],
+    "team": "demon",
+    "edition": "bloodvine",
+    "ability": "Each night*, choose a player: they die. You cannot die. If you are the only evil player alive, good wins.",
+    "flavor": "make the flavor text a reference to young &amp; dumb by cigarettes after sex (v1.0)",
+    "firstNight": 0,
+    "otherNight": 50,
+    "otherNightReminder": "The Overseer chooses a player. :reminder:",
+    "reminders": [
+      "Dead"
+    ]
+  },
+  "lleech",
+  {
+    "id": "spin_doctor",
+    "name": "Spin Doctor",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/travellers/spin_doctor/spin_doctor_traveller.png",
+      "https://ivy-vine.github.io/bloodvine/characters/travellers/spin_doctor/spin_doctor_traveller_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/travellers/spin_doctor/spin_doctor_traveller_evil.png"
+    ],
+    "team": "traveller",
+    "edition": "bloodvine",
+    "ability": "Each night, choose a player & 9 words: they must speak using only these words tomorrow, or might be executed.",
+    "flavor": "(v1.0)",
+    "firstNight": 9,
+    "otherNight": 4,
+    "firstNightReminder": "The Spin Doctor says 9 words. :reminder:",
+    "otherNightReminder": "The Spin Doctor says 9 words. :reminder:",
+    "reminders": [
+      "Spun"
+    ]
+  },
+  "barista",
+  "harlot",
+  "deviant",
+  "gnome",
+  "godofug",
+  {
+    "id": "adultery",
+    "name": "Adultery",
+    "image": "https://ivy-vine.github.io/bloodvine/characters/loric/adultery/adultery_loric.png",
+    "team": "loric",
+    "edition": "bloodvine",
+    "ability": "If a 50% majority publicly accuses a player of adultery, they cannot nominate nor vote.",
+    "flavor": "(v1.2)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "Adulterer"
+    ],
+    "special": [
+      {
+        "type": "vote",
+        "name": "multiplier",
+        "value": 0
+      },
+      {
+        "type": "reminder",
+        "name": "public"
+      }
+    ]
+  },
+  "bootlegger",
+  "bigwig",
+  {
+    "id": "snafu",
+    "name": "Snafu",
+    "image": "https://ivy-vine.github.io/bloodvine/characters/fabled/snafu/snafu_fabled.png",
+    "team": "fabled",
+    "edition": "bloodvine",
+    "ability": "If the Storyteller makes a mistake, all players know this & the black sliver gets bigger.",
+    "flavor": "Don't worry about it. Don't worry about it! You really don't need to worry about it. (v1.0)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      ":)"
+    ]
+  }
+]

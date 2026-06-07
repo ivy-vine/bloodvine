@@ -2,50 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "From The Cellar v1.2",
-    "firstNight": [
-      "dusk",
-      "arctic_fox",
-      "sandman",
-      "cheerleader",
-      "kazali",
-      "apprentice",
-      "shoe_shiner",
-      "philosopher",
-      "minioninfo",
-      "demoninfo",
-      "snakecharmer",
-      "trojan",
-      "pixie",
-      "skulker",
-      "observer",
-      "dawn"
-    ],
-    "otherNight": [
-      "dusk",
-      "arctic_fox",
-      "cheerleader",
-      "skulker",
-      "harlot",
-      "bonecollector",
-      "shoe_shiner",
-      "philosopher",
-      "vet",
-      "sandman",
-      "snakecharmer",
-      "pithag",
-      "hypnotist",
-      "uranium_235",
-      "fanggu",
-      "kazali",
-      "trojan",
-      "barber",
-      "dummy",
-      "taxidermist",
-      "farmer",
-      "observer",
-      "dawn"
-    ]
+    "name": "From The Cellar v1.2"
   },
   "pixie",
   {
@@ -139,26 +96,6 @@
       "Acts Twice"
     ]
   },
-  {
-    "id": "shoe_shiner",
-    "name": "Shoe Shiner",
-    "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/shoe_shiner/shoe_shiner_good.png",
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/shoe_shiner/shoe_shiner_evil.png"
-    ],
-    "team": "townsfolk",
-    "edition": "bloodvine",
-    "ability": "Once per game, at night, choose a player: a chosen good player swaps characters with you & is then drunk.",
-    "flavor": "What you wear on the outside reflects who you are on the inside, so if your outside is covered in dirt and grime, I'll assume you have a grimy soul! Why have a grimy soul when you can have a shining soul? (v1.1)",
-    "firstNight": 13,
-    "otherNight": 11,
-    "firstNightReminder": "The Shoe Shiner might choose a player. If necessary, show the *YOU ARE* token &amp; their new character token &amp; wake the chosen player &amp; do the same. :reminder: :reminder:",
-    "otherNightReminder": "The Shoe Shiner might choose a player. If necessary, show the *YOU ARE* token &amp; their new character token &amp; wake the chosen player &amp; do the same. :reminder: :reminder:",
-    "reminders": [
-      "No Ability",
-      "Drunk"
-    ]
-  },
   "philosopher",
   {
     "id": "taxidermist",
@@ -177,6 +114,25 @@
     "reminders": [
       "Reincarnated",
       "No Ability"
+    ]
+  },
+  {
+    "id": "shoe_shiner",
+    "name": "Shoe Shiner",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/shoe_shiner/shoe_shiner_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/shoe_shiner/shoe_shiner_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Once per game, at night*, choose a player: a chosen good player swaps characters with you & is then drunk.",
+    "flavor": "What you wear on the outside reflects who you are on the inside, so if your outside is covered in dirt and grime, I'll assume you have a grimy soul! Why have a grimy soul when you can have a shining soul? (v1.2)",
+    "firstNight": 0,
+    "otherNight": 11,
+    "otherNightReminder": "The Shoe Shiner might choose a player. If necessary, show the *YOU ARE* token &amp; their new character token &amp; wake the chosen player &amp; do the same. :reminder: :reminder:",
+    "reminders": [
+      "No Ability",
+      "Drunk"
     ]
   },
   {
@@ -217,7 +173,7 @@
     "team": "townsfolk",
     "edition": "bloodvine",
     "ability": "Once per game, during the day, publicly claim to be the Poet: the Demon is drunk until dawn.",
-    "flavor": "A poet who never knows it certainly doesn't owe it to show it how far they can throw it. They may dip their toes in the riverbed, before throwing their greens into a piano's strings. \"I was never the brightest tool in the shed\", she pled as she bled, closer than ever to dead, no light further ahead. (v1.1)",
+    "flavor": "A poet who never knows it certainly doesn't owe it to show it how far they can throw it. They may dip their toes in the riverbed, before throwing their greens into a piano's strings. \"For you, a tear I shed\", she pled as she bled, closer than ever to dead, no light further ahead. (v1.2)",
     "firstNight": 0,
     "otherNight": 0,
     "reminders": [
@@ -369,7 +325,6 @@
       }
     ]
   },
-  "kazali",
   {
     "id": "uranium_235",
     "name": "Waste",
@@ -391,9 +346,9 @@
   },
   "fanggu",
   "harlot",
-  "matron",
   "bonecollector",
   "apprentice",
+  "voudon",
   {
     "id": "dummy",
     "name": "Dummy",

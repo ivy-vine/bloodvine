@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "misheard v1.0"
+    "name": "misheard v1.1"
   },
   {
     "id": "misheard",
@@ -13,10 +13,7 @@
     ],
     "team": "outsider",
     "edition": "bloodvine",
-    "ability": "Each day, you must try to nominate an alive player, or your team loses, & they might register as evil & as a Minion or Demon, until your next nomination.",
-    "flavor": "No, no, you must've misheard me; I said she was ready to \"celebrate\", not \"be celibate\". No, yet again, you've misheard me; I said I \"billed\" him, not \"killed\" him! (v1.0)",
-    "reminders": [
-      "Wrongly Accused"
-    ]
+    "ability": "Each day, you must try to nominate an alive player (not yourself), or your team loses.",
+    "flavor": "No, no, you must've misheard me; I said she was ready to \"celebrate\", not \"be celibate\". No, yet again, you've misheard me; I said I \"billed\" him, not \"killed\" him! (v1.1)"
   }
 ]

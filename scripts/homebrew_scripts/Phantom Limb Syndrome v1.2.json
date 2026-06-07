@@ -1,0 +1,448 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "Phantom Limb Syndrome v1.2"
+  },
+  "grandmother",
+  {
+    "id": "observer",
+    "name": "Observer",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/observer/observer_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/observer/observer_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night, choose a player: you learn how many reminder tokens are on them.",
+    "flavor": "Alright, you, a little to the left, and you, shoulders back. Okay, now everyone, say cheese! (v1.0)",
+    "firstNight": 74,
+    "otherNight": 94,
+    "firstNightReminder": "The Observer chooses a player. Give a finger signal.",
+    "otherNightReminder": "The Observer chooses a player. Give a finger signal."
+  },
+  "sailor",
+  {
+    "id": "pickler",
+    "name": "Pickler",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/pickler/pickler_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/pickler/pickler_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night*, choose a player: if they are evil, you die.",
+    "flavor": "Leave anything in vinegar for long enough and its true potential will always be brung out. Things never had to be this way. (v1.0)",
+    "firstNight": 0,
+    "otherNight": 21,
+    "otherNightReminder": "The Pickler chooses a player. :reminder:",
+    "reminders": [
+      "Dead"
+    ]
+  },
+  "gambler",
+  {
+    "id": "opportunist",
+    "name": "Opportunist",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/opportunist/opportunist_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/opportunist/opportunist_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night*, choose if the Storyteller flips a coin: heads) you learn an in-play character, or tails) you die.",
+    "flavor": "(v1.1)",
+    "firstNight": 0,
+    "otherNight": 21,
+    "otherNightReminder": "If necessary, flip a coin. If heads, show an in-play character token. :reminder:",
+    "reminders": [
+      "Dead"
+    ]
+  },
+  "lycanthrope",
+  "gossip",
+  {
+    "id": "wrangler",
+    "name": "Wrangler",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/wrangler/wrangler_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/wrangler/wrangler_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Once per game, at night, guess which Outsider characters are in play: if correct, they are drunk, even if you are dead. [+0 or +1 Outsider]",
+    "flavor": "You need to be one with them; breathe the air they breathe, feel the wind they feel, feel next season's harvest under your hooves. Tread carefully and make sure to never ride with cowards. (v1.1)",
+    "firstNight": 3,
+    "otherNight": 3,
+    "firstNightReminder": "The Wrangler might guess any amount of Outsider characters. :reminder: ?:reminder:s",
+    "otherNightReminder": "The Wrangler might guess any amount of Outsider characters. :reminder: ?:reminder:s",
+    "reminders": [
+      "No Ability",
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk"
+    ],
+    "setup": true,
+    "jinxes": [
+      {
+        "id": "flail",
+        "reason": "If the Flail is drunk from the Wrangler's ability, the Flail loses their ability."
+      }
+    ]
+  },
+  {
+    "id": "vet",
+    "name": "Vet",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/vet/vet_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/vet/vet_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Once per game, at night*, choose a player: if they are of opposing alignment (& not the Demon), they become a Vet.",
+    "flavor": "This is mechanically impossible! It-it's a scientific breakthrough! How could something so small and feeble scale such a great height? (v1.2)",
+    "firstNight": 0,
+    "otherNight": 14,
+    "otherNightReminder": "The Vet might choose a player. If they chose an opposing player, replace the target's token with a Vet token. Put the Vet to sleep. Wake the target. Show the *YOU ARE* and Vet tokens. :reminder:",
+    "reminders": [
+      "No Ability"
+    ],
+    "jinxes": [
+      {
+        "id": "epidemic",
+        "reason": "If the Epidemic is in play, an evil player may become a Vet due to the Vet's ability."
+      },
+      {
+        "id": "moonlit",
+        "reason": "A Moonlit may become a Vet due to the Vet's ability."
+      }
+    ]
+  },
+  {
+    "id": "maid",
+    "name": "Maid",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/maid/maid_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/maid/maid_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Once per game, during the day, publicly choose a dead player: if they are of opposing alignment, all players know this.",
+    "flavor": "(v1.1)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "No Ability"
+    ]
+  },
+  {
+    "id": "pitied",
+    "name": "Pitied",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/pitied/pitied_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/pitied/pitied_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "If you are the last living good player, good wins.",
+    "flavor": "If things are going to continue to suck THIS badly, God eventually will look down on me and spare me some grace eventually, right...? (v1.1)",
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  "tealady",
+  {
+    "id": "lover",
+    "name": "Lover",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/lover/lover_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/lover/lover_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "If a player agrees, they are bound to you. You wake when they wake. If you die, they die, & vice versa.",
+    "flavor": "Lover, lover, for whom do you call? For a man neither wide nor tall? If he asks for your hand, give him a cloth. If he asks for your light, give him a moth. If he asks for your heart, tell him off. (v1.0)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound"
+    ]
+  },
+  {
+    "id": "mob_boss",
+    "name": "Mob Boss",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/mob_boss/mob_boss_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/mob_boss/mob_boss_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "The 1st time you publicly say \"Get 'em boys!\" while nominating, if the nominee is not the Demon, they are executed immediately.",
+    "flavor": "(v1.1)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "No Ability"
+    ]
+  },
+  "pacifist",
+  {
+    "id": "baton_twirler",
+    "name": "Baton Twirler",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/baton_twirler/baton_twirler_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/baton_twirler/baton_twirler_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "The 1st time are killed or executed by an evil player, you live but register as dead. If you are then executed, your team wins. [Might be a Minion]",
+    "flavor": "I spin then you spin then I spin then you- aw come on, you dropped it! You ruined it! You ruined everything! (v1.3)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "Died To Evil"
+    ],
+    "setup": true,
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ]
+  },
+  "lunatic",
+  {
+    "id": "identical_triplet",
+    "name": "Identical Triplet",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/identical_triplet/identical_triplet_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/identical_triplet/identical_triplet_evil.png"
+    ],
+    "team": "outsider",
+    "edition": "bloodvine",
+    "ability": "You think you are an in-play Townsfolk character, but you are not. [+1 Identical Triplet. You & your Identical Triplet think you are the same character. -1 Outsider]",
+    "flavor": "(v1.0)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "remindersGlobal": [
+      "Is The Identical Triplet",
+      "Is The Identical Triplet"
+    ],
+    "setup": true,
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      },
+      {
+        "type": "reveal",
+        "name": "replace-character"
+      },
+      {
+        "type": "selection",
+        "name": "good-duplicate"
+      }
+    ]
+  },
+  "klutz",
+  "moonchild",
+  {
+    "id": "soul",
+    "name": "Soul",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/demons/soul/soul_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/demons/soul/soul_good.png"
+    ],
+    "team": "demon",
+    "edition": "bloodvine",
+    "ability": "Each night, the Soul may choose what alive player holds the Soul & \"is the Demon\". The Soul is evil until the player they chose chooses a player. [No Minions]",
+    "flavor": "YUCK!! Why is it so slimy?! (v1.1)",
+    "firstNight": 28,
+    "otherNight": 52,
+    "firstNightReminder": "The Soul chooses a player. :reminder: :reminder: Put them to sleep. Wake the target. Show the *YOU ARE* &amp; Soul tokens &amp; give a thumbs-down.",
+    "otherNightReminder": "Give the player marked *HEALING* a thumbs-up. The Soul chooses a player. :reminder: :reminder: Put them to sleep. Wake the target. Show the *YOU ARE* &amp; Soul tokens &amp; give a thumbs-down.",
+    "remindersGlobal": [
+      "Is The Demon",
+      "Healing"
+    ],
+    "setup": true,
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      },
+      {
+        "type": "reveal",
+        "name": "replace-character"
+      }
+    ]
+  },
+  {
+    "id": "linked_list",
+    "name": "Them",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/demons/linked_list/linked_list_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/demons/linked_list/linked_list_good.png"
+    ],
+    "team": "demon",
+    "edition": "bloodvine",
+    "ability": "Each night*, choose a player: they die. Executions fail if only evil voted. [Half of players are evil. Evil are in a line. No Minions]",
+    "flavor": "They are the calm. They are the storm. They are the wire that binds us all. Their sweat gives us life. We breathe so They can bleed. Your skin peels and under that skin you'll find Them. (v1.1)",
+    "firstNight": 0,
+    "otherNight": 42,
+    "otherNightReminder": "They choose a player. :reminder:",
+    "reminders": [
+      "Dead"
+    ],
+    "setup": true
+  },
+  {
+    "id": "moonlit",
+    "name": "Moonlit",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/demons/moonlit/moonlit_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/demons/moonlit/moonlit_good.png"
+    ],
+    "team": "demon",
+    "edition": "bloodvine",
+    "ability": "You think you are a Townsfolk character, but you are not. Each night*, one of your alive neighbors might die. [Evil characters are Moonlit. +1 Outsider]",
+    "flavor": "(v1.2) (token by EBK)",
+    "firstNight": 0,
+    "otherNight": 43,
+    "otherNightReminder": "A player might die. :reminder:",
+    "remindersGlobal": [
+      "Is A Moonlit",
+      "Is A Moonlit",
+      "Is A Moonlit",
+      "Is A Moonlit",
+      "Dead",
+      "Dead",
+      "Dead",
+      "Dead"
+    ],
+    "setup": true,
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      },
+      {
+        "type": "reveal",
+        "name": "replace-character"
+      }
+    ]
+  },
+  {
+    "id": "epidemic",
+    "name": "Epidemic",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/demons/epidemic/epidemic_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/demons/epidemic/epidemic_good.png"
+    ],
+    "team": "demon",
+    "edition": "bloodvine",
+    "ability": "Evil players \"are the Demon\". Each night, an alive player chooses a player (if not already chosen): they become their alignment. [No Minions. 1 player is evil]",
+    "flavor": "YUCK!! Why am I so slimy?! (v1.4)",
+    "firstNight": 45,
+    "otherNight": 59,
+    "firstNightReminder": "Wake an alive evil player &amp; show them the *THIS CHARACTER SELECTED YOU* &amp; Epidemic tokens. They choose a player. :reminder: Put them to sleep. Wake the target. Show the *YOU ARE* token &amp; a thumbs up or thumbs down.",
+    "otherNightReminder": "Wake an alive player &amp; show them the *THIS CHARACTER SELECTED YOU* &amp; Epidemic tokens. They choose a player. :reminder: Put them to sleep. Maybe wake the target. Show the *YOU ARE* token &amp; a thumbs up or thumbs down.",
+    "remindersGlobal": [
+      "Infected",
+      "Infected",
+      "Infected",
+      "Infected",
+      "Infected",
+      "Infected",
+      "Infected",
+      "Infected",
+      "Infected",
+      "Infected",
+      "Infected",
+      "Infected",
+      "Infected",
+      "Infected",
+      "Infected",
+      "Infected",
+      "Infected",
+      "Infected",
+      "Infected",
+      "Infected"
+    ],
+    "setup": true,
+    "jinxes": [
+      {
+        "id": "lethargic",
+        "reason": "If the Epidemic is in play and the Lethargic is evil, the Lethargic may die."
+      }
+    ],
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      }
+    ]
+  },
+  {
+    "id": "deputy",
+    "name": "Deputy",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/travellers/deputy/deputy_traveller.png",
+      "https://ivy-vine.github.io/bloodvine/characters/travellers/deputy/deputy_traveller_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/travellers/deputy/deputy_traveller_evil.png"
+    ],
+    "team": "traveller",
+    "edition": "bloodvine",
+    "ability": "Each night, choose an alignment to become. You don't know the Demon. You cannot be exiled.",
+    "flavor": "(v1.0)",
+    "firstNight": 9,
+    "otherNight": 4,
+    "firstNightReminder": "The Deputy gives a thumbs up or a thumbs down.",
+    "otherNightReminder": "The Deputy gives a thumbs up or a thumbs down."
+  },
+  "gunslinger",
+  "bishop",
+  {
+    "id": "dummy",
+    "name": "Dummy",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/travellers/dummy/dummy_traveller.png",
+      "https://ivy-vine.github.io/bloodvine/characters/travellers/dummy/dummy_traveller_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/travellers/dummy/dummy_traveller_evil.png"
+    ],
+    "team": "traveller",
+    "edition": "bloodvine",
+    "ability": "When a player dies, you may choose to die instead.",
+    "flavor": "A dummy?! This is what peak male performance looks like! (v1.2)",
+    "firstNight": 0,
+    "otherNight": 62,
+    "otherNightReminder": "If a player died, the Dummy was woken and the dead player was pointed to. The Dummy might have nodded to die instead. If you haven't done this yet, do so now."
+  },
+  "scapegoat",
+  "bootlegger",
+  {
+    "id": "snafu",
+    "name": "Snafu",
+    "image": "https://ivy-vine.github.io/bloodvine/characters/fabled/snafu/snafu_fabled.png",
+    "team": "fabled",
+    "edition": "bloodvine",
+    "ability": "If the Storyteller makes a mistake, all players know this & the black sliver gets bigger.",
+    "flavor": "Don't worry about it. Don't worry about it! You really don't need to worry about it. (v1.0)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      ":)"
+    ]
+  }
+]

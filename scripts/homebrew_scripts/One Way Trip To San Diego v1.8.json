@@ -1,0 +1,112 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "One Way Trip To San Diego v1.8",
+    "firstNight": [
+      "dusk",
+      "barista",
+      "bureaucrat",
+      "poppygrower",
+      "minioninfo",
+      "lunatic",
+      "demoninfo",
+      "engineer",
+      "poisoner",
+      "godfather",
+      "eviltwin",
+      "pixie",
+      "librarian",
+      "investigator",
+      "empath",
+      "shugenja",
+      "chambermaid",
+      "dawn"
+    ],
+    "otherNight": [
+      "dusk",
+      "barista",
+      "engineer",
+      "bureaucrat",
+      "bonecollector",
+      "poppygrower",
+      "san_diegos_nightmare",
+      "poisoner",
+      "pithag",
+      "lunatic",
+      "godfather",
+      "barber",
+      "banshee",
+      "empath",
+      "undertaker",
+      "chambermaid",
+      "dawn"
+    ]
+  },
+  "investigator",
+  "librarian",
+  "shugenja",
+  "pixie",
+  "empath",
+  "chambermaid",
+  "undertaker",
+  "engineer",
+  "fisherman",
+  "banshee",
+  "mayor",
+  "virgin",
+  "poppygrower",
+  "lunatic",
+  "drunk",
+  "barber",
+  "politician",
+  "godfather",
+  "poisoner",
+  "pithag",
+  "eviltwin",
+  {
+    "id": "san_diegos_nightmare",
+    "name": "Killer Fish",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/demons/san_diegos_nightmare/san_diegos_nightmare_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/demons/san_diegos_nightmare/san_diegos_nightmare_good.png"
+    ],
+    "team": "demon",
+    "edition": "bloodvine",
+    "ability": "Each night*, choose a player: they die. You have the ability of your recently killed player.",
+    "flavor": "\"Killer fish. Killer fish from San Diego. I don't know what I am, but I taste really good. I make killer fish. Hello. I'll be your killer fish for the evening. Thank you.\" (v1.2)",
+    "firstNight": 0,
+    "otherNight": 12,
+    "otherNightReminder": "The Killer Fish chooses a player. :reminder: :reminder:",
+    "reminders": [
+      "Dead",
+      "Tastes Really Good"
+    ],
+    "jinxes": [
+      {
+        "id": "poppygrower",
+        "reason": "If the Killer Fish kills the Poppy Grower, Minions and Demons don't learn each other, but they do when the Killer Fish loses the Poppy Grower's ability."
+      }
+    ]
+  },
+  "bureaucrat",
+  "barista",
+  "bonecollector",
+  "judge",
+  "gnome",
+  "bootlegger",
+  {
+    "id": "snafu",
+    "name": "Snafu",
+    "image": "https://ivy-vine.github.io/bloodvine/characters/fabled/snafu/snafu_fabled.png",
+    "team": "fabled",
+    "edition": "bloodvine",
+    "ability": "If the Storyteller makes a mistake, all players know this & the black sliver gets bigger.",
+    "flavor": "Don't worry about it. Don't worry about it! You really don't need to worry about it. (v1.0)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      ":)"
+    ]
+  }
+]

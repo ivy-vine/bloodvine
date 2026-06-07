@@ -2,8 +2,50 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "Welcome To The Riverside Casino v1.0"
+    "name": "Welcome To The Riverside Casino v1.2",
+    "firstNight": [
+      "dusk",
+      "apprentice",
+      "deputy",
+      "wrangler",
+      "minioninfo",
+      "lunatic",
+      "demoninfo",
+      "lilmonsta",
+      "snakecharmer",
+      "eviltwin",
+      "mezepheles",
+      "lovebug",
+      "huntsman",
+      "damsel",
+      "noble",
+      "cultleader",
+      "dawn",
+      "leviathan"
+    ],
+    "otherNight": [
+      "dusk",
+      "wrangler",
+      "deputy",
+      "harlot",
+      "bonecollector",
+      "opportunist",
+      "gambler",
+      "snakecharmer",
+      "mezepheles",
+      "lunatic",
+      "alhadikhia",
+      "cylcast",
+      "lilmonsta",
+      "huntsman",
+      "damsel",
+      "juggler",
+      "cultleader",
+      "dawn",
+      "leviathan"
+    ]
   },
+  "noble",
   "snakecharmer",
   "cultleader",
   "gambler",
@@ -25,27 +67,6 @@
       "Dead"
     ]
   },
-  {
-    "id": "cheerleader",
-    "name": "Cheerleader",
-    "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/cheerleader/cheerleader_good.png",
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/cheerleader/cheerleader_evil.png"
-    ],
-    "team": "townsfolk",
-    "edition": "bloodvine",
-    "ability": "Once per game, at night, choose a player: until dusk, their ability works twice.",
-    "flavor": "BE OPPRESSIVE, B, E, OPPRESSIVE!! (v1.0)",
-    "firstNight": 9,
-    "otherNight": 2,
-    "firstNightReminder": "The Cheerleader might choose a player. If necessary, wake the chosen player, show the *THIS CHARACTER SELECTED YOU* & the Cheerleader token. :reminder:",
-    "otherNightReminder": "The Cheerleader might choose a player. If necessary, wake the chosen player, show the *THIS CHARACTER SELECTED YOU* & the Cheerleader token. :reminder:",
-    "reminders": [
-      "No Ability",
-      "Acts Twice"
-    ]
-  },
-  "courtier",
   "huntsman",
   {
     "id": "wrangler",
@@ -79,31 +100,59 @@
       }
     ]
   },
-  "juggler",
   {
-    "id": "bartender",
-    "name": "Bartender",
+    "id": "poet",
+    "name": "Poet",
     "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/bartender/bartender_good.png",
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/bartender/bartender_evil.png"
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/poet/poet_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/poet/poet_evil.png"
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "If you guess (once) an evil player, they are drunk.",
-    "flavor": "(v1.1)",
-    "firstNight": 2,
-    "otherNight": 2,
-    "firstNightReminder": "The Bartender might choose a player. :reminder:",
-    "otherNightReminder": "The Bartender might choose a player. :reminder:",
+    "ability": "Once per game, during the day, publicly claim to be the Poet: the Demon is drunk until dawn.",
+    "flavor": "A poet who never knows it certainly doesn't owe it to show it how far they can throw it. They may dip their toes in the riverbed, before throwing their greens into a piano's strings. \"For you, a tear I shed\", she pled as she bled, closer than ever to dead, no light further ahead. (v1.2)",
+    "firstNight": 0,
+    "otherNight": 0,
     "reminders": [
-      "Guess Used",
+      "No Ability",
       "Drunk"
+    ]
+  },
+  {
+    "id": "journalist",
+    "name": "Journalist",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/journalist/journalist_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/journalist/journalist_evil.png"
     ],
-    "jinxes": [
-      {
-        "id": "leviathan",
-        "reason": "If the Bartender guesses the evil Leviathan, the Leviathan is drunk, until dusk."
-      }
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Once per game, during the day, publicly choose a player: if they are evil, they die, but if they are good, you die.",
+    "flavor": "(v1.0)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "No Ability"
+    ]
+  },
+  "juggler",
+  {
+    "id": "lovebug",
+    "name": "Lovebug",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/lovebug/lovebug_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/lovebug/lovebug_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "You & a Minion, if they live, are mad as the Minion's character, or you or they might be executed.",
+    "flavor": "(v1.1)",
+    "firstNight": 49,
+    "otherNight": 0,
+    "firstNightReminder": "Show the Minion character token marked *MAD*. Show the *THIS CHARACTER SELECTED YOU* &amp; the Lovebug character token to the Minion.",
+    "reminders": [
+      "Mad",
+      "Mad"
     ]
   },
   {
@@ -132,46 +181,21 @@
       "Bound"
     ]
   },
-  "mayor",
   {
-    "id": "lethargic",
-    "name": "Lethargic",
+    "id": "baton_twirler",
+    "name": "Baton Twirler",
     "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/lethargic/lethargic_good.png",
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/lethargic/lethargic_evil.png"
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/baton_twirler/baton_twirler_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/baton_twirler/baton_twirler_evil.png"
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "1 player has your crab. If you guess (once) who it is, you cannot die.",
-    "flavor": "I can never sleep without Mr. Claws!! Can you please, sir, help me find him? (v1.2)",
-    "firstNight": 47,
-    "otherNight": 0,
-    "firstNightReminder": "Wake the player with the Has Crab reminder. Show the *THIS CHARACTER SELECTED YOU* token then the Lethargic token.",
-    "reminders": [
-      "Has Crab",
-      "Guess Used",
-      "Safe"
-    ]
-  },
-  {
-    "id": "bloodletter",
-    "name": "Bloodletter",
-    "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/outsiders/bloodletter/bloodletter_good.png",
-      "https://ivy-vine.github.io/bloodvine/characters/outsiders/bloodletter/bloodletter_evil.png"
-    ],
-    "team": "outsider",
-    "edition": "bloodvine",
-    "ability": "Each night*, good players that choose you with their ability die. [Might be a Minion]",
-    "flavor": "Trust me, you don't need it as much as I do. (v2.1)",
+    "ability": "The 1st time are killed or executed by an evil player, you live but register as dead. If you are then executed, your team wins. [Might be a Minion]",
+    "flavor": "I spin then you spin then I spin then you- aw come on, you dropped it! You ruined it! You ruined everything! (v1.3)",
     "firstNight": 0,
     "otherNight": 0,
     "reminders": [
-      "Dead",
-      "Dead",
-      "Dead",
-      "Dead",
-      "Dead"
+      "Died To Evil"
     ],
     "setup": true,
     "special": [
@@ -181,6 +205,7 @@
       }
     ]
   },
+  "lunatic",
   "klutz",
   "damsel",
   "puzzlemaster",
@@ -214,8 +239,31 @@
   },
   "eviltwin",
   "goblin",
+  "lilmonsta",
   "alhadikhia",
   "leviathan",
+  {
+    "id": "deputy",
+    "name": "Deputy",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/travellers/deputy/deputy_traveller.png",
+      "https://ivy-vine.github.io/bloodvine/characters/travellers/deputy/deputy_traveller_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/travellers/deputy/deputy_traveller_evil.png"
+    ],
+    "team": "traveller",
+    "edition": "bloodvine",
+    "ability": "Each night, choose an alignment to become. You don't know the Demon. You cannot be exiled.",
+    "flavor": "(v1.0)",
+    "firstNight": 9,
+    "otherNight": 4,
+    "firstNightReminder": "The Deputy gives a thumbs up or a thumbs down.",
+    "otherNightReminder": "The Deputy gives a thumbs up or a thumbs down."
+  },
+  "harlot",
+  "bonecollector",
+  "apprentice",
+  "scapegoat",
+  "bootlegger",
   {
     "id": "snafu",
     "name": "Snafu",
@@ -229,6 +277,5 @@
     "reminders": [
       ":)"
     ]
-  },
-  "bootlegger"
+  }
 ]
