@@ -8,14 +8,14 @@
     "id": "keeper",
     "name": "efwrvgpomij vgewo;jim",
     "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/demons/keeper/keeper_evil.png",
-      "https://ivy-vine.github.io/bloodvine/characters/demons/keeper/keeper_good.png"
+      "https://ivy-vine.github.io/bloodvine/characters/demons/keeper/keeper_evil.webp",
+      "https://ivy-vine.github.io/bloodvine/characters/demons/keeper/keeper_good.webp"
     ],
     "team": "demon",
     "edition": "bloodvine",
     "ability": "Each night*, choose a player: they die. If you were nominated today, you may choose 2 players tonight.",
     "flavor": "wcegrpohijm sdgfpoji d gfpmsjlkrgjoiw  rstpoijw[oiep jr g rdoj;ijpoi  jpv hmoite sgdpfjio, (v1.0)",
-    "otherNight": 44,
+    "otherNight": 55.25,
     "otherNightReminder": "The efwrvgpomij vgewo;jim chooses a player. :reminder:",
     "reminders": [
       "Dead",

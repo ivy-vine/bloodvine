@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "wrangler v1.1"
+    "name": "wrangler v1.2"
   },
   {
     "id": "wrangler",
@@ -13,12 +13,11 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "Once per game, at night, guess which Outsider characters are in play: if correct, they are drunk from now on. [+0 or +1 Outsider]",
-    "flavor": "You need to be one with them; breathe the air they breathe, feel the wind they feel, feel next season's harvest under your hooves. Tread carefully and make sure to never ride with cowards. (v1.1)",
-    "setup": true,
-    "firstNight": 25,
+    "ability": "Once per game, at night, guess exactly which Outsider characters are in play: if correct, they are drunk from now on.",
+    "flavor": "You need to be one with them; breathe the air they breathe, feel the wind they feel, feel next season's harvest under your hooves. Tread carefully and make sure to never ride with cowards. (v1.2)",
+    "firstNight": 25.5,
     "firstNightReminder": "The Wrangler might guess any amount of Outsider characters. :reminder: ?:reminder:s",
-    "otherNight": 11,
+    "otherNight": 11.5,
     "otherNightReminder": "The Wrangler might guess any amount of Outsider characters. :reminder: ?:reminder:s",
     "reminders": [
       "No Ability",

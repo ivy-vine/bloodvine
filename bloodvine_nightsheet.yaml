@@ -23,11 +23,11 @@ firstNight:
 - 22 summoner
 - 23 demoninfo
 - 24 king
-- 24 cheerleader
+- 24.5 cheerleader
 - 25 sailor
-- 25 wrangler
+- 25.5 wrangler
 - 26 marionette
-- thespian
+- 26.5 thespian
 - 27 engineer
 - 28 preacher
 - 29 lilmonsta
@@ -48,6 +48,7 @@ firstNight:
 - 44 harpy
 - 45 mezepheles
 - 46 pukka
+- 46.5 shef
 - 47 pixie
 - 48 huntsman
 - 49 damsel
@@ -93,11 +94,11 @@ otherNight:
 - 8 thief
 - 9 harlot
 - 10 bonecollector
-- 10 cheerleader
 - 11 philosopher
-- 11 wrangler
+- 11.5 wrangler
+- 11.75 cheerleader
 - 12 poppygrower
-- 12 thespian
+- 12.5 thespian
 - 13 sailor
 - 14 engineer
 - 15 preacher
@@ -143,6 +144,8 @@ otherNight:
 - 53 lilmonsta
 - 54 yaggababble
 - 55 kazali
+- 55.25 jim
+- 55.5 shef
 - 56 assassin
 - 57 godfather
 - 58 gossip

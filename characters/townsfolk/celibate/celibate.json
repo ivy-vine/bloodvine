@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "celibate v1.1"
+    "name": "celibate v1.2"
   },
   {
     "id": "celibate",
@@ -13,8 +13,8 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "Once per game, the Storyteller will break a game rule to help your team win, even if you are dead. [Might be a Minion]",
-    "flavor": "It is for you, my child, for who which is pure and holy and made of all good things. Your faith has, certainly, paid off. Your childrens' lungs will fill with gold's breath. (v1.1)",
+    "ability": "Once per game, the Storyteller will break a game rule to help your team win. You learn when this happens. [Might be a Minion]",
+    "flavor": "It is for you, my child, for who which is pure and holy and made of all good things. Your faith has, certainly, paid off. Your childrens' lungs will fill with gold's breath. (v1.2)",
     "setup": true,
     "reminders": [
       "Miracle Given"

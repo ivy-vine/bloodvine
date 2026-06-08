@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "lethargic v1.2"
+    "name": "lethargic v1.3"
   },
   {
     "id": "lethargic",
@@ -13,10 +13,10 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "1 player has your crab. If you guess (once) who it is, you cannot die.",
-    "flavor": "I can never sleep without Mr. Claws!! Can you please, sir, help me find him? (v1.2)",
+    "ability": "1 player has your crab. If you guess (once) who it is, you cannot die. The Demon knows a Lethargic is in play.",
+    "flavor": "I can never sleep without Mr. Claws!! Can you please, sir, help me find him? (v1.3)",
     "firstNight": 47,
-    "firstNightReminder": "Wake the player with the Has Crab reminder. Show the *THIS CHARACTER SELECTED YOU* token then the Lethargic token.",
+    "firstNightReminder": "During Demon Info, show the Demon the Lethargic token. If you haven't done this yet, do so now. Wake the player with the Has Crab reminder. Show the *THIS CHARACTER SELECTED YOU* token then the Lethargic token.",
     "reminders": [
       "Has Crab",
       "Guess Used",
