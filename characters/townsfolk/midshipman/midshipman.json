@@ -13,7 +13,7 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "If you nominate & execute an Outsider, an Outsider is drunk from now on. [+0 to +2 Outsiders]",
+    "ability": "If you nominate & execute an Outsider, an Outsider is drunk from now on. [+0 to +1 Outsider]",
     "flavor": "(v1.2)",
     "setup": true,
     "reminders": [
