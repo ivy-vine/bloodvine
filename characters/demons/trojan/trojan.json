@@ -8,8 +8,8 @@
     "id": "trojan",
     "name": "Shef",
     "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/demons/trojan/trojan_evil.gif",
-      "https://ivy-vine.github.io/bloodvine/characters/demons/trojan/trojan_good.gif"
+      "https://ivy-vine.github.io/bloodvine/characters/demons/trojan/trojan_evil.webp",
+      "https://ivy-vine.github.io/bloodvine/characters/demons/trojan/trojan_good.webp"
     ],
     "team": "demon",
     "edition": "bloodvine",
