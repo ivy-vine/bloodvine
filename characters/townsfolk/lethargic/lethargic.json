@@ -13,7 +13,7 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "1 player has your crab. If you guess (once) who it is, you cannot die. The Demon knows a Lethargic is in play.",
+    "ability": "1 player has your crab. If you guess (once) who it is, you cannot die. The Demon knows you are in play.",
     "flavor": "I can never sleep without Mr. Claws!! Can you please, sir, help me find him? (v1.3)",
     "firstNight": 47,
     "firstNightReminder": "During Demon Info, show the Demon the Lethargic token. If you haven't done this yet, do so now. Wake the player with the Has Crab reminder. Show the *THIS CHARACTER SELECTED YOU* token then the Lethargic token.",

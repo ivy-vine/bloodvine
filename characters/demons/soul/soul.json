@@ -16,9 +16,9 @@
     "ability": "Each night, the Soul may choose what alive player holds the Soul & \"is the Demon\". The Soul is evil until the player they chose chooses a player. [No Minions]",
     "flavor": "YUCK!! Why is it so slimy?! (v1.1)",
     "setup": true,
-    "firstNight": 28,
+    "firstNight": 45.75,
     "firstNightReminder": "The Soul chooses a player. :reminder: :reminder: Put them to sleep. Wake the target. Show the *YOU ARE* & Soul tokens & give a thumbs-down.",
-    "otherNight": 52,
+    "otherNight": 55.95,
     "otherNightReminder": "Give the player marked *HEALING* a thumbs-up. The Soul chooses a player. :reminder: :reminder: Put them to sleep. Wake the target. Show the *YOU ARE* & Soul tokens & give a thumbs-down.",
     "remindersGlobal": [
       "Is The Demon",
@@ -32,6 +32,11 @@
       {
         "type": "reveal",
         "name": "replace-character"
+      },
+      {
+        "name": "distribute-roles",
+        "type": "ability",
+        "time": "pregame"
       }
     ]
   }

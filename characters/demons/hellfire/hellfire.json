@@ -15,7 +15,7 @@
     "edition": "bloodvine",
     "ability": "Each night*, choose a player: they die. Good players that vote on you are poisoned, until dusk.",
     "flavor": "(v1.0)",
-    "otherNight": 45,
+    "otherNight": 45.5,
     "otherNightReminder": "The Hearth chooses a player. :reminder:",
     "reminders": [
       "Dead",

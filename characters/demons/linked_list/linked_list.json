@@ -16,10 +16,17 @@
     "ability": "Each night*, choose a player: they die. Executions fail if only evil voted. [Half of players are evil. Evil are in a line. No Minions]",
     "flavor": "They are the calm. They are the storm. They are the wire that binds us all. Their sweat gives us life. We breathe so They can bleed. Your skin peels and under that skin you'll find Them. (v1.1)",
     "setup": true,
-    "otherNight": 42,
+    "otherNight": 55.8,
     "otherNightReminder": "They choose a player. :reminder:",
     "reminders": [
       "Dead"
+    ],
+    "special": [
+      {
+        "name": "distribute-roles",
+        "type": "ability",
+        "time": "pregame"
+      }
     ]
   }
 ]

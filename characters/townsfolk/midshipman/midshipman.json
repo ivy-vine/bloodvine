@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "midshipman v1.3"
+    "name": "midshipman v1.4"
   },
   {
     "id": "midshipman",
@@ -13,10 +13,26 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "If you nominate & execute an Outsider, an Outsider is drunk from now on.",
-    "flavor": "(v1.3)",
+    "ability": "Outsiders' votes count twice. Each night, choose if you are drunk until dusk. [+0 or +1 Outsider]",
+    "flavor": "(v1.4)",
+    "setup": true,
+    "firstNight": 38.5,
+    "firstNightReminder": "The Midshipman either nods their head yes to be drunk, or shakes their head no to be sober. :reminder:",
+    "otherNight": 25.5,
+    "otherNightReminder": "The Midshipman either nods their head yes to be drunk, or shakes their head no to be sober. :reminder:",
     "reminders": [
-      "Drunk"
+      "Drunk",
+      "Tied Up",
+      "Tied Up",
+      "Tied Up",
+      "Tied Up"
+    ],
+    "special": [
+      {
+        "type": "vote",
+        "name": "multiplier",
+        "value": 2
+      }
     ]
   }
 ]

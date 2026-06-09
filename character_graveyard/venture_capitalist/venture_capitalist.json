@@ -15,7 +15,7 @@
     "edition": "bloodvine",
     "ability": "Each night*, choose a player: they die. If your team wins, choose (within reason) a sliver to add to the Wheel. If you are mad as the Venture Capitalist, you lose this ability.",
     "flavor": "(v1.0)",
-    "otherNight": 51,
+    "otherNight": 51.5,
     "otherNightReminder": "The Venture Capitalist chooses a player. :reminder:",
     "reminders": [
       "Dead"

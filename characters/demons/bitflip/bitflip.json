@@ -16,9 +16,9 @@
     "ability": "Each night*, choose a player: they die. Minions & Demons do not know each other. If no Outsiders & Minions live, evil wins. [+2 Outsiders]",
     "flavor": "F7a99ed: [t]he mac41na[t]10n. M3china[t]i0n. Si9h[t]s abound. |>rif[t] [t]h20ugh [t]he soun|>. R#212t [t]emp[t]a[t]10n. D##per. (v1.3) (token by Diamondwar)",
     "setup": true,
-    "firstNight": 16,
+    "firstNight": 16.5,
     "firstNightReminder": "Skip Minion Info and Demon Info. Wake the Demon. Show the *THESE CHARACTERS ARE NOT IN PLAY* token. Show 3 not-in-play good character tokens.",
-    "otherNight": 43,
+    "otherNight": 55.1,
     "otherNightReminder": "The Seed chooses a player. :reminder:",
     "reminders": [
       "Dead"
