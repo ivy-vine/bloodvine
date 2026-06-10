@@ -1,0 +1,27 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "stingray v1.0"
+  },
+  {
+    "id": "stingray",
+    "name": "Stingray",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/demons/stingray/stingray_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/demons/stingray/stingray_good.png"
+    ],
+    "team": "demon",
+    "edition": "bloodvine",
+    "ability": "Each night, choose 2 players: they might die tomorrow.",
+    "flavor": "(v1.0)",
+    "firstNight": 30.25,
+    "firstNightReminder": "The Stingray chooses 2 players. :reminder: :reminder:",
+    "otherNight": 45.25,
+    "otherNightReminder": "The Stingray chooses 2 players. :reminder: :reminder:",
+    "reminders": [
+      "Stung",
+      "Stung"
+    ]
+  }
+]

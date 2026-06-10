@@ -16,9 +16,9 @@
     "ability": "On your 1st night, choose X (more than 1). All players know X. X-1 good players start knowing 1 evil player, 1 of which is the Demon. On day X, evil wins. [+1 Minion]",
     "flavor": "(v1.0)",
     "setup": true,
-    "firstNight": 45.5,
-    "firstNightReminder": "Get a finger signal. :reminder: Put the Irma to sleep. Announce X. Wake X-1 players 1 at a time & point to an evil player (1 player pointed to is the Demon). X-1:reminder:s",
-    "otherNight": 2,
+    "firstNight": 30.5,
+    "firstNightReminder": "The Irma chooses a number (more than 1). :reminder: Put the Irma to sleep. Announce X. Wake X-1 players 1 at a time & point to an evil player (1 player pointed to is the Demon). X-1:reminder:s",
+    "otherNight": 16.5,
     "otherNightReminder": "Change the Irma reminder token to the relevant day. :reminder:",
     "reminders": [
       "Spotted Demon",
