@@ -70,10 +70,10 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "Once per game, at night, guess which Outsider characters are in play: if correct, they are drunk, even if you are dead. [+0 or +1 Outsider]",
-    "flavor": "You need to be one with them; breathe the air they breathe, feel the wind they feel, feel next season's harvest under your hooves. Tread carefully and make sure to never ride with cowards. (v1.1)",
-    "firstNight": 3,
-    "otherNight": 3,
+    "ability": "Once per game, at night, guess exactly which Outsider characters are in play: if correct, they are drunk from now on.",
+    "flavor": "You need to be one with them; breathe the air they breathe, feel the wind they feel, feel next season's harvest under your hooves. Tread carefully and make sure to never ride with cowards. (v1.2)",
+    "firstNight": 25.5,
+    "otherNight": 11.5,
     "firstNightReminder": "The Wrangler might guess any amount of Outsider characters. :reminder: ?:reminder:s",
     "otherNightReminder": "The Wrangler might guess any amount of Outsider characters. :reminder: ?:reminder:s",
     "reminders": [
@@ -85,7 +85,6 @@
       "Drunk",
       "Drunk"
     ],
-    "setup": true,
     "jinxes": [
       {
         "id": "flail",
@@ -188,8 +187,8 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "The 1st time you publicly say \"Get 'em boys!\" while nominating, if the nominee is not the Demon, they are executed immediately.",
-    "flavor": "(v1.1)",
+    "ability": "The 1st time you publicly say \"Get 'em boys!\" while nominating, if the nominee is not the Demon, they are executed immediately. You might register as evil.",
+    "flavor": "(v1.2)",
     "firstNight": 0,
     "otherNight": 0,
     "reminders": [
@@ -255,7 +254,7 @@
       }
     ]
   },
-  "klutz",
+  "recluse",
   "moonchild",
   {
     "id": "soul",
@@ -268,10 +267,10 @@
     "edition": "bloodvine",
     "ability": "Each night, the Soul may choose what alive player holds the Soul & \"is the Demon\". The Soul is evil until the player they chose chooses a player. [No Minions]",
     "flavor": "YUCK!! Why is it so slimy?! (v1.1)",
-    "firstNight": 28,
-    "otherNight": 52,
-    "firstNightReminder": "The Soul chooses a player. :reminder: :reminder: Put them to sleep. Wake the target. Show the *YOU ARE* &amp; Soul tokens &amp; give a thumbs-down.",
-    "otherNightReminder": "Give the player marked *HEALING* a thumbs-up. The Soul chooses a player. :reminder: :reminder: Put them to sleep. Wake the target. Show the *YOU ARE* &amp; Soul tokens &amp; give a thumbs-down.",
+    "firstNight": 45.75,
+    "otherNight": 55.95,
+    "firstNightReminder": "The Soul chooses a player. :reminder: :reminder: Put them to sleep. Wake the target. Show the *YOU ARE* &; Soul tokens &; give a thumbs-down.",
+    "otherNightReminder": "Give the player marked *HEALING* a thumbs-up. The Soul chooses a player. :reminder: :reminder: Put them to sleep. Wake the target. Show the *YOU ARE* &; Soul tokens &; give a thumbs-down.",
     "remindersGlobal": [
       "Is The Demon",
       "Healing"
@@ -285,6 +284,11 @@
       {
         "type": "reveal",
         "name": "replace-character"
+      },
+      {
+        "name": "distribute-roles",
+        "type": "ability",
+        "time": "pregame"
       }
     ]
   },
@@ -300,12 +304,19 @@
     "ability": "Each night*, choose a player: they die. Executions fail if only evil voted. [Half of players are evil. Evil are in a line. No Minions]",
     "flavor": "They are the calm. They are the storm. They are the wire that binds us all. Their sweat gives us life. We breathe so They can bleed. Your skin peels and under that skin you'll find Them. (v1.1)",
     "firstNight": 0,
-    "otherNight": 42,
+    "otherNight": 55.8,
     "otherNightReminder": "They choose a player. :reminder:",
     "reminders": [
       "Dead"
     ],
-    "setup": true
+    "setup": true,
+    "special": [
+      {
+        "name": "distribute-roles",
+        "type": "ability",
+        "time": "pregame"
+      }
+    ]
   },
   {
     "id": "moonlit",
@@ -319,7 +330,7 @@
     "ability": "You think you are a Townsfolk character, but you are not. Each night*, one of your alive neighbors might die. [Evil characters are Moonlit. +1 Outsider]",
     "flavor": "(v1.2) (token by EBK)",
     "firstNight": 0,
-    "otherNight": 43,
+    "otherNight": 55.3,
     "otherNightReminder": "A player might die. :reminder:",
     "remindersGlobal": [
       "Is A Moonlit",
@@ -354,10 +365,10 @@
     "edition": "bloodvine",
     "ability": "Evil players \"are the Demon\". Each night, an alive player chooses a player (if not already chosen): they become their alignment. [No Minions. 1 player is evil]",
     "flavor": "YUCK!! Why am I so slimy?! (v1.4)",
-    "firstNight": 45,
-    "otherNight": 59,
-    "firstNightReminder": "Wake an alive evil player &amp; show them the *THIS CHARACTER SELECTED YOU* &amp; Epidemic tokens. They choose a player. :reminder: Put them to sleep. Wake the target. Show the *YOU ARE* token &amp; a thumbs up or thumbs down.",
-    "otherNightReminder": "Wake an alive player &amp; show them the *THIS CHARACTER SELECTED YOU* &amp; Epidemic tokens. They choose a player. :reminder: Put them to sleep. Maybe wake the target. Show the *YOU ARE* token &amp; a thumbs up or thumbs down.",
+    "firstNight": 45.5,
+    "otherNight": 55.9,
+    "firstNightReminder": "Wake an alive evil player &; show them the *THIS CHARACTER SELECTED YOU* &; Epidemic tokens. They choose a player. :reminder: Put them to sleep. Wake the target. Show the *YOU ARE* token &; a thumbs up or thumbs down.",
+    "otherNightReminder": "Wake an alive player &; show them the *THIS CHARACTER SELECTED YOU* &; Epidemic tokens. They choose a player. :reminder: Put them to sleep. Maybe wake the target. Show the *YOU ARE* token &; a thumbs up or thumbs down.",
     "remindersGlobal": [
       "Infected",
       "Infected",
@@ -391,6 +402,11 @@
       {
         "type": "selection",
         "name": "bag-disabled"
+      },
+      {
+        "name": "distribute-roles",
+        "type": "ability",
+        "time": "pregame"
       }
     ]
   },
