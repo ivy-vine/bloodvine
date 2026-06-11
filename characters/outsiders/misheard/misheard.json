@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "misheard v1.1"
+    "name": "misheard v1.2"
   },
   {
     "id": "misheard",
@@ -14,6 +14,9 @@
     "team": "outsider",
     "edition": "bloodvine",
     "ability": "Each day, you must try to nominate an alive player (not yourself), or your team loses.",
-    "flavor": "No, no, you must've misheard me; I said she was ready to \"celebrate\", not \"be celibate\". No, yet again, you've misheard me; I said I \"billed\" him, not \"killed\" him! (v1.1)"
+    "flavor": "No, no, you must've misheard me; I said she was ready to \"celebrate\", not \"be celibate\". No, yet again, you've misheard me; I said I \"billed\" him, not \"killed\" him! (v1.2)",
+    "reminders": [
+      "Attempted Nomination"
+    ]
   }
 ]

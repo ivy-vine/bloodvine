@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "charismatic v2.0"
+    "name": "charismatic v3.0"
   },
   {
     "id": "charismatic",
@@ -13,7 +13,7 @@
     ],
     "team": "outsider",
     "edition": "bloodvine",
-    "ability": "When nominated by a good player, they die & the day ends.",
-    "flavor": "(v2.0)"
+    "ability": "If you nominate & execute the Demon, your team loses.",
+    "flavor": "(v3.0)"
   }
 ]

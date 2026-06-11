@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "A Week of Dumb Fun v1.5",
+    "name": "A Week of Dumb Fun v1.6",
     "bootlegger": [
       "In the case of a tie, the winning team is decided by a coin flip.",
       "There may be duplicate Minions in play.",
@@ -90,7 +90,47 @@
     ]
   },
   "lunatic",
-  "drunk",
+  {
+    "id": "drunk_modified",
+    "name": "Drunk",
+    "team": "outsider",
+    "reminders": [],
+    "remindersGlobal": [
+      "Is The Drunk",
+      "Is The Drunk",
+      "Is The Drunk",
+      "Is The Drunk",
+      "Is The Drunk",
+      "Is The Drunk",
+      "Is The Drunk",
+      "Is The Drunk",
+      "Is The Drunk",
+      "Is The Drunk",
+      "Is The Drunk",
+      "Is The Drunk",
+      "Is The Drunk",
+      "Is The Drunk",
+      "Is The Drunk",
+      "Is The Drunk",
+      "Is The Drunk",
+      "Is The Drunk",
+      "Is The Drunk",
+      "Is The Drunk"
+    ],
+    "setup": true,
+    "ability": "You do not know you are the Drunk. You think you are a Townsfolk character, but you are not.",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      },
+      {
+        "type": "reveal",
+        "name": "replace-character"
+      }
+    ],
+    "flavor": "I’m only a *hic* social drinker, my dear. Admittedly, I am a heavy *burp* socializer."
+  },
   "mezepheles",
   "godfather",
   "poisoner",
@@ -124,8 +164,8 @@
     "id": "snafu",
     "name": "Snafu",
     "image": "https://ivy-vine.github.io/bloodvine/characters/fabled/snafu/snafu_fabled.png",
-    "team": "loric",
-    "edition": "fabled",
+    "team": "fabled",
+    "edition": "bloodvine",
     "ability": "If the Storyteller makes a mistake, all players know this & the black sliver gets bigger.",
     "flavor": "Don't worry about it. Don't worry about it! You really don't need to worry about it. (v1.0)",
     "firstNight": 0,

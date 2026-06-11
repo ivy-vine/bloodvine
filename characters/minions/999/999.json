@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "999 v1.0"
+    "name": "999 v1.1"
   },
   {
     "id": "999",
@@ -13,8 +13,8 @@
     ],
     "team": "minion",
     "edition": "bloodvine",
-    "ability": "Your vote counts 999 times. You cannot nominate.",
-    "flavor": "(v1.0)",
+    "ability": "Your vote counts 999 times, even if dead. You cannot nominate.",
+    "flavor": "(v1.1)",
     "reminders": [
       "Drop Drop Drop"
     ],

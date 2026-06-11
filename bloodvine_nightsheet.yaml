@@ -8,6 +8,7 @@ firstNight:
 - 7 lordoftyphon
 - 8 kazali
 - 9 apprentice
+- 9.5 sandman
 - 10 barista
 - 11 bureaucrat
 - 12 thief
@@ -52,6 +53,7 @@ firstNight:
 - 43 fearmonger
 - 44 harpy
 - 45 mezepheles
+- 45.25 fraudulent
 - 45.5 epidemic
 - 45.75 soul
 - 46 pukka
@@ -113,6 +115,7 @@ otherNight:
 - 16 xaan
 - 16.5 irma
 - 17 poisoner
+- 17.5 sandman
 - 18 courtier
 - 19 innkeeper
 - 20 wizard
@@ -129,12 +132,14 @@ otherNight:
 - 30 fearmonger
 - 31 harpy
 - 32 mezepheles
+- 32.5 fraudulent
 - 33 scarletwoman
 - 34 summoner
 - 35 lunatic
 - 36 exorcist
 - 37 lycanthrope
 - 38 princess
+- 38.5 clerk
 - 39 legion
 - 40 imp
 - 41 zombuul

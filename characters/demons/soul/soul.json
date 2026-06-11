@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "soul v1.1"
+    "name": "soul v1.2"
   },
   {
     "id": "soul",
@@ -14,12 +14,12 @@
     "team": "demon",
     "edition": "bloodvine",
     "ability": "Each night, the Soul may choose what alive player holds the Soul & \"is the Demon\". The Soul is evil until the player they chose chooses a player. [No Minions]",
-    "flavor": "YUCK!! Why is it so slimy?! (v1.1)",
+    "flavor": "YUCK!! Why is it so slimy?! (v1.2)",
     "setup": true,
     "firstNight": 45.75,
-    "firstNightReminder": "The Soul chooses a player. :reminder: :reminder: Put them to sleep. Wake the target. Show the *YOU ARE* & Soul tokens & give a thumbs-down.",
+    "firstNightReminder": "The Soul may choose a player. :reminder: :reminder: Put them to sleep. If necessary, wake the target. Show the *YOU ARE* & Soul tokens & give a thumbs-down.",
     "otherNight": 55.95,
-    "otherNightReminder": "Give the player marked *HEALING* a thumbs-up. The Soul chooses a player. :reminder: :reminder: Put them to sleep. Wake the target. Show the *YOU ARE* & Soul tokens & give a thumbs-down.",
+    "otherNightReminder": "The Soul may choose a player. :reminder: :reminder: Put them to sleep. If necessary, wake the player marked *HEALING* & give a thumbs-up. Put them to sleep. Wake the target. Show the *YOU ARE* & Soul tokens & give a thumbs-down.",
     "remindersGlobal": [
       "Is The Demon",
       "Healing"

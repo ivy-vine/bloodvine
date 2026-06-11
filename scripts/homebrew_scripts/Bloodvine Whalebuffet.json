@@ -3,103 +3,6 @@
     "id": "_meta",
     "author": "ivy",
     "name": "Bloodvine Whalebuffet",
-    "firstNight": [
-      "dusk",
-      "choose_your_own_dem",
-      "choose_your_own_min",
-      "choose_your_own_out",
-      "choose_your_own_tf",
-      "choose_your_own_trv",
-      "arctic_fox",
-      "sandman",
-      "deputy",
-      "spin_doctor",
-      "bitflip",
-      "minioninfo",
-      "demoninfo",
-      "cheerleader",
-      "wrangler",
-      "thespian",
-      "worm",
-      "none_type",
-      "hoary_zorro",
-      "stook",
-      "tardigrade",
-      "lobotomist",
-      "midshipman",
-      "misinformant",
-      "moonseeker",
-      "epidemic",
-      "soul",
-      "trojan",
-      "lethargic",
-      "lovebug",
-      "skulker",
-      "baker",
-      "glassblower",
-      "spotter",
-      "sunseeker",
-      "observer",
-      "dawn"
-    ],
-    "otherNight": [
-      "dusk",
-      "arctic_fox",
-      "deputy",
-      "spin_doctor",
-      "skulker",
-      "jester",
-      "shoe_shiner",
-      "wrangler",
-      "cheerleader",
-      "topiarist",
-      "thespian",
-      "san_diegos_nightmare",
-      "vet",
-      "sandman",
-      "pickler",
-      "opportunist",
-      "midshipman",
-      "misinformant",
-      "hypnotist",
-      "clerk",
-      "moonseeker",
-      "hellfire",
-      "uranium_235",
-      "cylcast",
-      "hoary_zorro",
-      "stook",
-      "lobotomist",
-      "railman",
-      "loose",
-      "bitflip",
-      "dark",
-      "keeper",
-      "moonlit",
-      "overseer",
-      "trojan",
-      "benign",
-      "linked_list",
-      "epidemic",
-      "soul",
-      "highroller",
-      "window",
-      "secretary",
-      "dummy",
-      "taxidermist",
-      "bargainer",
-      "gorge",
-      "speaker",
-      "none_type",
-      "baker",
-      "glassblower",
-      "worrywart",
-      "sunseeker",
-      "horticulturist",
-      "naturalist",
-      "observer",
-      "dawn"
-    ],
     "bootlegger": [
       "On the 1st night, all players choose a character (of their assigned character type) to become. [No Minions]",
       "The Demon is woken first. If the Demon chooses a non-\\\"[No Minions]\\\" Demon character, they choose which players are Choose a Minions.",
@@ -143,32 +46,6 @@
     "otherNight": 0,
     "firstNightReminder": "Point to the player with the Has Crab reminder.",
     "setup": true
-  },
-  {
-    "id": "sunseeker",
-    "name": "Sunseeker",
-    "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/sunseeker/sunseeker_good.png",
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/sunseeker/sunseeker_evil.png"
-    ],
-    "team": "townsfolk",
-    "edition": "bloodvine",
-    "ability": "Each night, choose a player: they cannot vote tomorrow.",
-    "flavor": "(v1.0)",
-    "firstNight": 61,
-    "otherNight": 83,
-    "firstNightReminder": "The Sunseeker chooses a player. :reminder:",
-    "otherNightReminder": "The Sunseeker chooses a player. :reminder:",
-    "reminders": [
-      "Sunburnt"
-    ],
-    "special": [
-      {
-        "type": "vote",
-        "name": "multiplier",
-        "value": 0
-      }
-    ]
   },
   {
     "id": "thespian",
@@ -355,6 +232,23 @@
       "Voted On",
       "Voted On",
       "Voted On"
+    ]
+  },
+  {
+    "id": "sunseeker",
+    "name": "Sunseeker",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/sunseeker/sunseeker_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/sunseeker/sunseeker_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night*, if you did not vote today, you are safe from the Demon, even if drunk or poisoned.",
+    "flavor": "(v2.0)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "Voted"
     ]
   },
   {
@@ -651,24 +545,6 @@
     ]
   },
   {
-    "id": "clerk",
-    "name": "Clerk",
-    "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/clerk/clerk_good.png",
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/clerk/clerk_evil.png"
-    ],
-    "team": "townsfolk",
-    "edition": "bloodvine",
-    "ability": "When nominated by a good player, the nominator is drunk, until dawn. If you were marked for execution today, the Demon doesn't kill tonight.",
-    "flavor": "(v1.1)",
-    "firstNight": 0,
-    "otherNight": 39,
-    "otherNightReminder": "If the Clerk was marked for execution today, wake the Demon as normal, but no one dies to the Demon's ability. :reminder:",
-    "reminders": [
-      "Doesn't Kill"
-    ]
-  },
-  {
     "id": "topiarist",
     "name": "Topiarist",
     "image": [
@@ -748,8 +624,8 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "If you guess (once) an opposing player, they can no longer nominate.",
-    "flavor": "(v1.1)",
+    "ability": "If you guess (once) an opposing player, they cannot nominate from now on.",
+    "flavor": "(v1.2)",
     "firstNight": 0,
     "otherNight": 0,
     "reminders": [
@@ -758,34 +634,22 @@
     ]
   },
   {
-    "id": "midshipman",
-    "name": "Midshipman",
+    "id": "clerk",
+    "name": "Clerk",
     "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/midshipman/midshipman_good.png",
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/midshipman/midshipman_evil.png"
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/clerk/clerk_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/clerk/clerk_evil.png"
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "Outsiders' votes count twice. Each night, choose if you are drunk until dusk. [+0 or +1 Outsider]",
-    "flavor": "(v1.4)",
-    "firstNight": 38.5,
-    "otherNight": 25.5,
-    "firstNightReminder": "The Midshipman either nods their head yes to be drunk, or shakes their head no to be sober. :reminder:",
-    "otherNightReminder": "The Midshipman either nods their head yes to be drunk, or shakes their head no to be sober. :reminder:",
+    "ability": "If you were marked for execution today, the Demon doesn't kill tonight. When nominated by a good player, the nominator is drunk, until dawn.",
+    "flavor": "(v1.2)",
+    "firstNight": 0,
+    "otherNight": 38.5,
+    "otherNightReminder": "If the Clerk was marked for execution today, wake the Demon as normal, but no one dies to the Demon's ability. :reminder:",
     "reminders": [
       "Drunk",
-      "Tied Up",
-      "Tied Up",
-      "Tied Up",
-      "Tied Up"
-    ],
-    "setup": true,
-    "special": [
-      {
-        "type": "vote",
-        "name": "multiplier",
-        "value": 2
-      }
+      "Doesn't Kill"
     ]
   },
   {
@@ -950,6 +814,37 @@
       "1st Deal",
       "2nd Deal",
       "3rd Deal"
+    ]
+  },
+  {
+    "id": "midshipman",
+    "name": "Midshipman",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/midshipman/midshipman_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/midshipman/midshipman_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Outsiders' votes count twice. Each night, choose if you are drunk until dusk. [+0 or +1 Outsider]",
+    "flavor": "(v1.4)",
+    "firstNight": 38.5,
+    "otherNight": 25.5,
+    "firstNightReminder": "The Midshipman either nods their head yes to be drunk, or shakes their head no to be sober. :reminder:",
+    "otherNightReminder": "The Midshipman either nods their head yes to be drunk, or shakes their head no to be sober. :reminder:",
+    "reminders": [
+      "Drunk (DON'T USE)",
+      "Tied Up",
+      "Tied Up",
+      "Tied Up",
+      "Tied Up"
+    ],
+    "setup": true,
+    "special": [
+      {
+        "type": "vote",
+        "name": "multiplier",
+        "value": 2
+      }
     ]
   },
   {
@@ -1134,6 +1029,34 @@
     ]
   },
   {
+    "id": "bloodletter",
+    "name": "Bloodletter",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/bloodletter/bloodletter_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/bloodletter/bloodletter_evil.png"
+    ],
+    "team": "outsider",
+    "edition": "bloodvine",
+    "ability": "Each night*, good players that choose you with their ability die. [Might be a Minion]",
+    "flavor": "Trust me, you don't need it as much as I do. (v2.1)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "Dead",
+      "Dead",
+      "Dead",
+      "Dead",
+      "Dead"
+    ],
+    "setup": true,
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ]
+  },
+  {
     "id": "misheard",
     "name": "Misheard",
     "image": [
@@ -1143,9 +1066,12 @@
     "team": "outsider",
     "edition": "bloodvine",
     "ability": "Each day, you must try to nominate an alive player (not yourself), or your team loses.",
-    "flavor": "No, no, you must've misheard me; I said she was ready to \"celebrate\", not \"be celibate\". No, yet again, you've misheard me; I said I \"billed\" him, not \"killed\" him! (v1.1)",
+    "flavor": "No, no, you must've misheard me; I said she was ready to \"celebrate\", not \"be celibate\". No, yet again, you've misheard me; I said I \"billed\" him, not \"killed\" him! (v1.2)",
     "firstNight": 0,
-    "otherNight": 0
+    "otherNight": 0,
+    "reminders": [
+      "Attempted Nomination"
+    ]
   },
   {
     "id": "identical_triplet",
@@ -1271,8 +1197,8 @@
     ],
     "team": "outsider",
     "edition": "bloodvine",
-    "ability": "When nominated by a good player, they die & the day ends.",
-    "flavor": "(v2.0)",
+    "ability": "When nominated by a good player (not yourself), they die & the day ends.",
+    "flavor": "(v2.1)",
     "firstNight": 0,
     "otherNight": 0
   },
@@ -1341,34 +1267,6 @@
     "otherNight": 0,
     "reminders": [
       "Thwacked"
-    ]
-  },
-  {
-    "id": "bloodletter",
-    "name": "Bloodletter",
-    "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/outsiders/bloodletter/bloodletter_good.png",
-      "https://ivy-vine.github.io/bloodvine/characters/outsiders/bloodletter/bloodletter_evil.png"
-    ],
-    "team": "outsider",
-    "edition": "bloodvine",
-    "ability": "Each night*, good players that choose you with their ability die. [Might be a Minion]",
-    "flavor": "Trust me, you don't need it as much as I do. (v2.1)",
-    "firstNight": 0,
-    "otherNight": 0,
-    "reminders": [
-      "Dead",
-      "Dead",
-      "Dead",
-      "Dead",
-      "Dead"
-    ],
-    "setup": true,
-    "special": [
-      {
-        "type": "selection",
-        "name": "bag-duplicate"
-      }
     ]
   },
   {
@@ -1663,8 +1561,8 @@
     ],
     "team": "minion",
     "edition": "bloodvine",
-    "ability": "Your vote counts 999 times. You cannot nominate.",
-    "flavor": "(v1.0)",
+    "ability": "Your vote counts 999 times, even if dead. You cannot nominate.",
+    "flavor": "(v1.1)",
     "firstNight": 0,
     "otherNight": 0,
     "reminders": [
@@ -1804,6 +1702,26 @@
         "name": "card",
         "value": "Reconsider?"
       }
+    ]
+  },
+  {
+    "id": "stingray",
+    "name": "Stingray",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/demons/stingray/stingray_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/demons/stingray/stingray_good.png"
+    ],
+    "team": "demon",
+    "edition": "bloodvine",
+    "ability": "Each night, choose 2 players: they might die tomorrow.",
+    "flavor": "(v1.0)",
+    "firstNight": 30.25,
+    "otherNight": 45.25,
+    "firstNightReminder": "The Stingray chooses 2 players. :reminder: :reminder:",
+    "otherNightReminder": "The Stingray chooses 2 players. :reminder: :reminder:",
+    "reminders": [
+      "Stung",
+      "Stung"
     ]
   },
   {
@@ -1984,7 +1902,7 @@
     "image": "https://ivy-vine.github.io/bloodvine/characters/demons/dark/dark.png",
     "team": "demon",
     "edition": "bloodvine",
-    "ability": "Each night*, choose 2 players: the 1st may no longer sit in their seat & the 2nd dies. Substitutes don't learn their game state.",
+    "ability": "Each night*, choose 2 players: the 1st cannot sit in their seat from now on & the 2nd dies. Substitutes don't learn their game state.",
     "flavor": "I am no Atheist; I know God is real, I know he is a liar, and I even know where he is. Deeper. (v1.1)",
     "firstNight": 0,
     "otherNight": 55.2,
@@ -2057,6 +1975,34 @@
       "Dead",
       "Dead"
     ]
+  },
+  {
+    "id": "irma",
+    "name": "Irma",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/demons/irma/irma_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/demons/irma/irma_good.png"
+    ],
+    "team": "demon",
+    "edition": "bloodvine",
+    "ability": "On your 1st night, choose X (more than 1). All players know X. X-1 good players start knowing 1 evil player, 1 of which is the Demon. On day X, evil wins. [+1 Minion]",
+    "flavor": "(v1.0)",
+    "firstNight": 30.5,
+    "otherNight": 16.5,
+    "firstNightReminder": "The Irma chooses a number (more than 1). :reminder: Put the Irma to sleep. Announce X. Wake X-1 players 1 at a time & point to an evil player (1 player pointed to is the Demon). X-1:reminder:s",
+    "otherNightReminder": "Change the Irma reminder token to the relevant day. :reminder:",
+    "reminders": [
+      "Spotted Demon",
+      "Spotted",
+      "Spotted",
+      "Spotted",
+      "Day 1",
+      "Day 2",
+      "Day 3",
+      "Day 4",
+      "Day 5"
+    ],
+    "setup": true
   },
   {
     "id": "moonlit",

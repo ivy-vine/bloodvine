@@ -1,0 +1,34 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "fraudulent v1.0"
+  },
+  {
+    "id": "fraudulent",
+    "name": "Fraudulent",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/minions/fraudulent/fraudulent_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/minions/fraudulent/fraudulent_good.png"
+    ],
+    "team": "minion",
+    "edition": "bloodvine",
+    "ability": "Each night, choose 2 players: their votes count exactly twice tomorrow.",
+    "flavor": "(v1.0)",
+    "firstNight": 45.25,
+    "firstNightReminder": "The Fraudulent chooses 2 players. :reminder: :reminder:",
+    "otherNight": 32.5,
+    "otherNightReminder": "The Fraudulent chooses 2 players. :reminder: :reminder:",
+    "reminders": [
+      "Fraud",
+      "Fraud"
+    ],
+    "special": [
+      {
+        "type": "vote",
+        "name": "multiplier",
+        "value": 2
+      }
+    ]
+  }
+]

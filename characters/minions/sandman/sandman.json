@@ -15,9 +15,9 @@
     "edition": "bloodvine",
     "ability": "Each night, choose a player: they don't wake tonight.",
     "flavor": "(v1.0)",
-    "firstNight": 9,
+    "firstNight": 9.5,
     "firstNightReminder": "The Sandman chooses a player. :reminder:",
-    "otherNight": 17,
+    "otherNight": 17.5,
     "otherNightReminder": "The Sandman chooses a player. :reminder:",
     "reminders": [
       "Sleeping Well"

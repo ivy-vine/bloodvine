@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "clerk v1.1"
+    "name": "clerk v1.2"
   },
   {
     "id": "clerk",
@@ -13,11 +13,12 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "When nominated by a good player, the nominator is drunk, until dawn. If you were marked for execution today, the Demon doesn't kill tonight.",
-    "flavor": "(v1.1)",
-    "otherNight": 39,
+    "ability": "If you were marked for execution today, the Demon doesn't kill tonight. When nominated by a good player, the nominator is drunk, until dawn.",
+    "flavor": "(v1.2)",
+    "otherNight": 38.5,
     "otherNightReminder": "If the Clerk was marked for execution today, wake the Demon as normal, but no one dies to the Demon's ability. :reminder:",
     "reminders": [
+      "Drunk",
       "Doesn't Kill"
     ]
   }
