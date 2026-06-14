@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "sunseeker v2.0"
+    "name": "sunseeker v3.0"
   },
   {
     "id": "sunseeker",
@@ -13,10 +13,22 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "Each night*, if you did not vote today, you are safe from the Demon, even if drunk or poisoned.",
-    "flavor": "(v2.0)",
+    "ability": "Each night, choose a player: either their vote counts twice tomorrow or they are drunk until dusk.",
+    "flavor": "(v3.0)",
+    "firstNight": 25.25,
+    "firstNightReminder": "The Sunseeker chooses a player. :reminder:",
+    "otherNight": 13.5,
+    "otherNightReminder": "The Sunseeker chooses a player. :reminder:",
     "reminders": [
-      "Voted"
+      "Drunk (DON'T USE)",
+      "Sunbathing"
+    ],
+    "special": [
+      {
+        "type": "vote",
+        "name": "multiplier",
+        "value": 2
+      }
     ]
   }
 ]

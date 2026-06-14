@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "sandman v1.0"
+    "name": "sandman v1.1"
   },
   {
     "id": "sandman",
@@ -14,10 +14,10 @@
     "team": "minion",
     "edition": "bloodvine",
     "ability": "Each night, choose a player: they don't wake tonight.",
-    "flavor": "(v1.0)",
+    "flavor": "(v1.1)",
     "firstNight": 9.5,
     "firstNightReminder": "The Sandman chooses a player. :reminder:",
-    "otherNight": 17.5,
+    "otherNight": 10.5,
     "otherNightReminder": "The Sandman chooses a player. :reminder:",
     "reminders": [
       "Sleeping Well"

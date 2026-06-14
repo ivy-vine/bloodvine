@@ -1,0 +1,25 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "puritan v1.0"
+  },
+  {
+    "id": "puritan",
+    "name": "Puritan",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/demons/puritan/puritan_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/demons/puritan/puritan_good.png"
+    ],
+    "team": "demon",
+    "edition": "bloodvine",
+    "ability": "Each night*, choose a player: they die. If this kills an Outsider, you may choose a 2nd player.",
+    "flavor": "(v1.0)",
+    "otherNight": 55.45,
+    "otherNightReminder": "The Puritan chooses a player. :reminder: If they killed an Outsider: the Puritan chooses another player. :reminder:",
+    "reminders": [
+      "Dead",
+      "Dead"
+    ]
+  }
+]

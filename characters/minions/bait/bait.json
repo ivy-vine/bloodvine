@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "bait v1.2"
+    "name": "bait v1.3"
   },
   {
     "id": "bait",
@@ -14,7 +14,7 @@
     "team": "minion",
     "edition": "bloodvine",
     "ability": "When nominated by a good player, the nominator is poisoned.",
-    "flavor": "Beware of the riverside! I hear of a great fish that lurks among the bank; they say it comes from the back of the moon. Its scales shiver with fever and its air is moonlight. (v1.2)",
+    "flavor": "Beware of the riverside! I hear of a great fish that lurks among the bank; they say it comes from the back of the moon. Its scales shiver with fever and its air is moonlight. (v1.3)",
     "reminders": [
       "Poisoned", 
       "Poisoned", 

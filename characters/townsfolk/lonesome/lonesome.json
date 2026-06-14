@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "lonesome v1.0"
+    "name": "lonesome v1.1"
   },
   {
     "id": "lonesome",
@@ -13,8 +13,8 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "If 1 or more evil players are dead, your vote counts twice.",
-    "flavor": "(v1.0)",
+    "ability": "If 1 or more evil players (except Travellers) are dead, your vote counts twice.",
+    "flavor": "(v1.1)",
     "reminders": [
       "Lonely"
     ],

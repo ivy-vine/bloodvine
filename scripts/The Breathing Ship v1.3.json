@@ -2,10 +2,11 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "The Breathing Ship v1.2",
+    "name": "The Breathing Ship v1.3",
     "bootlegger": [
       "Minions & Demons do not know each other.",
-      "The Marionette might neighbor the Recluse."
+      "The Marionette might neighbor the Recluse.",
+      "The Demon does not know the Marionette"
     ]
   },
   "noble",

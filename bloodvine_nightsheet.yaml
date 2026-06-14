@@ -13,6 +13,8 @@ firstNight:
 - 11 bureaucrat
 - 12 thief
 - 13 boffin
+- 13.5 shoe_shiner
+- 13.75 vet
 - 14 philosopher
 - 15 alchemist
 - 16 poppygrower
@@ -27,6 +29,7 @@ firstNight:
 - 24 king
 - 24.5 cheerleader
 - 25 sailor
+- 25.25 sunseeker
 - 25.5 wrangler
 - 26 marionette
 - 26.5 thespian
@@ -53,11 +56,14 @@ firstNight:
 - 43 fearmonger
 - 44 harpy
 - 45 mezepheles
+- 45.1 hypnotist
+- 45.2 moonseeker
 - 45.25 fraudulent
 - 45.5 epidemic
 - 45.75 soul
 - 46 pukka
 - 46.5 trojan
+- 46.75 uranium_235
 - 47 pixie
 - 48 huntsman
 - 49 damsel
@@ -103,6 +109,9 @@ otherNight:
 - 8 thief
 - 9 harlot
 - 10 bonecollector
+- 10.5 sandman
+- 10.7 shoe_shiner
+- 10.8 vet
 - 11 philosopher
 - 11.5 wrangler
 - 11.75 cheerleader
@@ -110,12 +119,12 @@ otherNight:
 - 12.5 thespian
 - 12.75 san_diegos_nightmare
 - 13 sailor
+- 13.5 sunseeker
 - 14 engineer
 - 15 preacher
 - 16 xaan
 - 16.5 irma
 - 17 poisoner
-- 17.5 sandman
 - 18 courtier
 - 19 innkeeper
 - 20 wizard
@@ -129,6 +138,7 @@ otherNight:
 - 27 witch
 - 28 cerenovus
 - 29 pithag
+- 29.5 hypnotist
 - 30 fearmonger
 - 31 harpy
 - 32 mezepheles
@@ -167,6 +177,7 @@ otherNight:
 - 55.25 keeper
 - 55.3 moonlit
 - 55.4 overseer
+- 55.45 puritan
 - 55.5 trojan
 - 55.75 benign
 - 55.8 linked_list
@@ -174,6 +185,7 @@ otherNight:
 - 55.95 soul
 - 56 assassin
 - 57 godfather
+- 57.5 moonseeker
 - 58 gossip
 - 59 hatter
 - 60 barber

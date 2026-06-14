@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "moonseeker v1.1"
+    "name": "moonseeker v1.2"
   },
   {
     "id": "moonseeker",
@@ -14,11 +14,11 @@
     "team": "townsfolk",
     "edition": "bloodvine",
     "ability": "Each night, choose a player: their vote counts negatively tomorrow & they know this. [Might be a Minion]",
-    "flavor": "(v1.1)",
+    "flavor": "(v1.2)",
     "setup": true,
-    "firstNight": 43,
+    "firstNight": 45.2,
     "firstNightReminder": "The Moonseeker chooses a player. Wake the target. Show the *THIS CHARACTER SELECTED YOU* & Moonseeker tokens. :reminder:",
-    "otherNight": 43,
+    "otherNight": 57.5,
     "otherNightReminder": "The Moonseeker chooses a player. Wake the target. Show the *THIS CHARACTER SELECTED YOU* & Moonseeker tokens. :reminder:",
     "reminders": [
       "Distracted"

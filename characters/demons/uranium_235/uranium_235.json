@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "uranium_235 v1.1"
+    "name": "uranium_235 v1.6"
   },
   {
     "id": "uranium_235",
@@ -13,11 +13,17 @@
     ],
     "team": "demon",
     "edition": "bloodvine",
-    "ability": "Each night*, choose a player & a good character (different to last night) they become. The previously chosen character dies.",
-    "flavor": "It was soon after the skyscrapers melted that the Waste arose. It was soon after the sky fell that the Waste awoke. It was soon after the pets became monsters and the people became horrors that the Waste shined its brightest. (v1.1)",
+    "ability": "Each night, choose a player & a good character they become: the previously chosen character dies.",
+    "flavor": "It was soon after the skyscrapers melted that the Waste arose. It was soon after the sky fell that the Waste awoke. It was soon after the pets became monsters and the people became horrors that the Waste shined its brightest. (v1.6)",
+    "firstNight": 46.75,
+    "firstNightReminder": "The Waste chooses a player & a character. Put the Waste to sleep. Wake the target. Show the *YOU ARE* token & their new character token. :reminder:",
     "otherNight": 45.75,
     "otherNightReminder": "The Waste chooses a player & a character. Put the Waste to sleep. Wake the target. Show the *YOU ARE* token & their new character token. :reminder: The previously chosen character dies. :reminder:",
     "reminders": [
+      "Dead",
+      "Dead",
+      "Dead",
+      "Dead",
       "Dead",
       "Mutated"
     ]

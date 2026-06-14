@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "stook v1.1"
+    "name": "stook v1.2"
   },
   {
     "id": "stook",
@@ -14,12 +14,13 @@
     "team": "minion",
     "edition": "bloodvine",
     "ability": "Once per game, at night, choose a player & an Outsider: they gain that ability. All players know if you used your ability.",
-    "flavor": "(v1.1)",
+    "flavor": "(v1.2)",
     "firstNight": 32,
     "firstNightReminder": "The Stook might choose a player & Outsider character. :reminder: Announce that the Stook has used their ability.",
     "otherNight": 53,
     "otherNightReminder": "The Stook might choose a player & Outsider character. :reminder: Announce that the Stook has used their ability.",
     "reminders": [
+      "No Ability",
       "Struck"
     ],
     "jinxes": [
@@ -38,6 +39,10 @@
       {
         "id": "zealot",
         "reason": "If the Stook gives a player the Zealot ability, that player learns this."
+      },
+      {
+        "id": "misheard",
+        "reason": "If the Stook gives a player the Misheard ability, that player learns this."
       },
       {
         "id": "heretic",

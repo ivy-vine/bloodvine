@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "hellfire v1.0"
+    "name": "hellfire v1.1"
   },
   {
     "id": "hellfire",
@@ -13,21 +13,12 @@
     ],
     "team": "demon",
     "edition": "bloodvine",
-    "ability": "Each night*, choose a player: they die. Good players that vote on you are poisoned, until dusk.",
-    "flavor": "(v1.0)",
+    "ability": "Each night*, choose a player: they die. 1 good player that voted on you today is poisoned until dusk.",
+    "flavor": "(v1.1)",
     "otherNight": 45.5,
     "otherNightReminder": "The Hearth chooses a player. :reminder:",
     "reminders": [
       "Dead",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
       "Poisoned"
     ]
   }

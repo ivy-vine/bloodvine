@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "vet v1.2"
+    "name": "vet v1.3"
   },
   {
     "id": "vet",
@@ -13,9 +13,11 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "Once per game, at night*, choose a player: if they are of opposing alignment (& not the Demon), they become a Vet.",
-    "flavor": "This is mechanically impossible! It-it's a scientific breakthrough! How could something so small and feeble scale such a great height? (v1.2)",
-    "otherNight": 14,
+    "ability": "Once per game, at night*, choose a player: if they are of opposing alignment & not the Demon, they become a Vet.",
+    "flavor": "This is mechanically impossible! It-it's a scientific breakthrough! How could something so small and feeble scale such a great height? (v1.3)",
+    "firstNight": 13.75,
+    "firstNightReminder": "The Vet might choose a player. If they chose an opposing player, replace the target's token with a Vet token. Put the Vet to sleep. Wake the target. Show the *YOU ARE* and Vet tokens. :reminder:",
+    "otherNight": 10.8,
     "otherNightReminder": "The Vet might choose a player. If they chose an opposing player, replace the target's token with a Vet token. Put the Vet to sleep. Wake the target. Show the *YOU ARE* and Vet tokens. :reminder:",
     "reminders": [
       "No Ability"
