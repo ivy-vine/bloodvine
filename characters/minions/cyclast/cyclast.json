@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "cylcast v1.3"
+    "name": "cylcast v1.4"
   },
   {
     "id": "cylcast",
@@ -13,8 +13,8 @@
     ],
     "team": "minion",
     "edition": "bloodvine",
-    "ability": "Once per game, at night*, choose X players: they might die. If your team wins in the next X-1 days, your team loses, even if you are dead.",
-    "flavor": "Over and over you show her how to fall to the floor to crawl, showing what is yours to all, doing what no one has the gall to call no version of love and no version of life, that which we lead and that which we fight, which is always quite a sight on this starless night of ours, looking up from the surface of Mars, going as far as the eye can see, far beyond this big, huge, sea of tar on the surface of Mars. (v1.3)",
+    "ability": "Once per game, at night*, choose X players: they might die. If your team wins in the next X-1 days, your team loses, even if dead.",
+    "flavor": "Over and over you show her how to fall to the floor to crawl, showing what is yours to all, doing what no one has the gall to call no version of love and no version of life, that which we lead and that which we fight, which is always quite a sight on this starless night of ours, looking up from the surface of Mars, going as far as the eye can see, far beyond this big, huge, sea of tar on the surface of Mars. (v1.4)",
     "otherNight": 51,
     "otherNightReminder": "The Cyclast might choose X players. :reminder: X-1:reminder:s",
     "reminders": [

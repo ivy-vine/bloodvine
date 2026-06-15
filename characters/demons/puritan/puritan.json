@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "puritan v1.0"
+    "name": "puritan v1.1"
   },
   {
     "id": "puritan",
@@ -13,8 +13,9 @@
     ],
     "team": "demon",
     "edition": "bloodvine",
-    "ability": "Each night*, choose a player: they die. If this kills an Outsider, you may choose a 2nd player.",
-    "flavor": "(v1.0)",
+    "ability": "Each night*, choose a player: they die. If this kills an Outsider, you may choose again. [+1 Outsider]",
+    "flavor": "(v1.1)",
+    "setup": true,
     "otherNight": 55.45,
     "otherNightReminder": "The Puritan chooses a player. :reminder: If they killed an Outsider: the Puritan chooses another player. :reminder:",
     "reminders": [
