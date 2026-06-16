@@ -1,0 +1,31 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "vintner v1.0"
+  },
+  {
+    "id": "vintner",
+    "name": "Vintner",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/vintner/vintner_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/vintner/vintner_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "When you die at night, your alive neighbors swap characters. This can't create a good Demon.",
+    "flavor": "(v1.0)",
+    "otherNight": 60.5,
+    "otherNightReminder": "If the Vintner died tonight, swap their alive neighbors' character tokens. Wake each neighbor 1 at a time & show the *YOU ARE* & their new character tokens.",
+    "jinxes": [
+      {
+        "id": "epidemic",
+        "reason": "If the Epidemic is in play, the Vinter may create a good Demon."
+      },
+      {
+        "id": "moonlit",
+        "reason": "If the Moonlit is in play, the Vinter may create a good Demon."
+      }
+    ]
+  }
+]

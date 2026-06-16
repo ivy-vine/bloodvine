@@ -13,7 +13,7 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "If you guess (once) an opposing player, they cannot nominate from now on.",
+    "ability": "If you guess (once) an opposing player, they can't nominate from now on.",
     "flavor": "(v1.2)",
     "reminders": [
       "Guess Used",

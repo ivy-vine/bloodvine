@@ -1,0 +1,19 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "queen v1.0"
+  },
+  {
+    "id": "queen",
+    "name": "Queen",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/minions/queen/queen_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/minions/queen/queen_good.png"
+    ],
+    "team": "minion",
+    "edition": "bloodvine",
+    "ability": "There must be an alive Demon. If you die, good wins.",
+    "flavor": "(v1.0)"
+  }
+]

@@ -13,7 +13,7 @@
     ],
     "team": "demon",
     "edition": "bloodvine",
-    "ability": "Each night*, choose a player: they die. You cannot die. If all Minions are dead, good wins.",
+    "ability": "Each night*, choose a player: they die. You can't die. If all Minions are dead, good wins.",
     "flavor": "make the flavor text a reference to young & dumb by cigarettes after sex (v1.3)",
     "otherNight": 55.4,
     "otherNightReminder": "The Overseer chooses a player. :reminder:",

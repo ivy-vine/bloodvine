@@ -65,6 +65,8 @@ firstNight:
 - 46.5 trojan
 - 46.75 uranium_235
 - 47 pixie
+- 47.5 lethargic
+- 47.6 enthusiast
 - 48 huntsman
 - 49 damsel
 - 50 amnesiac
@@ -189,6 +191,7 @@ otherNight:
 - 58 gossip
 - 59 hatter
 - 60 barber
+- 60.5 vintner
 - 61 sweetheart
 - 62 plaguedoctor
 - 63 sage

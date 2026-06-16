@@ -1,0 +1,35 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "enthusiast v1.0"
+  },
+  {
+    "id": "enthusiast",
+    "name": "Enthusiast",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/enthusiast/enthusiast_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/enthusiast/enthusiast_evil.png"
+    ],
+    "team": "outsider",
+    "edition": "bloodvine",
+    "ability": "You think you are a Townsfolk, but you are not. You think you have the Lethargic's crab, but you do not. [+the Lethargic]",
+    "flavor": "(v1.0)",
+    "setup": true,
+    "firstNight": 47.6,
+    "firstNightReminder": "Show the *THIS CHARACTER SELECTED YOU* token & the Lethargic token.",
+    "remindersGlobal": [
+      "Is The Enthusiast"
+    ],
+    "special": [
+      {
+        "type": "reveal",
+        "name": "replace-character"
+      },
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      }
+    ]
+  }
+]

@@ -13,7 +13,7 @@
     ],
     "team": "outsider",
     "edition": "bloodvine",
-    "ability": "1 alive good Townsfolk cannot nominate.",
+    "ability": "1 alive good Townsfolk can't nominate.",
     "flavor": "(v1.1)",
     "reminders": [
       "Thwacked"

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "diviner v1.0"
+  },
+  {
+    "id": "diviner",
+    "name": "Diviner",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/diviner/diviner_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/diviner/diviner_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each day, you may visit the Storyteller to learn who they think the Demon should target next. [Might be a Minion]",
+    "flavor": "(v1.0)",
+    "setup": true,
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ]
+  }
+]

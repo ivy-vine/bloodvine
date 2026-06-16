@@ -14,7 +14,7 @@
     ],
     "team": "traveller",
     "edition": "bloodvine",
-    "ability": "Each night, choose an alignment to become. You don't know the Demon. You cannot be exiled.",
+    "ability": "Each night, choose an alignment to become. You don't know the Demon. You can't be exiled.",
     "flavor": "(v1.0)",
     "firstNight": 9,
     "firstNightReminder": "The Deputy gives a thumbs up or a thumbs down.",
