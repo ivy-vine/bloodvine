@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "bartender v1.1"
+    "name": "bartender v1.2"
   },
   {
     "id": "bartender",
@@ -13,16 +13,15 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "If you guess (once) an opposing player, they are drunk.",
-    "flavor": "(v1.1)",
+    "ability": "During the day, choose a player: they are drunk.",
+    "flavor": "(v1.2)",
     "reminders": [
-      "Guess Used",
       "Drunk"
     ],
     "jinxes": [
       {
         "id": "leviathan",
-        "reason": "If the Bartender guesses (once) the opposing Leviathan, the Leviathan is drunk until dusk."
+        "reason": "If the Bartender chooses the Leviathan, the Leviathan is drunk until dusk."
       }
     ]
   }

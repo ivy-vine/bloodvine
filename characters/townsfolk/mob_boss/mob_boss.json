@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "mob_boss v1.2"
+    "name": "mob_boss v1.3"
   },
   {
     "id": "mob_boss",
@@ -13,8 +13,8 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "The 1st time you publicly say \"Get 'em boys!\" while nominating, if the nominee is not the Demon, they are executed immediately. You might register as evil.",
-    "flavor": "(v1.2)",
+    "ability": "The 1st time you publicly say \"Get 'em boys!\" while nominating, if the nominee is not the Demon, they are executed immediately.",
+    "flavor": "(v1.3)",
     "reminders": [
       "No Ability"
     ]

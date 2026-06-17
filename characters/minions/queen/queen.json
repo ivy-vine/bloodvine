@@ -14,6 +14,16 @@
     "team": "minion",
     "edition": "bloodvine",
     "ability": "There must be an alive Demon. If you die, good wins.",
-    "flavor": "(v1.0)"
+    "flavor": "(v1.0)",
+    "jinxes": [
+      {
+        "id": "alchemist",
+        "reason": "If an Alchemist Queen dies, the game continues."
+      },
+      {
+        "id": "plaguedoctor",
+        "reason": "If the Storyteller would gain the Queen ability, a Minion gains it, and learns this."
+      }
+    ]
   }
 ]
