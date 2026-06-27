@@ -2,49 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "Don't Stop Dancing v2.0",
-    "firstNight": [
-      "dusk",
-      "apprentice",
-      "deputy",
-      "barista",
-      "minioninfo",
-      "demoninfo",
-      "wrangler",
-      "marionette",
-      "tardigrade",
-      "poisoner",
-      "pukka",
-      "washerwoman",
-      "librarian",
-      "baker",
-      "glassblower",
-      "fortuneteller",
-      "knight",
-      "observer",
-      "chambermaid",
-      "dawn"
-    ],
-    "otherNight": [
-      "dusk",
-      "deputy",
-      "cacklejack",
-      "barista",
-      "harlot",
-      "wrangler",
-      "poisoner",
-      "monk",
-      "imp",
-      "pukka",
-      "moonlit",
-      "hatter",
-      "baker",
-      "fortuneteller",
-      "glassblower",
-      "observer",
-      "chambermaid",
-      "dawn"
-    ]
+    "name": "Don't Stop Dancing v2.2"
   },
   "knight",
   "washerwoman",
@@ -58,8 +16,8 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "Each night, learn how many steps a good player is from you.",
-    "flavor": "(v1.1)",
+    "ability": "Each night, learn 2 players, at least 1 of which is good.",
+    "flavor": "(v1.3)",
     "firstNight": 54,
     "otherNight": 75,
     "firstNightReminder": "Give a finger signal.",
@@ -97,8 +55,7 @@
     "firstNightReminder": "The Observer chooses a player. Give a finger signal.",
     "otherNightReminder": "The Observer chooses a player. Give a finger signal."
   },
-  "chambermaid",
-  "fortuneteller",
+  "balloonist",
   "monk",
   {
     "id": "wrangler",
@@ -132,6 +89,31 @@
     ]
   },
   {
+    "id": "bartender",
+    "name": "Bartender",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/bartender/bartender_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/bartender/bartender_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "If you guess (once) an opposing player, they are drunk.",
+    "flavor": "(v1.3)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "Drunk",
+      "Guess Used"
+    ],
+    "jinxes": [
+      {
+        "id": "leviathan",
+        "reason": "If the Bartender chooses the opposing Leviathan, the Leviathan is drunk until dusk."
+      }
+    ]
+  },
+  "sage",
+  {
     "id": "mob_boss",
     "name": "Mob Boss",
     "image": [
@@ -162,31 +144,8 @@
     "firstNight": 0,
     "otherNight": 0
   },
-  {
-    "id": "bartender",
-    "name": "Bartender",
-    "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/bartender/bartender_good.png",
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/bartender/bartender_evil.png"
-    ],
-    "team": "townsfolk",
-    "edition": "bloodvine",
-    "ability": "During the day, choose a player: they are drunk.",
-    "flavor": "(v1.2)",
-    "firstNight": 0,
-    "otherNight": 0,
-    "reminders": [
-      "Drunk"
-    ],
-    "jinxes": [
-      {
-        "id": "leviathan",
-        "reason": "If the Bartender chooses the Leviathan, the Leviathan is drunk until dusk."
-      }
-    ]
-  },
-  "recluse",
-  "hatter",
+  "ogre",
+  "drunk",
   {
     "id": "kruger",
     "name": "Kruger",
@@ -239,14 +198,14 @@
     ],
     "team": "minion",
     "edition": "bloodvine",
-    "ability": "On your 1st night, choose a player: (if not the Demon) you register as their character, alignment & gain their character's ability.",
-    "flavor": "(v2.3)",
+    "ability": "On your 1st night, choose a player: (if not the Demon) you register as their character, alignment, gain their character's ability, & they are poisoned.",
+    "flavor": "(v2.4)",
     "firstNight": 32,
     "otherNight": 0,
     "firstNightReminder": "The Tardigrade points to a player. If necessary, swap their character token. :reminder: :reminder:",
     "remindersGlobal": [
       "Is The Tardigrade",
-      "Engrained"
+      "Poisoned (DON'T USE)"
     ],
     "special": [
       {
@@ -265,8 +224,8 @@
     ],
     "team": "minion",
     "edition": "bloodvine",
-    "ability": "There must be an alive Demon. If you die, good wins.",
-    "flavor": "(v1.0)",
+    "ability": "There must be an alive Demon. If just 3 players live, you lose this ability.",
+    "flavor": "(v1.1)",
     "firstNight": 0,
     "otherNight": 0,
     "jinxes": [
@@ -282,6 +241,7 @@
   },
   "pukka",
   "imp",
+  "vortox",
   {
     "id": "moonlit",
     "name": "Moonlit",
@@ -307,6 +267,12 @@
       "Dead"
     ],
     "setup": true,
+    "jinxes": [
+      {
+        "id": "hatter",
+        "reason": "If the Hatter dies, a Moonlit may choose a Demon character to become and the other Moonlit may choose Minion characters to become."
+      }
+    ],
     "special": [
       {
         "type": "selection",

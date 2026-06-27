@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "identical_triplet v1.1"
+    "name": "identical_triplet v1.2"
   },
   {
     "id": "identical_triplet",
@@ -13,8 +13,8 @@
     ],
     "team": "outsider",
     "edition": "bloodvine",
-    "ability": "You think you are an in-play Townsfolk character, but you are not. [-1 Outsider. +1 Identical Triplet. You & your Identical Triplet think you are the same character]",
-    "flavor": "(v1.1)",
+    "ability": "You think you are an in-play Townsfolk character, but you are not. The Demon knows you are in play. [+1 Identical Triplet. You & your Identical Triplet think you are the same character]",
+    "flavor": "(v1.2)",
     "setup": true,
     "remindersGlobal": [
       "Is The Identical Triplet",

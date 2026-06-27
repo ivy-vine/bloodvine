@@ -1,1 +1,335 @@
-[{"id":"_meta","author":"ivy","name":"Yip Yap v1.0","firstNight":["dusk","arctic_fox","spin_doctor","boffin","philosopher","alchemist","yaggababble","minioninfo","demoninfo","stingray","stook","witch","skulker","bountyhunter","dawn"],"otherNight":["dusk","arctic_fox","spin_doctor","skulker","philosopher","witch","stingray","stook","yaggababble","tinker","speaker","bountyhunter","dawn"]},"bountyhunter",{"id":"arctic_fox","name":"Arctic Fox","image":["https://ivy-vine.github.io/bloodvine/characters/townsfolk/arctic_fox/arctic_fox_good.png","https://ivy-vine.github.io/bloodvine/characters/townsfolk/arctic_fox/arctic_fox_evil.png"],"team":"townsfolk","edition":"bloodvine","ability":"Each night, you gain the ability of an alive neighbor's (you don't know which) character until dusk.","flavor":"Must your claws climb ten-thousand walls? You have come a very long way, sweet thing, but you do not belong here; you will not survive the week. I don't think they can climb ten-thousand more. (v1.5)","firstNight":5.5,"otherNight":3.5,"firstNightReminder":"The Arctic Fox might change ability. If so, swap their character token to an alive neighbor's. :reminder:","otherNightReminder":"The Arctic Fox might change ability. If so, swap their character token to an alive neighbor's. :reminder:","remindersGlobal":["Is The Arctic Fox"],"jinxes":[{"id":"spy","reason":"An Arctic Fox with the Spy ability doesn't see the grimoire."},{"id":"widow","reason":"An Arctic Fox with the Widow ability doesn't see the grimoire."}],"special":[{"type":"reveal","name":"replace-character"}]},{"id":"skulker","name":"Skulker","image":["https://ivy-vine.github.io/bloodvine/characters/townsfolk/skulker/skulker_good.png","https://ivy-vine.github.io/bloodvine/characters/townsfolk/skulker/skulker_evil.png"],"team":"townsfolk","edition":"bloodvine","ability":"Each night, choose a player: until dusk, if you die & they are not the Demon, swap characters with them & they die instead.","flavor":"You say you don't want me, but then you look for me. You push me under the belly, but then you wonder why I am quiet. You build walls around me, but then you ask \"Can't you climb?\" Then you call for me, and I am here. (v1.4)","firstNight":51,"otherNight":5,"firstNightReminder":"The Skulker points to a player. :reminder:","otherNightReminder":"The Skulker points to a player. :reminder:","reminders":["Chosen"]},{"id":"speaker","name":"Speaker","image":["https://ivy-vine.github.io/bloodvine/characters/townsfolk/speaker/speaker_good.png","https://ivy-vine.github.io/bloodvine/characters/townsfolk/speaker/speaker_evil.png"],"team":"townsfolk","edition":"bloodvine","ability":"Each night*, choose a dead player: learn how they died.","flavor":"I am that who speaks for the burried, preaching of their woes and failures to the breathing. I am that who speaks for the breathing, preaching of their desperation and laughter to the burried. (v1.1)","firstNight":0,"otherNight":72,"otherNightReminder":"The Speaker points to a dead player. Show the player's death reminder."},"philosopher","slayer",{"id":"poet","name":"Poet","image":["https://ivy-vine.github.io/bloodvine/characters/townsfolk/poet/poet_good.png","https://ivy-vine.github.io/bloodvine/characters/townsfolk/poet/poet_evil.png"],"team":"townsfolk","edition":"bloodvine","ability":"Once per game, during the day, publicly claim to be the Poet: the Demon is drunk until dawn.","flavor":"A poet who never knows it certainly doesn't owe it to show it how far they can throw it. They may dip their toes in the riverbed, before throwing their greens into a piano's strings. \"For you, a tear I shed\", she pled as she bled, closer than ever to dead, no light further ahead. (v1.2)","firstNight":0,"otherNight":0,"reminders":["No Ability","Drunk"]},{"id":"journalist","name":"Journalist","image":["https://ivy-vine.github.io/bloodvine/characters/townsfolk/journalist/journalist_good.png","https://ivy-vine.github.io/bloodvine/characters/townsfolk/journalist/journalist_evil.png"],"team":"townsfolk","edition":"bloodvine","ability":"Once per game, during the day, publicly choose a player: if they are evil, they die, but if they are good, you die.","flavor":"(v1.0)","firstNight":0,"otherNight":0,"reminders":["No Ability"]},"soldier","alchemist",{"id":"pitied","name":"Pitied","image":["https://ivy-vine.github.io/bloodvine/characters/townsfolk/pitied/pitied_good.png","https://ivy-vine.github.io/bloodvine/characters/townsfolk/pitied/pitied_evil.png"],"team":"townsfolk","edition":"bloodvine","ability":"If you are the last living good player, good wins.","flavor":"If things are going to continue to suck THIS badly, God eventually will look down on me and spare me some grace eventually, right...? (v1.1)","firstNight":0,"otherNight":0},{"id":"lover","name":"Lover","image":["https://ivy-vine.github.io/bloodvine/characters/townsfolk/lover/lover_good.png","https://ivy-vine.github.io/bloodvine/characters/townsfolk/lover/lover_evil.png"],"team":"townsfolk","edition":"bloodvine","ability":"If a player agrees, they are bound to you. You wake when they wake. If you die, they die, & vice versa.","flavor":"Lover, lover, for whom do you call? For a man neither wide nor tall? If he asks for your hand, give him a cloth. If he asks for your light, give him a moth. If he asks for your heart, tell him off. (v1.0)","firstNight":0,"otherNight":0,"reminders":["Bound","Bound","Bound","Bound","Bound","Bound","Bound","Bound","Bound","Bound"]},{"id":"celibate","name":"Celibate","image":["https://ivy-vine.github.io/bloodvine/characters/townsfolk/celibate/celibate_good.png","https://ivy-vine.github.io/bloodvine/characters/townsfolk/celibate/celibate_evil.png"],"team":"townsfolk","edition":"bloodvine","ability":"Once per game, the Storyteller will break a game rule to help your team win. You learn when this happens. [Might be a Minion]","flavor":"It is for you, my child, for who which is pure and holy and made of all good things. Your faith has, certainly, paid off. Your childrens' lungs will fill with gold's breath. (v1.2)","firstNight":0,"otherNight":0,"reminders":["Miracle Given"],"setup":true,"special":[{"type":"selection","name":"bag-duplicate"}]},"tinker","recluse",{"id":"imaginary_friend","name":"Imaginary Friend","image":["https://ivy-vine.github.io/bloodvine/characters/outsiders/imaginary_friend/imaginary_friend_good.png","https://ivy-vine.github.io/bloodvine/characters/outsiders/imaginary_friend/imaginary_friend_evil.png"],"team":"outsider","edition":"bloodvine","ability":"You don't register as a player. [You want to be the Imaginary Friend the most]","flavor":"Do you see it, above you? Reach for it; push your hand into the deep. Feel for it; it is wet and it cuts you and like silver it slivers. Grasp it, no matter how much it shimmers. Cut it like it cut you. (v1.2)","firstNight":0,"otherNight":0,"reminders":["Doesn't Exist","Doesn't Exist"],"setup":true,"special":[{"type":"vote","name":"multiplier","value":0},{"type":"selection","name":"bag-disabled"}]},"golem","witch","psychopath",{"id":"stook","name":"Stook","image":["https://ivy-vine.github.io/bloodvine/characters/minions/stook/stook_evil.png","https://ivy-vine.github.io/bloodvine/characters/minions/stook/stook_good.png"],"team":"minion","edition":"bloodvine","ability":"Once per game, at night, choose a player & an Outsider: they gain that ability. All players know if you used your ability.","flavor":"(v1.3)","firstNight":32,"otherNight":53,"firstNightReminder":"The Stook might choose a player & Outsider character. :reminder: Announce that the Stook has used their ability.","otherNightReminder":"The Stook might choose a player & Outsider character. :reminder: Announce that the Stook has used their ability.","reminders":["No Ability","Struck"],"jinxes":[{"id":"damsel","reason":"If the Stook gives a player the Damsel ability, the Storyteller chooses which player gains it and that player learns this."},{"id":"saint","reason":"If the Stook gives a player the Saint ability, that player learns this."},{"id":"butler","reason":"If the Stook gives a player the Butler ability, that player learns this."},{"id":"zealot","reason":"If the Stook gives a player the Zealot ability, that player learns this."},{"id":"golem","reason":"If a player with the Golem ability (from the Stook) nominates, they learn they have the Golem ability tonight."},{"id":"misheard","reason":"If the Stook gives a player the Misheard ability, that player learns this."},{"id":"heretic","reason":"Only 1 jinxed character can be in play."}]},"boffin","yaggababble",{"id":"stingray","name":"Stingray","image":["https://ivy-vine.github.io/bloodvine/characters/demons/stingray/stingray_evil.png","https://ivy-vine.github.io/bloodvine/characters/demons/stingray/stingray_good.png"],"team":"demon","edition":"bloodvine","ability":"Each night, choose 2 players: they might die tomorrow.","flavor":"(v1.0)","firstNight":30.25,"otherNight":45.25,"firstNightReminder":"The Stingray chooses 2 players. :reminder: :reminder:","otherNightReminder":"The Stingray chooses 2 players. :reminder: :reminder:","reminders":["Dead","Dead","Stung","Stung"]},{"id":"spin_doctor","name":"Spin Doctor","image":["https://ivy-vine.github.io/bloodvine/characters/travellers/spin_doctor/spin_doctor_traveller.png","https://ivy-vine.github.io/bloodvine/characters/travellers/spin_doctor/spin_doctor_traveller_good.png","https://ivy-vine.github.io/bloodvine/characters/travellers/spin_doctor/spin_doctor_traveller_evil.png"],"team":"traveller","edition":"bloodvine","ability":"Each night, choose a player & 9 words: they must speak using only these words tomorrow, or might be executed.","flavor":"(v1.0)","firstNight":9,"otherNight":4,"firstNightReminder":"The Spin Doctor says 9 words. :reminder:","otherNightReminder":"The Spin Doctor says 9 words. :reminder:","reminders":["Spun"]},"bootlegger",{"id":"snafu","name":"Snafu","image":"https://ivy-vine.github.io/bloodvine/characters/fabled/snafu/snafu_fabled.png","team":"fabled","edition":"bloodvine","ability":"If the Storyteller makes a mistake, all players know this & the black sliver gets bigger.","flavor":"Don't worry about it. Don't worry about it! You really don't need to worry about it. (v1.0)","firstNight":0,"otherNight":0,"reminders":[":)"]}]
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "Yip Yap v1.0",
+    "bootlegger": [
+      "No one may die at night."
+    ]
+  },
+  "bountyhunter",
+  {
+    "id": "arctic_fox",
+    "name": "Arctic Fox",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/arctic_fox/arctic_fox_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/arctic_fox/arctic_fox_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night, you gain an alive neighbor's (you don't know which) ability, until dusk.",
+    "flavor": "Must your claws climb ten-thousand walls? You have come a very long way, sweet thing, but you do not belong here; you will not survive the week. I don't think they can climb ten-thousand more. (v1.6)",
+    "firstNight": 5.5,
+    "otherNight": 3.5,
+    "firstNightReminder": "The Arctic Fox might change ability. :reminder:",
+    "otherNightReminder": "The Arctic Fox might change ability. :reminder:",
+    "reminders": [
+      "Has Ability"
+    ],
+    "jinxes": [
+      {
+        "id": "spy",
+        "reason": "An Arctic Fox with the Spy's ability doesn't see the grimoire."
+      },
+      {
+        "id": "widow",
+        "reason": "An Arctic Fox with the Widow's ability doesn't see the grimoire."
+      },
+      {
+        "id": "worm",
+        "reason": "An Arctic Fox with the Worm's ability doesn't see the grimoire."
+      }
+    ]
+  },
+  {
+    "id": "skulker",
+    "name": "Skulker",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/skulker/skulker_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/skulker/skulker_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night, choose a player: until dusk, if you die (& they are not the Demon), swap characters with them & they die instead.",
+    "flavor": "You say you don't want me, but then you look for me. You push me under the belly, but then you wonder why I am quiet. You build walls around me, but then you ask \"Can't you climb?\" Then you call for me, and I am here. (v1.5)",
+    "firstNight": 50.5,
+    "otherNight": 10.6,
+    "firstNightReminder": "The Skulker points to a player. :reminder:",
+    "otherNightReminder": "The Skulker points to a player. :reminder:",
+    "reminders": [
+      "Chosen"
+    ]
+  },
+  {
+    "id": "speaker",
+    "name": "Speaker",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/speaker/speaker_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/speaker/speaker_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night*, choose a dead player: learn how they died.",
+    "flavor": "I am that who speaks for the burried, preaching of their woes and failures to the breathing. I am that who speaks for the breathing, preaching of their desperation and laughter to the burried. (v1.1)",
+    "firstNight": 0,
+    "otherNight": 72,
+    "otherNightReminder": "The Speaker points to a dead player. Show the player's death reminder."
+  },
+  "philosopher",
+  "slayer",
+  {
+    "id": "poet",
+    "name": "Poet",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/poet/poet_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/poet/poet_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Once per game, during the day, publicly claim to be the Poet: the Demon is drunk until dawn.",
+    "flavor": "A poet who never knows it certainly doesn't owe it to show it how far they can throw it. They may dip their toes in the riverbed, before throwing their greens into a piano's strings. \"For you, a tear I shed\", she pled as she bled, closer than ever to dead, no light further ahead. (v1.2)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "No Ability",
+      "Drunk"
+    ]
+  },
+  {
+    "id": "journalist",
+    "name": "Journalist",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/journalist/journalist_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/journalist/journalist_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Once per game, during the day, publicly choose a player: if they are evil, they die, but if they are good, you die.",
+    "flavor": "(v1.0)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "No Ability"
+    ]
+  },
+  "soldier",
+  "alchemist",
+  {
+    "id": "pitied",
+    "name": "Pitied",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/pitied/pitied_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/pitied/pitied_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "If you are the last living good player, good wins.",
+    "flavor": "If things are going to continue to suck THIS badly, God eventually will look down on me and spare me some grace eventually, right...? (v1.1)",
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "lover",
+    "name": "Lover",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/lover/lover_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/lover/lover_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "If a player agrees, they are bound to you. You wake when they wake. If you die, they die, & vice versa.",
+    "flavor": "Lover, lover, for whom do you call? For a man neither wide nor tall? If he asks for your hand, give him a cloth. If he asks for your light, give him a moth. If he asks for your heart, tell him off. (v1.0)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound"
+    ]
+  },
+  {
+    "id": "celibate",
+    "name": "Celibate",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/celibate/celibate_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/celibate/celibate_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Once per game, the Storyteller will break a game rule to help your team win. You learn when this happens. [Might be a Minion]",
+    "flavor": "It is for you, my child, for who which is pure and holy and made of all good things. Your faith has, certainly, paid off. Your childrens' lungs will fill with gold's breath. (v1.2)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "Miracle Given"
+    ],
+    "setup": true,
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ]
+  },
+  "tinker",
+  "recluse",
+  {
+    "id": "imaginary_friend",
+    "name": "Imaginary Friend",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/imaginary_friend/imaginary_friend_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/imaginary_friend/imaginary_friend_evil.png"
+    ],
+    "team": "outsider",
+    "edition": "bloodvine",
+    "ability": "You don't register as a player. [You want to be the Imaginary Friend the most]",
+    "flavor": "Do you see it, above you? Reach for it; push your hand into the deep. Feel for it; it is wet and it cuts you and like silver it slivers. Grasp it, no matter how much it shimmers. Cut it like it cut you. (v1.2)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "Doesn't Exist",
+      "Doesn't Exist"
+    ],
+    "setup": true,
+    "special": [
+      {
+        "type": "vote",
+        "name": "multiplier",
+        "value": 0
+      },
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      }
+    ]
+  },
+  "golem",
+  "witch",
+  "psychopath",
+  {
+    "id": "stook",
+    "name": "Stook",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/minions/stook/stook_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/minions/stook/stook_good.png"
+    ],
+    "team": "minion",
+    "edition": "bloodvine",
+    "ability": "Once per game, at night, choose a player & an Outsider: they gain that ability. All players know if you used your ability.",
+    "flavor": "(v1.3)",
+    "firstNight": 32,
+    "otherNight": 53,
+    "firstNightReminder": "The Stook might choose a player & Outsider character. :reminder: Announce that the Stook has used their ability.",
+    "otherNightReminder": "The Stook might choose a player & Outsider character. :reminder: Announce that the Stook has used their ability.",
+    "reminders": [
+      "No Ability",
+      "Struck"
+    ],
+    "jinxes": [
+      {
+        "id": "damsel",
+        "reason": "If the Stook gives a player the Damsel ability, the Storyteller chooses which player gains it and that player learns this."
+      },
+      {
+        "id": "saint",
+        "reason": "If the Stook gives a player the Saint ability, that player learns this."
+      },
+      {
+        "id": "butler",
+        "reason": "If the Stook gives a player the Butler ability, that player learns this."
+      },
+      {
+        "id": "zealot",
+        "reason": "If the Stook gives a player the Zealot ability, that player learns this."
+      },
+      {
+        "id": "golem",
+        "reason": "If a player with the Golem ability (from the Stook) nominates, they learn they have the Golem ability tonight."
+      },
+      {
+        "id": "misheard",
+        "reason": "If the Stook gives a player the Misheard ability, that player learns this."
+      },
+      {
+        "id": "heretic",
+        "reason": "Only 1 jinxed character can be in play."
+      }
+    ]
+  },
+  "boffin",
+  "yaggababble",
+  {
+    "id": "stingray",
+    "name": "Stingray",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/demons/stingray/stingray_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/demons/stingray/stingray_good.png"
+    ],
+    "team": "demon",
+    "edition": "bloodvine",
+    "ability": "Each night, choose 2 players: they might die tomorrow.",
+    "flavor": "(v1.0)",
+    "firstNight": 30.25,
+    "otherNight": 45.25,
+    "firstNightReminder": "The Stingray chooses 2 players. :reminder: :reminder:",
+    "otherNightReminder": "The Stingray chooses 2 players. :reminder: :reminder:",
+    "reminders": [
+      "Dead",
+      "Dead",
+      "Stung",
+      "Stung"
+    ]
+  },
+  {
+    "id": "spin_doctor",
+    "name": "Spin Doctor",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/travellers/spin_doctor/spin_doctor_traveller.png",
+      "https://ivy-vine.github.io/bloodvine/characters/travellers/spin_doctor/spin_doctor_traveller_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/travellers/spin_doctor/spin_doctor_traveller_evil.png"
+    ],
+    "team": "traveller",
+    "edition": "bloodvine",
+    "ability": "Each night, choose a player & 9 words: they must speak using only these words tomorrow, or might be executed.",
+    "flavor": "(v1.0)",
+    "firstNight": 9,
+    "otherNight": 4,
+    "firstNightReminder": "The Spin Doctor says 9 words. :reminder:",
+    "otherNightReminder": "The Spin Doctor says 9 words. :reminder:",
+    "reminders": [
+      "Spun"
+    ]
+  },
+  "bootlegger",
+  {
+    "id": "snafu",
+    "name": "Snafu",
+    "image": "https://ivy-vine.github.io/bloodvine/characters/fabled/snafu/snafu_fabled.png",
+    "team": "fabled",
+    "edition": "bloodvine",
+    "ability": "If the Storyteller makes a mistake, all players know this & the black sliver gets bigger.",
+    "flavor": "Don't worry about it. Don't worry about it! You really don't need to worry about it. (v1.0)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      ":)"
+    ]
+  }
+]

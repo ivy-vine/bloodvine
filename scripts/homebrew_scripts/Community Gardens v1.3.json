@@ -2,42 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "Community Gardens v1.3",
-    "firstNight": [
-      "dusk",
-      "deputy",
-      "thief",
-      "bitflip",
-      "minioninfo",
-      "demoninfo",
-      "midshipman",
-      "misinformant",
-      "moonseeker",
-      "fraudulent",
-      "trojan",
-      "sunseeker",
-      "dawn"
-    ],
-    "otherNight": [
-      "dusk",
-      "deputy",
-      "thief",
-      "topiarist",
-      "midshipman",
-      "misinformant",
-      "fraudulent",
-      "clerk",
-      "bitflip",
-      "keeper",
-      "hellfire",
-      "trojan",
-      "highroller",
-      "moonseeker",
-      "worrywart",
-      "sunseeker",
-      "horticulturist",
-      "dawn"
-    ]
+    "name": "Community Gardens v1.3"
   },
   {
     "id": "sunseeker",
@@ -75,22 +40,13 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "Each night*, you learn how many of the players you voted on today are evil.",
-    "flavor": "(v1.0)",
+    "ability": "Each night*, you learn if you voted on an evil player today.",
+    "flavor": "(v1.1)",
     "firstNight": 0,
     "otherNight": 84,
-    "otherNightReminder": "Give a finger signal.",
+    "otherNightReminder": "Either nod or shake your head.",
     "reminders": [
-      "Voted On",
-      "Voted On",
-      "Voted On",
-      "Voted On",
-      "Voted On",
-      "Voted On",
-      "Voted On",
-      "Voted On",
-      "Voted On",
-      "Voted On"
+      "Voted On Evil"
     ]
   },
   {
@@ -451,25 +407,6 @@
     ]
   },
   {
-    "id": "highroller",
-    "name": "Highroller",
-    "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/minions/highroller/highroller_evil.png",
-      "https://ivy-vine.github.io/bloodvine/characters/minions/highroller/highroller_good.png"
-    ],
-    "team": "minion",
-    "edition": "bloodvine",
-    "ability": "Each night*, if you were marked for execution today, choose a player: they die.",
-    "flavor": "(v1.0)",
-    "firstNight": 0,
-    "otherNight": 57,
-    "otherNightReminder": "If the Highroller was marked for execution today, they choose a player. :reminder:",
-    "reminders": [
-      "Red Always Wins",
-      "Dead"
-    ]
-  },
-  {
     "id": "bait",
     "name": "Bait",
     "image": [
@@ -493,6 +430,23 @@
       "Poisoned",
       "Poisoned",
       "Poisoned"
+    ]
+  },
+  {
+    "id": "dealer",
+    "name": "Dealer",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/minions/dealer/dealer_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/minions/dealer/dealer_good.png"
+    ],
+    "team": "minion",
+    "edition": "bloodvine",
+    "ability": "The 1st time you are nominated by a good player, the nominator becomes evil.",
+    "flavor": "(v1.0)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "No Ability"
     ]
   },
   {

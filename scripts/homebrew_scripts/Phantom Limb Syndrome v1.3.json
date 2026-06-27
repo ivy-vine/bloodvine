@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "Phantom Limb Syndrome v1.2"
+    "name": "Phantom Limb Syndrome v1.3"
   },
   "grandmother",
   {
@@ -233,21 +233,8 @@
   },
   "lunatic",
   "recluse",
-  "moonchild",
-  {
-    "id": "kruger",
-    "name": "Kruger",
-    "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/outsiders/kruger/kruger_good.png",
-      "https://ivy-vine.github.io/bloodvine/characters/outsiders/kruger/kruger_evil.png"
-    ],
-    "team": "outsider",
-    "edition": "bloodvine",
-    "ability": "All Townsfolk abilities yield false info.",
-    "flavor": "make the flavor text a reference to reverse transmission (v1.0)",
-    "firstNight": 0,
-    "otherNight": 0
-  },
+  "sweetheart",
+  "saint",
   {
     "id": "soul",
     "name": "Soul",
@@ -261,8 +248,8 @@
     "flavor": "YUCK!! Why is it so slimy?! (v1.2)",
     "firstNight": 45.75,
     "otherNight": 55.95,
-    "firstNightReminder": "The Soul may choose a player. :reminder: :reminder: Put them to sleep. If necessary, wake the target. Show the *YOU ARE* & Soul tokens & give a thumbs-down.",
-    "otherNightReminder": "The Soul may choose a player. :reminder: :reminder: Put them to sleep. If necessary, wake the player marked *HEALING* & give a thumbs-up. Put them to sleep. Wake the target. Show the *YOU ARE* & Soul tokens & give a thumbs-down.",
+    "firstNightReminder": "The Soul may choose a player. :reminder: :reminder: Put them to sleep. If necessary, wake the target. Show the *YOU ARE* &amp; Soul tokens &amp; give a thumbs-down.",
+    "otherNightReminder": "The Soul may choose a player. :reminder: :reminder: Put them to sleep. If necessary, wake the player marked *HEALING* &amp; give a thumbs-up. Put them to sleep. Wake the target. Show the *YOU ARE* &amp; Soul tokens &amp; give a thumbs-down.",
     "remindersGlobal": [
       "Is The Demon",
       "Healing"
@@ -359,8 +346,8 @@
     "flavor": "YUCK!! Why am I so slimy?! (v1.4)",
     "firstNight": 45.5,
     "otherNight": 55.9,
-    "firstNightReminder": "Wake an alive evil player & show them the *THIS CHARACTER SELECTED YOU* & Epidemic tokens. They choose a player. :reminder: Put them to sleep. Wake the target. Show the *YOU ARE* token & a thumbs up or thumbs down.",
-    "otherNightReminder": "Wake an alive player & show them the *THIS CHARACTER SELECTED YOU* & Epidemic tokens. They choose a player. :reminder: Put them to sleep. Maybe wake the target. Show the *YOU ARE* token & a thumbs up or thumbs down.",
+    "firstNightReminder": "Wake an alive evil player &amp; show them the *THIS CHARACTER SELECTED YOU* &amp; Epidemic tokens. They choose a player. :reminder: Put them to sleep. Wake the target. Show the *YOU ARE* token &amp; a thumbs up or thumbs down.",
+    "otherNightReminder": "Wake an alive player &amp; show them the *THIS CHARACTER SELECTED YOU* &amp; Epidemic tokens. They choose a player. :reminder: Put them to sleep. Maybe wake the target. Show the *YOU ARE* token &amp; a thumbs up or thumbs down.",
     "remindersGlobal": [
       "Infected",
       "Infected",

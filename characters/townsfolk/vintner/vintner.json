@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "vintner v1.0"
+    "name": "vintner v1.1"
   },
   {
     "id": "vintner",
@@ -13,9 +13,9 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "When you die at night, your alive neighbors swap characters. This can't create a good Demon.",
-    "flavor": "(v1.0)",
-    "otherNight": 60.5,
+    "ability": "If you died tonight, your alive neighbors swap characters. This can't create a good Demon.",
+    "flavor": "(v1.1)",
+    "otherNight": 58.5,
     "otherNightReminder": "If the Vintner died tonight, swap their alive neighbors' character tokens. Wake each neighbor 1 at a time & show the *YOU ARE* & their new character tokens.",
     "jinxes": [
       {

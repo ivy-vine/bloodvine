@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "arctic_fox v1.5"
+    "name": "arctic_fox v1.6"
   },
   {
     "id": "arctic_fox",
@@ -13,29 +13,27 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "Each night, you gain the ability of an alive neighbor's (you don't know which) character until dusk.",
-    "flavor": "Must your claws climb ten-thousand walls? You have come a very long way, sweet thing, but you do not belong here; you will not survive the week. I don't think they can climb ten-thousand more. (v1.5)",
+    "ability": "Each night, you gain an alive neighbor's (you don't know which) ability, until dusk.",
+    "flavor": "Must your claws climb ten-thousand walls? You have come a very long way, sweet thing, but you do not belong here; you will not survive the week. I don't think they can climb ten-thousand more. (v1.6)",
     "firstNight": 5.5,
-    "firstNightReminder": "The Arctic Fox might change ability. If so, swap their character token to an alive neighbor's. :reminder:",
+    "firstNightReminder": "The Arctic Fox might change ability. :reminder:",
     "otherNight": 3.5,
-    "otherNightReminder": "The Arctic Fox might change ability. If so, swap their character token to an alive neighbor's. :reminder:",
-    "remindersGlobal": [
-      "Is The Arctic Fox"
-    ],
-    "special": [
-      {
-        "type": "reveal",
-        "name": "replace-character"
-      }
+    "otherNightReminder": "The Arctic Fox might change ability. :reminder:",
+    "reminders": [
+      "Has Ability"
     ],
     "jinxes": [
       {
         "id": "spy",
-        "reason": "An Arctic Fox with the Spy ability doesn't see the grimoire."
+        "reason": "An Arctic Fox with the Spy's ability doesn't see the grimoire."
       },
       {
         "id": "widow",
-        "reason": "An Arctic Fox with the Widow ability doesn't see the grimoire."
+        "reason": "An Arctic Fox with the Widow's ability doesn't see the grimoire."
+      },
+      {
+        "id": "worm",
+        "reason": "An Arctic Fox with the Worm's ability doesn't see the grimoire."
       }
     ]
   }

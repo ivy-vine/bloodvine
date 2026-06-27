@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "tardigrade v2.3"
+    "name": "tardigrade v2.4"
   },
   {
     "id": "tardigrade",
@@ -13,13 +13,13 @@
     ],
     "team": "minion",
     "edition": "bloodvine",
-    "ability": "On your 1st night, choose a player: (if not the Demon) you register as their character, alignment & gain their character's ability.",
-    "flavor": "(v2.3)",
+    "ability": "On your 1st night, choose a player: (if not the Demon) you register as their character, alignment, gain their character's ability, & they are poisoned.",
+    "flavor": "(v2.4)",
     "firstNight": 32,
     "firstNightReminder": "The Tardigrade points to a player. If necessary, swap their character token. :reminder: :reminder:",
     "remindersGlobal": [
       "Is The Tardigrade",
-      "Engrained"
+      "Poisoned (DON'T USE)"
     ],
     "special": [
       {

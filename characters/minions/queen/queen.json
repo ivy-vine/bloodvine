@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "queen v1.0"
+    "name": "queen v1.1"
   },
   {
     "id": "queen",
@@ -13,8 +13,8 @@
     ],
     "team": "minion",
     "edition": "bloodvine",
-    "ability": "There must be an alive Demon. If you die, good wins.",
-    "flavor": "(v1.0)",
+    "ability": "There must be an alive Demon. If just 3 players live, you lose this ability.",
+    "flavor": "(v1.1)",
     "jinxes": [
       {
         "id": "alchemist",

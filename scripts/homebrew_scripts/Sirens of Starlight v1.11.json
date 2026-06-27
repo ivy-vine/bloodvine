@@ -1,0 +1,356 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "Sirens of Starlight v1.11"
+  },
+  {
+    "id": "thespian",
+    "name": "Thespian",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/thespian/thespian_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/thespian/thespian_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night, choose if evil abilities choose you instead until dusk.",
+    "flavor": "Show yourself to the masses, for you are the world's entertainment and the world is your audience. Give it your all, do not slow down, and take a deep breath. You were always meant to be here. (v1.1)",
+    "firstNight": 26.5,
+    "otherNight": 12.5,
+    "firstNightReminder": "The Thespian might choose to perform. :reminder: If so, wake the evil characters that choose players and ask them to choose as normal but target the Thespian instead.",
+    "otherNightReminder": "The Thespian might choose to perform. :reminder: If so, wake the evil characters that choose players and ask them to choose as normal but target the Thespian instead.",
+    "reminders": [
+      "Performing"
+    ],
+    "jinxes": [
+      {
+        "id": "lleech",
+        "reason": "If the Thespian is performing while the Llech chooses their host, the Thespian is not chosen instead."
+      }
+    ]
+  },
+  "sailor",
+  {
+    "id": "pickler",
+    "name": "Pickler",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/pickler/pickler_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/pickler/pickler_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night*, choose a player: if they are evil, you die.",
+    "flavor": "Leave anything in vinegar for long enough and its true potential will always be brung out. Things never had to be this way. (v1.0)",
+    "firstNight": 0,
+    "otherNight": 21,
+    "otherNightReminder": "The Pickler chooses a player. :reminder:",
+    "reminders": [
+      "Dead"
+    ]
+  },
+  "innkeeper",
+  {
+    "id": "naturalist",
+    "name": "Naturalist",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/naturalist/naturalist_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/naturalist/naturalist_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night*, if no-one died today, learn a player's character & how many steps they are from you.",
+    "flavor": "The leaves cry over their lanterns' golden glow. The lanterns sit on their stools, watching over the brickwork. Life is as it should be. (v1.1)",
+    "firstNight": 0,
+    "otherNight": 89,
+    "otherNightReminder": "If no one died today, show a player's character token & give a finger signal.",
+    "reminders": [
+      "Died Today"
+    ]
+  },
+  "gossip",
+  {
+    "id": "railman",
+    "name": "Railman",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/railman/railman_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/railman/railman_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Once per game, at night*, choose a player: they register as dead.",
+    "flavor": "(v1.0)",
+    "firstNight": 0,
+    "otherNight": 55,
+    "otherNightReminder": "The Railman might choose a player. :reminder: :reminder:",
+    "reminders": [
+      "No Ability",
+      "Hiding"
+    ]
+  },
+  "professor",
+  {
+    "id": "secretary",
+    "name": "Secretary",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/secretary/secretary_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/secretary/secretary_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "If you died today or tonight, guess how many of your alive neighbors are evil: if correct, you live.",
+    "flavor": "Sir, your 23:59:59.001 appointment is here. (v1.6)",
+    "firstNight": 0,
+    "otherNight": 60,
+    "otherNightReminder": "If the Secretary died today or tonight, they give a finger signal."
+  },
+  "tealady",
+  {
+    "id": "lover",
+    "name": "Lover",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/lover/lover_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/lover/lover_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "If a player agrees, they are bound to you. You wake when they wake. If you die, they die, & vice versa.",
+    "flavor": "Lover, lover, for whom do you call? For a man neither wide nor tall? If he asks for your hand, give him a cloth. If he asks for your light, give him a moth. If he asks for your heart, tell him off. (v1.0)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound"
+    ]
+  },
+  {
+    "id": "lethargic",
+    "name": "Lethargic",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/lethargic/lethargic_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/lethargic/lethargic_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "1 good player has your crab. If you guessed (once) who it is & more than 3 players live, you can't die. The Demon knows you are in play.",
+    "flavor": "I can never sleep without Mr. Claws!! Can you please, sir, help me find him? (v1.5)",
+    "firstNight": 47.5,
+    "otherNight": 0,
+    "firstNightReminder": "During Demon Info, show the Demon the Lethargic token. If you haven't done this yet, do so now. Wake the player with the Has Crab reminder. Show the *THIS CHARACTER SELECTED YOU* token & the Lethargic token.",
+    "reminders": [
+      "Has Crab",
+      "Guess Used",
+      "Safe"
+    ]
+  },
+  {
+    "id": "loose",
+    "name": "Loose",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/loose/loose_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/loose/loose_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night*, choose to register as dead until dusk. [Might be a Minion]",
+    "flavor": "The life after your life is another life. The ghosts of your loved ones are ghosts in name alone. Here, there is no start and there is no end. I am tired, I want an end, I want this time to be different. (v1.1)",
+    "firstNight": 0,
+    "otherNight": 55,
+    "otherNightReminder": "The Loose either nods or shakes their head. :reminder:",
+    "reminders": [
+      "Hiding"
+    ],
+    "setup": true,
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ]
+  },
+  "goon",
+  "moonchild",
+  {
+    "id": "flail",
+    "name": "Flail",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/flail/flail_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/flail/flail_evil.png"
+    ],
+    "team": "outsider",
+    "edition": "bloodvine",
+    "ability": "If it isn't the 1st night & you are drunk or poisoned, your neighbors (if good) die.",
+    "flavor": "A child, set fit to glide high and fly, will always ultimately die to riptide. Like a storm rolling over the valley, its thunder striking the tree, one mother's sweet baby boy might get pulled under, forever lost to the sea. (v1.3)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "Dead",
+      "Dead"
+    ]
+  },
+  {
+    "id": "crimson_sister",
+    "name": "Crimson Sister",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/crimson_sister/crimson_sister_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/crimson_sister/crimson_sister_evil.png"
+    ],
+    "team": "outsider",
+    "edition": "bloodvine",
+    "ability": "The 1st time you die, you don't. The 1st time a Minion dies, they live but register as dead.",
+    "flavor": "Nurture always wins over nature. No one chooses where they come from, they only choose who they become. I will do anything to sever myself from my heritage. (v1.4)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "No Ability",
+      "Hiding"
+    ]
+  },
+  "poisoner",
+  "devilsadvocate",
+  {
+    "id": "gorge",
+    "name": "Gorge",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/minions/gorge/gorge_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/minions/gorge/gorge_good.png"
+    ],
+    "team": "minion",
+    "edition": "bloodvine",
+    "ability": "Once per game, at night*, choose a dead player: they are regurgitated.",
+    "flavor": "The blood of our ancestors fuel the blood of our children and the blood of our children fuel the blood of our fathers and the blood of our fathers fuel the blood of our friends and the blood of our friends fuel the blood of our enemies. (v1.0)",
+    "firstNight": 0,
+    "otherNight": 66,
+    "otherNightReminder": "The Gorge might choose a dead player. :reminder: :reminder:",
+    "reminders": [
+      "Alive",
+      "No Ability"
+    ]
+  },
+  {
+    "id": "window",
+    "name": "Window",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/minions/window/window_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/minions/window/window_good.png"
+    ],
+    "team": "minion",
+    "edition": "bloodvine",
+    "ability": "If the Demon kills you, choose a character: they die instead. If they are not in play, the Storyteller chooses who dies.",
+    "flavor": "Look into me and you will see your mother's bedroom. Look out of me and you will see your closet. Look through me and you will see nothing but yourself. (v1.1)",
+    "firstNight": 0,
+    "otherNight": 58,
+    "otherNightReminder": "If the Window was killed by the Demon tonight, the Window chooses a character. :reminder:",
+    "reminders": [
+      "Dead"
+    ]
+  },
+  "pukka",
+  {
+    "id": "overseer",
+    "name": "Overseer",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/demons/overseer/overseer_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/demons/overseer/overseer_good.png"
+    ],
+    "team": "demon",
+    "edition": "bloodvine",
+    "ability": "Each night*, choose a player: they die. You can't die. If all Minions are dead, good wins.",
+    "flavor": "make the flavor text a reference to young & dumb by cigarettes after sex (v1.3)",
+    "firstNight": 0,
+    "otherNight": 55.4,
+    "otherNightReminder": "The Overseer chooses a player. :reminder:",
+    "reminders": [
+      "Dead"
+    ]
+  },
+  "shabaloth",
+  {
+    "id": "puritan",
+    "name": "Puritan",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/demons/puritan/puritan_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/demons/puritan/puritan_good.png"
+    ],
+    "team": "demon",
+    "edition": "bloodvine",
+    "ability": "Each night*, choose a player: they die. If this kills an Outsider, you may choose again. [+1 Outsider]",
+    "flavor": "(v1.1)",
+    "firstNight": 0,
+    "otherNight": 55.45,
+    "otherNightReminder": "The Puritan chooses a player. :reminder: If they killed an Outsider, the Puritan chooses another player. :reminder:",
+    "reminders": [
+      "Dead",
+      "Dead"
+    ],
+    "setup": true
+  },
+  {
+    "id": "deputy",
+    "name": "Deputy",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/travellers/deputy/deputy_traveller.png",
+      "https://ivy-vine.github.io/bloodvine/characters/travellers/deputy/deputy_traveller_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/travellers/deputy/deputy_traveller_evil.png"
+    ],
+    "team": "traveller",
+    "edition": "bloodvine",
+    "ability": "Each night, choose an alignment to become. You don't know the Demon. You can't be exiled.",
+    "flavor": "(v1.0)",
+    "firstNight": 9,
+    "otherNight": 4,
+    "firstNightReminder": "The Deputy gives a thumbs up or a thumbs down.",
+    "otherNightReminder": "The Deputy gives a thumbs up or a thumbs down."
+  },
+  "judge",
+  "apprentice",
+  "voudon",
+  {
+    "id": "dummy",
+    "name": "Dummy",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/travellers/dummy/dummy_traveller.png",
+      "https://ivy-vine.github.io/bloodvine/characters/travellers/dummy/dummy_traveller_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/travellers/dummy/dummy_traveller_evil.png"
+    ],
+    "team": "traveller",
+    "edition": "bloodvine",
+    "ability": "When a player dies, you may choose to die instead.",
+    "flavor": "A dummy?! This is what peak male performance looks like! (v1.2)",
+    "firstNight": 0,
+    "otherNight": 62,
+    "otherNightReminder": "If a player died, the Dummy was woken and the dead player was pointed to. The Dummy might have nodded to die instead. If you haven't done this yet, do so now."
+  },
+  "bootlegger",
+  {
+    "id": "snafu",
+    "name": "Snafu",
+    "image": "https://ivy-vine.github.io/bloodvine/characters/fabled/snafu/snafu_fabled.png",
+    "team": "fabled",
+    "edition": "bloodvine",
+    "ability": "If the Storyteller makes a mistake, all players know this & the black sliver gets bigger.",
+    "flavor": "Don't worry about it. Don't worry about it! You really don't need to worry about it. (v1.0)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      ":)"
+    ]
+  }
+]

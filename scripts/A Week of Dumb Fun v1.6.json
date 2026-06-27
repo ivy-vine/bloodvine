@@ -93,6 +93,10 @@
   {
     "id": "drunk_modified",
     "name": "Drunk",
+    "image": [
+      "https://release.botc.app/resources/characters/tb/drunk_g.webp",
+      "https://release.botc.app/resources/characters/tb/drunk_e.webp"
+    ],
     "team": "outsider",
     "reminders": [],
     "remindersGlobal": [

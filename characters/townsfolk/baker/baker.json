@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "baker v1.1"
+    "name": "baker v1.3"
   },
   {
     "id": "baker",
@@ -13,8 +13,8 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "Each night, learn how many steps a good player is from you.",
-    "flavor": "(v1.1)",
+    "ability": "Each night, learn 2 players, at least 1 of which is good.",
+    "flavor": "(v1.3)",
     "firstNight": 54,
     "firstNightReminder": "Give a finger signal.",
     "otherNight": 75,

@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "horticulturist v1.0"
+    "name": "horticulturist v1.1"
   },
   {
     "id": "horticulturist",
@@ -13,21 +13,12 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "Each night*, you learn how many of the players you voted on today are evil.",
-    "flavor": "(v1.0)",
+    "ability": "Each night*, you learn if you voted on an evil player today.",
+    "flavor": "(v1.1)",
     "otherNight": 84,
-    "otherNightReminder": "Give a finger signal.",
+    "otherNightReminder": "Either nod or shake your head.",
     "reminders": [
-      "Voted On",
-      "Voted On",
-      "Voted On",
-      "Voted On",
-      "Voted On",
-      "Voted On",
-      "Voted On",
-      "Voted On",
-      "Voted On",
-      "Voted On"
+      "Voted On Evil"
     ]
   }
 ]

@@ -8,7 +8,7 @@
       "The Demon is woken first. If the Demon chooses a non-\\\"[No Minions]\\\" Demon character, they choose which players are Choose a Minions.",
       "Minions may choose characters with the setup ability \"[Might be a Minion]\".",
       "The Storyteller may offer you the chance to reconsider if they think your choice will be unfun for you, them, others, or if your choice is already in play.",
-      "The Identical Triplet &amp; the Moonlit cannot be chosen."
+      "The Identical Triplet, the Enthusiast & the Moonlit can't be chosen."
     ]
   },
   {
@@ -46,6 +46,22 @@
     "otherNight": 0,
     "firstNightReminder": "Point to the player with the Has Crab reminder.",
     "setup": true
+  },
+  {
+    "id": "baker",
+    "name": "Baker",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/baker/baker_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/baker/baker_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night, learn 2 players, at least 1 of which is good.",
+    "flavor": "(v1.3)",
+    "firstNight": 54,
+    "otherNight": 75,
+    "firstNightReminder": "Give a finger signal.",
+    "otherNightReminder": "Give a finger signal."
   },
   {
     "id": "thespian",
@@ -89,22 +105,6 @@
     "otherNightReminder": "Give a finger signal."
   },
   {
-    "id": "baker",
-    "name": "Baker",
-    "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/baker/baker_good.png",
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/baker/baker_evil.png"
-    ],
-    "team": "townsfolk",
-    "edition": "bloodvine",
-    "ability": "Each night, learn how many steps (+ or - 1 step) an evil player is from you.",
-    "flavor": "(v1.0)",
-    "firstNight": 54,
-    "otherNight": 75,
-    "firstNightReminder": "Give a finger signal.",
-    "otherNightReminder": "Give a finger signal."
-  },
-  {
     "id": "observer",
     "name": "Observer",
     "image": [
@@ -119,6 +119,39 @@
     "otherNight": 94,
     "firstNightReminder": "The Observer chooses a player. Give a finger signal.",
     "otherNightReminder": "The Observer chooses a player. Give a finger signal."
+  },
+  {
+    "id": "arctic_fox",
+    "name": "Arctic Fox",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/arctic_fox/arctic_fox_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/arctic_fox/arctic_fox_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each night, you gain an alive neighbor's (you don't know which) ability, until dusk.",
+    "flavor": "Must your claws climb ten-thousand walls? You have come a very long way, sweet thing, but you do not belong here; you will not survive the week. I don't think they can climb ten-thousand more. (v1.6)",
+    "firstNight": 5.5,
+    "otherNight": 3.5,
+    "firstNightReminder": "The Arctic Fox might change ability. :reminder:",
+    "otherNightReminder": "The Arctic Fox might change ability. :reminder:",
+    "reminders": [
+      "Has Ability"
+    ],
+    "jinxes": [
+      {
+        "id": "spy",
+        "reason": "An Arctic Fox with the Spy's ability doesn't see the grimoire."
+      },
+      {
+        "id": "widow",
+        "reason": "An Arctic Fox with the Widow's ability doesn't see the grimoire."
+      },
+      {
+        "id": "worm",
+        "reason": "An Arctic Fox with the Worm's ability doesn't see the grimoire."
+      }
+    ]
   },
   {
     "id": "sunseeker",
@@ -148,41 +181,6 @@
     ]
   },
   {
-    "id": "arctic_fox",
-    "name": "Arctic Fox",
-    "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/arctic_fox/arctic_fox_good.png",
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/arctic_fox/arctic_fox_evil.png"
-    ],
-    "team": "townsfolk",
-    "edition": "bloodvine",
-    "ability": "Each night, you gain the ability of an alive neighbor's (you don't know which) character until dusk.",
-    "flavor": "Must your claws climb ten-thousand walls? You have come a very long way, sweet thing, but you do not belong here; you will not survive the week. I don't think they can climb ten-thousand more. (v1.5)",
-    "firstNight": 5.5,
-    "otherNight": 3.5,
-    "firstNightReminder": "The Arctic Fox might change ability. If so, swap their character token to an alive neighbor's. :reminder:",
-    "otherNightReminder": "The Arctic Fox might change ability. If so, swap their character token to an alive neighbor's. :reminder:",
-    "remindersGlobal": [
-      "Is The Arctic Fox"
-    ],
-    "jinxes": [
-      {
-        "id": "spy",
-        "reason": "An Arctic Fox with the Spy ability doesn't see the grimoire."
-      },
-      {
-        "id": "widow",
-        "reason": "An Arctic Fox with the Widow ability doesn't see the grimoire."
-      }
-    ],
-    "special": [
-      {
-        "type": "reveal",
-        "name": "replace-character"
-      }
-    ]
-  },
-  {
     "id": "skulker",
     "name": "Skulker",
     "image": [
@@ -191,10 +189,10 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "Each night, choose a player: until dusk, if you die & they are not the Demon, swap characters with them & they die instead.",
-    "flavor": "You say you don't want me, but then you look for me. You push me under the belly, but then you wonder why I am quiet. You build walls around me, but then you ask \"Can't you climb?\" Then you call for me, and I am here. (v1.4)",
-    "firstNight": 51,
-    "otherNight": 5,
+    "ability": "Each night, choose a player: until dusk, if you die (& they are not the Demon), swap characters with them & they die instead.",
+    "flavor": "You say you don't want me, but then you look for me. You push me under the belly, but then you wonder why I am quiet. You build walls around me, but then you ask \"Can't you climb?\" Then you call for me, and I am here. (v1.5)",
+    "firstNight": 50.5,
+    "otherNight": 10.6,
     "firstNightReminder": "The Skulker points to a player. :reminder:",
     "otherNightReminder": "The Skulker points to a player. :reminder:",
     "reminders": [
@@ -243,22 +241,13 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "Each night*, you learn how many of the players you voted on today are evil.",
-    "flavor": "(v1.0)",
+    "ability": "Each night*, you learn if you voted on an evil player today.",
+    "flavor": "(v1.1)",
     "firstNight": 0,
     "otherNight": 84,
-    "otherNightReminder": "Give a finger signal.",
+    "otherNightReminder": "Either nod or shake your head.",
     "reminders": [
-      "Voted On",
-      "Voted On",
-      "Voted On",
-      "Voted On",
-      "Voted On",
-      "Voted On",
-      "Voted On",
-      "Voted On",
-      "Voted On",
-      "Voted On"
+      "Voted On Evil"
     ]
   },
   {
@@ -328,7 +317,7 @@
     "flavor": "(v1.1)",
     "firstNight": 0,
     "otherNight": 10,
-    "otherNightReminder": "If the Jester made you laugh, a player immediately became sober &amp; healthy. If you haven't done this yet, do so now. :reminder: Wake them, show the *THIS CHARACTER SELECTED YOU* &amp; Jester tokens.",
+    "otherNightReminder": "If the Jester made you laugh, a player immediately became sober & healthy. If you haven't done this yet, do so now. :reminder: Wake them, show the *THIS CHARACTER SELECTED YOU* & Jester tokens.",
     "reminders": [
       "Sober & Healthy"
     ]
@@ -360,11 +349,60 @@
     "flavor": "BE OPPRESSIVE, B, E, OPPRESSIVE!! (v1.0)",
     "firstNight": 24.5,
     "otherNight": 11.75,
-    "firstNightReminder": "The Cheerleader might choose a player. If necessary, wake the chosen player, show the *THIS CHARACTER SELECTED YOU* &amp; the Cheerleader token. :reminder:",
-    "otherNightReminder": "The Cheerleader might choose a player. If necessary, wake the chosen player, show the *THIS CHARACTER SELECTED YOU* &amp; the Cheerleader token. :reminder:",
+    "firstNightReminder": "The Cheerleader might choose a player. If necessary, wake the chosen player, show the *THIS CHARACTER SELECTED YOU* & the Cheerleader token. :reminder:",
+    "otherNightReminder": "The Cheerleader might choose a player. If necessary, wake the chosen player, show the *THIS CHARACTER SELECTED YOU* & the Cheerleader token. :reminder:",
     "reminders": [
       "No Ability",
       "Acts Twice"
+    ]
+  },
+  {
+    "id": "shoe_shiner",
+    "name": "Shoe Shiner",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/shoe_shiner/shoe_shiner_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/shoe_shiner/shoe_shiner_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Once per game, at night, choose a player: a chosen player of the same alignment swaps characters with you & is then drunk.",
+    "flavor": "What you wear on the outside reflects who you are on the inside, so if your outside is covered in dirt and grime, I'll assume you have a grimy soul! Why have a grimy soul when you can have a shining soul? (v1.3)",
+    "firstNight": 13.5,
+    "otherNight": 10.7,
+    "firstNightReminder": "The Shoe Shiner might choose a player. If necessary, show the *YOU ARE* token & their new character token & wake the chosen player & do the same. :reminder: :reminder:",
+    "otherNightReminder": "The Shoe Shiner might choose a player. If necessary, show the *YOU ARE* token & their new character token & wake the chosen player & do the same. :reminder: :reminder:",
+    "reminders": [
+      "No Ability",
+      "Drunk"
+    ]
+  },
+  {
+    "id": "vet",
+    "name": "Vet",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/vet/vet_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/vet/vet_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Once per game, at night, choose a player: if they are of opposing alignment & not the Demon, they become a Vet.",
+    "flavor": "This is mechanically impossible! It-it's a scientific breakthrough! How could something so small and feeble scale such a great height? (v1.3)",
+    "firstNight": 13.75,
+    "otherNight": 10.8,
+    "firstNightReminder": "The Vet might choose a player. If they chose an opposing player, replace the target's token with a Vet token. Put the Vet to sleep. Wake the target. Show the *YOU ARE* & Vet tokens. :reminder:",
+    "otherNightReminder": "The Vet might choose a player. If they chose an opposing player, replace the target's token with a Vet token. Put the Vet to sleep. Wake the target. Show the *YOU ARE* & Vet tokens. :reminder:",
+    "reminders": [
+      "No Ability"
+    ],
+    "jinxes": [
+      {
+        "id": "epidemic",
+        "reason": "If the Epidemic is in play, an evil player may become a Vet due to the Vet's ability."
+      },
+      {
+        "id": "moonlit",
+        "reason": "A Moonlit may become a Vet due to the Vet's ability."
+      }
     ]
   },
   {
@@ -437,51 +475,25 @@
     ]
   },
   {
-    "id": "shoe_shiner",
-    "name": "Shoe Shiner",
+    "id": "bartender",
+    "name": "Bartender",
     "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/shoe_shiner/shoe_shiner_good.png",
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/shoe_shiner/shoe_shiner_evil.png"
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/bartender/bartender_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/bartender/bartender_evil.png"
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "Once per game, at night*, choose a player: a chosen good player swaps characters with you & is then drunk.",
-    "flavor": "What you wear on the outside reflects who you are on the inside, so if your outside is covered in dirt and grime, I'll assume you have a grimy soul! Why have a grimy soul when you can have a shining soul? (v1.2)",
-    "firstNight": 13.5,
-    "otherNight": 10.7,
-    "firstNightReminder": "The Shoe Shiner might choose a player. If necessary, show the *YOU ARE* token & their new character token &amp; wake the chosen player &amp; do the same. :reminder: :reminder:",
-    "otherNightReminder": "The Shoe Shiner might choose a player. If necessary, show the *YOU ARE* token & their new character token &amp; wake the chosen player &amp; do the same. :reminder: :reminder:",
+    "ability": "If you guess (once) an opposing player, they are drunk.",
+    "flavor": "(v1.3)",
+    "firstNight": 0,
+    "otherNight": 0,
     "reminders": [
-      "No Ability",
       "Drunk"
-    ]
-  },
-  {
-    "id": "vet",
-    "name": "Vet",
-    "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/vet/vet_good.png",
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/vet/vet_evil.png"
-    ],
-    "team": "townsfolk",
-    "edition": "bloodvine",
-    "ability": "Once per game, at night*, choose a player: if they are of opposing alignment & not the Demon, they become a Vet.",
-    "flavor": "This is mechanically impossible! It-it's a scientific breakthrough! How could something so small and feeble scale such a great height? (v1.3)",
-    "firstNight": 13.75,
-    "otherNight": 10.8,
-    "firstNightReminder": "The Vet might choose a player. If they chose an opposing player, replace the target's token with a Vet token. Put the Vet to sleep. Wake the target. Show the *YOU ARE* & Vet tokens. :reminder:",
-    "otherNightReminder": "The Vet might choose a player. If they chose an opposing player, replace the target's token with a Vet token. Put the Vet to sleep. Wake the target. Show the *YOU ARE* & Vet tokens. :reminder:",
-    "reminders": [
-      "No Ability"
     ],
     "jinxes": [
       {
-        "id": "epidemic",
-        "reason": "If the Epidemic is in play, an evil player may become a Vet due to the Vet's ability."
-      },
-      {
-        "id": "moonlit",
-        "reason": "A Moonlit may become a Vet due to the Vet's ability."
+        "id": "leviathan",
+        "reason": "If the Bartender chooses the opposing Leviathan, the Leviathan is drunk until dusk."
       }
     ]
   },
@@ -550,7 +562,7 @@
     "flavor": "(v1.1)",
     "firstNight": 49,
     "otherNight": 0,
-    "firstNightReminder": "Show the Minion character token marked *MAD*. Show the *THIS CHARACTER SELECTED YOU* &amp; the Lovebug character token to the Minion.",
+    "firstNightReminder": "Show the Minion character token marked *MAD*. Show the *THIS CHARACTER SELECTED YOU* & the Lovebug character token to the Minion.",
     "reminders": [
       "Mad",
       "Mad"
@@ -583,11 +595,11 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "When you die at night, your alive neighbors swap characters. This can't create a good Demon.",
-    "flavor": "(v1.0)",
+    "ability": "If you died tonight, your alive neighbors swap characters. This can't create a good Demon.",
+    "flavor": "(v1.1)",
     "firstNight": 0,
-    "otherNight": 60.5,
-    "otherNightReminder": "If the Vintner died tonight, swap their alive neighbors' character tokens. Wake each neighbor 1 at a time & show the *YOU ARE* &amp; their new character tokens.",
+    "otherNight": 58.5,
+    "otherNightReminder": "If the Vintner died tonight, swap their alive neighbors' character tokens. Wake each neighbor 1 at a time & show the *YOU ARE* & their new character tokens.",
     "jinxes": [
       {
         "id": "epidemic",
@@ -627,30 +639,6 @@
     "flavor": "If things are going to continue to suck THIS badly, God eventually will look down on me and spare me some grace eventually, right...? (v1.1)",
     "firstNight": 0,
     "otherNight": 0
-  },
-  {
-    "id": "bartender",
-    "name": "Bartender",
-    "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/bartender/bartender_good.png",
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/bartender/bartender_evil.png"
-    ],
-    "team": "townsfolk",
-    "edition": "bloodvine",
-    "ability": "If you guess (once) an opposing player, they are drunk.",
-    "flavor": "(v1.1)",
-    "firstNight": 0,
-    "otherNight": 0,
-    "reminders": [
-      "Guess Used",
-      "Drunk"
-    ],
-    "jinxes": [
-      {
-        "id": "leviathan",
-        "reason": "If the Bartender guesses (once) the opposing Leviathan, the Leviathan is drunk until dusk."
-      }
-    ]
   },
   {
     "id": "spoilsport",
@@ -774,6 +762,16 @@
       "Bound",
       "Bound",
       "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
+      "Bound",
       "Bound"
     ]
   },
@@ -786,8 +784,8 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "The 1st time you publicly say \"Get 'em boys!\" while nominating, if the nominee is not the Demon, they are executed immediately. You might register as evil.",
-    "flavor": "(v1.2)",
+    "ability": "The 1st time you publicly say \"Get 'em boys!\" while nominating, if the nominee is not the Demon, they are executed immediately.",
+    "flavor": "(v1.3)",
     "firstNight": 0,
     "otherNight": 0,
     "reminders": [
@@ -854,6 +852,57 @@
     ]
   },
   {
+    "id": "midshipman",
+    "name": "Midshipman",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/midshipman/midshipman_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/midshipman/midshipman_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Outsiders' votes count twice. Each night, choose if you are drunk until dusk. [+0 or +1 Outsider]",
+    "flavor": "(v1.4)",
+    "firstNight": 38.5,
+    "otherNight": 25.5,
+    "firstNightReminder": "The Midshipman either nods their head yes to be drunk, or shakes their head no to be sober. :reminder:",
+    "otherNightReminder": "The Midshipman either nods their head yes to be drunk, or shakes their head no to be sober. :reminder:",
+    "reminders": [
+      "Drunk (DON'T USE)",
+      "Tied Up",
+      "Tied Up",
+      "Tied Up",
+      "Tied Up"
+    ],
+    "setup": true,
+    "special": [
+      {
+        "type": "vote",
+        "name": "multiplier",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "id": "lethargic",
+    "name": "Lethargic",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/lethargic/lethargic_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/lethargic/lethargic_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "1 good player has your crab. If you guessed (once) who it is & more than 3 players live, you can't die. The Demon knows you are in play.",
+    "flavor": "I can never sleep without Mr. Claws!! Can you please, sir, help me find him? (v1.5)",
+    "firstNight": 47.5,
+    "otherNight": 0,
+    "firstNightReminder": "During Demon Info, show the Demon the Lethargic token. If you haven't done this yet, do so now. Wake the player with the Has Crab reminder. Show the *THIS CHARACTER SELECTED YOU* token & the Lethargic token.",
+    "reminders": [
+      "Has Crab",
+      "Guess Used",
+      "Safe"
+    ]
+  },
+  {
     "id": "moonseeker",
     "name": "Moonseeker",
     "image": [
@@ -910,27 +959,6 @@
     ]
   },
   {
-    "id": "diviner",
-    "name": "Diviner",
-    "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/diviner/diviner_good.png",
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/diviner/diviner_evil.png"
-    ],
-    "team": "townsfolk",
-    "edition": "bloodvine",
-    "ability": "Each day, you may visit the Storyteller to learn who they think the Demon should target next. [Might be a Minion]",
-    "flavor": "(v1.0)",
-    "firstNight": 0,
-    "otherNight": 0,
-    "setup": true,
-    "special": [
-      {
-        "type": "selection",
-        "name": "bag-duplicate"
-      }
-    ]
-  },
-  {
     "id": "celibate",
     "name": "Celibate",
     "image": [
@@ -955,6 +983,27 @@
     ]
   },
   {
+    "id": "diviner",
+    "name": "Diviner",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/diviner/diviner_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/diviner/diviner_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "bloodvine",
+    "ability": "Each day, you may visit the Storyteller to learn who they think the Demon should target next. [Might be a Minion]",
+    "flavor": "(v1.0)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "setup": true,
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ]
+  },
+  {
     "id": "boiled",
     "name": "Boiled",
     "image": [
@@ -963,8 +1012,8 @@
     ],
     "team": "townsfolk",
     "edition": "bloodvine",
-    "ability": "You may call for the exile of non-Travellers, until a player is exiled. [Might be a Minion]",
-    "flavor": "Was it something I said? (v1.1)",
+    "ability": "Each day, you may call for the exile of non-Travellers, until a player is exiled. [Might be a Minion]",
+    "flavor": "Was it something I said? (v1.2)",
     "firstNight": 0,
     "otherNight": 0,
     "special": [
@@ -996,57 +1045,6 @@
         "type": "selection",
         "name": "bag-duplicate"
       }
-    ]
-  },
-  {
-    "id": "midshipman",
-    "name": "Midshipman",
-    "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/midshipman/midshipman_good.png",
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/midshipman/midshipman_evil.png"
-    ],
-    "team": "townsfolk",
-    "edition": "bloodvine",
-    "ability": "Outsiders' votes count twice. Each night, choose if you are drunk until dusk. [+0 or +1 Outsider]",
-    "flavor": "(v1.4)",
-    "firstNight": 38.5,
-    "otherNight": 25.5,
-    "firstNightReminder": "The Midshipman either nods their head yes to be drunk, or shakes their head no to be sober. :reminder:",
-    "otherNightReminder": "The Midshipman either nods their head yes to be drunk, or shakes their head no to be sober. :reminder:",
-    "reminders": [
-      "Drunk (DON'T USE)",
-      "Tied Up",
-      "Tied Up",
-      "Tied Up",
-      "Tied Up"
-    ],
-    "setup": true,
-    "special": [
-      {
-        "type": "vote",
-        "name": "multiplier",
-        "value": 2
-      }
-    ]
-  },
-  {
-    "id": "lethargic",
-    "name": "Lethargic",
-    "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/lethargic/lethargic_good.png",
-      "https://ivy-vine.github.io/bloodvine/characters/townsfolk/lethargic/lethargic_evil.png"
-    ],
-    "team": "townsfolk",
-    "edition": "bloodvine",
-    "ability": "1 player has your crab. If you guess (once) who it is, you can't die. The Demon knows you are in play.",
-    "flavor": "I can never sleep without Mr. Claws!! Can you please, sir, help me find him? (v1.3)",
-    "firstNight": 47.5,
-    "otherNight": 0,
-    "firstNightReminder": "During Demon Info, show the Demon the Lethargic token. If you haven't done this yet, do so now. Wake the player with the Has Crab reminder. Show the *THIS CHARACTER SELECTED YOU* token & the Lethargic token.",
-    "reminders": [
-      "Has Crab",
-      "Guess Used",
-      "Safe"
     ]
   },
   {
@@ -1084,34 +1082,6 @@
     "otherNight": 0,
     "reminders": [
       "Sleeping Well"
-    ]
-  },
-  {
-    "id": "bloodletter",
-    "name": "Bloodletter",
-    "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/outsiders/bloodletter/bloodletter_good.png",
-      "https://ivy-vine.github.io/bloodvine/characters/outsiders/bloodletter/bloodletter_evil.png"
-    ],
-    "team": "outsider",
-    "edition": "bloodvine",
-    "ability": "Each night*, good players that choose you with their ability die. [Might be a Minion]",
-    "flavor": "Trust me, you don't need it as much as I do. (v2.1)",
-    "firstNight": 0,
-    "otherNight": 0,
-    "reminders": [
-      "Dead",
-      "Dead",
-      "Dead",
-      "Dead",
-      "Dead"
-    ],
-    "setup": true,
-    "special": [
-      {
-        "type": "selection",
-        "name": "bag-duplicate"
-      }
     ]
   },
   {
@@ -1169,8 +1139,8 @@
     ],
     "team": "outsider",
     "edition": "bloodvine",
-    "ability": "You think you are an in-play Townsfolk character, but you are not. [-1 Outsider. +1 Identical Triplet. You & your Identical Triplet think you are the same character]",
-    "flavor": "(v1.1)",
+    "ability": "You think you are an in-play Townsfolk character, but you are not. The Demon knows you are in play. [+1 Identical Triplet. You & your Identical Triplet think you are the same character]",
+    "flavor": "(v1.2)",
     "firstNight": 0,
     "otherNight": 0,
     "remindersGlobal": [
@@ -1353,6 +1323,34 @@
     ]
   },
   {
+    "id": "bloodletter",
+    "name": "Bloodletter",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/bloodletter/bloodletter_good.png",
+      "https://ivy-vine.github.io/bloodvine/characters/outsiders/bloodletter/bloodletter_evil.png"
+    ],
+    "team": "outsider",
+    "edition": "bloodvine",
+    "ability": "Each night*, good players that choose you with their ability die. [Might be a Minion]",
+    "flavor": "Trust me, you don't need it as much as I do. (v2.1)",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "Dead",
+      "Dead",
+      "Dead",
+      "Dead",
+      "Dead"
+    ],
+    "setup": true,
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ]
+  },
+  {
     "id": "choose_your_own_min",
     "name": "Choose a Minion",
     "team": "minion",
@@ -1419,6 +1417,22 @@
     ]
   },
   {
+    "id": "hypnotist",
+    "name": "Hypnotist",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/minions/hypnotist/hypnotist_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/minions/hypnotist/hypnotist_good.png"
+    ],
+    "team": "minion",
+    "edition": "bloodvine",
+    "ability": "Each night, choose a player, a character & alignment they think they become.",
+    "flavor": "Five, three, four, two, zero, one. Three, five, two, four, one, zero. It is 11:59 PM. Now, it is 12:00 AM. (v1.3)",
+    "firstNight": 45.1,
+    "otherNight": 29.5,
+    "firstNightReminder": "The Hypnotist chooses a player & a character & alignment. Put the Hypnotist to sleep. Wake the target. Show the *YOU ARE* token & the chosen character token & the chosen alignment.",
+    "otherNightReminder": "The Hypnotist chooses a player & a character & alignment. Put the Hypnotist to sleep. Wake the target. Show the *YOU ARE* token & the chosen character token & the chosen alignment."
+  },
+  {
     "id": "misinformant",
     "name": "Misinformant",
     "image": [
@@ -1436,22 +1450,6 @@
     "reminders": [
       "Doubted"
     ]
-  },
-  {
-    "id": "hypnotist",
-    "name": "Hypnotist",
-    "image": [
-      "https://ivy-vine.github.io/bloodvine/characters/minions/hypnotist/hypnotist_evil.png",
-      "https://ivy-vine.github.io/bloodvine/characters/minions/hypnotist/hypnotist_good.png"
-    ],
-    "team": "minion",
-    "edition": "bloodvine",
-    "ability": "Each night*, choose a player, a character & alignment they think they become.",
-    "flavor": "Five, three, four, two, zero, one. Three, five, two, four, one, zero. It is 11:59 PM. Now, it is 12:00 AM. (v1.3)",
-    "firstNight": 45.1,
-    "otherNight": 29.5,
-    "firstNightReminder": "The Hypnotist chooses a player & a character &amp; alignment. Put the Hypnotist to sleep. Wake the target. Show the *YOU ARE* token &amp; the chosen character token &amp; the chosen alignment.",
-    "otherNightReminder": "The Hypnotist chooses a player & a character &amp; alignment. Put the Hypnotist to sleep. Wake the target. Show the *YOU ARE* token &amp; the chosen character token &amp; the chosen alignment."
   },
   {
     "id": "highroller",
@@ -1555,8 +1553,8 @@
     "flavor": "(v1.0)",
     "firstNight": 33,
     "otherNight": 54,
-    "firstNightReminder": "The Lobotomist might choose a player &amp; an ability. :reminder:",
-    "otherNightReminder": "The Lobotomist might choose a player &amp; an ability. :reminder:",
+    "firstNightReminder": "The Lobotomist might choose a player & an ability. :reminder:",
+    "otherNightReminder": "The Lobotomist might choose a player & an ability. :reminder:",
     "reminders": [
       "Lobotomized"
     ]
@@ -1589,8 +1587,8 @@
     ],
     "team": "minion",
     "edition": "bloodvine",
-    "ability": "Once per game, at night*, choose X players: they might die. If your team wins in the next X-1 days, your team loses, even if dead.",
-    "flavor": "Over and over you show her how to fall to the floor to crawl, showing what is yours to all, doing what no one has the gall to call no version of love and no version of life, that which we lead and that which we fight, which is always quite a sight on this starless night of ours, looking up from the surface of Mars, going as far as the eye can see, far beyond this big, huge, sea of tar on the surface of Mars. (v1.4)",
+    "ability": "Once per game, at night*, choose X players: they might die. If your team wins in the next X days, your team loses, even if dead.",
+    "flavor": "Over and over you show her how to fall to the floor to crawl, showing what is yours to all, doing what no one has the gall to call no version of love and no version of life, that which we lead and that which we fight, which is always quite a sight on this starless night of ours, looking up from the surface of Mars, going as far as the eye can see, far beyond this big, huge, sea of tar on the surface of Mars. (v1.5)",
     "firstNight": 0,
     "otherNight": 51,
     "otherNightReminder": "The Cyclast might choose X players. :reminder: X-1:reminder:s",
@@ -1601,10 +1599,11 @@
       "Dead",
       "Dead",
       "Dead",
-      "Dead",
       "1 Day Left",
       "2 Days Left",
-      "3 Days Left"
+      "3 Days Left",
+      "4 Days Left",
+      "5 Days Left"
     ]
   },
   {
@@ -1631,10 +1630,6 @@
         "reason": "An Alchemist-Worm does not see the Grimoire."
       },
       {
-        "id": "arctic_fox",
-        "reason": "An Arctic Fox with the Worm ability does not see the Grimoire."
-      },
-      {
         "id": "bitflip",
         "reason": "If the Seed is in play, the Worm does not see the Grimoire."
       }
@@ -1656,14 +1651,14 @@
     ],
     "team": "minion",
     "edition": "bloodvine",
-    "ability": "On your 1st night, choose a player: (if not the Demon) you register as their character, alignment & gain their character's ability.",
-    "flavor": "(v2.3)",
+    "ability": "On your 1st night, choose a player: (if not the Demon) you register as their character, alignment, gain their character's ability, & they are poisoned.",
+    "flavor": "(v2.4)",
     "firstNight": 32,
     "otherNight": 0,
     "firstNightReminder": "The Tardigrade points to a player. If necessary, swap their character token. :reminder: :reminder:",
     "remindersGlobal": [
       "Is The Tardigrade",
-      "Engrained"
+      "Poisoned (DON'T USE)"
     ],
     "special": [
       {
@@ -1754,7 +1749,7 @@
     "firstNight": 0,
     "otherNight": 0,
     "reminders": [
-      "About To Die",
+      "About To Die (DON'T USE)",
       "Ghosting",
       "Ghosting",
       "Ghosting",
@@ -1813,10 +1808,20 @@
     ],
     "team": "minion",
     "edition": "bloodvine",
-    "ability": "There must be an alive Demon. If you die, good wins.",
-    "flavor": "(v1.0)",
+    "ability": "There must be an alive Demon. If just 3 players live, you lose this ability.",
+    "flavor": "(v1.1)",
     "firstNight": 0,
-    "otherNight": 0
+    "otherNight": 0,
+    "jinxes": [
+      {
+        "id": "alchemist",
+        "reason": "If an Alchemist Queen dies, the game continues."
+      },
+      {
+        "id": "plaguedoctor",
+        "reason": "If the Storyteller would gain the Queen ability, a Minion gains it, and learns this."
+      }
+    ]
   },
   {
     "id": "choose_your_own_dem",
@@ -1873,8 +1878,8 @@
     "flavor": "It was soon after the skyscrapers melted that the Waste arose. It was soon after the sky fell that the Waste awoke. It was soon after the pets became monsters and the people became horrors that the Waste shined its brightest. (v1.6)",
     "firstNight": 46.75,
     "otherNight": 45.75,
-    "firstNightReminder": "The Waste chooses a player & a character. Put the Waste to sleep. Wake the target. Show the *YOU ARE* token &amp; their new character token. :reminder:",
-    "otherNightReminder": "The Waste chooses a player & a character. Put the Waste to sleep. Wake the target. Show the *YOU ARE* token &amp; their new character token. :reminder: The previously chosen character dies. :reminder:",
+    "firstNightReminder": "The Waste chooses a player & a character. Put the Waste to sleep. Wake the target. Show the *YOU ARE* token & their new character token. :reminder:",
+    "otherNightReminder": "The Waste chooses a player & a character. Put the Waste to sleep. Wake the target. Show the *YOU ARE* token & their new character token. :reminder: The previously chosen character dies. :reminder:",
     "reminders": [
       "Dead",
       "Dead",
@@ -1897,8 +1902,8 @@
     "flavor": "YUCK!! Why is it so slimy?! (v1.2)",
     "firstNight": 45.75,
     "otherNight": 55.95,
-    "firstNightReminder": "The Soul may choose a player. :reminder: :reminder: Put them to sleep. If necessary, wake the target. Show the *YOU ARE* &amp; Soul tokens &amp; give a thumbs-down.",
-    "otherNightReminder": "The Soul may choose a player. :reminder: :reminder: Put them to sleep. If necessary, wake the player marked *HEALING* &amp; give a thumbs-up. Put them to sleep. Wake the target. Show the *YOU ARE* &amp; Soul tokens &amp; give a thumbs-down.",
+    "firstNightReminder": "The Soul may choose a player. :reminder: :reminder: Put them to sleep. If necessary, wake the target. Show the *YOU ARE* & Soul tokens & give a thumbs-down.",
+    "otherNightReminder": "The Soul may choose a player. :reminder: :reminder: Put them to sleep. If necessary, wake the player marked *HEALING* & give a thumbs-up. Put them to sleep. Wake the target. Show the *YOU ARE* & Soul tokens & give a thumbs-down.",
     "remindersGlobal": [
       "Is The Demon",
       "Healing"
@@ -2022,7 +2027,7 @@
     "flavor": "(v1.1)",
     "firstNight": 0,
     "otherNight": 55.45,
-    "otherNightReminder": "The Puritan chooses a player. :reminder: If they killed an Outsider: the Puritan chooses another player. :reminder:",
+    "otherNightReminder": "The Puritan chooses a player. :reminder: If they killed an Outsider, the Puritan chooses another player. :reminder:",
     "reminders": [
       "Dead",
       "Dead"
@@ -2181,6 +2186,12 @@
       "Dead"
     ],
     "setup": true,
+    "jinxes": [
+      {
+        "id": "hatter",
+        "reason": "If the Hatter dies, a Moonlit may choose a Demon character to become and the other Moonlit may choose Minion characters to become."
+      }
+    ],
     "special": [
       {
         "type": "selection",
@@ -2313,12 +2324,12 @@
     ],
     "team": "demon",
     "edition": "bloodvine",
-    "ability": "Evil players \"are the Demon\". Each night, an alive player chooses a player: if not already chosen, they become their alignment. [No Minions. 1 player is evil]",
-    "flavor": "YUCK!! Why am I so slimy?! (v1.4)",
+    "ability": "Evil players \"are the Demon\". Each night, an alive player chooses a player: (if not already chosen) they become their alignment. [No Minions. 1 player is evil]",
+    "flavor": "YUCK!! Why am I so slimy?! (v1.5)",
     "firstNight": 45.5,
     "otherNight": 55.9,
-    "firstNightReminder": "Wake an alive evil player &amp; show them the *THIS CHARACTER SELECTED YOU* &amp; Epidemic tokens. They choose a player. :reminder: Put them to sleep. Wake the target. Show the *YOU ARE* token &amp; a thumbs up or thumbs down.",
-    "otherNightReminder": "Wake an alive player &amp; show them the *THIS CHARACTER SELECTED YOU* &amp; Epidemic tokens. They choose a player. :reminder: Put them to sleep. Maybe wake the target. Show the *YOU ARE* token &amp; a thumbs up or thumbs down.",
+    "firstNightReminder": "Wake an alive evil player & show them the *THIS CHARACTER SELECTED YOU* & Epidemic tokens. They choose a player. :reminder: Put them to sleep. Wake the target. Show the *YOU ARE* token & a thumbs up or thumbs down.",
+    "otherNightReminder": "Wake an alive player & show them the *THIS CHARACTER SELECTED YOU* & Epidemic tokens. They choose a player. :reminder: Put them to sleep. Maybe wake the target. Show the *YOU ARE* token & a thumbs up or thumbs down.",
     "remindersGlobal": [
       "Infected",
       "Infected",

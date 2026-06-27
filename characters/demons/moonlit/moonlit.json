@@ -37,6 +37,12 @@
         "type": "reveal",
         "name": "replace-character"
       }
+    ],
+    "jinxes": [
+      {
+        "id": "hatter",
+        "reason": "If the Hatter dies, a Moonlit may choose a Demon character to become and the other Moonlit may choose Minion characters to become."
+      }
     ]
   }
 ]

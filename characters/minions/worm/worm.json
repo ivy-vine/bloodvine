@@ -34,10 +34,6 @@
         "reason": "An Alchemist-Worm does not see the Grimoire."
       },
       {
-        "id": "arctic_fox",
-        "reason": "An Arctic Fox with the Worm ability does not see the Grimoire."
-      },
-      {
         "id": "bitflip",
         "reason": "If the Seed is in play, the Worm does not see the Grimoire."
       }

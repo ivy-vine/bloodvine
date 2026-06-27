@@ -70,6 +70,7 @@ firstNight:
 - 48 huntsman
 - 49 damsel
 - 50 amnesiac
+- 50.5 skulker
 - 51 washerwoman
 - 52 librarian
 - 53 investigator
@@ -112,6 +113,7 @@ otherNight:
 - 9 harlot
 - 10 bonecollector
 - 10.5 sandman
+- 10.6 skulker
 - 10.7 shoe_shiner
 - 10.8 vet
 - 11 philosopher
@@ -189,9 +191,9 @@ otherNight:
 - 57 godfather
 - 57.5 moonseeker
 - 58 gossip
+- 58.5 vintner
 - 59 hatter
 - 60 barber
-- 60.5 vintner
 - 61 sweetheart
 - 62 plaguedoctor
 - 63 sage
