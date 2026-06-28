@@ -2,7 +2,8 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "Phantom Limb Syndrome v1.3"
+    "name": "Phantom Limb Syndrome v1.3",
+    "almanac": "https://github.com/ivy-vine/bloodvine"
   },
   "grandmother",
   {

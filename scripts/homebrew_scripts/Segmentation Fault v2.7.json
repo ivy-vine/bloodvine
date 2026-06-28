@@ -1,0 +1,207 @@
+[
+  {
+    "id": "_meta",
+    "author": "ivy",
+    "name": "Segmentation Fault v2.7",
+    "almanac": "https://github.com/ivy-vine/bloodvine",
+    "firstNight": [
+      "dusk",
+      "barista",
+      "bureaucrat",
+      "thief",
+      "alchemist",
+      "minioninfo",
+      "demoninfo",
+      "none_type",
+      "poisoner",
+      "devilsadvocate",
+      "damsel",
+      "empath",
+      "grandmother",
+      "clockmaker",
+      "balloonist",
+      "chambermaid",
+      "dawn",
+      "vizier"
+    ],
+    "otherNight": [
+      "dusk",
+      "barista",
+      "bureaucrat",
+      "thief",
+      "bonecollector",
+      "poisoner",
+      "devilsadvocate",
+      "professor",
+      "gorge",
+      "damsel",
+      "none_type",
+      "grandmother",
+      "ravenkeeper",
+      "empath",
+      "flowergirl",
+      "towncrier",
+      "oracle",
+      "balloonist",
+      "chambermaid",
+      "dawn"
+    ]
+  },
+  "clockmaker",
+  "grandmother",
+  "empath",
+  "balloonist",
+  "chambermaid",
+  "flowergirl",
+  "towncrier",
+  "oracle",
+  "professor",
+  "slayer",
+  "alchemist",
+  "cannibal",
+  "ravenkeeper",
+  "drunk",
+  "recluse",
+  "mutant",
+  "damsel",
+  "poisoner",
+  "devilsadvocate",
+  {
+    "id": "gorge",
+    "name": "Gorge",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/minions/gorge/gorge_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/minions/gorge/gorge_good.png"
+    ],
+    "team": "minion",
+    "edition": "bloodvine",
+    "ability": "Once per game, at night*, choose a dead player: they are regurgitated.",
+    "flavor": "The blood of our ancestors fuel the blood of our children and the blood of our children fuel the blood of our fathers and the blood of our fathers fuel the blood of our friends and the blood of our friends fuel the blood of our enemies. (v1.0)",
+    "firstNight": 0,
+    "otherNight": 66,
+    "otherNightReminder": "The Gorge might choose a dead player. :reminder: :reminder:",
+    "reminders": [
+      "Alive",
+      "No Ability"
+    ]
+  },
+  "vizier",
+  {
+    "id": "none_type",
+    "name": "ERROR",
+    "image": [
+      "https://ivy-vine.github.io/bloodvine/characters/demons/none_type/none_type_evil.png",
+      "https://ivy-vine.github.io/bloodvine/characters/demons/none_type/none_type_good.png"
+    ],
+    "team": "demon",
+    "edition": "bloodvine",
+    "ability": "You register as dead. All alive players die. Each night, choose 3 players: they are regurgitated & 1 is poisoned until dusk. Evil wins if & only if all players (except Travellers) live.",
+    "flavor": "Deeper. Ravenswood's walls stand ten-thousand feet tall. Ravenswood's walls' walls stand ten-thousand feet more. Deeper. This time will be different. Deeper. (v2.9) (token by Diamondwar)",
+    "firstNight": 27.5,
+    "otherNight": 72.5,
+    "firstNightReminder": "All alive players die. ?:reminder:s The ERROR chooses 3 players. :reminder: :reminder: :reminder: :reminder:",
+    "otherNightReminder": "The ERROR chooses 3 players. :reminder: :reminder: :reminder: :reminder:",
+    "reminders": [
+      "Dead",
+      "Dead",
+      "Dead",
+      "Dead",
+      "Dead",
+      "Dead",
+      "Dead",
+      "Dead",
+      "Dead",
+      "Dead",
+      "Dead",
+      "Dead",
+      "Dead",
+      "Dead",
+      "Dead",
+      "Dead",
+      "Alive",
+      "Alive",
+      "Alive",
+      "Poisoned"
+    ],
+    "jinxes": [
+      {
+        "id": "loose",
+        "reason": "If the ERROR is in play, the Loose starts \"hidden\"."
+      },
+      {
+        "id": "vizier",
+        "reason": "If the ERROR is in play and two or less players are dead, the Vizier loses their ability."
+      },
+      {
+        "id": "grandmother",
+        "reason": "If the ERROR regurgitates the Grandchild, the Grandmother is regurgitated too."
+      },
+      {
+        "id": "monk",
+        "reason": "If the Monk is chosen by the ERROR, the Monk is poisoned until dawn."
+      },
+      {
+        "id": "choirboy",
+        "reason": "If the ERROR regurgitates the King, the Choirboy learns the ERROR is one of two players."
+      },
+      {
+        "id": "goon",
+        "reason": "If the ERROR is in play, the Goon has their ability even if dead."
+      },
+      {
+        "id": "exorcist",
+        "reason": "If the ERROR is chosen by the Exorcist, they learn who the Exorcist is and don't wake tonight and the Exorcist is poisoned."
+      },
+      {
+        "id": "mayor",
+        "reason": "If the ERROR is in play, the Mayor's ability is \"2 or less players are dead\" instead. If the Mayor is chosen by the ERROR, another player might be regurgitated instead."
+      },
+      {
+        "id": "scarletwoman",
+        "reason": "If the ERROR is in play, the Scarlet Woman's ability is \"3 or more players dead\" instead."
+      },
+      {
+        "id": "lunatic",
+        "reason": "If the ERROR is in play, the Lunatic has their ability even if dead."
+      },
+      {
+        "id": "snakecharmer",
+        "reason": "If the ERROR is in play, the Snake Charmer may choose a dead player. If the ERROR is chosen by the Snake Charmer, the new ERROR does not kill."
+      },
+      {
+        "id": "summoner",
+        "reason": "If an ERROR is summoned, the ERROR kills all but five players instead. The Summoner can summon a dead player into the ERROR."
+      },
+      {
+        "id": "princess",
+        "reason": "If the Princess nominated and executed a player on their first day, the ERROR doesn't wake tonight."
+      },
+      {
+        "id": "pixie",
+        "reason": "If the ERROR is in play, the Pixie's ability is \"You start knowing 1 in-play Townsfolk. If you were & are mad as this character & they are dead, you have their ability.\" and they have this ability even if dead."
+      },
+      {
+        "id": "witch",
+        "reason": "If the ERROR is in play and the player chosen by the Witch nominates, they don't die and instead are poisoned and all players learn this."
+      },
+      {
+        "id": "lycanthrope",
+        "reason": "If the ERROR is in play, the Lycanthrope instead chooses three dead players. If both are good, they are regurgitated, one is poisoned, and the ERROR doesn't wake tonight."
+      },
+      {
+        "id": "saint",
+        "reason": "If the ERROR is in play and the Saint dies to execution, evil wins."
+      },
+      {
+        "id": "damsel",
+        "reason": "If the ERROR is in play, the Damsel has their ability, even if dead. If the ERROR is in play and a Minion publicly guesses the Damsel (once), evil wins."
+      }
+    ]
+  },
+  "thief",
+  "bureaucrat",
+  "barista",
+  "bonecollector",
+  "voudon",
+  "bootlegger"
+]

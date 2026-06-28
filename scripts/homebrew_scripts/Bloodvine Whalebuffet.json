@@ -3,6 +3,7 @@
     "id": "_meta",
     "author": "ivy",
     "name": "Bloodvine Whalebuffet",
+    "almanac": "https://github.com/ivy-vine/bloodvine",
     "bootlegger": [
       "On the 1st night, all players choose a character (of their assigned character type) to become. [No Minions]",
       "The Demon is woken first. If the Demon chooses a non-\\\"[No Minions]\\\" Demon character, they choose which players are Choose a Minions.",
@@ -488,7 +489,8 @@
     "firstNight": 0,
     "otherNight": 0,
     "reminders": [
-      "Drunk"
+      "Drunk",
+      "Guess Used"
     ],
     "jinxes": [
       {

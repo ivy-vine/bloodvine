@@ -2,7 +2,8 @@
   {
     "id": "_meta",
     "author": "ivy",
-    "name": "A Restless Night v3.0"
+    "name": "A Restless Night v3.0",
+    "almanac": "https://github.com/ivy-vine/bloodvine"
   },
   "chef",
   "clockmaker",
